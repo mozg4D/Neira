@@ -40,5 +40,13 @@
       "orientationWarnings": 0,
       "degenerate": 0
     }
-  ]
+  ],
+  "sourceRoundTrip": {
+    "segmentsPerCage": 326,
+    "connectivityMismatches": 0,
+    "maxVertexDifference": 0,
+    "maxHandleDifference": 0,
+    "cages": 4,
+    "verticesPerCage": 160
+  }
 }

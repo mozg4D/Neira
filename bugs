@@ -1,2 +1,1 @@
-No confirmed Frame-core bug in this modeling pass.
-Watch: sourceAccuracy reports ~903 mm conservative error for torso; not a fit certificate.
+Browser chooser: selecting HASH returned success but scene stayed unchanged; layer/cause unconfirmed. API scene.open(base64) imports verified bytes correctly.

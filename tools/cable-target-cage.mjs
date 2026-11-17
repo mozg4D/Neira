@@ -24,3 +24,25 @@ export function targetDatum(wristWorld){
 export const base=roundedPrism(60,70,5,910,916,191.42385568447094,510);
 export const post=roundedPrism(12,12,2,916,980,191.42385568447094,539);
 // Use native Instances for left ring/base/post. Left datum mirrors X, not Y or Z.
+export function roundedTubeCage(){
+ const c={version:2,approximation:{angle:12},next:1000,vertices:{},segments:{},sequences:[],freeHandles:{}};
+ const section=[[18,-2],[17,-3],[9,-3],[8,-2],[8,2],[9,3],[17,3],[18,2]],k=.55228475,
+ hs={0:[[0,-k],[k,0]],2:[[-k,0],[0,-k]],4:[[0,k],[-k,0]],6:[[k,0],[0,k]]},map=([x,y,z])=>[x,z,-y];
+ for(let j=0;j<8;j++){
+  const [r,z]=section[j],ss=[];
+  for(let n=0;n<4;n++){
+   const a=n*Math.PI/2,b=(n+1)*Math.PI/2,id=`r${j}_${n}`;c.vertices[`v${j}_${n}`]=map([r*Math.cos(a),r*Math.sin(a),z]);ss.push(id);
+   c.segments[id]={id,a:`v${j}_${n}`,b:`v${j}_${(n+1)%4}`,ha:map([-r*Math.sin(a)*k,r*Math.cos(a)*k,0]),hb:map([r*Math.sin(b)*k,-r*Math.cos(b)*k,0]),sequence:`r${j}`,soft:true};
+  }
+  c.sequences.push({id:`r${j}`,first:`v${j}_0`,closed:true,segments:ss});
+ }
+ for(let n=0;n<4;n++){
+  const ss=[],a=n*Math.PI/2;
+  for(let j=0;j<8;j++){
+   const id=`l${n}_${j}`,h=hs[j]||[[0,0],[0,0]];ss.push(id);
+   c.segments[id]={id,a:`v${j}_${n}`,b:`v${(j+1)%8}_${n}`,ha:map([h[0][0]*Math.cos(a),h[0][0]*Math.sin(a),h[0][1]]),hb:map([h[1][0]*Math.cos(a),h[1][0]*Math.sin(a),h[1][1]]),sequence:`l${n}`,soft:!!hs[j]};
+  }
+  c.sequences.push({id:`l${n}`,first:`v0_${n}`,closed:true,segments:ss});
+ }
+ return c;
+}

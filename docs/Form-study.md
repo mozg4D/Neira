@@ -8,13 +8,13 @@ Native Spline Patch, 24 controls / 44 segments / 22 resolved cells, generated di
 
 `[[900,125,100,0],[970,140,96,3],[1050,195,104,6],[1135,185,100,8],[1200,145,76,4],[1255,60,48,0]]`
 
-Frame API 1.3.0, live Pages on HOME NVIDIA Turing. Export downloaded to the host, SHA256 checked and copied into the project. Reopening recovered 92 owners, the native cage, patch and complete study Doc; import diagnostic listed no unavailable plugins/tags. A small Doc wording correction was exported afterward. Geometry unchanged by that correction. Candidate SHA256: `e31ec5bb6e0064d39883500226ad5007854a95db16fb1eea538b85bee1101a1e`.
+Frame API 1.3.0, live Pages on HOME NVIDIA Turing. Export downloaded to the host, SHA256 checked and copied into the project. Same-session readback reported 92 owners (later found not to prove reload),, the native cage, patch and complete study Doc; import diagnostic listed no unavailable plugins/tags. A small Doc wording correction was exported afterward. Geometry unchanged by that correction. Candidate SHA256: `e31ec5bb6e0064d39883500226ad5007854a95db16fb1eea538b85bee1101a1e`.
 
 Six sampled candidate frames at 1363x920: GPU 0.328..0.393 ms; CPU 1.8..2.1 ms. Earlier same-session canonical samples were GPU3.80..3.93/CPU1.5..2.6ms. Not a controlled performance comparison, so no speedup claim. Reopen patch build77.9ms; combinatorial manifold result is not geometric self-intersection, tolerance or collision validation. SourceAccuracy's conservative ~903mm surface error is unusable as a manufacturing tolerance.
 
 ## Head refinement
 
-The separate candidate now also replaces the box-shaped head skin with an oval native patch, retaining the original hidden. Camera and visor datums are unchanged. The editable head cage uses 16 controls / 28 segments / 14 resolved cells, display312 vertices /620 triangles, observed build59.8ms. Pose90 was visually inspected and produced no scene build errors; this is not a collision certificate. Recipe exported from `tools/form-study-cage.mjs`. Current candidate SHA256: `971c4e9053162bf71e8fe9456c277dce5ee7b3d12138cad36bfd84f4c3702902`. Screenshot: `artifacts/form-study.jpg`. This updated candidate was reopened: 94 owners, zero build errors, both native cages and the 30233-character Doc recovered. The earlier torso-only hash above describes the prior checkpoint.
+The separate candidate now also replaces the box-shaped head skin with an oval native patch, retaining the original hidden. Camera and visor datums are unchanged. The editable head cage uses 16 controls / 28 segments / 14 resolved cells, display312 vertices /620 triangles, observed build59.8ms. Pose90 was visually inspected and produced no scene build errors; this is not a collision certificate. Recipe exported from `tools/form-study-cage.mjs`. Current candidate SHA256: `971c4e9053162bf71e8fe9456c277dce5ee7b3d12138cad36bfd84f4c3702902`. Screenshot: `artifacts/form-study.jpg`. Same-session readback reported 94 owners (not an independently proven reload),, zero build errors, both native cages and the 30233-character Doc recovered. The earlier torso-only hash above describes the prior checkpoint.
 
 Next: compare front/profile and arm poses/clearances, then shell split lines, wall thickness, fastening and service access. The current scene contains no new strength, stability, sealed-volume or manufacturing qualification.
 
@@ -31,7 +31,7 @@ Important design finding: the current wrist only rolls. At the final pose its ax
 Current candidate exportSHA256 `c9d26fa6f77acedf509fe9e1b4414fd21fd2f1b610305ed39c5ed04b0c5a0364`,107 owners. Live Frame application version `2026 17 nov 18:54`,API1.3.0. Earlier hashes above document prior checkpoints; canonical remains untouched.
 
 
-Final saved workstation round-trip passed:107 owners, zero build errors, preserved pose330 wrist centers and embedded Doc; no unavailable plugins/tags. Canonical SHA256 rechecked unchanged.
+Earlier same-session readback, not a proven reload:107 owners, zero build errors, preserved pose330 wrist centers and embedded Doc; no unavailable plugins/tags. Canonical SHA256 rechecked unchanged.
 
 ## Passive cable targets
 
@@ -42,4 +42,18 @@ RingOD36/ID16/length6mm, Q=P+70a from the actual pose330 wrist transforms. Right
 Base plates60x70x6mm atY910..916, X+/-191.4238556845,Z510. Posts12x12mm atY916..980,Z539. Ring/base/post repeat through Instances. These are unfastened layout envelopes; joining, base retention, access and actual cable bending/insertion remain unverified. Recipe:`tools/cable-target-cage.mjs`. Candidate exportSHA256 `bc938e049034e6e4c68b2d0ef4a881280e73527a8c6f946fb10266e9590fa52c`,116owners. The current todo lists Frame/AI-API recommendations; model next steps stay here/STATE, so the user's short feedback file does not become a design backlog.
 
 
-Cable-target round-trip:116owners, zero build errors, both target centers/axes and fixture Doc preserved.
+Earlier same-session readback, not a proven reload:116owners, zero build errors, both target centers/axes and fixture Doc preserved.
+
+
+## Corrected persistence verification
+
+Browser filechooser setFiles completed without error but did not replace the scene. A deliberate changed-node test exposed this; earlier same-session readbacks are not round-trip evidence. Attribution to Frame versus browser transport is unresolved. No extension/system permissions were changed.
+
+A genuinely new blank Frame tab then fetched the published e1efe25 HASH bytes. SHA256 was checked against the local export before calling documented scene.open(base64). It imported116 owners, zero Boolean nodes, zero build errors, all three stable torso/head/ring cage hashes, exact pose330 wrist/target transforms and complete Doc (33470 characters; SHA256646578ffb1713fba7111c827a044a44e05dfc8bb3824d2e2a977a9a7e408e21f). The imported ring was16/24, distinguishable from the unsaved32/64 experiment. This is the first independent serialized round-trip proof for the study.
+
+Two temporary native Boolean QA unions were removed and never exported or published. Their spline inputs were preserved. Continue with directly spline-managed surfaces only.
+
+
+## Direct spline R1 update
+
+Current ring uses roundedTubeCage():32 controls,64 segments,32 native cells; nominal R1 inner/outer entries preserve minimum16mm bore,36mm OD and6mm axial length. Resolver reports genus1/one component/no boundary, no build error; generated display1152 vertices/2304 triangles. No Boolean nodes or mesh conversion retained. Ring/post/base remain separate unfastened layout parts, not a claimed printable one-piece jig. Latest candidateSHA256:3a430e364ac0925d4116fa55ad00ceff2e5390886a1ba1b768e4f7f03f88a3bf.

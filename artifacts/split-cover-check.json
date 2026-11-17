@@ -1,0 +1,102 @@
+{
+  "controls": {
+    "cells": null,
+    "segments": 102,
+    "vertices": 60
+  },
+  "doc": true,
+  "errors": [],
+  "owners": 212,
+  "parts": [
+    {
+      "bounds": {
+        "center": [
+          -125.5,
+          206,
+          0
+        ],
+        "max": [
+          -0.5,
+          250,
+          335
+        ],
+        "min": [
+          -250.5,
+          162,
+          -335
+        ]
+      },
+      "name": "Cover L",
+      "visible": true
+    },
+    {
+      "bounds": {
+        "center": [
+          125.5,
+          206,
+          0
+        ],
+        "max": [
+          250.5,
+          250,
+          335
+        ],
+        "min": [
+          0.5,
+          162,
+          -335
+        ]
+      },
+      "name": "Cover R",
+      "visible": true
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          206,
+          0
+        ],
+        "max": [
+          250,
+          250,
+          335
+        ],
+        "min": [
+          -250,
+          162,
+          -335
+        ]
+      },
+      "name": "Base pod",
+      "visible": false
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          575,
+          -13.791434431493895
+        ],
+        "max": [
+          156.5088834764832,
+          900,
+          130.26332521472477
+        ],
+        "min": [
+          -156.5088834764832,
+          250,
+          -157.84619407771257
+        ]
+      },
+      "name": "Waist concept",
+      "visible": true
+    }
+  ],
+  "topology": {
+    "boundary": 0,
+    "degenerate": 0,
+    "nonmanifold": 0,
+    "orientation": 0
+  }
+}

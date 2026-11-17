@@ -1,0 +1,64 @@
+{
+  "sha256": "81e5bbfe00c4257f01cd409f2bff9071269adc350de33b381d277cfcba8057af",
+  "objects": 188,
+  "errors": [],
+  "base": [
+    {
+      "name": "Base plinth",
+      "bounds": {
+        "min": [
+          -250,
+          150,
+          -335
+        ],
+        "max": [
+          250,
+          162,
+          335
+        ],
+        "center": [
+          0,
+          156,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Base pod",
+      "bounds": {
+        "min": [
+          -250,
+          162,
+          -335
+        ],
+        "max": [
+          250,
+          250,
+          335
+        ],
+        "center": [
+          0,
+          206,
+          0
+        ]
+      }
+    }
+  ],
+  "topology": [
+    {
+      "id": "b0f9d8bde79650053e4d389e9aa8c4e5",
+      "boundary": 0,
+      "nonmanifold": 0,
+      "orientation": 0,
+      "degenerate": 0
+    },
+    {
+      "id": "5581aff426050672a3e6c6b9da131a6c",
+      "boundary": 0,
+      "nonmanifold": 0,
+      "orientation": 0,
+      "degenerate": 0
+    }
+  ],
+  "doc": true
+}

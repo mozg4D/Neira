@@ -12,4 +12,8 @@ Frame API 1.3.0, live Pages on HOME NVIDIA Turing. Export downloaded to the host
 
 Six sampled candidate frames at 1363x920: GPU 0.328..0.393 ms; CPU 1.8..2.1 ms. Earlier same-session canonical samples were GPU3.80..3.93/CPU1.5..2.6ms. Not a controlled performance comparison, so no speedup claim. Reopen patch build77.9ms; combinatorial manifold result is not geometric self-intersection, tolerance or collision validation. SourceAccuracy's conservative ~903mm surface error is unusable as a manufacturing tolerance.
 
-Next: deliberate head/profile refinement, compare arm poses and clearances, then shell split lines, wall thickness, fastening and service access. The current scene contains no new strength, stability, sealed-volume or manufacturing qualification.
+## Head refinement
+
+The separate candidate now also replaces the box-shaped head skin with an oval native patch, retaining the original hidden. Camera and visor datums are unchanged. The editable head cage uses 16 controls / 28 segments / 14 resolved cells, display312 vertices /620 triangles, observed build59.8ms. Pose90 was visually inspected and produced no scene build errors; this is not a collision certificate. Recipe exported from `tools/form-study-cage.mjs`. Current candidate SHA256: `971c4e9053162bf71e8fe9456c277dce5ee7b3d12138cad36bfd84f4c3702902`. Screenshot: `artifacts/form-study.jpg`. This updated candidate was reopened: 94 owners, zero build errors, both native cages and the 30233-character Doc recovered. The earlier torso-only hash above describes the prior checkpoint.
+
+Next: compare front/profile and arm poses/clearances, then shell split lines, wall thickness, fastening and service access. The current scene contains no new strength, stability, sealed-volume or manufacturing qualification.

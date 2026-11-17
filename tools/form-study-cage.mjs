@@ -23,3 +23,9 @@ export function loftCage(rows) {
   }
   return d;
 }
+export function headCage() {
+  const d=loftCage([[-55,92,55,0],[-15,115,72.5,0],[35,110,68,0],[55,100,60,0]]);
+  for(const k in d.vertices){const [x,y,z]=d.vertices[k];d.vertices[k]=[x,-z,-1377.5-y];}
+  for(const s of Object.values(d.segments))for(const k of ['ha','hb']){const [x,y,z]=s[k];s[k]=[x,-z,-y];}
+  return d;
+}

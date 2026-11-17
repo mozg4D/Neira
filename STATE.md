@@ -4,15 +4,17 @@ Updated: 2026-11-17. RESUMED by the user's later instruction to work on HOME and
 
 ## Current form-study checkpoint
 
-Authoritative current candidate: `scenes/neira-form-study.hash`, 289981 bytes, SHA256 `dd543d48bc916baea576db8d44d459d5cd5e3480e521dfb52ffeaee34dc2ce55`. Identical named checkpoint: `scenes/neira-body-flow-cabinet.hash`. Checked on HOME with native Frame, no Frame core edits.
+Authoritative current candidate: `scenes/neira-form-study.hash`, 290281 bytes, SHA256 `e9ea10e7827209e091d81939d0b025f26b0c529efe533b03c6bdf2d6175a4728`. Identical named checkpoint: `scenes/neira-torso-bench-recovered.hash`. Checked on HOME with native Frame, no Frame core edits.
 
 354 authored owners. Includes recovered joint ports and shortened arm panels, paired cabinet side walls, full-height back, and new tapered lower-body silhouette. Native editable spline sources retained. See docs/Body-flow-cabinet-study.md, docs/Cabinet-port-study.md and artifacts/body-flow-cabinet-check.json. Four discrete frames 0/90/180/330 build without errors. Both changed body meshes and back panel have zero boundary, nonmanifold, degenerate and orientation warnings. Exact exported HASH reopened; source dimensions and Doc note recovered. Earlier port study independently matched measure.gap on 32 projected interval checks, not a general collision proof.
 
 Canonical scenes/neira.hash remains untouched (SHA256 c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036). No mechanical, collision, strength or manufacturing qualification. Source inset4 is not certified normal shell thickness.
 
-Current own working tab33661159. Earlier own tab33661146 lost debugger control after connection interruption; close request failed, so it may remain open with already preserved older cabinet state. Do not touch other people's tabs or Goal. Native recovery used Download, then reopened preserved file without restarting Codex.
+Current own working tab33661164. Both previous own tabs disappeared; browser inventory confirmed no surviving Frame tab. Reconstructed upper-body/deeper-bench changes from saved factories in a new native session, verified six cage digests against factories, all nine changed mesh topology checks and four poses, exported and reopened exact HASH. Original browser memory did not survive; no claim otherwise. Native Doc note and source/mesh results survived the new round trip. No Goal or other user tab touched.
 
 Next: preserve the coherent silhouette while developing real body mounting and accessible workshop assembly interfaces. Do not spend the next iteration solely on tiny decorative fasteners. tools/target-foot-proposal.mjs is unrelated and must not be staged/deleted.
+
+Latest stage: slimmer upper chest preserves shoulder-aperture band and waist/neck rings. Workbench depth300->500 with unchanged front working targets, coordinated rear supports/light/tray, and440-deep service shelf. Source: tools/torso-flow-cage.mjs, tools/bench-depth-cage.mjs. Notes: docs/Torso-bench-study.md. Evidence: artifacts/torso-bench-recovered-check.json. Nine changed meshes clean; all nine source digests and four pose checks identical after reload.
 
 ## Historical checkpoint notes
 

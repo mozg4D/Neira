@@ -1,0 +1,146 @@
+{
+  "file": "scenes/neira-torso-bench-recovered.hash",
+  "sha256": "e9ea10e7827209e091d81939d0b025f26b0c529efe533b03c6bdf2d6175a4728",
+  "bytes": 290281,
+  "recovery": "Previous unsaved tab was absent from agent and user tab inventories. Rebuilt in a fresh native Frame session from saved checkpoint dd543d48 and saved cage factories; not recovery of browser memory.",
+  "owners": 354,
+  "poses": [
+    {
+      "frame": 0,
+      "owners": 354,
+      "buildErrors": 0
+    },
+    {
+      "frame": 90,
+      "owners": 354,
+      "buildErrors": 0
+    },
+    {
+      "frame": 180,
+      "owners": 354,
+      "buildErrors": 0
+    },
+    {
+      "frame": 330,
+      "owners": 354,
+      "buildErrors": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Torso front",
+      "sourceDigest": "e909b9163fe544f38ac02a08fae8648702e868cefc982ecd3af867c8deeb3683",
+      "vertices": 940,
+      "triangles": 1876,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Torso rear",
+      "sourceDigest": "6c1b76312a844769beef42a67ecac4d28dfc05e43107a970ed179c8ffb24696b",
+      "vertices": 912,
+      "triangles": 1820,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Bench top",
+      "sourceDigest": "9e13003efc570a0f09d64bd9b58b91f54b19a211df005dd7c8096b120927814e",
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Service shelf",
+      "sourceDigest": "e5bb6f233c10acc34f468ec954376d587871f40620d1bed9b30fbd1bcbed1715",
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Bench parts tray",
+      "sourceDigest": "cd9bbdc79dcd6dcaaf99199d972a24a990aed71533f330ee47cda0deccfad154",
+      "vertices": 144,
+      "triangles": 284,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Rear brace",
+      "sourceDigest": "7f54a5b933efbbe24fb9b289e781da3cf1847d2c680cfd5663146b1d13b5d7b7",
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Light post",
+      "sourceDigest": "b238949e51ebd51caf731921512df4c8e87e9fa2a4d0b9ecef07e231eb539dc8",
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Diffuser",
+      "sourceDigest": "8880a275011b03b3851178838d50fe6f2c344631cfb1de32e171660aa2f04544",
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Light bridge",
+      "sourceDigest": "e43d07fb71e0ea3cbb2ea96aa62b50fa0303e3755497d8f56cd38befb8c1e3b0",
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    }
+  ],
+  "factoryMatch": {
+    "names": [
+      "Torso front",
+      "Torso rear",
+      "Bench top",
+      "Service shelf",
+      "Bench parts tray",
+      "Rear brace"
+    ],
+    "precision": 1e-7,
+    "coordinatesAndHandles": true
+  },
+  "roundTrip": {
+    "exactFileReopened": true,
+    "allNineMeshDigestsAndTopologyIdentical": true,
+    "allFourPoseResultsIdentical": true,
+    "docNote": true,
+    "rearLegCentersZ": 910,
+    "rearShelfRailCenterZ": 910,
+    "benchZ": [
+      450,
+      950
+    ]
+  },
+  "qualification": "Geometry/source/topology and discrete commanded poses only, not collision or manufacturing qualification."
+}

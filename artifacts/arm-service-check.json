@@ -1,0 +1,39 @@
+{
+  "sha256": "33fa2756cceccd5d47972436b9db26e1588ee3f314df1af98094b5f63f03b6c1",
+  "objects": 168,
+  "errors": [],
+  "booleans": 0,
+  "skins": [
+    {
+      "name": "Fore skin R",
+      "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+      "finite": true
+    },
+    {
+      "name": "Fore skin",
+      "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+      "finite": true
+    },
+    {
+      "name": "Upper skin R",
+      "parent": "9f736544b3bed3b475b045f578b26938",
+      "finite": true
+    },
+    {
+      "name": "Upper skin",
+      "parent": "e6ba072d90f01dab978047f56e6951f7",
+      "finite": true
+    },
+    {
+      "name": "Upper skin cage",
+      "parent": "d37ecbec80d781177c83f379790e4e93",
+      "finite": true
+    },
+    {
+      "name": "Fore skin cage",
+      "parent": "56a6e53175b238335a0396eb1c2d1656",
+      "finite": true
+    }
+  ],
+  "doc": true
+}

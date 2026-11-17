@@ -93,3 +93,4 @@ Frame export: 154 owners, zero build errors/Boolean, 140810 bytes, SHA256 b221cc
 
 ## Service rack placement correction
 2026-11-17: independent fresh-tab import of exact 82f70b1 bytes exposed misplaced front upright Instances. Corrected source-pivot offsets: front bounds X660..700 /1500..1540, Y0..1480, Z175..215 mm. Rear posts remain Z385..425; all four stand on Y0. Authoring placement correction, not a Frame bug. Bracing, joints, anchoring and stability remain unresolved. Native Doc updated. Export SHA256 336be25e3da783e559886f28f4e49358eb1da3ed69a99034dfea5d802a4bd2b6, 140966 bytes. Independent import of corrected bytes pending. Canonical neira.hash unchanged.
+Independent corrected-file import completed in a new empty Frame tab: 154 owners, zero build errors/Boolean, both exact front-post bounds recovered and Doc note present. Receipt artifacts/rack-check.json; image artifacts/rack-corrected.png. This verifies persistence and placement only.

@@ -1,0 +1,49 @@
+{
+  "hash": "336be25e3da783e559886f28f4e49358eb1da3ed69a99034dfea5d802a4bd2b6",
+  "objects": 154,
+  "errors": [],
+  "booleans": 0,
+  "rack": [
+    {
+      "name": "Rack front R",
+      "bounds": {
+        "min": [
+          1500,
+          0,
+          175
+        ],
+        "max": [
+          1540,
+          1480,
+          215
+        ],
+        "center": [
+          1520,
+          740,
+          195
+        ]
+      }
+    },
+    {
+      "name": "Rack front L",
+      "bounds": {
+        "min": [
+          660,
+          0,
+          175
+        ],
+        "max": [
+          700,
+          1480,
+          215
+        ],
+        "center": [
+          680,
+          740,
+          195
+        ]
+      }
+    }
+  ],
+  "docNote": true
+}

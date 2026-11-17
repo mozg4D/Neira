@@ -1,0 +1,390 @@
+{
+  "sha256": "05317f156314533fcbfa132e8c55d273960d71ebba6dd6c1e41cb19c55530822",
+  "bytes": 246963,
+  "preSave": {
+    "checks": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "21db7743e03c810defe3f87b801f893a",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 548,
+        "vertices": 272
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "a5f8089292868c98a2ba0577e207b274",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 404,
+        "vertices": 200
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "498f9d62f87fd2d9282827512dba751e",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 432,
+        "vertices": 216
+      }
+    ],
+    "instance": "4a10230c7203c5c26c255e6469c36aac"
+  },
+  "passageRays": [
+    {
+      "id": "21db7743e03c810defe3f87b801f893a",
+      "rays": [
+        {
+          "hits": [],
+          "x": -55,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": -50,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": -60,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": -55,
+          "y": 1395
+        },
+        {
+          "hits": [],
+          "x": -55,
+          "y": 1385
+        },
+        {
+          "hits": [],
+          "x": -48,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": -62,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": -48,
+          "y": 1383
+        },
+        {
+          "hits": [],
+          "x": -62,
+          "y": 1383
+        },
+        {
+          "hits": [],
+          "x": 55,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": 60,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": 50,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": 55,
+          "y": 1395
+        },
+        {
+          "hits": [],
+          "x": 55,
+          "y": 1385
+        },
+        {
+          "hits": [],
+          "x": 62,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": 48,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": 62,
+          "y": 1383
+        },
+        {
+          "hits": [],
+          "x": 48,
+          "y": 1383
+        }
+      ]
+    },
+    {
+      "id": "a5f8089292868c98a2ba0577e207b274",
+      "rays": [
+        {
+          "hits": [],
+          "x": -55,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": -50,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": -60,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": -55,
+          "y": 1395
+        },
+        {
+          "hits": [],
+          "x": -55,
+          "y": 1385
+        },
+        {
+          "hits": [],
+          "x": -48,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": -62,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": -48,
+          "y": 1383
+        },
+        {
+          "hits": [],
+          "x": -62,
+          "y": 1383
+        },
+        {
+          "hits": [],
+          "x": 55,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": 60,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": 50,
+          "y": 1390
+        },
+        {
+          "hits": [],
+          "x": 55,
+          "y": 1395
+        },
+        {
+          "hits": [],
+          "x": 55,
+          "y": 1385
+        },
+        {
+          "hits": [],
+          "x": 62,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": 48,
+          "y": 1397
+        },
+        {
+          "hits": [],
+          "x": 62,
+          "y": 1383
+        },
+        {
+          "hits": [],
+          "x": 48,
+          "y": 1383
+        }
+      ]
+    },
+    {
+      "id": "498f9d62f87fd2d9282827512dba751e",
+      "rays": [
+        {
+          "hits": [],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "hits": [],
+          "x": 5,
+          "y": 0
+        },
+        {
+          "hits": [],
+          "x": -5,
+          "y": 0
+        },
+        {
+          "hits": [],
+          "x": 0,
+          "y": 5
+        },
+        {
+          "hits": [],
+          "x": 0,
+          "y": -5
+        },
+        {
+          "hits": [],
+          "x": 7,
+          "y": 7
+        },
+        {
+          "hits": [],
+          "x": -7,
+          "y": 7
+        },
+        {
+          "hits": [],
+          "x": 7,
+          "y": -7
+        },
+        {
+          "hits": [],
+          "x": -7,
+          "y": -7
+        }
+      ]
+    }
+  ],
+  "reload": {
+    "errors": [],
+    "newObjects": [
+      {
+        "bounds": {
+          "center": [
+            55,
+            1390,
+            56.5
+          ],
+          "max": [
+            71,
+            1406,
+            68
+          ],
+          "min": [
+            39,
+            1374,
+            45
+          ]
+        },
+        "name": "Optic sleeve R",
+        "parent": "4e13c8c869cec63f473479370cbe2823",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -55,
+            1390,
+            56.5
+          ],
+          "max": [
+            -39,
+            1406,
+            68
+          ],
+          "min": [
+            -71,
+            1374,
+            45
+          ]
+        },
+        "name": "Optic sleeve",
+        "parent": "4e13c8c869cec63f473479370cbe2823",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1390,
+            57.5
+          ],
+          "max": [
+            95,
+            1424,
+            60
+          ],
+          "min": [
+            -95,
+            1356,
+            55
+          ]
+        },
+        "name": "Optic faceplate",
+        "parent": "4e13c8c869cec63f473479370cbe2823",
+        "visible": true
+      }
+    ],
+    "oldVisibility": [
+      {
+        "name": "Camera",
+        "visible": false
+      },
+      {
+        "name": "Camera",
+        "visible": false
+      },
+      {
+        "name": "Visor",
+        "visible": false
+      }
+    ],
+    "owners": 283,
+    "topology": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "21db7743e03c810defe3f87b801f893a",
+        "nonmanifold": 0,
+        "orientation": 0
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "a5f8089292868c98a2ba0577e207b274",
+        "nonmanifold": 0,
+        "orientation": 0
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "498f9d62f87fd2d9282827512dba751e",
+        "nonmanifold": 0,
+        "orientation": 0
+      }
+    ],
+    "docMatch": true,
+    "sourceMatch": true
+  },
+  "qualified": false
+}

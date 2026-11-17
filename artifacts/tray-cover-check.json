@@ -1,0 +1,19 @@
+{
+  "sha256": "72f9e75282bf7e0abbcecc860a309f9e548b76d9af5b4bc40276e9b31a6c599e",
+  "centerRayHeightsBeforeExport": [
+    0,
+    4
+  ],
+  "objects": 177,
+  "errors": [],
+  "booleans": 0,
+  "covers": 4,
+  "trays": 3,
+  "topology": {
+    "boundary": 0,
+    "nonmanifold": 0,
+    "orientation": 0,
+    "degenerate": 0
+  },
+  "doc": true
+}

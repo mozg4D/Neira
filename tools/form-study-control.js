@@ -18,11 +18,12 @@ export function activate(ctx) {
   button('Tool interface',()=>ctx.call('view.set',{focus:ctx.bindings.LWrist.owner}));
   button('Whole body',()=>ctx.call('view.set',{focus:ctx.bindings.root.owner}));
 
-  const skins=["coverR","coverL","waistR","waistL","torsoFront","torsoRear","upperA","upperB","foreA","foreB","upperAR","upperBR","foreAR","foreBR","headRear","headFace"];
+  const skins=["coverR","coverL","waistR","waistL","torsoFront","torsoRear","upperA","upperB","foreA","foreB","upperAR","upperBR","foreAR","foreBR","headRear","headFace","jointCover0","jointCover1","jointCover2","jointCover3","jointCover4","jointCover5","jointCover6","jointCover7"];
   async function inspectSkin(hidden=[]){await ctx.call('animation.pause');const scene=await ctx.call('scene.inspect'),visible=new Map(scene.objects.map(o=>[o.hash,o.visible]));const commands=skins.filter(key=>visible.get(ctx.bindings[key].owner)!==!hidden.includes(key)).map(key=>({name:'scene.update',args:{id:ctx.bindings[key].owner,visible:!hidden.includes(key)}}));if(commands.length)await ctx.call('api.batch',{commands});}
   button('Assembled',()=>inspectSkin());
   button('Panel cutaway',async()=>{await inspectSkin(['coverR','waistR','torsoFront','upperB','foreB','upperBR','foreBR']);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
   button('Frame and internals',async()=>{await inspectSkin(skins);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
+  button('Joint service study',async()=>{await inspectSkin(["upperA","upperB","foreA","foreB","upperAR","upperBR","foreAR","foreBR","jointCover0","jointCover1","jointCover2","jointCover3","jointCover4","jointCover5","jointCover6","jointCover7"]);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
   button('Arm backbones',async()=>{await inspectSkin(['upperA','upperB','foreA','foreB','upperAR','upperBR','foreAR','foreBR']);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
   button('Base service',async()=>{await inspectSkin(['coverR','coverL','waistR','waistL']);await ctx.call('view.set',{focus:ctx.bindings.Base.owner});});
   button('Workbench pose',async()=>{await inspectSkin();await ctx.call('animation.seek',{frame:330});await ctx.call('view.set',{focus:ctx.bindings.workbench.owner});});

@@ -1,0 +1,1460 @@
+{
+  "date": "2026-11-17",
+  "bytes": 286924,
+  "sha256": "7fdac29c3adfff20639a7d52f585be6c306b42227c4a7b4e68c1f92865a543bf",
+  "build": [
+    {
+      "end": 0,
+      "hash": "7ea0b3bf4d2192fc24562b3fc70fde68",
+      "kind": "Joint drum",
+      "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+      "source": "3fa7c9c07134c51ba12afd0e34f55bb4"
+    },
+    {
+      "end": 0,
+      "hash": "1430e1bfd14621bf90dc570c07fef2a3",
+      "kind": "Joint drum",
+      "parent": "9f736544b3bed3b475b045f578b26938",
+      "source": null
+    },
+    {
+      "end": 0,
+      "hash": "c769fdd6dbd5dcee2f2c51db147cc12b",
+      "kind": "Joint drum",
+      "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+      "source": null
+    },
+    {
+      "end": 0,
+      "hash": "64a1ee433df1b06d48fdd8b38df9c076",
+      "kind": "Joint drum",
+      "parent": "e6ba072d90f01dab978047f56e6951f7",
+      "source": null
+    },
+    {
+      "end": 0,
+      "hash": "e91c2ea51c313d5f11de88af93f60312",
+      "kind": "Joint cover",
+      "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+      "source": "a2b039d58a15e25933f9022259a7f016"
+    },
+    {
+      "end": 73,
+      "hash": "1f6dc4d333fcad17afeca4dc3be7a19c",
+      "kind": "Joint cover",
+      "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+      "source": null
+    },
+    {
+      "end": 0,
+      "hash": "cb00d0f86f5af0d4e1053f13835192fd",
+      "kind": "Joint cover",
+      "parent": "9f736544b3bed3b475b045f578b26938",
+      "source": null
+    },
+    {
+      "end": 73,
+      "hash": "100f2439d4c0f7c4c2aa31a808ea88d3",
+      "kind": "Joint cover",
+      "parent": "9f736544b3bed3b475b045f578b26938",
+      "source": null
+    },
+    {
+      "end": 0,
+      "hash": "2404c24350e608679281c726ba49042b",
+      "kind": "Joint cover",
+      "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+      "source": null
+    },
+    {
+      "end": 73,
+      "hash": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+      "kind": "Joint cover",
+      "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+      "source": null
+    },
+    {
+      "end": 0,
+      "hash": "078bb80120a3fc9601129dcf0946353d",
+      "kind": "Joint cover",
+      "parent": "e6ba072d90f01dab978047f56e6951f7",
+      "source": null
+    },
+    {
+      "end": 73,
+      "hash": "9581b9fd226e11722468e6c2125bb5ba",
+      "kind": "Joint cover",
+      "parent": "e6ba072d90f01dab978047f56e6951f7",
+      "source": null
+    }
+  ],
+  "sourceChecks": [
+    {
+      "name": "Joint drum",
+      "vertices": 16,
+      "segments": 24,
+      "components": [
+        8,
+        8
+      ],
+      "min": [
+        -50,
+        0,
+        -50
+      ],
+      "max": [
+        50,
+        70,
+        50
+      ],
+      "nativeSurfaceQualified": false
+    },
+    {
+      "name": "Joint service cover",
+      "vertices": 16,
+      "segments": 24,
+      "components": [
+        8,
+        8
+      ],
+      "min": [
+        -50,
+        -3,
+        -50
+      ],
+      "max": [
+        50,
+        0,
+        50
+      ],
+      "nativeSurfaceQualified": false
+    }
+  ],
+  "topology": [
+    {
+      "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+      "vertices": 144,
+      "triangles": 288,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientation": 0
+    },
+    {
+      "id": "e91c2ea51c313d5f11de88af93f60312",
+      "vertices": 144,
+      "triangles": 288,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientation": 0
+    }
+  ],
+  "passages": [
+    {
+      "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+      "rays": [
+        {
+          "x": 0,
+          "z": 0,
+          "hits": []
+        },
+        {
+          "x": 10,
+          "z": 0,
+          "hits": []
+        },
+        {
+          "x": -10,
+          "z": 0,
+          "hits": []
+        },
+        {
+          "x": 0,
+          "z": 10,
+          "hits": []
+        },
+        {
+          "x": 0,
+          "z": -10,
+          "hits": []
+        }
+      ],
+      "material": [
+        0,
+        70
+      ]
+    },
+    {
+      "id": "e91c2ea51c313d5f11de88af93f60312",
+      "rays": [
+        {
+          "x": 0,
+          "z": 0,
+          "hits": []
+        },
+        {
+          "x": 10,
+          "z": 0,
+          "hits": []
+        },
+        {
+          "x": -10,
+          "z": 0,
+          "hits": []
+        },
+        {
+          "x": 0,
+          "z": 10,
+          "hits": []
+        },
+        {
+          "x": 0,
+          "z": -10,
+          "hits": []
+        }
+      ],
+      "material": [
+        -3,
+        0
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "errors": [],
+      "frame": 0,
+      "newParts": [
+        {
+          "id": "9581b9fd226e11722468e6c2125bb5ba",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "078bb80120a3fc9601129dcf0946353d",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "2404c24350e608679281c726ba49042b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "100f2439d4c0f7c4c2aa31a808ea88d3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "cb00d0f86f5af0d4e1053f13835192fd",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "1f6dc4d333fcad17afeca4dc3be7a19c",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "e91c2ea51c313d5f11de88af93f60312",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "64a1ee433df1b06d48fdd8b38df9c076",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "c769fdd6dbd5dcee2f2c51db147cc12b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "1430e1bfd14621bf90dc570c07fef2a3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        }
+      ],
+      "nonfinite": [],
+      "oldHidden": true,
+      "owners": 350
+    },
+    {
+      "errors": [],
+      "frame": 90,
+      "newParts": [
+        {
+          "id": "9581b9fd226e11722468e6c2125bb5ba",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "078bb80120a3fc9601129dcf0946353d",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "2404c24350e608679281c726ba49042b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "100f2439d4c0f7c4c2aa31a808ea88d3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "cb00d0f86f5af0d4e1053f13835192fd",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "1f6dc4d333fcad17afeca4dc3be7a19c",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "e91c2ea51c313d5f11de88af93f60312",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "64a1ee433df1b06d48fdd8b38df9c076",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "c769fdd6dbd5dcee2f2c51db147cc12b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "1430e1bfd14621bf90dc570c07fef2a3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        }
+      ],
+      "nonfinite": [],
+      "oldHidden": true,
+      "owners": 350
+    },
+    {
+      "errors": [],
+      "frame": 180,
+      "newParts": [
+        {
+          "id": "9581b9fd226e11722468e6c2125bb5ba",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "078bb80120a3fc9601129dcf0946353d",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "2404c24350e608679281c726ba49042b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "100f2439d4c0f7c4c2aa31a808ea88d3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "cb00d0f86f5af0d4e1053f13835192fd",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "1f6dc4d333fcad17afeca4dc3be7a19c",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "e91c2ea51c313d5f11de88af93f60312",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "64a1ee433df1b06d48fdd8b38df9c076",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "c769fdd6dbd5dcee2f2c51db147cc12b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "1430e1bfd14621bf90dc570c07fef2a3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        }
+      ],
+      "nonfinite": [],
+      "oldHidden": true,
+      "owners": 350
+    },
+    {
+      "errors": [],
+      "frame": 330,
+      "newParts": [
+        {
+          "id": "9581b9fd226e11722468e6c2125bb5ba",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "078bb80120a3fc9601129dcf0946353d",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "2404c24350e608679281c726ba49042b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "100f2439d4c0f7c4c2aa31a808ea88d3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "cb00d0f86f5af0d4e1053f13835192fd",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "1f6dc4d333fcad17afeca4dc3be7a19c",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            38,
+            4.469960816887839e-15,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "e91c2ea51c313d5f11de88af93f60312",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        },
+        {
+          "id": "64a1ee433df1b06d48fdd8b38df9c076",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "e6ba072d90f01dab978047f56e6951f7",
+          "visible": true
+        },
+        {
+          "id": "c769fdd6dbd5dcee2f2c51db147cc12b",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+          "visible": true
+        },
+        {
+          "id": "1430e1bfd14621bf90dc570c07fef2a3",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "9f736544b3bed3b475b045f578b26938",
+          "visible": true
+        },
+        {
+          "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+          "matrix": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            1,
+            -35,
+            0,
+            0
+          ],
+          "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+          "visible": true
+        }
+      ],
+      "nonfinite": [],
+      "oldHidden": true,
+      "owners": 350
+    }
+  ],
+  "reload": {
+    "docMatch": true,
+    "empty": 0,
+    "errors": [],
+    "newParts": [
+      {
+        "id": "9581b9fd226e11722468e6c2125bb5ba",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          38,
+          4.469960816887839e-15,
+          0
+        ],
+        "parent": "e6ba072d90f01dab978047f56e6951f7",
+        "visible": true
+      },
+      {
+        "id": "078bb80120a3fc9601129dcf0946353d",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "e6ba072d90f01dab978047f56e6951f7",
+        "visible": true
+      },
+      {
+        "id": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          38,
+          4.469960816887839e-15,
+          0
+        ],
+        "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+        "visible": true
+      },
+      {
+        "id": "2404c24350e608679281c726ba49042b",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+        "visible": true
+      },
+      {
+        "id": "100f2439d4c0f7c4c2aa31a808ea88d3",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          38,
+          4.469960816887839e-15,
+          0
+        ],
+        "parent": "9f736544b3bed3b475b045f578b26938",
+        "visible": true
+      },
+      {
+        "id": "cb00d0f86f5af0d4e1053f13835192fd",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "9f736544b3bed3b475b045f578b26938",
+        "visible": true
+      },
+      {
+        "id": "1f6dc4d333fcad17afeca4dc3be7a19c",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          38,
+          4.469960816887839e-15,
+          0
+        ],
+        "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+        "visible": true
+      },
+      {
+        "id": "e91c2ea51c313d5f11de88af93f60312",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+        "visible": true
+      },
+      {
+        "id": "64a1ee433df1b06d48fdd8b38df9c076",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "e6ba072d90f01dab978047f56e6951f7",
+        "visible": true
+      },
+      {
+        "id": "c769fdd6dbd5dcee2f2c51db147cc12b",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "20f0043ab73f6db5b9ed12f9c5056ab0",
+        "visible": true
+      },
+      {
+        "id": "1430e1bfd14621bf90dc570c07fef2a3",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "9f736544b3bed3b475b045f578b26938",
+        "visible": true
+      },
+      {
+        "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+        "matrix": [
+          6.123233995736766e-17,
+          -1,
+          0,
+          1,
+          6.123233995736766e-17,
+          0,
+          0,
+          0,
+          1,
+          -35,
+          0,
+          0
+        ],
+        "parent": "1fbdf68a5523561c7dfb184b7f09ba84",
+        "visible": true
+      }
+    ],
+    "oldHidden": true,
+    "owners": 350,
+    "source": [
+      {
+        "id": "7ea0b3bf4d2192fc24562b3fc70fde68",
+        "verticesEqual": true
+      },
+      {
+        "id": "e91c2ea51c313d5f11de88af93f60312",
+        "verticesEqual": true
+      }
+    ],
+    "sourceMatch": true
+  },
+  "ui": {
+    "serviceHidden": [
+      {
+        "hash": "9581b9fd226e11722468e6c2125bb5ba",
+        "visible": false
+      },
+      {
+        "hash": "078bb80120a3fc9601129dcf0946353d",
+        "visible": false
+      },
+      {
+        "hash": "f01ae4b23eebed6ab7ef86bcd1a9a856",
+        "visible": false
+      },
+      {
+        "hash": "2404c24350e608679281c726ba49042b",
+        "visible": false
+      },
+      {
+        "hash": "100f2439d4c0f7c4c2aa31a808ea88d3",
+        "visible": false
+      },
+      {
+        "hash": "cb00d0f86f5af0d4e1053f13835192fd",
+        "visible": false
+      },
+      {
+        "hash": "1f6dc4d333fcad17afeca4dc3be7a19c",
+        "visible": false
+      },
+      {
+        "hash": "e91c2ea51c313d5f11de88af93f60312",
+        "visible": false
+      }
+    ],
+    "serviceReady": true,
+    "assembledReady": true
+  },
+  "qualified": false
+}

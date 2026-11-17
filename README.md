@@ -4,9 +4,17 @@ Neira is an engineering study of a mobile, two-arm robot and the workshop that c
 
 The first iteration is an editable packaging and kinematic model in [Frame](https://github.com/mozg4D/frame). It explores a wheeled body, two arms and a provisional manual tool interface. Mechanical strength, actuator sizing, stability, control hardware and manufacturing tolerances remain open engineering work.
 
-![Neira body study in Frame](artifacts/neira.png)
+![Humanoid Neira concept](artifacts/neira-humanoid-concept.jpg)
 
-## Current body and workshop candidate
+![Two-level laboratory concept](artifacts/neira-laboratory-concept.jpg)
+
+## Current humanoid and laboratory concept
+
+Open [neira-humanoid-lab-v1.hash](scenes/neira-humanoid-lab-v1.hash) in Frame. The new direction is a feminine humanoid with legs and a spacious two-level laboratory, roughly300m2 gross perlevel. The upper stair opening leaves approximately284.09m2 of slab, not300m2 net usable area. Use Scene Control for the robot close-up, overall building and ground-floor cutaway.
+
+[Design basis](docs/Humanoid-laboratory-concept.md) · [Verification](artifacts/humanoid-lab-check.json). Static appearance/spatial study only: walking, stair climbing, structural safety and construction readiness are unverified.
+
+## Previous wheeled body and workshop candidate
 
 Open [neira-form-study.hash](scenes/neira-form-study.hash) in Frame for the current 354-owner body/workshop design candidate. This includes coordinated tapered body shells, joint service ports, a full-height cabinet enclosure and a deeper assembly bench. See [stage notes](docs/Torso-bench-study.md) and [verification](artifacts/torso-bench-recovered-check.json). The older canonical engineering scene below is preserved separately.
 

@@ -1,0 +1,56 @@
+{
+  "file": "scenes/neira-humanoid-lab-v1.hash",
+  "bytes": 82359,
+  "sha256": "5a3236a3c3c3eabb8ab68f0b0b236c5b3dd05e976743f81eac15c9f98e3a6ed5",
+  "owners": 161,
+  "uniquePatches": 65,
+  "instances": 27,
+  "sourceControls": 1060,
+  "sourceDigest": {
+    "sha256": "6c1e43c3d1418fc20150c832f5398a0709abf8c48460c04c5db5b62688fcd45a",
+    "roundingMm": 1e-7,
+    "fields": "sorted part names, source vertex positions and segment endpoints/handles",
+    "nativeMatchesLocalFactories": true
+  },
+  "nativeMesh": {
+    "vertices": 11025,
+    "triangles": 21790,
+    "all65Clean": {
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    "buildErrors": 0
+  },
+  "placement": {
+    "all27InstanceCentersEqualSourceCenterPlusTranslation": true,
+    "humanoidHeightMm": 1700,
+    "labGrossFootprintM2": 300,
+    "floorToFloorMm": 3600,
+    "upperStairOpeningM2": 15.91,
+    "upperNominalSlabM2": 284.09
+  },
+  "roundTrip": {
+    "exactExportReopened": true,
+    "owners": 161,
+    "uniquePatches": 65,
+    "buildErrors": 0,
+    "defects": [],
+    "sourceDigest": "6c1e43c3d1418fc20150c832f5398a0709abf8c48460c04c5db5b62688fcd45a",
+    "docExact": true,
+    "controlSourceExact": true,
+    "programRunning": true
+  },
+  "controlUi": {
+    "groundFloorCutaway": {
+      "labVisible": true,
+      "upperVisible": false
+    },
+    "twoFloors": {
+      "labVisible": true,
+      "upperVisible": true
+    }
+  },
+  "qualification": "Static native appearance and spatial concept only. No gait, stair-climbing, dynamic stability, collision, structural, building-code or manufacturing qualification."
+}

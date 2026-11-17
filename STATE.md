@@ -2,9 +2,23 @@
 
 Updated: 2026-11-17. RESUMED by the user's later instruction to work on HOME and store the project in mozg4D/Neira. Earlier pause/release notes below are historical, not a current stop instruction.
 
-## Current form-study checkpoint
+## Current humanoid / laboratory checkpoint
 
-Authoritative current candidate: `scenes/neira-form-study.hash`, 290281 bytes, SHA256 `e9ea10e7827209e091d81939d0b025f26b0c529efe533b03c6bdf2d6175a4728`. Identical named checkpoint: `scenes/neira-torso-bench-recovered.hash`. Checked on HOME with native Frame, no Frame core edits.
+The owner explicitly changed direction: a spacious, expressive two-storey laboratory around300m2 per floor, and humanoid Neira with legs and feminine forms. The old wheeled compact workcell is not a design constraint. Do not continue its detail work by default.
+
+Current editable concept: `scenes/neira-humanoid-lab-v1.hash`,82359bytes,SHA256 `5a3236a3c3c3eabb8ab68f0b0b236c5b3dd05e976743f81eac15c9f98e3a6ed5`. Native exported HASH was reopened in the same own Frame tab33661164. 161owners,65unique native spline patches,27Instances,0build errors; all65 derived meshes clean before/after reload. Source geometry digest `6c1e43c3d1418fc20150c832f5398a0709abf8c48460c04c5db5b62688fcd45a` matches the two local factories at1e-7 rounding. Embedded Doc and control source survived exactly; program running. Actual Cutaway/Two floors buttons verified visibility changes.
+
+New sources: tools/humanoid-concept-cage.mjs, tools/lab-campus-cage.mjs, tools/humanoid-lab-control.js. Design basis: docs/Humanoid-laboratory-concept.md. Evidence: artifacts/humanoid-lab-check.json. Images: artifacts/neira-humanoid-concept.jpg and neira-laboratory-concept.jpg.
+
+Neira height1700mm,29parts, feminine industrial silhouette with legs/feet, articulated-looking dark joints and pale panels. This is solid packaging geometry, not hollow skins, selected actuators or walking capability. Laboratory gross15x20m perlevel,3600mm floor spacing; actual nominal upper slab284.09m2 due15.91m2 stair opening. Front and centralroof intentionally cut away; rear/side glazing translucent. No building-code/structural/stair safety qualification.
+
+Next: develop the overall humanoid language and credible leg/hip/torso architecture; refine a coherent premium laboratory rather than tiny decorative fasteners. The prior verified wheeled checkpoint remains scenes/neira-torso-bench-recovered.hash,commit d37a3fe,unchanged. Canonical scenes/neira.hash also untouched. A separate unfinished neck-passage WIP from the abandoned direction is only a local backup,not the current candidate or qualified result.
+
+Only use the one own Frame tab33661164; never touch Goal, other chats or user tabs. Save before any reload or risk. Unrelated tools/target-foot-proposal.mjs remains unstaged.
+
+## Previous wheeled form-study checkpoint
+
+Previous wheeled candidate: `scenes/neira-form-study.hash`, 290281 bytes, SHA256 `e9ea10e7827209e091d81939d0b025f26b0c529efe533b03c6bdf2d6175a4728`. Identical named checkpoint: `scenes/neira-torso-bench-recovered.hash`. Checked on HOME with native Frame, no Frame core edits.
 
 354 authored owners. Includes recovered joint ports and shortened arm panels, paired cabinet side walls, full-height back, and new tapered lower-body silhouette. Native editable spline sources retained. See docs/Body-flow-cabinet-study.md, docs/Cabinet-port-study.md and artifacts/body-flow-cabinet-check.json. Four discrete frames 0/90/180/330 build without errors. Both changed body meshes and back panel have zero boundary, nonmanifold, degenerate and orientation warnings. Exact exported HASH reopened; source dimensions and Doc note recovered. Earlier port study independently matched measure.gap on 32 projected interval checks, not a general collision proof.
 

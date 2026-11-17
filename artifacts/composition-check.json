@@ -1,0 +1,449 @@
+{
+  "date": "2026-11-17",
+  "sha256": "e8af417549b08e7a112db55b3284695baccd0180ece52a377c1abdf9cc7e9684",
+  "bytes": 261763,
+  "checks": {
+    "poses": [
+      {
+        "errors": [],
+        "frame": 0,
+        "nonfinite": [],
+        "owners": 308
+      },
+      {
+        "errors": [],
+        "frame": 90,
+        "nonfinite": [],
+        "owners": 308
+      },
+      {
+        "errors": [],
+        "frame": 180,
+        "nonfinite": [],
+        "owners": 308
+      },
+      {
+        "errors": [],
+        "frame": 330,
+        "nonfinite": [],
+        "owners": 308
+      }
+    ],
+    "topology": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "2c47bac4b009b57ea407a0c17a45aadd",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 736,
+        "vertices": 370
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "bafb63467eb774a1a3c06933e255308a",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 736,
+        "vertices": 370
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "c58292ba1ef9b4d3106b847cd7efec40",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 1752,
+        "vertices": 878
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "6d19c71dabbc84c6fb1a63a223103e25",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 1796,
+        "vertices": 900
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "ade23c6741757b11de35f1f1bd646d20",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "3d7e9cff594f2be4968b0568002d7ac8",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "e5ee8adec9a1198e6b54649949fd1b87",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "f25af60afd13fc62ff89f0a9849ddca0",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "09305add08cb5b946e9a5be5dd511261",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "145788bebf6257e360d09c59a919c9ba",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      }
+    ]
+  },
+  "reload": {
+    "console": [
+      {
+        "bounds": {
+          "center": [
+            -580,
+            437.5,
+            -1125
+          ],
+          "max": [
+            -555,
+            875,
+            -950
+          ],
+          "min": [
+            -605,
+            0,
+            -1300
+          ]
+        },
+        "hash": "369b77352c66d6e6b3b53841f41682c3",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -1000,
+            1020.1294095225512,
+            -1239.5170370868557
+          ],
+          "max": [
+            -764,
+            1103.3284401059625,
+            -1216.7756362948942
+          ],
+          "min": [
+            -1236,
+            936.9303789391402,
+            -1262.2584378788167
+          ]
+        },
+        "hash": "145788bebf6257e360d09c59a919c9ba",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -1000,
+            1018.4470857293848,
+            -1245.7955549577346
+          ],
+          "max": [
+            -750,
+            1116.5925826289067,
+            -1214.118095489748
+          ],
+          "min": [
+            -1250,
+            920.3015888298628,
+            -1277.473014425721
+          ]
+        },
+        "hash": "09305add08cb5b946e9a5be5dd511261",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -1000,
+            925,
+            -1230
+          ],
+          "max": [
+            -965,
+            950,
+            -1190
+          ],
+          "min": [
+            -1035,
+            900,
+            -1270
+          ]
+        },
+        "hash": "f25af60afd13fc62ff89f0a9849ddca0",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -1000,
+            220,
+            -1260
+          ],
+          "max": [
+            -605,
+            240,
+            -1240
+          ],
+          "min": [
+            -1395,
+            200,
+            -1280
+          ]
+        },
+        "hash": "e5ee8adec9a1198e6b54649949fd1b87",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -1420,
+            437.5,
+            -1125
+          ],
+          "max": [
+            -1395,
+            875,
+            -950
+          ],
+          "min": [
+            -1445,
+            0,
+            -1300
+          ]
+        },
+        "hash": "3d7e9cff594f2be4968b0568002d7ac8",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            -1000,
+            887.5,
+            -1125
+          ],
+          "max": [
+            -500,
+            900,
+            -900
+          ],
+          "min": [
+            -1500,
+            875,
+            -1350
+          ]
+        },
+        "hash": "ade23c6741757b11de35f1f1bd646d20",
+        "visible": true
+      }
+    ],
+    "docMatch": true,
+    "empty": 0,
+    "errors": [],
+    "owners": 308,
+    "sourceMatch": true
+  },
+  "persist": [
+    {
+      "id": "2c47bac4b009b57ea407a0c17a45aadd",
+      "verticesEqual": true
+    },
+    {
+      "id": "bafb63467eb774a1a3c06933e255308a",
+      "verticesEqual": true
+    },
+    {
+      "id": "c58292ba1ef9b4d3106b847cd7efec40",
+      "verticesEqual": true
+    },
+    {
+      "id": "6d19c71dabbc84c6fb1a63a223103e25",
+      "verticesEqual": true
+    }
+  ],
+  "console": {
+    "instance": "369b77352c66d6e6b3b53841f41682c3",
+    "parts": [
+      {
+        "name": "Planning top",
+        "patch": "ade23c6741757b11de35f1f1bd646d20",
+        "source": "d19578987c2108e83fac2eaec6b48f99"
+      },
+      {
+        "name": "Console leg L",
+        "patch": "3d7e9cff594f2be4968b0568002d7ac8",
+        "source": "8bc0d3632b5368ed3a05d996b38cfc8b"
+      },
+      {
+        "name": "Console tie",
+        "patch": "e5ee8adec9a1198e6b54649949fd1b87",
+        "source": "69834631e3aeff18b175351b0b98a46f"
+      },
+      {
+        "name": "Display stand",
+        "patch": "f25af60afd13fc62ff89f0a9849ddca0",
+        "source": "fb290c341ba35125310d1654c99ea87c"
+      },
+      {
+        "name": "Display envelope",
+        "patch": "09305add08cb5b946e9a5be5dd511261",
+        "source": "7b2190f17a6c56de82ae11e64211aec7"
+      },
+      {
+        "name": "Display face",
+        "patch": "145788bebf6257e360d09c59a919c9ba",
+        "source": "def4bcff1dd9e581ff24fbe1654a3e90"
+      }
+    ]
+  },
+  "sourceChecks": [
+    {
+      "name": "Planning top",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -1500,
+        875,
+        -1350
+      ],
+      "max": [
+        -500,
+        900,
+        -900
+      ]
+    },
+    {
+      "name": "Console leg L",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -1445,
+        0,
+        -1300
+      ],
+      "max": [
+        -1395,
+        875,
+        -950
+      ]
+    },
+    {
+      "name": "Console leg R",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -605,
+        0,
+        -1300
+      ],
+      "max": [
+        -555,
+        875,
+        -950
+      ]
+    },
+    {
+      "name": "Console tie",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -1395,
+        200,
+        -1280
+      ],
+      "max": [
+        -605,
+        240,
+        -1240
+      ]
+    },
+    {
+      "name": "Display stand",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -1035,
+        900,
+        -1270
+      ],
+      "max": [
+        -965,
+        950,
+        -1190
+      ]
+    },
+    {
+      "name": "Display envelope",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -1250,
+        920.3015888298629,
+        -1277.473014425721
+      ],
+      "max": [
+        -750,
+        1116.5925826289067,
+        -1214.118095489748
+      ]
+    },
+    {
+      "name": "Display face",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        -1236,
+        936.9303789391402,
+        -1262.2584378788167
+      ],
+      "max": [
+        -764,
+        1103.3284401059625,
+        -1216.7756362948942
+      ]
+    }
+  ],
+  "qualified": false
+}

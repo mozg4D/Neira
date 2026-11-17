@@ -1,0 +1,99 @@
+{
+  "centerYHits": [
+    250,
+    246
+  ],
+  "owners": 196,
+  "reserves": [
+    {
+      "bounds": {
+        "center": [
+          140,
+          197.5,
+          -220
+        ],
+        "max": [
+          190,
+          225,
+          -170
+        ],
+        "min": [
+          90,
+          170,
+          -270
+        ]
+      },
+      "hash": "934c23261d5082d14c293c7afdc64532",
+      "name": "Drive reserve R"
+    },
+    {
+      "bounds": {
+        "center": [
+          -140,
+          197.5,
+          -220
+        ],
+        "max": [
+          -90,
+          225,
+          -170
+        ],
+        "min": [
+          -190,
+          170,
+          -270
+        ]
+      },
+      "hash": "43e49c3781b0be7e141c03e62f86705e",
+      "name": "Drive reserve L"
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          194,
+          205
+        ],
+        "max": [
+          150,
+          214,
+          250
+        ],
+        "min": [
+          -150,
+          174,
+          160
+        ]
+      },
+      "hash": "415a1d58a914704dbc11688b872764d8",
+      "name": "Control reserve"
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          194,
+          0
+        ],
+        "max": [
+          150,
+          218,
+          110
+        ],
+        "min": [
+          -150,
+          170,
+          -110
+        ]
+      },
+      "hash": "d088ae62ac7e86934b01d100e57ea5c0",
+      "name": "Battery reserve"
+    }
+  ],
+  "topology": {
+    "boundary": 0,
+    "degenerate": 0,
+    "nonmanifold": 0,
+    "orientation": 0
+  }
+}

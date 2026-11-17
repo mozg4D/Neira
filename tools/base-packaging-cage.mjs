@@ -1,0 +1,5 @@
+import {monotonePod,rows} from './base-pod-cage.mjs';
+// Hollow cover, underside opening. 4mm coordinate inset, NOT normal offset.
+export function hollowPod(){ const c=monotonePod(rows), inner=monotonePod([[162,492,662,56],[185,490,660,61],[230,452,612,106],[246,412,562,136]]); for(const [k,v] of Object.entries(inner.vertices))c.vertices['i'+k]=v; for(const [k,s] of Object.entries(inner.segments))c.segments['i'+k]={...s,id:'i'+k,a:'i'+s.a,b:'i'+s.b,sequence:'i'+s.sequence}; c.sequences.push(...inner.sequences.map(s=>({...s,id:'i'+s.id,first:'i'+s.first,segments:s.segments.map(id=>'i'+id)})));for(let i=0;i<8;i++){const id='rim'+i;c.segments[id]={id,a:'v0_'+i,b:'iv0_'+i,ha:[0,0,0],hb:[0,0,0],sequence:id,soft:false};c.sequences.push({id,first:'v0_'+i,segments:[id],closed:false});}return c;}
+export const reserves=[['Battery reserve',300,220,12,170,218,0,0],['Control reserve',300,90,8,174,214,0,205],['Drive reserve L',100,100,8,170,225,-140,-220],['Drive reserve R',100,100,8,170,225,140,-220]];
+export function reserveCage(v){const [,w,d,r,y0,y1,x,z]=v,c=monotonePod([[y0,w,d,r],[y1,w,d,r]]);for(const p of Object.values(c.vertices)){p[0]+=x;p[2]+=z;}return c;}

@@ -26,6 +26,8 @@ export function activate(ctx) {
   button('Base service',async()=>{await inspectSkin(['coverR','coverL','waistR','waistL']);await ctx.call('view.set',{focus:ctx.bindings.Base.owner});});
   button('Workbench pose',async()=>{await inspectSkin();await ctx.call('animation.seek',{frame:330});await ctx.call('view.set',{focus:ctx.bindings.workbench.owner});});
   button('Storage',()=>ctx.call('view.set',{focus:ctx.bindings.storage.owner}));
+  button('Room overview',async()=>{await ctx.call('scene.update',{id:ctx.bindings.room.owner,visible:true});await ctx.call('view.set',{focus:ctx.bindings.room.owner});});
+  button('Isolate workcell',async()=>{await ctx.call('scene.update',{id:ctx.bindings.room.owner,visible:false});await ctx.call('view.set',{focus:ctx.bindings.workbench.owner});});
 
   const label=document.createElement('label');label.textContent='Motion frame ';
   const frame=document.createElement('input');frame.type='range';frame.min='0';frame.max='330';frame.value='0';frame.setAttribute('aria-label','Motion frame');

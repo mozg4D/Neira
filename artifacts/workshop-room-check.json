@@ -1,0 +1,188 @@
+{
+  "sha256": "e2d4cb60e04b604a628f2d292635634afca58648121ea1a94f0ed5ea210ec8db",
+  "bytes": 253792,
+  "native": {
+    "errors": [],
+    "owners": 294,
+    "parts": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "d03b2eb69a731513ad69dba5479d8c08",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "bf7f4b508010ee8114196793aa7bc06c",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 32,
+        "vertices": 16
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "af2cdc601b99520d7a50e3f58381caab",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 12,
+        "vertices": 8
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "0478d64cb64cf4f5d5b1ac901a64ca0e",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 32,
+        "vertices": 16
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "189b7239d267b364409cb546ec4e0698",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      }
+    ]
+  },
+  "reload": {
+    "errors": [],
+    "owners": 294,
+    "parts": [
+      {
+        "bounds": {
+          "center": [
+            -500,
+            1135,
+            -1400
+          ],
+          "max": [
+            300,
+            1150,
+            -1320
+          ],
+          "min": [
+            -1300,
+            1120,
+            -1480
+          ]
+        },
+        "id": "189b7239d267b364409cb546ec4e0698",
+        "name": "Window sill"
+      },
+      {
+        "bounds": {
+          "center": [
+            -500,
+            1600,
+            -1490
+          ],
+          "max": [
+            300,
+            2100,
+            -1480
+          ],
+          "min": [
+            -1300,
+            1100,
+            -1500
+          ]
+        },
+        "id": "0478d64cb64cf4f5d5b1ac901a64ca0e",
+        "name": "Window frame"
+      },
+      {
+        "bounds": {
+          "center": [
+            2160,
+            1300,
+            350
+          ],
+          "max": [
+            2200,
+            2600,
+            2200
+          ],
+          "min": [
+            2120,
+            0,
+            -1500
+          ]
+        },
+        "id": "af2cdc601b99520d7a50e3f58381caab",
+        "name": "Side wall"
+      },
+      {
+        "bounds": {
+          "center": [
+            200,
+            1300,
+            -1540
+          ],
+          "max": [
+            2200,
+            2600,
+            -1500
+          ],
+          "min": [
+            -1800,
+            0,
+            -1580
+          ]
+        },
+        "id": "bf7f4b508010ee8114196793aa7bc06c",
+        "name": "Window wall"
+      },
+      {
+        "bounds": {
+          "center": [
+            200,
+            -20,
+            200
+          ],
+          "max": [
+            2200,
+            0,
+            2200
+          ],
+          "min": [
+            -1800,
+            -40,
+            -1800
+          ]
+        },
+        "id": "d03b2eb69a731513ad69dba5479d8c08",
+        "name": "Workshop floor"
+      }
+    ],
+    "roomVisible": true,
+    "docMatch": true,
+    "sourceMatch": true
+  },
+  "control": {
+    "hidden": false,
+    "restored": true
+  },
+  "materials": {
+    "floor": {
+      "name": "Floor matte",
+      "uid": "9334591639d9b0a6676078f5a5121d00"
+    },
+    "wall": {
+      "name": "Wall matte",
+      "uid": "24cba4f1b2e18d206481e577d2aafc10"
+    }
+  },
+  "lensMaterial": {
+    "name": "Optic blue appearance",
+    "uid": "79d0bbc3c7bbfdd9485ac789e23aeb75"
+  },
+  "qualified": false
+}

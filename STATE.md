@@ -4,9 +4,9 @@ Updated: 2026-11-17. RESUMED by the user's later instruction to work on HOME and
 
 ## Current form-study checkpoint
 
-Authoritative current candidate: `scenes/neira-form-study.hash`, 246963 bytes, SHA256 `05317f156314533fcbfa132e8c55d273960d71ebba6dd6c1e41cb19c55530822`. Check the actual Git HEAD and this file hash on resume; historical checkpoint descriptions below are not the current scene. Last checked 2026-11-17 on HOME using the live Frame core as a user, without modifying Frame.
+Authoritative current candidate: `scenes/neira-form-study.hash`, 253792 bytes, SHA256 `e2d4cb60e04b604a628f2d292635634afca58648121ea1a94f0ed5ea210ec8db`. Check the actual Git HEAD and this file hash on resume; historical checkpoint descriptions below are not the current scene. Last checked 2026-11-17 on HOME using the live Frame core as a user, without modifying Frame.
 
-283 authored owners. Current scene includes hollow split base/waist/torso/arm/head shells, independent spine concept, mast-foot bolt layout, optical envelopes, workbench/light gantry, cabinet drawers/pulls and upper bins. Original envelopes remain hidden/recoverable. Candidate Scene Control now has Assembled, Panel cutaway, Frame and internals, Base service, Workbench pose (330), Storage; slider extends330. Its native persisted source is `tools/form-study-control.js`; canonical `src/control.js` is unchanged.
+294 authored owners. Current scene includes hollow split base/waist/torso/arm/head shells, independent spine concept, mast-foot bolt layout, optical envelopes, workbench/light gantry, cabinet drawers/pulls and upper bins. Original envelopes remain hidden/recoverable. Candidate Scene Control now has Assembled, Panel cutaway, Frame and internals, Base service, Workbench pose (330), Storage; slider extends330. Its native persisted source is `tools/form-study-control.js`; canonical `src/control.js` is unchanged.
 
 Exact exported bytes reopened after native scene.new confirmed an empty document:283owners,0build errors,eight new arm-panel placements/visibility and exact program source recovered. Four arm source material topology checks clean; frames0/90/180/330 finite/error-free. Actual control UI cutaway/base/assembled/workbench paths tested; program restarted Ready after reload. These are geometry/persistence/control checks,NOT strength,collision,manufacturing or real disassembly qualification. Evidence `artifacts/arm-service-system-check.json`, `arm-panel-cutaway.png`, `service-controls.png`.
 
@@ -20,6 +20,10 @@ Latest checkpoint extends 2806a3d: rounded two-piece hollow head, workbench serv
 
 
 Optical passage checkpoint extends a1c3d89: head face and replacement rounded faceplate have paired R13.2 through bores; shared stepped sleeves OD26/32, ID22 replace solid Camera envelopes. Old visor/cameras hidden. Nominal radial clearance0.2, flange seats atZ60; retention/tolerances/actual optical components/FOV unqualified. 18+18+9 display passage rays clear, three material meshes clean before/after exact HASH reload;283owners,0errors,Doc/control source match. This supersedes the earlier no-apertures limitation only. Evidence artifacts/optic-passages-check.json and optic-passages-open.png (lenses/rear temporarily hidden, restored in save). Next useful work: real head/neck and panel mounting, sensor carrier/retention, continue workshop usability. No Frame changes.
+
+
+Current room-composition checkpoint extends 55d8782: provisional4x4m floor and two2.6m walls, open1500x900window, frame/sill. Five native sources72controls,356triangles; clean topology. Exact HASH reload294owners/0errors,Doc/control source match. Added and actually tested Room overview / Isolate workcell; roomvisible in save, temporarycontrolpopup closed, main own tab33661051. Evidence artifacts/workshop-room-check.json and workshop-room-overview.png. This is an open spatial concept, NOT construction or route/strength qualification.
+Appearance correction: old optical material opac100 was invisible, despite earlier opaque wording. Default-opac blue material now visibly renders both lens faces. Two unused room trial materials retained unassigned. New short todo entry requests opac direction docs and material read/update (existing entries preserved). No Frame code changed. Next: coherent service workcell layout and body interfaces, retain room visibility toggle for inspection.
 
 ## Pause checkpoint and shared Frame release
 

@@ -1,3 +1,4 @@
 - AI API: nearest/swept clearance with error bounds; measure.gap only checks projections.
 - Tighten sourceAccuracy bounds: torso ~903 mm is unusable for fabrication decisions.
 - Native spline shell/offset plus minimum-wall-thickness check for body panels.
+- AI API: document opac direction; expose material read/update (100 hid new surfaces).

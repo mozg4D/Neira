@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-17",
+  "bytes": 267474,
+  "sha256": "cf413c5547ace34142a615308dbfafaa82c0faf3a5be3d34232739c24ef30c9f",
+  "build": {
+    "instance": "635403fa5b23069d78ece5da0c7fb13b",
+    "parts": [
+      {
+        "name": "Parking zone",
+        "patch": "768085b646120b32052cfb9821a53ebb",
+        "source": "b76ca6f28e9e6dc01bcfcc27ff7375ed"
+      },
+      {
+        "name": "Service pedestal",
+        "patch": "73e0c32b4a1ffb91e6a3db1d70628bd4",
+        "source": "24f05b5dd35ea4228d6829fc21637397"
+      },
+      {
+        "name": "Dock indicator",
+        "patch": "cda9ec26bba11995be254e91ab64bce0",
+        "source": "ed366f9fb144d863e0650b73505021c3"
+      },
+      {
+        "name": "Dock guide L",
+        "patch": "8b1836b8eefbc1bf695d469604976ecc",
+        "source": "b9715d97e2586652472f585374e01ff3"
+      }
+    ]
+  },
+  "checks": {
+    "errors": [],
+    "groups": [
+      {
+        "name": "Parking service concept",
+        "visible": true
+      },
+      {
+        "name": "Planning console concept",
+        "visible": true
+      },
+      {
+        "name": "Workshop room concept",
+        "visible": true
+      },
+      {
+        "name": "Neira",
+        "visible": true
+      }
+    ],
+    "owners": 318,
+    "topology": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "768085b646120b32052cfb9821a53ebb",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "73e0c32b4a1ffb91e6a3db1d70628bd4",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "cda9ec26bba11995be254e91ab64bce0",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "8b1836b8eefbc1bf695d469604976ecc",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      }
+    ]
+  },
+  "reload": {
+    "docMatch": true,
+    "empty": 0,
+    "errors": [],
+    "groups": [
+      {
+        "name": "Parking service concept",
+        "visible": true
+      },
+      {
+        "name": "Planning console concept",
+        "visible": true
+      },
+      {
+        "name": "Workshop room concept",
+        "visible": true
+      },
+      {
+        "name": "Neira",
+        "visible": true
+      }
+    ],
+    "owners": 318,
+    "sourceMatch": true
+  },
+  "ui": {
+    "isolate": [
+      {
+        "name": "Parking service concept",
+        "visible": false
+      },
+      {
+        "name": "Planning console concept",
+        "visible": false
+      },
+      {
+        "name": "Workshop room concept",
+        "visible": false
+      }
+    ],
+    "planningReady": true,
+    "parkingReady": true,
+    "overviewReady": true
+  },
+  "sourceChecks": [
+    {
+      "name": "Parking zone",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        350,
+        0,
+        -1400
+      ],
+      "max": [
+        1350,
+        2,
+        -500
+      ]
+    },
+    {
+      "name": "Service pedestal",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        690,
+        0,
+        -1470
+      ],
+      "max": [
+        1010,
+        650,
+        -1350
+      ]
+    },
+    {
+      "name": "Dock indicator",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        740,
+        400,
+        -1349
+      ],
+      "max": [
+        960,
+        560,
+        -1345
+      ]
+    },
+    {
+      "name": "Dock guide L",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        390,
+        2,
+        -1130
+      ],
+      "max": [
+        410,
+        20,
+        -870
+      ]
+    },
+    {
+      "name": "Dock guide R",
+      "vertices": 16,
+      "segments": 24,
+      "connected": true,
+      "min": [
+        1290,
+        2,
+        -1130
+      ],
+      "max": [
+        1310,
+        20,
+        -870
+      ]
+    }
+  ],
+  "qualified": false
+}

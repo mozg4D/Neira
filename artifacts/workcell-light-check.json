@@ -1,0 +1,217 @@
+{
+  "reload": {
+    "doc": true,
+    "errors": [],
+    "owners": 243,
+    "parts": [
+      {
+        "bounds": {
+          "center": [
+            -340,
+            1110,
+            710
+          ],
+          "max": [
+            -320,
+            1320,
+            730
+          ],
+          "min": [
+            -360,
+            900,
+            690
+          ]
+        },
+        "name": "Light post L",
+        "report": null
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1317,
+            710
+          ],
+          "max": [
+            290,
+            1320,
+            722
+          ],
+          "min": [
+            -290,
+            1314,
+            698
+          ]
+        },
+        "name": "Diffuser",
+        "report": {
+          "cells": 10,
+          "triangles": 140
+        }
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1335,
+            710
+          ],
+          "max": [
+            380,
+            1350,
+            730
+          ],
+          "min": [
+            -380,
+            1320,
+            690
+          ]
+        },
+        "name": "Light bridge",
+        "report": {
+          "cells": 10,
+          "triangles": 140
+        }
+      },
+      {
+        "bounds": {
+          "center": [
+            340,
+            1110,
+            710
+          ],
+          "max": [
+            360,
+            1320,
+            730
+          ],
+          "min": [
+            320,
+            900,
+            690
+          ]
+        },
+        "name": "Light post",
+        "report": {
+          "cells": 10,
+          "triangles": 140
+        }
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1077.5,
+            -45.5
+          ],
+          "max": [
+            185,
+            1255,
+            7.5
+          ],
+          "min": [
+            -185,
+            900,
+            -98.5
+          ]
+        },
+        "name": "Torso rear",
+        "report": {
+          "cells": 68,
+          "triangles": 1684
+        }
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1077.5,
+            55
+          ],
+          "max": [
+            185,
+            1255,
+            112.5
+          ],
+          "min": [
+            -185,
+            900,
+            -2.5
+          ]
+        },
+        "name": "Torso front",
+        "report": {
+          "cells": 68,
+          "triangles": 1696
+        }
+      }
+    ]
+  },
+  "checks": {
+    "frames": [
+      {
+        "errors": [],
+        "frame": 0
+      },
+      {
+        "errors": [],
+        "frame": 90
+      },
+      {
+        "errors": [],
+        "frame": 180
+      },
+      {
+        "errors": [],
+        "frame": 330
+      }
+    ],
+    "topology": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "c58292ba1ef9b4d3106b847cd7efec40",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 1696,
+        "vertices": 850
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "6d19c71dabbc84c6fb1a63a223103e25",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 1684,
+        "vertices": 844
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "fd2fcf1e028e9662beb46c353f518f7b",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "46da5926294115c726cbebade623498a",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "fcd1df81ffb44c02679bc1bf0d89e327",
+        "nonmanifold": 0,
+        "orientation": 0,
+        "triangles": 140,
+        "vertices": 72
+      }
+    ]
+  }
+}

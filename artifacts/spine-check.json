@@ -1,0 +1,164 @@
+{
+  "doc": true,
+  "errors": [],
+  "owners": 209,
+  "parts": [
+    {
+      "bounds": {
+        "center": [
+          0,
+          1167.5,
+          0
+        ],
+        "max": [
+          25,
+          1255,
+          25
+        ],
+        "min": [
+          -25,
+          1080,
+          -25
+        ]
+      },
+      "name": "Neck column"
+    },
+    {
+      "bounds": {
+        "center": [
+          115,
+          194,
+          0
+        ],
+        "max": [
+          175,
+          218,
+          110
+        ],
+        "min": [
+          55,
+          170,
+          -110
+        ]
+      },
+      "name": "Battery reserve R"
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          1050,
+          0
+        ],
+        "max": [
+          190,
+          1080,
+          30
+        ],
+        "min": [
+          -190,
+          1020,
+          -30
+        ]
+      },
+      "name": "Shoulder beam"
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          597,
+          0
+        ],
+        "max": [
+          40,
+          1020,
+          40
+        ],
+        "min": [
+          -40,
+          174,
+          -40
+        ]
+      },
+      "name": "Spine tube"
+    },
+    {
+      "bounds": {
+        "center": [
+          0,
+          168,
+          0
+        ],
+        "max": [
+          50,
+          174,
+          50
+        ],
+        "min": [
+          -50,
+          162,
+          -50
+        ]
+      },
+      "name": "Spine foot"
+    },
+    {
+      "bounds": {
+        "center": [
+          -115,
+          194,
+          0
+        ],
+        "max": [
+          -55,
+          218,
+          110
+        ],
+        "min": [
+          -175,
+          170,
+          -110
+        ]
+      },
+      "name": "Battery reserve L"
+    }
+  ],
+  "topology": [
+    {
+      "boundary": 0,
+      "degenerate": 0,
+      "id": "b0f9d8bde79650053e4d389e9aa8c4e5",
+      "nonmanifold": 0,
+      "orientation": 0
+    },
+    {
+      "boundary": 0,
+      "degenerate": 0,
+      "id": "7089f0d81a6efdaeb3ea4c2b2ba68bbf",
+      "nonmanifold": 0,
+      "orientation": 0
+    },
+    {
+      "boundary": 0,
+      "degenerate": 0,
+      "id": "8e611385b669c4c014897bbd3ec05ae0",
+      "nonmanifold": 0,
+      "orientation": 0
+    },
+    {
+      "boundary": 0,
+      "degenerate": 0,
+      "id": "97efc3a07cd31a1f2dae05cc4ece916a",
+      "nonmanifold": 0,
+      "orientation": 0
+    },
+    {
+      "boundary": 0,
+      "degenerate": 0,
+      "id": "302ce93753fc706365280ef5bc8dc2f2",
+      "nonmanifold": 0,
+      "orientation": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "neira",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs"
+  },
+  "engines": {"node": ">=22"}
+}

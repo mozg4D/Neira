@@ -1,0 +1,213 @@
+{
+  "kind": "Neira reproducible build",
+  "pass": true,
+  "startedAt": "2026-11-17T12:29:10.187Z",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "win32",
+    "release": "10.0.22631",
+    "cpu": "AMD Ryzen 7 3700X 8-Core Processor             "
+  },
+  "scope": "Native Frame DPR 1; no Frame plugins; packaging, topology and commanded motion only",
+  "checks": [
+    {
+      "name": "Hardware WebGPU adapter is identified and not a fallback",
+      "pass": true,
+      "detail": {
+        "vendor": "nvidia",
+        "architecture": "turing",
+        "device": "",
+        "description": "",
+        "isFallbackAdapter": false,
+        "dpr": 1,
+        "timestampQueries": true
+      }
+    },
+    {
+      "name": "Viewport uses DPR 1",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "Build native robot assembly completes within latency budget",
+      "pass": true,
+      "detail": {
+        "ms": 11847.606800000001,
+        "budgetMs": 120000
+      }
+    },
+    {
+      "name": "Scene has native surface geometry",
+      "pass": true,
+      "detail": {
+        "vertexDisplay": {
+          "objects": 0,
+          "vertices": 0
+        },
+        "meshes": 47,
+        "replicas": 14,
+        "residentPositions": 33,
+        "historyMeshes": 0,
+        "independentPositions": 33,
+        "independentIndices": 33,
+        "vertices": 4776,
+        "triangles": 9496,
+        "workers": 2,
+        "frame": {
+          "id": 631,
+          "gpuMs": 0.483872,
+          "cpuMs": 2.100000023841858
+        }
+      }
+    },
+    {
+      "name": "All authored objects use native non-polygon types",
+      "pass": true,
+      "detail": {
+        "tube": 4,
+        "instance": 14,
+        "cylinder": 12,
+        "group": 15,
+        "spline": 13,
+        "spline_patch": 1,
+        "extrude": 12,
+        "cube": 4
+      }
+    },
+    {
+      "name": "Every native object has a completed valid build",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Native object names stay within 16 characters",
+      "pass": true
+    },
+    {
+      "name": "Repeated parts share source Instances",
+      "pass": true
+    },
+    {
+      "name": "Embedded Doc equals canonical Design.md",
+      "pass": true
+    },
+    {
+      "name": "Export editable HASH completes within latency budget",
+      "pass": true,
+      "detail": {
+        "ms": 169.82899999999972,
+        "budgetMs": 15000
+      }
+    },
+    {
+      "name": "WebGPU validation succeeds without device loss or replacement",
+      "pass": true,
+      "detail": {
+        "validation": null,
+        "uncaptured": [],
+        "lost": null,
+        "replaced": false
+      }
+    },
+    {
+      "name": "No Frame plugin runtime was loaded",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No browser or console errors",
+      "pass": true,
+      "detail": {
+        "errors": [],
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "Build source files remain unchanged during this run",
+      "pass": true
+    }
+  ],
+  "timings": [
+    {
+      "name": "Build native robot assembly",
+      "ms": 11847.606800000001,
+      "budgetMs": 120000
+    },
+    {
+      "name": "Export editable HASH",
+      "ms": 169.82899999999972,
+      "budgetMs": 15000
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "pluginRuntimeRequests": [],
+  "sources": {
+    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
+    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
+    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
+    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
+    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
+    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
+    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+  },
+  "hardware": {
+    "vendor": "nvidia",
+    "architecture": "turing",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false,
+    "dpr": 1,
+    "timestampQueries": true
+  },
+  "file": {
+    "name": "neira.hash",
+    "bytes": 47410,
+    "sha256": "a118773887e4591e2c41c27a5feeded8406fb6476e83d5b1190e6cc6d8fe9924"
+  },
+  "model": {
+    "objects": 75,
+    "stats": {
+      "vertexDisplay": {
+        "objects": 0,
+        "vertices": 0
+      },
+      "meshes": 47,
+      "replicas": 14,
+      "residentPositions": 33,
+      "historyMeshes": 0,
+      "independentPositions": 33,
+      "independentIndices": 33,
+      "vertices": 4776,
+      "triangles": 9496,
+      "workers": 2,
+      "frame": {
+        "id": 631,
+        "gpuMs": 0.483872,
+        "cpuMs": 2.100000023841858
+      }
+    }
+  },
+  "screenshot": "artifacts/neira.png",
+  "gpu": {
+    "validation": null,
+    "uncaptured": [],
+    "lost": null,
+    "replaced": false
+  },
+  "cleanup": {
+    "ownedBrowserAndServerClosed": true
+  },
+  "sourcesAfter": {
+    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
+    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
+    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
+    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
+    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
+    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
+    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+  },
+  "finishedAt": "2026-11-17T12:29:25.460Z"
+}

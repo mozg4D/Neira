@@ -1,0 +1,2044 @@
+{
+  "ids": {
+    "Neira": "b33ed216f48f9df115c87ceb584e957f",
+    "Base": "92b5d503acd6b3aca8a8a1d87b4b37b0",
+    "DriveL": "ab0c385b1336fbe6e26a4a8a91baddb9",
+    "wheelL": "ab0c385b1336fbe6e26a4a8a91baddb9",
+    "DriveR": "5cc88dae05a41a6cbcad5dc28a6fbd75",
+    "wheelR": "5cc88dae05a41a6cbcad5dc28a6fbd75",
+    "CasterL": "f18b40e289afd518a9ad99d8ca78696f",
+    "CasterR": "2cab9b6a034cb1b3e04d158d90a166d5",
+    "Body": "ed6eff42c67e3cdfa3d64e8015b348df",
+    "LYaw": "a68328ac33d723513a13be35135e2d1d",
+    "LPitch": "44c15ff9e5ed4cb366ac4f29a42c34b0",
+    "LElbow": "13dc457bec80531adf7164fda8b40724",
+    "LWrist": "80787455c50443b309f6f2a0b66af3ab",
+    "RYaw": "121eeb1800aa4d5def2fbbbaa0e1ac73",
+    "RPitch": "7ca14704b51a55ca399e361d2cc4296e",
+    "RElbow": "55458469f808f33a195fe0182d1a7d11",
+    "RWrist": "3613ba84caab3d3829b66ab46c515ef3",
+    "plate": "be322df3d12a52e0dd866b99a1734bc9",
+    "root": "b33ed216f48f9df115c87ceb584e957f"
+  },
+  "parts": [
+    {
+      "id": "600c01049dd43ae84a22daf6ee61b911",
+      "name": "Deck",
+      "type": "extrude"
+    },
+    {
+      "id": "cf6288ad67cb347a9f69fc5485585e7a",
+      "name": "Cowl",
+      "type": "extrude"
+    },
+    {
+      "id": "8e91ac5e0703f4b9a7c41e640c61de3f",
+      "name": "Lid",
+      "type": "extrude"
+    },
+    {
+      "id": "2fcf978d86a22ba6618d9862120d5d96",
+      "name": "Tire",
+      "type": "tube"
+    },
+    {
+      "id": "9b21488cea62c6a23681713e44e13c0a",
+      "name": "Hub",
+      "type": "cylinder"
+    },
+    {
+      "id": "badaae3a6a08a8785be62882e5fbc95e",
+      "name": "Axle",
+      "type": "cylinder"
+    },
+    {
+      "id": "0c421a7431a096f0a5540bb57ea6e651",
+      "name": "Tire",
+      "type": "instance"
+    },
+    {
+      "id": "78bc97408ae5c7d751c73a7c709805df",
+      "name": "Hub",
+      "type": "instance"
+    },
+    {
+      "id": "d5eb6f9034769c71497aeed89d8e0825",
+      "name": "Axle",
+      "type": "cylinder"
+    },
+    {
+      "id": "5e2f7235f7f46f50e9d44bc876bb90be",
+      "name": "Swivel",
+      "type": "cylinder"
+    },
+    {
+      "id": "e20cbbe1ba9a79dc09c0b972cc00349c",
+      "name": "Fork",
+      "type": "cube"
+    },
+    {
+      "id": "71c2b06ce19d07d1dba17440a6aaf298",
+      "name": "Fork",
+      "type": "cube"
+    },
+    {
+      "id": "15dede14431508f8a1bbf746d62b3f54",
+      "name": "Roller",
+      "type": "tube"
+    },
+    {
+      "id": "5121da1f6c1094e5ae74f133e5ca66d0",
+      "name": "Hub",
+      "type": "cylinder"
+    },
+    {
+      "id": "2cf28d6177657237ffa015a1d4a69408",
+      "name": "Swivel",
+      "type": "cylinder"
+    },
+    {
+      "id": "81957d03d2a90ecfa175f26c5ae8e46a",
+      "name": "Fork",
+      "type": "cube"
+    },
+    {
+      "id": "049acca53be4eaa63f8257943b20e5ef",
+      "name": "Fork",
+      "type": "cube"
+    },
+    {
+      "id": "3d1077e0d956008d00839f767f9e2157",
+      "name": "Roller",
+      "type": "instance"
+    },
+    {
+      "id": "45eb6abea1aec122399038e9393e6477",
+      "name": "Hub",
+      "type": "instance"
+    },
+    {
+      "id": "561ca24a7b0b7c45f596a6c9101b7cac",
+      "name": "Foot",
+      "type": "extrude"
+    },
+    {
+      "id": "b15658fa03e53e282f253a8b0cbad7fa",
+      "name": "Mast",
+      "type": "extrude"
+    },
+    {
+      "id": "4488b5a5c6f78ed154cd5e62f1918af5",
+      "name": "Chest",
+      "type": "extrude"
+    },
+    {
+      "id": "4fa7474c880257a98a7c3b5e04a32263",
+      "name": "Back",
+      "type": "extrude"
+    },
+    {
+      "id": "1ae70213636ec04a34289bf356ac470f",
+      "name": "Front",
+      "type": "extrude"
+    },
+    {
+      "id": "d29dd38c6d5c52538611093f63c9ac24",
+      "name": "Neck",
+      "type": "cylinder"
+    },
+    {
+      "id": "5b5734089de570799668fc0c00fd8eea",
+      "name": "Head",
+      "type": "extrude"
+    },
+    {
+      "id": "e102d67c9a1f91fdff1aaa8ccc09bcb4",
+      "name": "Visor",
+      "type": "extrude"
+    },
+    {
+      "id": "0838789a6a1ec5c3ec3a9ab4e6e5a823",
+      "name": "Camera",
+      "type": "cylinder"
+    },
+    {
+      "id": "7b5b3cbe26cf963e3b7c39d521d5e236",
+      "name": "Camera",
+      "type": "instance"
+    },
+    {
+      "id": "b94d4bc1d05dc4d5f3f53ae436674809",
+      "name": "Mount",
+      "type": "cylinder"
+    },
+    {
+      "id": "d9b226d901222a1b5451eb1f7b1d60bb",
+      "name": "Mount",
+      "type": "instance"
+    },
+    {
+      "id": "297a5d50501c4374159d781adbc09e0d",
+      "name": "Joint",
+      "type": "cylinder"
+    },
+    {
+      "id": "16a2e04e4116971513d9ff6daa6e99da",
+      "name": "Upper",
+      "type": "extrude"
+    },
+    {
+      "id": "2ef7bc2190ea722d6cfbc0adb1166964",
+      "name": "Joint",
+      "type": "instance"
+    },
+    {
+      "id": "546cf6e5dd660703cff71cf580adbdb8",
+      "name": "Fore",
+      "type": "extrude"
+    },
+    {
+      "id": "7fe65565fd43e6e86bc56bf9011afc93",
+      "name": "Wrist",
+      "type": "cylinder"
+    },
+    {
+      "id": "be322df3d12a52e0dd866b99a1734bc9",
+      "name": "Plate",
+      "type": "spline_patch"
+    },
+    {
+      "id": "532d7f443ca3408a1027abeed2519c11",
+      "name": "Mate",
+      "type": "instance"
+    },
+    {
+      "id": "aeace51539dcb44872bb719432e8b978",
+      "name": "Tool",
+      "type": "tube"
+    },
+    {
+      "id": "8feb15612a11f866299ee43862740d74",
+      "name": "Joint",
+      "type": "instance"
+    },
+    {
+      "id": "651544ae0945094c26e48b109bef3e96",
+      "name": "Upper",
+      "type": "instance"
+    },
+    {
+      "id": "1fcb8b01782beb0e14befd66da857642",
+      "name": "Joint",
+      "type": "instance"
+    },
+    {
+      "id": "110583a4265319f0e142ae94d8bd8dbf",
+      "name": "Fore",
+      "type": "instance"
+    },
+    {
+      "id": "a04b58a9f24e5e13b6e7f2afd75a4341",
+      "name": "Wrist",
+      "type": "cylinder"
+    },
+    {
+      "id": "352f17fc915fa907a39888d0b68c4322",
+      "name": "Plate",
+      "type": "instance"
+    },
+    {
+      "id": "e387a95786ae560ffdfc624649496977",
+      "name": "Mate",
+      "type": "instance"
+    },
+    {
+      "id": "937ae3a1cbc1d578de971cbc7a67ffa3",
+      "name": "Tool",
+      "type": "tube"
+    }
+  ],
+  "timings": [
+    {
+      "name": "base",
+      "ms": 3629.8000000715256
+    },
+    {
+      "name": "body",
+      "ms": 3092
+    },
+    {
+      "name": "arms",
+      "ms": 3934.899999976158
+    },
+    {
+      "name": "native tracks",
+      "ms": 869.1000000238419
+    }
+  ],
+  "program": "a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2",
+  "counts": {
+    "vertexDisplay": {
+      "objects": 0,
+      "vertices": 0
+    },
+    "meshes": 47,
+    "replicas": 14,
+    "residentPositions": 33,
+    "historyMeshes": 0,
+    "independentPositions": 33,
+    "independentIndices": 33,
+    "vertices": 4776,
+    "triangles": 9496,
+    "workers": 2,
+    "frame": {
+      "id": 628,
+      "gpuMs": 2.173696,
+      "cpuMs": 7.699999928474426
+    }
+  },
+  "objects": [
+    {
+      "id": "937ae3a1cbc1d578de971cbc7a67ffa3",
+      "name": "Tool",
+      "type": "tube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          247,
+          767,
+          262
+        ],
+        "max": [
+          273,
+          793,
+          286
+        ],
+        "center": [
+          260,
+          780,
+          274
+        ]
+      }
+    },
+    {
+      "id": "e387a95786ae560ffdfc624649496977",
+      "name": "Mate",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          230,
+          750,
+          256
+        ],
+        "max": [
+          290,
+          810,
+          262
+        ],
+        "center": [
+          260,
+          780,
+          259
+        ]
+      }
+    },
+    {
+      "id": "352f17fc915fa907a39888d0b68c4322",
+      "name": "Plate",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          230,
+          750,
+          250
+        ],
+        "max": [
+          290,
+          810,
+          256
+        ],
+        "center": [
+          260,
+          780,
+          253
+        ]
+      }
+    },
+    {
+      "id": "a04b58a9f24e5e13b6e7f2afd75a4341",
+      "name": "Wrist",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          231,
+          751,
+          216
+        ],
+        "max": [
+          289,
+          809,
+          250
+        ],
+        "center": [
+          260,
+          780,
+          233
+        ]
+      }
+    },
+    {
+      "id": "3613ba84caab3d3829b66ab46c515ef3",
+      "name": "RWrist",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          230,
+          750,
+          216
+        ],
+        "max": [
+          290,
+          810,
+          286
+        ],
+        "center": [
+          260,
+          780,
+          251
+        ]
+      }
+    },
+    {
+      "id": "110583a4265319f0e142ae94d8bd8dbf",
+      "name": "Fore",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          226,
+          744,
+          35
+        ],
+        "max": [
+          294,
+          816,
+          216
+        ],
+        "center": [
+          260,
+          780,
+          125.5
+        ]
+      }
+    },
+    {
+      "id": "1fcb8b01782beb0e14befd66da857642",
+      "name": "Joint",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          225,
+          730,
+          -50
+        ],
+        "max": [
+          295,
+          830,
+          50
+        ],
+        "center": [
+          260,
+          780,
+          0
+        ]
+      }
+    },
+    {
+      "id": "55458469f808f33a195fe0182d1a7d11",
+      "name": "RElbow",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          225,
+          730,
+          -50
+        ],
+        "max": [
+          295,
+          830,
+          286
+        ],
+        "center": [
+          260,
+          780,
+          118
+        ]
+      }
+    },
+    {
+      "id": "651544ae0945094c26e48b109bef3e96",
+      "name": "Upper",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          222,
+          815,
+          -40
+        ],
+        "max": [
+          298,
+          1015,
+          40.000000000000014
+        ],
+        "center": [
+          260,
+          915,
+          7.105427357601002e-15
+        ]
+      }
+    },
+    {
+      "id": "8feb15612a11f866299ee43862740d74",
+      "name": "Joint",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          225,
+          1000,
+          -50
+        ],
+        "max": [
+          295,
+          1100,
+          50
+        ],
+        "center": [
+          260,
+          1050,
+          0
+        ]
+      }
+    },
+    {
+      "id": "7ca14704b51a55ca399e361d2cc4296e",
+      "name": "RPitch",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          222,
+          730,
+          -50
+        ],
+        "max": [
+          298,
+          1100,
+          286
+        ],
+        "center": [
+          260,
+          915,
+          118
+        ]
+      }
+    },
+    {
+      "id": "121eeb1800aa4d5def2fbbbaa0e1ac73",
+      "name": "RYaw",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          222,
+          730,
+          -50
+        ],
+        "max": [
+          298,
+          1100,
+          286
+        ],
+        "center": [
+          260,
+          915,
+          118
+        ]
+      }
+    },
+    {
+      "id": "aeace51539dcb44872bb719432e8b978",
+      "name": "Tool",
+      "type": "tube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -273,
+          767,
+          262
+        ],
+        "max": [
+          -247,
+          793,
+          286
+        ],
+        "center": [
+          -260,
+          780,
+          274
+        ]
+      }
+    },
+    {
+      "id": "532d7f443ca3408a1027abeed2519c11",
+      "name": "Mate",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -290,
+          750,
+          256
+        ],
+        "max": [
+          -230,
+          810,
+          262
+        ],
+        "center": [
+          -260,
+          780,
+          259
+        ]
+      }
+    },
+    {
+      "id": "99574c1a124987d9657609faebd0de03",
+      "name": "Spline",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -290,
+          750,
+          250
+        ],
+        "max": [
+          -230,
+          810,
+          256
+        ],
+        "center": [
+          -260,
+          780,
+          253
+        ]
+      }
+    },
+    {
+      "id": "be322df3d12a52e0dd866b99a1734bc9",
+      "name": "Plate",
+      "type": "spline_patch",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -290,
+          750,
+          250
+        ],
+        "max": [
+          -230,
+          810,
+          256
+        ],
+        "center": [
+          -260,
+          780,
+          253
+        ]
+      }
+    },
+    {
+      "id": "7fe65565fd43e6e86bc56bf9011afc93",
+      "name": "Wrist",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -289,
+          751,
+          216
+        ],
+        "max": [
+          -231,
+          809,
+          250
+        ],
+        "center": [
+          -260,
+          780,
+          233
+        ]
+      }
+    },
+    {
+      "id": "80787455c50443b309f6f2a0b66af3ab",
+      "name": "LWrist",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -290,
+          750,
+          216
+        ],
+        "max": [
+          -230,
+          810,
+          286
+        ],
+        "center": [
+          -260,
+          780,
+          251
+        ]
+      }
+    },
+    {
+      "id": "546cf6e5dd660703cff71cf580adbdb8",
+      "name": "Fore",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -294,
+          744,
+          35
+        ],
+        "max": [
+          -226,
+          816,
+          215.99999999999997
+        ],
+        "center": [
+          -260,
+          780,
+          125.49999999999999
+        ]
+      }
+    },
+    {
+      "id": "2ef7bc2190ea722d6cfbc0adb1166964",
+      "name": "Joint",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -295,
+          730,
+          -50
+        ],
+        "max": [
+          -225,
+          830,
+          50
+        ],
+        "center": [
+          -260,
+          780,
+          0
+        ]
+      }
+    },
+    {
+      "id": "13dc457bec80531adf7164fda8b40724",
+      "name": "LElbow",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -295,
+          730,
+          -50
+        ],
+        "max": [
+          -225,
+          830,
+          286
+        ],
+        "center": [
+          -260,
+          780,
+          118
+        ]
+      }
+    },
+    {
+      "id": "16a2e04e4116971513d9ff6daa6e99da",
+      "name": "Upper",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -298,
+          815,
+          -40
+        ],
+        "max": [
+          -222,
+          1015,
+          40.000000000000014
+        ],
+        "center": [
+          -260,
+          915,
+          7.105427357601002e-15
+        ]
+      }
+    },
+    {
+      "id": "297a5d50501c4374159d781adbc09e0d",
+      "name": "Joint",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -295,
+          1000,
+          -50.00000000000001
+        ],
+        "max": [
+          -225,
+          1100,
+          50
+        ],
+        "center": [
+          -260,
+          1050,
+          -3.552713678800501e-15
+        ]
+      }
+    },
+    {
+      "id": "44c15ff9e5ed4cb366ac4f29a42c34b0",
+      "name": "LPitch",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -298,
+          730,
+          -50.00000000000001
+        ],
+        "max": [
+          -222,
+          1100,
+          286
+        ],
+        "center": [
+          -260,
+          915,
+          118
+        ]
+      }
+    },
+    {
+      "id": "a68328ac33d723513a13be35135e2d1d",
+      "name": "LYaw",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -298,
+          730,
+          -50.00000000000001
+        ],
+        "max": [
+          -222,
+          1100,
+          286
+        ],
+        "center": [
+          -260,
+          915,
+          118
+        ]
+      }
+    },
+    {
+      "id": "d9b226d901222a1b5451eb1f7b1d60bb",
+      "name": "Mount",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          190,
+          1030,
+          -20
+        ],
+        "max": [
+          260,
+          1070,
+          20
+        ],
+        "center": [
+          225,
+          1050,
+          0
+        ]
+      }
+    },
+    {
+      "id": "b94d4bc1d05dc4d5f3f53ae436674809",
+      "name": "Mount",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -260,
+          1030,
+          -20.000000000000004
+        ],
+        "max": [
+          -190,
+          1070,
+          20
+        ],
+        "center": [
+          -225,
+          1050,
+          -1.7763568394002505e-15
+        ]
+      }
+    },
+    {
+      "id": "7b5b3cbe26cf963e3b7c39d521d5e236",
+      "name": "Camera",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          42,
+          1377,
+          60
+        ],
+        "max": [
+          68,
+          1403,
+          68
+        ],
+        "center": [
+          55,
+          1390,
+          64
+        ]
+      }
+    },
+    {
+      "id": "0838789a6a1ec5c3ec3a9ab4e6e5a823",
+      "name": "Camera",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -68,
+          1377,
+          60
+        ],
+        "max": [
+          -42,
+          1403,
+          68
+        ],
+        "center": [
+          -55,
+          1390,
+          64
+        ]
+      }
+    },
+    {
+      "id": "e102d67c9a1f91fdff1aaa8ccc09bcb4",
+      "name": "Visor",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -95,
+          1356,
+          55
+        ],
+        "max": [
+          95,
+          1424,
+          60
+        ],
+        "center": [
+          0,
+          1390,
+          57.5
+        ]
+      }
+    },
+    {
+      "id": "5b5734089de570799668fc0c00fd8eea",
+      "name": "Head",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -115,
+          1305,
+          -55
+        ],
+        "max": [
+          115,
+          1450,
+          55
+        ],
+        "center": [
+          0,
+          1377.5,
+          0
+        ]
+      }
+    },
+    {
+      "id": "d29dd38c6d5c52538611093f63c9ac24",
+      "name": "Neck",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -32.5,
+          1255,
+          -32.5
+        ],
+        "max": [
+          32.5,
+          1305,
+          32.5
+        ],
+        "center": [
+          0,
+          1280,
+          0
+        ]
+      }
+    },
+    {
+      "id": "1ae70213636ec04a34289bf356ac470f",
+      "name": "Front",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -190,
+          905,
+          90
+        ],
+        "max": [
+          190,
+          1255,
+          94
+        ],
+        "center": [
+          0,
+          1080,
+          92
+        ]
+      }
+    },
+    {
+      "id": "4fa7474c880257a98a7c3b5e04a32263",
+      "name": "Back",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -190,
+          905,
+          -94
+        ],
+        "max": [
+          190,
+          1255,
+          -90
+        ],
+        "center": [
+          0,
+          1080,
+          -92
+        ]
+      }
+    },
+    {
+      "id": "4488b5a5c6f78ed154cd5e62f1918af5",
+      "name": "Chest",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -190,
+          905,
+          -90
+        ],
+        "max": [
+          190,
+          1255,
+          89.99999999999997
+        ],
+        "center": [
+          0,
+          1080,
+          -1.4210854715202004e-14
+        ]
+      }
+    },
+    {
+      "id": "b15658fa03e53e282f253a8b0cbad7fa",
+      "name": "Mast",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -80,
+          270,
+          -70
+        ],
+        "max": [
+          80,
+          920,
+          70.00000000000004
+        ],
+        "center": [
+          0,
+          595,
+          2.1316282072803006e-14
+        ]
+      }
+    },
+    {
+      "id": "561ca24a7b0b7c45f596a6c9101b7cac",
+      "name": "Foot",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -115,
+          250,
+          -110
+        ],
+        "max": [
+          115,
+          270,
+          110
+        ],
+        "center": [
+          0,
+          260,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ed6eff42c67e3cdfa3d64e8015b348df",
+      "name": "Body",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -115,
+          250,
+          -110
+        ],
+        "max": [
+          115,
+          920,
+          110
+        ],
+        "center": [
+          0,
+          585,
+          0
+        ]
+      }
+    },
+    {
+      "id": "45eb6abea1aec122399038e9393e6477",
+      "name": "Hub",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          190,
+          35,
+          235
+        ],
+        "max": [
+          230,
+          85,
+          285
+        ],
+        "center": [
+          210,
+          60,
+          260
+        ]
+      }
+    },
+    {
+      "id": "3d1077e0d956008d00839f767f9e2157",
+      "name": "Roller",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          190,
+          0,
+          200
+        ],
+        "max": [
+          230,
+          120,
+          320
+        ],
+        "center": [
+          210,
+          60,
+          260
+        ]
+      }
+    },
+    {
+      "id": "049acca53be4eaa63f8257943b20e5ef",
+      "name": "Fork",
+      "type": "cube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          231,
+          60,
+          245
+        ],
+        "max": [
+          237,
+          125,
+          275
+        ],
+        "center": [
+          234,
+          92.5,
+          260
+        ]
+      }
+    },
+    {
+      "id": "81957d03d2a90ecfa175f26c5ae8e46a",
+      "name": "Fork",
+      "type": "cube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          183,
+          60,
+          245
+        ],
+        "max": [
+          189,
+          125,
+          275
+        ],
+        "center": [
+          186,
+          92.5,
+          260
+        ]
+      }
+    },
+    {
+      "id": "2cf28d6177657237ffa015a1d4a69408",
+      "name": "Swivel",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          195,
+          120,
+          245
+        ],
+        "max": [
+          225,
+          150,
+          275
+        ],
+        "center": [
+          210,
+          135,
+          260
+        ]
+      }
+    },
+    {
+      "id": "2cab9b6a034cb1b3e04d158d90a166d5",
+      "name": "CasterR",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          183,
+          0,
+          200
+        ],
+        "max": [
+          237,
+          150,
+          320
+        ],
+        "center": [
+          210,
+          75,
+          260
+        ]
+      }
+    },
+    {
+      "id": "5121da1f6c1094e5ae74f133e5ca66d0",
+      "name": "Hub",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -230,
+          35,
+          235
+        ],
+        "max": [
+          -190,
+          85,
+          285
+        ],
+        "center": [
+          -210,
+          60,
+          260
+        ]
+      }
+    },
+    {
+      "id": "15dede14431508f8a1bbf746d62b3f54",
+      "name": "Roller",
+      "type": "tube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -230,
+          0,
+          200
+        ],
+        "max": [
+          -190,
+          120,
+          320
+        ],
+        "center": [
+          -210,
+          60,
+          260
+        ]
+      }
+    },
+    {
+      "id": "71c2b06ce19d07d1dba17440a6aaf298",
+      "name": "Fork",
+      "type": "cube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -189,
+          60,
+          245
+        ],
+        "max": [
+          -183,
+          125,
+          275
+        ],
+        "center": [
+          -186,
+          92.5,
+          260
+        ]
+      }
+    },
+    {
+      "id": "e20cbbe1ba9a79dc09c0b972cc00349c",
+      "name": "Fork",
+      "type": "cube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -237,
+          60,
+          245
+        ],
+        "max": [
+          -231,
+          125,
+          275
+        ],
+        "center": [
+          -234,
+          92.5,
+          260
+        ]
+      }
+    },
+    {
+      "id": "5e2f7235f7f46f50e9d44bc876bb90be",
+      "name": "Swivel",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -225,
+          120,
+          245
+        ],
+        "max": [
+          -195,
+          150,
+          275
+        ],
+        "center": [
+          -210,
+          135,
+          260
+        ]
+      }
+    },
+    {
+      "id": "f18b40e289afd518a9ad99d8ca78696f",
+      "name": "CasterL",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -237,
+          0,
+          200
+        ],
+        "max": [
+          -183,
+          150,
+          320
+        ],
+        "center": [
+          -210,
+          75,
+          260
+        ]
+      }
+    },
+    {
+      "id": "d5eb6f9034769c71497aeed89d8e0825",
+      "name": "Axle",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          215,
+          84,
+          -256
+        ],
+        "max": [
+          270,
+          116,
+          -224
+        ],
+        "center": [
+          242.5,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "78bc97408ae5c7d751c73a7c709805df",
+      "name": "Hub",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          273,
+          35,
+          -305
+        ],
+        "max": [
+          317,
+          165,
+          -175
+        ],
+        "center": [
+          295,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "0c421a7431a096f0a5540bb57ea6e651",
+      "name": "Tire",
+      "type": "instance",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          265,
+          0,
+          -340
+        ],
+        "max": [
+          325,
+          200,
+          -140
+        ],
+        "center": [
+          295,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "5cc88dae05a41a6cbcad5dc28a6fbd75",
+      "name": "DriveR",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          265,
+          0,
+          -340
+        ],
+        "max": [
+          325,
+          200,
+          -140
+        ],
+        "center": [
+          295,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "badaae3a6a08a8785be62882e5fbc95e",
+      "name": "Axle",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -270,
+          84,
+          -256
+        ],
+        "max": [
+          -215,
+          116,
+          -224
+        ],
+        "center": [
+          -242.5,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "9b21488cea62c6a23681713e44e13c0a",
+      "name": "Hub",
+      "type": "cylinder",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -317,
+          35,
+          -305
+        ],
+        "max": [
+          -273,
+          165,
+          -175
+        ],
+        "center": [
+          -295,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "2fcf978d86a22ba6618d9862120d5d96",
+      "name": "Tire",
+      "type": "tube",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -325,
+          0,
+          -340
+        ],
+        "max": [
+          -265,
+          200,
+          -140
+        ],
+        "center": [
+          -295,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "ab0c385b1336fbe6e26a4a8a91baddb9",
+      "name": "DriveL",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -325,
+          0,
+          -340
+        ],
+        "max": [
+          -265,
+          200,
+          -140
+        ],
+        "center": [
+          -295,
+          100,
+          -240
+        ]
+      }
+    },
+    {
+      "id": "8e91ac5e0703f4b9a7c41e640c61de3f",
+      "name": "Lid",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -250,
+          245.99999999999997,
+          -335
+        ],
+        "max": [
+          250,
+          250.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          248,
+          0
+        ]
+      }
+    },
+    {
+      "id": "cf6288ad67cb347a9f69fc5485585e7a",
+      "name": "Cowl",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -250,
+          161.99999999999997,
+          -335
+        ],
+        "max": [
+          250,
+          246.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          204,
+          0
+        ]
+      }
+    },
+    {
+      "id": "600c01049dd43ae84a22daf6ee61b911",
+      "name": "Deck",
+      "type": "extrude",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -250,
+          149.99999999999997,
+          -335
+        ],
+        "max": [
+          250,
+          162.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          156,
+          0
+        ]
+      }
+    },
+    {
+      "id": "92b5d503acd6b3aca8a8a1d87b4b37b0",
+      "name": "Base",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -325,
+          0,
+          -340
+        ],
+        "max": [
+          325,
+          250.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          125.00000000000001,
+          -2.5
+        ]
+      }
+    },
+    {
+      "id": "b33ed216f48f9df115c87ceb584e957f",
+      "name": "Neira",
+      "type": "group",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -325,
+          0,
+          -340
+        ],
+        "max": [
+          325,
+          1450,
+          335
+        ],
+        "center": [
+          0,
+          725,
+          -2.5
+        ]
+      }
+    },
+    {
+      "id": "8bd50c8a7ec629f4eff164498cf3e1c6",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -250,
+          149.99999999999997,
+          -335
+        ],
+        "max": [
+          250,
+          150.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          150,
+          0
+        ]
+      }
+    },
+    {
+      "id": "c0a2c35b44102e57590ff3f836eabfd3",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -250,
+          161.99999999999997,
+          -335
+        ],
+        "max": [
+          250,
+          162.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          162,
+          0
+        ]
+      }
+    },
+    {
+      "id": "3df8a15ce93b304c32e12b3c3216c45a",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -250,
+          245.99999999999997,
+          -335
+        ],
+        "max": [
+          250,
+          246.00000000000003,
+          335
+        ],
+        "center": [
+          0,
+          246,
+          0
+        ]
+      }
+    },
+    {
+      "id": "f3cdc1d4064e70233b33ef04247639c7",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -115,
+          250,
+          -110
+        ],
+        "max": [
+          115,
+          250,
+          110
+        ],
+        "center": [
+          0,
+          250,
+          0
+        ]
+      }
+    },
+    {
+      "id": "8df016020645e21def448722427e194d",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -80,
+          270,
+          -70
+        ],
+        "max": [
+          80,
+          270,
+          70
+        ],
+        "center": [
+          0,
+          270,
+          0
+        ]
+      }
+    },
+    {
+      "id": "f1c84164a2abab5dd40a55d477bea886",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -190,
+          905,
+          -90
+        ],
+        "max": [
+          190,
+          1255,
+          -90
+        ],
+        "center": [
+          0,
+          1080,
+          -90
+        ]
+      }
+    },
+    {
+      "id": "4e3c9a85db24945ea9fca5a6944dcdf4",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -190,
+          905,
+          -94
+        ],
+        "max": [
+          190,
+          1255,
+          -94
+        ],
+        "center": [
+          0,
+          1080,
+          -94
+        ]
+      }
+    },
+    {
+      "id": "751593e44f0a62a207dc4eab5efe8be3",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -190,
+          905,
+          90
+        ],
+        "max": [
+          190,
+          1255,
+          90
+        ],
+        "center": [
+          0,
+          1080,
+          90
+        ]
+      }
+    },
+    {
+      "id": "7e61072fc11e396d96166bd20f3c9b43",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -115,
+          1305,
+          -55
+        ],
+        "max": [
+          115,
+          1450,
+          -55
+        ],
+        "center": [
+          0,
+          1377.5,
+          -55
+        ]
+      }
+    },
+    {
+      "id": "544331adb4f65ca22a1fae6c23286c4e",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -95,
+          1356,
+          55
+        ],
+        "max": [
+          95,
+          1424,
+          55
+        ],
+        "center": [
+          0,
+          1390,
+          55
+        ]
+      }
+    },
+    {
+      "id": "15adf17a3da0e693c5de2a45ff4486d7",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -298,
+          1015,
+          -40
+        ],
+        "max": [
+          -222,
+          1015,
+          40
+        ],
+        "center": [
+          -260,
+          1015,
+          0
+        ]
+      }
+    },
+    {
+      "id": "16f56c848b04a720cf0f7ee690ad466f",
+      "name": "Profile",
+      "type": "spline",
+      "buildError": null,
+      "bounds": {
+        "min": [
+          -294,
+          744,
+          35
+        ],
+        "max": [
+          -226,
+          816,
+          35
+        ],
+        "center": [
+          -260,
+          780,
+          35
+        ]
+      }
+    }
+  ],
+  "units": "mm",
+  "coordinateSystem": "Y up, +Z forward",
+  "assumptions": "Packaging and commanded kinematics only; no payload, strength, collision or manufacturing qualification",
+  "sources": {
+    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
+    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
+    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
+    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
+    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
+    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
+    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+  },
+  "file": {
+    "name": "neira.hash",
+    "bytes": 47410,
+    "sha256": "a118773887e4591e2c41c27a5feeded8406fb6476e83d5b1190e6cc6d8fe9924"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "independent-native-import",
+  "checkedAtUtc": "2026-11-17T17:23:28.5157388Z",
+  "sourceCommit": "17927fe",
+  "hashFile": "scenes/neira-form-study.hash",
+  "bytes": 82603,
+  "sha256": "3a430e364ac0925d4116fa55ad00ceff2e5390886a1ba1b768e4f7f03f88a3bf",
+  "method": "New empty Frame tab; fetch published bytes; compare SHA256; documented scene.open(base64); inspect native state",
+  "applicationVersion": "2026 17 nov 18:54",
+  "apiVersion": "1.3.0",
+  "owners": 116,
+  "booleanOwners": 0,
+  "buildErrors": [],
+  "ringCageHash": "8c315707a8b3221cf580e0bab4c08f02",
+  "ringControls": 32,
+  "ringSegments": 64,
+  "docCharacters": 34572,
+  "docSHA256": "bea11d67f7e0d090cf7f23e5606a30b8f895b9de7aced3d43ac8ba24ecb70158",
+  "qualifiedForManufacture": false,
+  "limitations": [
+    "Not strength, fit, continuous collision or manufacturing validation",
+    "Browser chooser no-op cause unconfirmed",
+    "Canonical neira.hash unchanged"
+  ]
+}

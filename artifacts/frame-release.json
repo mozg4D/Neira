@@ -1,0 +1,77 @@
+{
+  "kind": "Shared Frame release deployment receipt",
+  "verifiedAt": "2026-11-17T14:29:50.186877+00:00",
+  "commit": "0c82bbd104711dce4192b69632777ce42452d520",
+  "version": "2026 17 nov 17:24",
+  "repository": "https://github.com/mozg4D/frame",
+  "pagesWorkflow": "https://github.com/mozg4D/frame/actions/runs/44103401795",
+  "workflowConclusion": "success",
+  "deployedFiles": [
+    {
+      "path": "index.html",
+      "url": "https://mozg4d.github.io/frame/index.html",
+      "status": 200,
+      "bytes": 2960621,
+      "sha256": "8fdd632ef5a7d4bb210796d8262fa0678369faa4f15987ab0b6707ab7130afa1",
+      "localSha256": "8fdd632ef5a7d4bb210796d8262fa0678369faa4f15987ab0b6707ab7130afa1",
+      "matches": true
+    },
+    {
+      "path": "frame-sw.js",
+      "url": "https://mozg4d.github.io/frame/frame-sw.js",
+      "status": 200,
+      "bytes": 3960,
+      "sha256": "05acfa0eff92a19dfb0d857c0fe6d30979dc69ed4dc974dcd3b5b96708723faa",
+      "localSha256": "05acfa0eff92a19dfb0d857c0fe6d30979dc69ed4dc974dcd3b5b96708723faa",
+      "matches": true
+    },
+    {
+      "path": "plugins/3d-printer/plugin.js",
+      "url": "https://mozg4d.github.io/frame/plugins/3d-printer/plugin.js",
+      "status": 200,
+      "bytes": 101132,
+      "sha256": "a2278eee3f7b3b026933ffeec12e013654dfbd219cb145c80fec217547bd5465",
+      "localSha256": "a2278eee3f7b3b026933ffeec12e013654dfbd219cb145c80fec217547bd5465",
+      "matches": true
+    },
+    {
+      "path": "plugins/3d-printer/plugin.json",
+      "url": "https://mozg4d.github.io/frame/plugins/3d-printer/plugin.json",
+      "status": 200,
+      "bytes": 714,
+      "sha256": "30c6e8eed056bc56eb6210e19d0db2ba43b8facf22abeb0c4abdac8393b9af27",
+      "localSha256": "30c6e8eed056bc56eb6210e19d0db2ba43b8facf22abeb0c4abdac8393b9af27",
+      "matches": true
+    }
+  ],
+  "verification": {
+    "nativePrinter": {
+      "checks": 128,
+      "pass": true,
+      "dpr": 1,
+      "adapter": "NVIDIA Turing",
+      "browserErrors": 0,
+      "consoleErrors": 0,
+      "gpuValidationErrors": 0,
+      "deviceLoss": false,
+      "deviceReplacement": false
+    },
+    "cpu": {
+      "sharedBridge": 11,
+      "replicaVisibility": 6,
+      "cameraDepth": 19,
+      "shaderAssembly": 5,
+      "executableSyntaxBlocks": 2,
+      "lazySyntaxBlocks": 6
+    },
+    "sourceIdentityChecks": 153,
+    "sourceIdentityIsBehavioralQualification": false,
+    "fullGeneralSuiteRun": false,
+    "dpr2Run": false,
+    "stressRun": false
+  },
+  "reportDigests": {
+    "printer-shared-release.json": "ee81f543ab6f106505e19a8d47f42d08bfe845de1452d62ddb6d06810c566bf9",
+    "printer-shared-core-review.json": "371a8155f3ae3c4c682ddfecc71f67aa80a92c7a578760e249f46691fe1ffd9e"
+  }
+}

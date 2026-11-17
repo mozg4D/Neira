@@ -57,3 +57,8 @@ Two temporary native Boolean QA unions were removed and never exported or publis
 ## Direct spline R1 update
 
 Current ring uses roundedTubeCage():32 controls,64 segments,32 native cells; nominal R1 inner/outer entries preserve minimum16mm bore,36mm OD and6mm axial length. Resolver reports genus1/one component/no boundary, no build error; generated display1152 vertices/2304 triangles. No Boolean nodes or mesh conversion retained. Ring/post/base remain separate unfastened layout parts, not a claimed printable one-piece jig. Latest candidateSHA256:3a430e364ac0925d4116fa55ad00ceff2e5390886a1ba1b768e4f7f03f88a3bf.
+
+## Split target keepers, 2026-11-17
+Native Frame checkpoint: 139 owners, zero Boolean objects and zero build errors. Four direct Spline Patches (two mirrored top/stem pairs), each 160 controls / 326 segments / 164 cells, with closed native display topology. Integrated stem foot moved to Z534 so its footprint remains on the base. Native M3x16 screws, washers and nuts model two stacks per target. Nominal ring seat R18.2 and 6.4 mm pocket are provisional allowances, not validated fits. Feet/baseplates/table are still unfastened; strength, material and swept clearance remain open. Source-only helper retains rejected experiments; only keeperWithM3LugsV2Cage is the accepted current cage. A crossing-diagonal source graph was corrected, not a Frame bug.
+
+Frame export: 131512 bytes, SHA256 0834a472a980045fd66a61160ceeff7ee8a0440298057549c3a7631f042f18bd. Canonical scenes/neira.hash unchanged. Independent fresh-tab reopening pending for this checkpoint; earlier receipts only cover their recorded previous hashes.

@@ -1,0 +1,31 @@
+{
+  "kind": "sampled-native-cubic-source-curves",
+  "cageSHA256": "486bb368b57bbae46e7f1158492a196fa34ccd6c58ec477279432d828befc0c0",
+  "controls": 32,
+  "segments": 64,
+  "samplesPerSegment": 1001,
+  "minRadius": 7.999999999999998,
+  "maxRadius": 18.004905522192956,
+  "minZ": -3.000000000000001,
+  "maxZ": 3.000000000000001,
+  "maxCircleRadialError": 0.004905522192956369,
+  "idealCircularProfileVolume": 4830.768618055063,
+  "recordedNativeDisplayObservation": {
+    "candidateSHA256": "3a430e364ac0925d4116fa55ad00ceff2e5390886a1ba1b768e4f7f03f88a3bf",
+    "cageSHA256": "486bb368b57bbae46e7f1158492a196fa34ccd6c58ec477279432d828befc0c0",
+    "matchesCurrentCage": true,
+    "vertices": 1152,
+    "triangles": 2304,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "orientationWarnings": 0,
+    "degenerateFaces": 0,
+    "signedVolume": 4799.540529910239
+  },
+  "qualifiedForManufacture": false,
+  "limitations": [
+    "Discrete source-curve sampling is not a certified surface error bound",
+    "Ideal circular-profile volume differs from cubic/sampled/native surfaces",
+    "No strength, print process or cable bend qualification"
+  ]
+}

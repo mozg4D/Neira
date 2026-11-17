@@ -1,0 +1,1976 @@
+{
+  "bin": {
+    "version": 2,
+    "approximation": {
+      "angle": 12
+    },
+    "next": 1000,
+    "vertices": {
+      "obv0": [
+        -100,
+        0,
+        -102.5
+      ],
+      "obv1": [
+        100,
+        0,
+        -102.5
+      ],
+      "obv2": [
+        110,
+        0,
+        -92.5
+      ],
+      "obv3": [
+        110,
+        0,
+        92.5
+      ],
+      "obv4": [
+        100,
+        0,
+        102.5
+      ],
+      "obv5": [
+        -100,
+        0,
+        102.5
+      ],
+      "obv6": [
+        -110,
+        0,
+        92.5
+      ],
+      "obv7": [
+        -110,
+        0,
+        -92.5
+      ],
+      "otv0": [
+        -100,
+        140,
+        -102.5
+      ],
+      "otv1": [
+        100,
+        140,
+        -102.5
+      ],
+      "otv2": [
+        110,
+        140,
+        -92.5
+      ],
+      "otv3": [
+        110,
+        140,
+        92.5
+      ],
+      "otv4": [
+        100,
+        140,
+        102.5
+      ],
+      "otv5": [
+        -100,
+        140,
+        102.5
+      ],
+      "otv6": [
+        -110,
+        140,
+        92.5
+      ],
+      "otv7": [
+        -110,
+        140,
+        -92.5
+      ],
+      "itv0": [
+        -100,
+        140,
+        -99.5
+      ],
+      "itv1": [
+        100,
+        140,
+        -99.5
+      ],
+      "itv2": [
+        107,
+        140,
+        -92.5
+      ],
+      "itv3": [
+        107,
+        140,
+        92.5
+      ],
+      "itv4": [
+        100,
+        140,
+        99.5
+      ],
+      "itv5": [
+        -100,
+        140,
+        99.5
+      ],
+      "itv6": [
+        -107,
+        140,
+        92.5
+      ],
+      "itv7": [
+        -107,
+        140,
+        -92.5
+      ],
+      "ibv0": [
+        -100,
+        3,
+        -99.5
+      ],
+      "ibv1": [
+        100,
+        3,
+        -99.5
+      ],
+      "ibv2": [
+        107,
+        3,
+        -92.5
+      ],
+      "ibv3": [
+        107,
+        3,
+        92.5
+      ],
+      "ibv4": [
+        100,
+        3,
+        99.5
+      ],
+      "ibv5": [
+        -100,
+        3,
+        99.5
+      ],
+      "ibv6": [
+        -107,
+        3,
+        92.5
+      ],
+      "ibv7": [
+        -107,
+        3,
+        -92.5
+      ]
+    },
+    "segments": {
+      "obs0": {
+        "id": "obs0",
+        "a": "obv0",
+        "b": "obv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ob",
+        "soft": false
+      },
+      "obs1": {
+        "id": "obs1",
+        "a": "obv1",
+        "b": "obv2",
+        "ha": [
+          5.522847498307936,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          -5.522847498307936
+        ],
+        "sequence": "ob",
+        "soft": true
+      },
+      "obs2": {
+        "id": "obs2",
+        "a": "obv2",
+        "b": "obv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ob",
+        "soft": false
+      },
+      "obs3": {
+        "id": "obs3",
+        "a": "obv3",
+        "b": "obv4",
+        "ha": [
+          0,
+          0,
+          5.522847498307936
+        ],
+        "hb": [
+          5.522847498307936,
+          0,
+          0
+        ],
+        "sequence": "ob",
+        "soft": true
+      },
+      "obs4": {
+        "id": "obs4",
+        "a": "obv4",
+        "b": "obv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ob",
+        "soft": false
+      },
+      "obs5": {
+        "id": "obs5",
+        "a": "obv5",
+        "b": "obv6",
+        "ha": [
+          -5.522847498307936,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          5.522847498307936
+        ],
+        "sequence": "ob",
+        "soft": true
+      },
+      "obs6": {
+        "id": "obs6",
+        "a": "obv6",
+        "b": "obv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ob",
+        "soft": false
+      },
+      "obs7": {
+        "id": "obs7",
+        "a": "obv7",
+        "b": "obv0",
+        "ha": [
+          0,
+          0,
+          -5.522847498307936
+        ],
+        "hb": [
+          -5.522847498307936,
+          0,
+          0
+        ],
+        "sequence": "ob",
+        "soft": true
+      },
+      "ots0": {
+        "id": "ots0",
+        "a": "otv0",
+        "b": "otv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ot",
+        "soft": false
+      },
+      "ots1": {
+        "id": "ots1",
+        "a": "otv1",
+        "b": "otv2",
+        "ha": [
+          5.522847498307936,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          -5.522847498307936
+        ],
+        "sequence": "ot",
+        "soft": true
+      },
+      "ots2": {
+        "id": "ots2",
+        "a": "otv2",
+        "b": "otv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ot",
+        "soft": false
+      },
+      "ots3": {
+        "id": "ots3",
+        "a": "otv3",
+        "b": "otv4",
+        "ha": [
+          0,
+          0,
+          5.522847498307936
+        ],
+        "hb": [
+          5.522847498307936,
+          0,
+          0
+        ],
+        "sequence": "ot",
+        "soft": true
+      },
+      "ots4": {
+        "id": "ots4",
+        "a": "otv4",
+        "b": "otv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ot",
+        "soft": false
+      },
+      "ots5": {
+        "id": "ots5",
+        "a": "otv5",
+        "b": "otv6",
+        "ha": [
+          -5.522847498307936,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          5.522847498307936
+        ],
+        "sequence": "ot",
+        "soft": true
+      },
+      "ots6": {
+        "id": "ots6",
+        "a": "otv6",
+        "b": "otv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ot",
+        "soft": false
+      },
+      "ots7": {
+        "id": "ots7",
+        "a": "otv7",
+        "b": "otv0",
+        "ha": [
+          0,
+          0,
+          -5.522847498307936
+        ],
+        "hb": [
+          -5.522847498307936,
+          0,
+          0
+        ],
+        "sequence": "ot",
+        "soft": true
+      },
+      "its0": {
+        "id": "its0",
+        "a": "itv0",
+        "b": "itv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "it",
+        "soft": false
+      },
+      "its1": {
+        "id": "its1",
+        "a": "itv1",
+        "b": "itv2",
+        "ha": [
+          3.865993248815555,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          -3.865993248815555
+        ],
+        "sequence": "it",
+        "soft": true
+      },
+      "its2": {
+        "id": "its2",
+        "a": "itv2",
+        "b": "itv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "it",
+        "soft": false
+      },
+      "its3": {
+        "id": "its3",
+        "a": "itv3",
+        "b": "itv4",
+        "ha": [
+          0,
+          0,
+          3.865993248815555
+        ],
+        "hb": [
+          3.865993248815555,
+          0,
+          0
+        ],
+        "sequence": "it",
+        "soft": true
+      },
+      "its4": {
+        "id": "its4",
+        "a": "itv4",
+        "b": "itv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "it",
+        "soft": false
+      },
+      "its5": {
+        "id": "its5",
+        "a": "itv5",
+        "b": "itv6",
+        "ha": [
+          -3.865993248815555,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          3.865993248815555
+        ],
+        "sequence": "it",
+        "soft": true
+      },
+      "its6": {
+        "id": "its6",
+        "a": "itv6",
+        "b": "itv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "it",
+        "soft": false
+      },
+      "its7": {
+        "id": "its7",
+        "a": "itv7",
+        "b": "itv0",
+        "ha": [
+          0,
+          0,
+          -3.865993248815555
+        ],
+        "hb": [
+          -3.865993248815555,
+          0,
+          0
+        ],
+        "sequence": "it",
+        "soft": true
+      },
+      "ibs0": {
+        "id": "ibs0",
+        "a": "ibv0",
+        "b": "ibv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ib",
+        "soft": false
+      },
+      "ibs1": {
+        "id": "ibs1",
+        "a": "ibv1",
+        "b": "ibv2",
+        "ha": [
+          3.865993248815555,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          -3.865993248815555
+        ],
+        "sequence": "ib",
+        "soft": true
+      },
+      "ibs2": {
+        "id": "ibs2",
+        "a": "ibv2",
+        "b": "ibv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ib",
+        "soft": false
+      },
+      "ibs3": {
+        "id": "ibs3",
+        "a": "ibv3",
+        "b": "ibv4",
+        "ha": [
+          0,
+          0,
+          3.865993248815555
+        ],
+        "hb": [
+          3.865993248815555,
+          0,
+          0
+        ],
+        "sequence": "ib",
+        "soft": true
+      },
+      "ibs4": {
+        "id": "ibs4",
+        "a": "ibv4",
+        "b": "ibv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ib",
+        "soft": false
+      },
+      "ibs5": {
+        "id": "ibs5",
+        "a": "ibv5",
+        "b": "ibv6",
+        "ha": [
+          -3.865993248815555,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          3.865993248815555
+        ],
+        "sequence": "ib",
+        "soft": true
+      },
+      "ibs6": {
+        "id": "ibs6",
+        "a": "ibv6",
+        "b": "ibv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "ib",
+        "soft": false
+      },
+      "ibs7": {
+        "id": "ibs7",
+        "a": "ibv7",
+        "b": "ibv0",
+        "ha": [
+          0,
+          0,
+          -3.865993248815555
+        ],
+        "hb": [
+          -3.865993248815555,
+          0,
+          0
+        ],
+        "sequence": "ib",
+        "soft": true
+      },
+      "obot0": {
+        "id": "obot0",
+        "a": "obv0",
+        "b": "otv0",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot0"
+      },
+      "obot1": {
+        "id": "obot1",
+        "a": "obv1",
+        "b": "otv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot1"
+      },
+      "obot2": {
+        "id": "obot2",
+        "a": "obv2",
+        "b": "otv2",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot2"
+      },
+      "obot3": {
+        "id": "obot3",
+        "a": "obv3",
+        "b": "otv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot3"
+      },
+      "obot4": {
+        "id": "obot4",
+        "a": "obv4",
+        "b": "otv4",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot4"
+      },
+      "obot5": {
+        "id": "obot5",
+        "a": "obv5",
+        "b": "otv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot5"
+      },
+      "obot6": {
+        "id": "obot6",
+        "a": "obv6",
+        "b": "otv6",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot6"
+      },
+      "obot7": {
+        "id": "obot7",
+        "a": "obv7",
+        "b": "otv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "obot7"
+      },
+      "otit0": {
+        "id": "otit0",
+        "a": "otv0",
+        "b": "itv0",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit0"
+      },
+      "otit1": {
+        "id": "otit1",
+        "a": "otv1",
+        "b": "itv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit1"
+      },
+      "otit2": {
+        "id": "otit2",
+        "a": "otv2",
+        "b": "itv2",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit2"
+      },
+      "otit3": {
+        "id": "otit3",
+        "a": "otv3",
+        "b": "itv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit3"
+      },
+      "otit4": {
+        "id": "otit4",
+        "a": "otv4",
+        "b": "itv4",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit4"
+      },
+      "otit5": {
+        "id": "otit5",
+        "a": "otv5",
+        "b": "itv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit5"
+      },
+      "otit6": {
+        "id": "otit6",
+        "a": "otv6",
+        "b": "itv6",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit6"
+      },
+      "otit7": {
+        "id": "otit7",
+        "a": "otv7",
+        "b": "itv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "otit7"
+      },
+      "itib0": {
+        "id": "itib0",
+        "a": "itv0",
+        "b": "ibv0",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib0"
+      },
+      "itib1": {
+        "id": "itib1",
+        "a": "itv1",
+        "b": "ibv1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib1"
+      },
+      "itib2": {
+        "id": "itib2",
+        "a": "itv2",
+        "b": "ibv2",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib2"
+      },
+      "itib3": {
+        "id": "itib3",
+        "a": "itv3",
+        "b": "ibv3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib3"
+      },
+      "itib4": {
+        "id": "itib4",
+        "a": "itv4",
+        "b": "ibv4",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib4"
+      },
+      "itib5": {
+        "id": "itib5",
+        "a": "itv5",
+        "b": "ibv5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib5"
+      },
+      "itib6": {
+        "id": "itib6",
+        "a": "itv6",
+        "b": "ibv6",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib6"
+      },
+      "itib7": {
+        "id": "itib7",
+        "a": "itv7",
+        "b": "ibv7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "soft": false,
+        "sequence": "itib7"
+      }
+    },
+    "sequences": [
+      {
+        "id": "ob",
+        "segments": [
+          "obs0",
+          "obs1",
+          "obs2",
+          "obs3",
+          "obs4",
+          "obs5",
+          "obs6",
+          "obs7"
+        ],
+        "closed": true,
+        "first": "obv0"
+      },
+      {
+        "id": "ot",
+        "segments": [
+          "ots0",
+          "ots1",
+          "ots2",
+          "ots3",
+          "ots4",
+          "ots5",
+          "ots6",
+          "ots7"
+        ],
+        "closed": true,
+        "first": "otv0"
+      },
+      {
+        "id": "it",
+        "segments": [
+          "its0",
+          "its1",
+          "its2",
+          "its3",
+          "its4",
+          "its5",
+          "its6",
+          "its7"
+        ],
+        "closed": true,
+        "first": "itv0"
+      },
+      {
+        "id": "ib",
+        "segments": [
+          "ibs0",
+          "ibs1",
+          "ibs2",
+          "ibs3",
+          "ibs4",
+          "ibs5",
+          "ibs6",
+          "ibs7"
+        ],
+        "closed": true,
+        "first": "ibv0"
+      },
+      {
+        "id": "obot0",
+        "segments": [
+          "obot0"
+        ],
+        "closed": false,
+        "first": "obv0"
+      },
+      {
+        "id": "obot1",
+        "segments": [
+          "obot1"
+        ],
+        "closed": false,
+        "first": "obv1"
+      },
+      {
+        "id": "obot2",
+        "segments": [
+          "obot2"
+        ],
+        "closed": false,
+        "first": "obv2"
+      },
+      {
+        "id": "obot3",
+        "segments": [
+          "obot3"
+        ],
+        "closed": false,
+        "first": "obv3"
+      },
+      {
+        "id": "obot4",
+        "segments": [
+          "obot4"
+        ],
+        "closed": false,
+        "first": "obv4"
+      },
+      {
+        "id": "obot5",
+        "segments": [
+          "obot5"
+        ],
+        "closed": false,
+        "first": "obv5"
+      },
+      {
+        "id": "obot6",
+        "segments": [
+          "obot6"
+        ],
+        "closed": false,
+        "first": "obv6"
+      },
+      {
+        "id": "obot7",
+        "segments": [
+          "obot7"
+        ],
+        "closed": false,
+        "first": "obv7"
+      },
+      {
+        "id": "otit0",
+        "segments": [
+          "otit0"
+        ],
+        "closed": false,
+        "first": "otv0"
+      },
+      {
+        "id": "otit1",
+        "segments": [
+          "otit1"
+        ],
+        "closed": false,
+        "first": "otv1"
+      },
+      {
+        "id": "otit2",
+        "segments": [
+          "otit2"
+        ],
+        "closed": false,
+        "first": "otv2"
+      },
+      {
+        "id": "otit3",
+        "segments": [
+          "otit3"
+        ],
+        "closed": false,
+        "first": "otv3"
+      },
+      {
+        "id": "otit4",
+        "segments": [
+          "otit4"
+        ],
+        "closed": false,
+        "first": "otv4"
+      },
+      {
+        "id": "otit5",
+        "segments": [
+          "otit5"
+        ],
+        "closed": false,
+        "first": "otv5"
+      },
+      {
+        "id": "otit6",
+        "segments": [
+          "otit6"
+        ],
+        "closed": false,
+        "first": "otv6"
+      },
+      {
+        "id": "otit7",
+        "segments": [
+          "otit7"
+        ],
+        "closed": false,
+        "first": "otv7"
+      },
+      {
+        "id": "itib0",
+        "segments": [
+          "itib0"
+        ],
+        "closed": false,
+        "first": "itv0"
+      },
+      {
+        "id": "itib1",
+        "segments": [
+          "itib1"
+        ],
+        "closed": false,
+        "first": "itv1"
+      },
+      {
+        "id": "itib2",
+        "segments": [
+          "itib2"
+        ],
+        "closed": false,
+        "first": "itv2"
+      },
+      {
+        "id": "itib3",
+        "segments": [
+          "itib3"
+        ],
+        "closed": false,
+        "first": "itv3"
+      },
+      {
+        "id": "itib4",
+        "segments": [
+          "itib4"
+        ],
+        "closed": false,
+        "first": "itv4"
+      },
+      {
+        "id": "itib5",
+        "segments": [
+          "itib5"
+        ],
+        "closed": false,
+        "first": "itv5"
+      },
+      {
+        "id": "itib6",
+        "segments": [
+          "itib6"
+        ],
+        "closed": false,
+        "first": "itv6"
+      },
+      {
+        "id": "itib7",
+        "segments": [
+          "itib7"
+        ],
+        "closed": false,
+        "first": "itv7"
+      }
+    ],
+    "freeHandles": {}
+  },
+  "shelf": {
+    "version": 2,
+    "approximation": {
+      "angle": 12
+    },
+    "next": 1000,
+    "vertices": {
+      "v0_0": [
+        648,
+        1180,
+        170
+      ],
+      "v0_1": [
+        1552,
+        1180,
+        170
+      ],
+      "v0_2": [
+        1560,
+        1180,
+        178
+      ],
+      "v0_3": [
+        1560,
+        1180,
+        422
+      ],
+      "v0_4": [
+        1552,
+        1180,
+        430
+      ],
+      "v0_5": [
+        648,
+        1180,
+        430
+      ],
+      "v0_6": [
+        640,
+        1180,
+        422
+      ],
+      "v0_7": [
+        640,
+        1180,
+        178
+      ],
+      "v1_0": [
+        648,
+        1200,
+        170
+      ],
+      "v1_1": [
+        1552,
+        1200,
+        170
+      ],
+      "v1_2": [
+        1560,
+        1200,
+        178
+      ],
+      "v1_3": [
+        1560,
+        1200,
+        422
+      ],
+      "v1_4": [
+        1552,
+        1200,
+        430
+      ],
+      "v1_5": [
+        648,
+        1200,
+        430
+      ],
+      "v1_6": [
+        640,
+        1200,
+        422
+      ],
+      "v1_7": [
+        640,
+        1200,
+        178
+      ]
+    },
+    "segments": {
+      "r0_0": {
+        "id": "r0_0",
+        "a": "v0_0",
+        "b": "v0_1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r0",
+        "soft": false
+      },
+      "r0_1": {
+        "id": "r0_1",
+        "a": "v0_1",
+        "b": "v0_2",
+        "ha": [
+          4.4182779986463485,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          -4.4182779986463485
+        ],
+        "sequence": "r0",
+        "soft": true
+      },
+      "r0_2": {
+        "id": "r0_2",
+        "a": "v0_2",
+        "b": "v0_3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r0",
+        "soft": false
+      },
+      "r0_3": {
+        "id": "r0_3",
+        "a": "v0_3",
+        "b": "v0_4",
+        "ha": [
+          0,
+          0,
+          4.4182779986463485
+        ],
+        "hb": [
+          4.4182779986463485,
+          0,
+          0
+        ],
+        "sequence": "r0",
+        "soft": true
+      },
+      "r0_4": {
+        "id": "r0_4",
+        "a": "v0_4",
+        "b": "v0_5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r0",
+        "soft": false
+      },
+      "r0_5": {
+        "id": "r0_5",
+        "a": "v0_5",
+        "b": "v0_6",
+        "ha": [
+          -4.4182779986463485,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          4.4182779986463485
+        ],
+        "sequence": "r0",
+        "soft": true
+      },
+      "r0_6": {
+        "id": "r0_6",
+        "a": "v0_6",
+        "b": "v0_7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r0",
+        "soft": false
+      },
+      "r0_7": {
+        "id": "r0_7",
+        "a": "v0_7",
+        "b": "v0_0",
+        "ha": [
+          0,
+          0,
+          -4.4182779986463485
+        ],
+        "hb": [
+          -4.4182779986463485,
+          0,
+          0
+        ],
+        "sequence": "r0",
+        "soft": true
+      },
+      "r1_0": {
+        "id": "r1_0",
+        "a": "v1_0",
+        "b": "v1_1",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r1",
+        "soft": false
+      },
+      "r1_1": {
+        "id": "r1_1",
+        "a": "v1_1",
+        "b": "v1_2",
+        "ha": [
+          4.4182779986463485,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          -4.4182779986463485
+        ],
+        "sequence": "r1",
+        "soft": true
+      },
+      "r1_2": {
+        "id": "r1_2",
+        "a": "v1_2",
+        "b": "v1_3",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r1",
+        "soft": false
+      },
+      "r1_3": {
+        "id": "r1_3",
+        "a": "v1_3",
+        "b": "v1_4",
+        "ha": [
+          0,
+          0,
+          4.4182779986463485
+        ],
+        "hb": [
+          4.4182779986463485,
+          0,
+          0
+        ],
+        "sequence": "r1",
+        "soft": true
+      },
+      "r1_4": {
+        "id": "r1_4",
+        "a": "v1_4",
+        "b": "v1_5",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r1",
+        "soft": false
+      },
+      "r1_5": {
+        "id": "r1_5",
+        "a": "v1_5",
+        "b": "v1_6",
+        "ha": [
+          -4.4182779986463485,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          4.4182779986463485
+        ],
+        "sequence": "r1",
+        "soft": true
+      },
+      "r1_6": {
+        "id": "r1_6",
+        "a": "v1_6",
+        "b": "v1_7",
+        "ha": [
+          0,
+          0,
+          0
+        ],
+        "hb": [
+          0,
+          0,
+          0
+        ],
+        "sequence": "r1",
+        "soft": false
+      },
+      "r1_7": {
+        "id": "r1_7",
+        "a": "v1_7",
+        "b": "v1_0",
+        "ha": [
+          0,
+          0,
+          -4.4182779986463485
+        ],
+        "hb": [
+          -4.4182779986463485,
+          0,
+          0
+        ],
+        "sequence": "r1",
+        "soft": true
+      },
+      "l0_0": {
+        "id": "l0_0",
+        "a": "v0_0",
+        "b": "v1_0",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long0",
+        "soft": true
+      },
+      "l1_0": {
+        "id": "l1_0",
+        "a": "v0_1",
+        "b": "v1_1",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long1",
+        "soft": true
+      },
+      "l2_0": {
+        "id": "l2_0",
+        "a": "v0_2",
+        "b": "v1_2",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long2",
+        "soft": true
+      },
+      "l3_0": {
+        "id": "l3_0",
+        "a": "v0_3",
+        "b": "v1_3",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long3",
+        "soft": true
+      },
+      "l4_0": {
+        "id": "l4_0",
+        "a": "v0_4",
+        "b": "v1_4",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long4",
+        "soft": true
+      },
+      "l5_0": {
+        "id": "l5_0",
+        "a": "v0_5",
+        "b": "v1_5",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long5",
+        "soft": true
+      },
+      "l6_0": {
+        "id": "l6_0",
+        "a": "v0_6",
+        "b": "v1_6",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long6",
+        "soft": true
+      },
+      "l7_0": {
+        "id": "l7_0",
+        "a": "v0_7",
+        "b": "v1_7",
+        "ha": [
+          0,
+          6.666666666666667,
+          0
+        ],
+        "hb": [
+          0,
+          -6.666666666666667,
+          0
+        ],
+        "sequence": "long7",
+        "soft": true
+      }
+    },
+    "sequences": [
+      {
+        "id": "r0",
+        "segments": [
+          "r0_0",
+          "r0_1",
+          "r0_2",
+          "r0_3",
+          "r0_4",
+          "r0_5",
+          "r0_6",
+          "r0_7"
+        ],
+        "closed": true,
+        "first": "v0_0"
+      },
+      {
+        "id": "r1",
+        "segments": [
+          "r1_0",
+          "r1_1",
+          "r1_2",
+          "r1_3",
+          "r1_4",
+          "r1_5",
+          "r1_6",
+          "r1_7"
+        ],
+        "closed": true,
+        "first": "v1_0"
+      },
+      {
+        "id": "long0",
+        "segments": [
+          "l0_0"
+        ],
+        "closed": false,
+        "first": "v0_0"
+      },
+      {
+        "id": "long1",
+        "segments": [
+          "l1_0"
+        ],
+        "closed": false,
+        "first": "v0_1"
+      },
+      {
+        "id": "long2",
+        "segments": [
+          "l2_0"
+        ],
+        "closed": false,
+        "first": "v0_2"
+      },
+      {
+        "id": "long3",
+        "segments": [
+          "l3_0"
+        ],
+        "closed": false,
+        "first": "v0_3"
+      },
+      {
+        "id": "long4",
+        "segments": [
+          "l4_0"
+        ],
+        "closed": false,
+        "first": "v0_4"
+      },
+      {
+        "id": "long5",
+        "segments": [
+          "l5_0"
+        ],
+        "closed": false,
+        "first": "v0_5"
+      },
+      {
+        "id": "long6",
+        "segments": [
+          "l6_0"
+        ],
+        "closed": false,
+        "first": "v0_6"
+      },
+      {
+        "id": "long7",
+        "segments": [
+          "l7_0"
+        ],
+        "closed": false,
+        "first": "v0_7"
+      }
+    ],
+    "freeHandles": {}
+  }
+}

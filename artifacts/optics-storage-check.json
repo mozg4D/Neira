@@ -1,0 +1,364 @@
+{
+  "reload": {
+    "doc": true,
+    "errors": [],
+    "owners": 255,
+    "parts": [
+      {
+        "bounds": {
+          "center": [
+            1450,
+            970,
+            20
+          ],
+          "max": [
+            1552.5,
+            1040,
+            130
+          ],
+          "min": [
+            1347.5,
+            900,
+            -90
+          ]
+        },
+        "name": "Parts bin 3"
+      },
+      {
+        "bounds": {
+          "center": [
+            1450,
+            970,
+            300
+          ],
+          "max": [
+            1552.5,
+            1040,
+            410
+          ],
+          "min": [
+            1347.5,
+            900,
+            190
+          ]
+        },
+        "name": "Parts bin 2"
+      },
+      {
+        "bounds": {
+          "center": [
+            1442.5,
+            1190,
+            300
+          ],
+          "max": [
+            1572.5,
+            1200,
+            760
+          ],
+          "min": [
+            1312.5,
+            1180,
+            -160
+          ]
+        },
+        "name": "Upper shelf"
+      },
+      {
+        "bounds": {
+          "center": [
+            1450,
+            970,
+            580
+          ],
+          "max": [
+            1552.5,
+            1040,
+            690
+          ],
+          "min": [
+            1347.5,
+            900,
+            470
+          ]
+        },
+        "name": "Parts bin"
+      },
+      {
+        "bounds": {
+          "center": [
+            55,
+            1390,
+            73
+          ],
+          "max": [
+            67.5,
+            1402.5,
+            76
+          ],
+          "min": [
+            42.5,
+            1377.5,
+            70
+          ]
+        },
+        "name": "Optic lens R"
+      },
+      {
+        "bounds": {
+          "center": [
+            55,
+            1390,
+            70
+          ],
+          "max": [
+            71,
+            1406,
+            72
+          ],
+          "min": [
+            39,
+            1374,
+            68
+          ]
+        },
+        "name": "Optic rim R"
+      },
+      {
+        "bounds": {
+          "center": [
+            -55,
+            1390,
+            73
+          ],
+          "max": [
+            -42.5,
+            1402.5,
+            76
+          ],
+          "min": [
+            -67.5,
+            1377.5,
+            70
+          ]
+        },
+        "name": "Optic lens"
+      },
+      {
+        "bounds": {
+          "center": [
+            -55,
+            1390,
+            70
+          ],
+          "max": [
+            -39,
+            1406,
+            72
+          ],
+          "min": [
+            -71,
+            1374,
+            68
+          ]
+        },
+        "name": "Optic rim"
+      }
+    ]
+  },
+  "checks": {
+    "errors": [],
+    "parts": [
+      {
+        "bounds": {
+          "center": [
+            1450,
+            970,
+            20
+          ],
+          "max": [
+            1552.5,
+            1040,
+            130
+          ],
+          "min": [
+            1347.5,
+            900,
+            -90
+          ]
+        },
+        "name": "Parts bin 3"
+      },
+      {
+        "bounds": {
+          "center": [
+            1450,
+            970,
+            300
+          ],
+          "max": [
+            1552.5,
+            1040,
+            410
+          ],
+          "min": [
+            1347.5,
+            900,
+            190
+          ]
+        },
+        "name": "Parts bin 2"
+      },
+      {
+        "bounds": {
+          "center": [
+            1442.5,
+            1190,
+            300
+          ],
+          "max": [
+            1572.5,
+            1200,
+            760
+          ],
+          "min": [
+            1312.5,
+            1180,
+            -160
+          ]
+        },
+        "name": "Upper shelf"
+      },
+      {
+        "bounds": {
+          "center": [
+            1450,
+            970,
+            580
+          ],
+          "max": [
+            1552.5,
+            1040,
+            690
+          ],
+          "min": [
+            1347.5,
+            900,
+            470
+          ]
+        },
+        "name": "Parts bin"
+      },
+      {
+        "bounds": {
+          "center": [
+            55,
+            1390,
+            73
+          ],
+          "max": [
+            67.5,
+            1402.5,
+            76
+          ],
+          "min": [
+            42.5,
+            1377.5,
+            70
+          ]
+        },
+        "name": "Optic lens R"
+      },
+      {
+        "bounds": {
+          "center": [
+            55,
+            1390,
+            70
+          ],
+          "max": [
+            71,
+            1406,
+            72
+          ],
+          "min": [
+            39,
+            1374,
+            68
+          ]
+        },
+        "name": "Optic rim R"
+      },
+      {
+        "bounds": {
+          "center": [
+            -55,
+            1390,
+            73
+          ],
+          "max": [
+            -42.5,
+            1402.5,
+            76
+          ],
+          "min": [
+            -67.5,
+            1377.5,
+            70
+          ]
+        },
+        "name": "Optic lens"
+      },
+      {
+        "bounds": {
+          "center": [
+            -55,
+            1390,
+            70
+          ],
+          "max": [
+            -39,
+            1406,
+            72
+          ],
+          "min": [
+            -71,
+            1374,
+            68
+          ]
+        },
+        "name": "Optic rim"
+      }
+    ],
+    "topology": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "fa0e9bd027b2bdd5999c6a31eb22e9e6",
+        "nonmanifold": 0,
+        "orientation": 0
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "e6745f74c0682eef7544ef2e6f4d1bf9",
+        "nonmanifold": 0,
+        "orientation": 0
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "fde00e0fafd4b64cfc8e32ca26e47f8c",
+        "nonmanifold": 0,
+        "orientation": 0
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "c09e3f7813fd5846000abae89b0b6724",
+        "nonmanifold": 0,
+        "orientation": 0
+      }
+    ]
+  }
+}

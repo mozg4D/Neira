@@ -1,0 +1,44 @@
+{
+  "commit": "855ec3a",
+  "bytes": 131512,
+  "sha256": "0834a472a980045fd66a61160ceeff7ee8a0440298057549c3a7631f042f18bd",
+  "emptyBefore": 0,
+  "owners": 139,
+  "errors": [],
+  "booleans": 0,
+  "docHasKeeperNote": true,
+  "checks": [
+    {
+      "id": "07f84ffbe1261cfaa0c2c87be6984f4d",
+      "uniqueVertices": 376,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "orientationWarnings": 0,
+      "degenerate": 0
+    },
+    {
+      "id": "52eb66199de95e1338d457c010cab6b1",
+      "uniqueVertices": 392,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "orientationWarnings": 0,
+      "degenerate": 0
+    },
+    {
+      "id": "39fcaee16589f5b12358339ccd27a1d6",
+      "uniqueVertices": 376,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "orientationWarnings": 0,
+      "degenerate": 0
+    },
+    {
+      "id": "616a2dc488e31a43eeca82484f1dbcb2",
+      "uniqueVertices": 392,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "orientationWarnings": 0,
+      "degenerate": 0
+    }
+  ]
+}

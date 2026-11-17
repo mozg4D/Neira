@@ -1,53 +1,59 @@
 # Neira state and handoff
 
-Updated: 2026-11-17. Read this and docs/Design.md before continuing; verify notes against Git and the actual scene.
+Updated: 2026-11-17. Goal remains ACTIVE: continue until the user explicitly asks to stop. Do not mark the overall project complete at a checkpoint.
 
-## Delivered checkpoint
+## User direction
 
-Project: C:\Neira. Public repository: https://github.com/mozg4D/Neira.
+Develop Neira as a prospective physical embodiment for AI-directed work, then develop the workshop around the actual parts and processes it needs. The user grants broad design freedom and wants to watch progress. They will open C:\Neira\scenes\neira.hash in their own Frame application. Keep that filename as the verified checkpoint and announce meaningful updates. They suggested subagents design independent parts while the main chat assembles; adopt this with declared datums/interfaces and separate file ownership.
 
-First editable packaging/kinematic study is built and checked. It includes a flat-floor wheeled base, body, two four-joint study arms, a nominal manual tool-plate pair on each wrist, embedded Doc and Scene Control. It is not a complete robot design. No actuator, payload, structural strength, assembly tolerance, collision freedom or manufacturing readiness is claimed.
+Priorities: real engineering assumptions and evidence, native spline/Spline Patch/generator modeling, economical geometry/shared Instances/short names, core index.html performance, fix reproduced bugs, no Frame plugins (including Atomic), no authored polygons. Maintain source, embedded Doc and this handoff. Public repository https://github.com/mozg4D/Neira; later article is future work. No license has been selected.
 
-User requirements: develop Neira and the workshop that can make/maintain it; prioritize Frame core performance and index.html; fix encountered bugs; make clear architectural decisions, ask about disputed ones; report missing tools. No Frame plugins (including Atomic) and no polygon authoring. Use economical native splines/Spline Patches/generators, shared Instances, short names and minimal controls. Maintain canonical Doc and this handoff for replacement chats/models. The user concurrently works on printer/plugins in C:\frame: preserve their changes. Intended public article is future work; no article was posted.
+## Verified revision 1
 
-## Canonical files
+Canonical scene: scenes/neira.hash, 62,654 bytes; SHA256 55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b.
 
-- src/model.js: reproducible native model construction, dimensional assumptions and exact native assembly frames.
-- src/control.js: embedded managed program; 8 pose sliders, native timeline, Home/Pause/Play, inspection views. Sliders read saved pose keys; commands synchronize the frame control.
-- docs/Design.md: exact source of embedded Doc, requirements, nominal geometry, parts/routes and open engineering issues.
-- scenes/neira.hash: delivered editable scene, 47,410 bytes; SHA256 a118773887e4591e2c41c27a5feeded8406fb6476e83d5b1190e6cc6d8fe9924.
-- artifacts/build.json, verification.json, manifest.json: actual source hashes, checks, geometry and timing evidence. artifacts/neira.png and control.png: inspected screenshots.
-- tools/build.mjs and check.mjs: isolated hardware WebGPU build/verification at DPR1 with plugin-runtime request audit.
+90 authored owners including groups/profiles;57 evaluated occurrences;24 replicas;33 independent position buffers;6,440 vertices/12,768 display triangles. Home envelope650x675x1450mm; base650x675x250mm. No authored mesh parts.
 
-Actual home-pose body envelope: 650 x 675 x 1450 mm; base 650 x 675 x 250 mm, within the provisional 750 mm depth allowance. 75 authored owners including groups/profiles, 47 evaluated surfaces/occurrences, 14 replicas, 33 independent position buffers; 9,496 rendered triangles. These triangles are generated display geometry, not authored polygon parts.
+The two wrists now have a one-piece flanged Hub with integral20mm register and12mm service bore, integral mating cable Guide, a3x10 nominal pin and three nativeDIN912 M4x16 screws withDIN125 washers each. Pin is atR17/60deg; Mate has a5x3.2 radial slot. Both nativecages are ordinarily editable Spline Patches; standard hardware and repeated pieces share Instances. Locating boundaries use8arcs to keep source approximation below0.1micrometre; ordinary outlines use4arcs. ActualR10 bound9.99999699046..10.00004376280mm =>0.043763micrometre maximum radial error. This is source representation, not manufacturing qualification.
 
-## Frame dependency and core changes
+Native timeline0..180 moves8jointstudyframes;180..240 withdraws screws/washers,240..300 withdraws Guides. This is an exploded illustration, not a simulation of unscrewing or physical contact. Joint sliders editframe90. Four joints per arm do not establish a general6D tool workspace.
 
-Required Frame commit: c0e035050635ff7d8a75cd72bcb097de8bcc4bdc. Published index.html SHA256 9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c. Both deployed index.html and frame-sw.js were compared byte-for-byte to Git after successful Pages deployments.
+Build14checks and focused verification208checks passed on hardwareNVIDIA Turing/DPR1, no Frame plugin runtimes/browser/GPU errors/source drift. Checks cover full curve+axial walls, topology+nonzero triangles, source dimensions and8arc bound, actual hardware/bearing planes,6localØ10driver paths, pin/slot geometry, affine motion, UIcontrols/exploded ordering, exact immediatepreexport metadata/cages and compositeDoc/code persistence. Sourceboundary nominalclearance0 forregister/bore: H7/g6 offsets have not been applied to the nominal CAD shape; fit remains unqualified. Driver source-envelope separation>=1.99634856mm; otherheads>26mm. Shafttip axial overlap9.2mm, full-major envelopeoverlap8.885mm; these are not effective thread engagement. Modeled blindbottomgap4.8mm; proposed fullthreadendgap2.8mm.
 
-- a518c191743dc813b9b1e73aeff7377a5cf217c6: AI object-reference resolution reuses existing index. Focused actual-resolver regression: 10,000 mixed UI/native references require exactly 10,000 owner-slot checks after warmup; missing-reference behavior retained. 13 CPU checks and syntax passed. This establishes lookup complexity, not an overall app speedup.
-- c0e035050635ff7d8a75cd72bcb097de8bcc4bdc: Scene Programs accepts typed object bindings alongside fields. Main/Worker contexts receive inert typed references, with native remapping and explicit unresolved/missing addresses. 18 plan CPU checks and 13 focused native browser checks passed, no plugins.
+No payload, strength, fatigue, whole-robot collision freedom, actuator/bearing sizing, fits, pin retention or physical manufacture is qualified. Hub rear attachment remains open. Most other body/joint components are packaging envelopes.
 
-Both changes were selectively committed/pushed without the concurrent printer/rendering changes in C:\frame. Those unrelated changes remain there. Do not stage or discard them.
+Baseline only:6fresh frames medianCPU1.40ms/GPU2.490ms at1280x900/DPR1. Build15.60s,coldopen699ms,reachseek91ms,export222ms,roundtripreopen600ms. These are actual samples, not comparisons with the smaller revision0 scene or promises for large factories.
 
-A clean detached validation checkout is at C:\Neira\work\frame; its node_modules junction points to C:\frame\node_modules. It is ignored project scratch, not a second product/editor. Set FRAME_ROOT to this checkout for reproducing this checkpoint. New public users need the required Frame commit or newer and its normal browser test dependencies.
+## Sources and verification workflow
 
-## Verification completed
+- src/model.js: native scene assembly and current inlinepartcages. src/control.js: saved program/UI.
+- docs/Design.md + docs/Tool-interface.md in that order, joined by2newlines: canonical embeddedDoc.
+- docs/Interface-loads.md: follow-up DRAFT, not embedded or a load qualification. It documents mass implications and separate bending/torsion cases; implement/recheck numerical artifact before treating arithmetic as current evidence.
+- tools/build.mjs writes only work/candidate. tools/check.mjs checks candidate, sourcefences and currentcanonicalfingerprint; only a pass promotes canonicalHASH/publicartifacts. Failed candidates keep the prior canonical. Identical verified candidate publication avoids rewriting; observed external edits cancel promotion. Fingerprint+atomicrename is not a filesystemCAS against arbitrary concurrent writes.
+- artifacts/build.json,verification.json,manifest.json bind actual source hashes and geometry. artifacts/neira.png,control.png,tool-assembled.png,tool-exploded.png were inspected.
+- artifacts/refresh-comparison.json records controlled revision0 performance evidence, not a benchmark of revision1.
 
-Build: 14 checks passed. Native scene verification: 61 checks passed on NVIDIA Turing, hardware WebGPU, 1280 x 900, DPR1; no Frame plugin runtimes, browser/GPU errors or source drift.
+Set FRAME_ROOT=C:\Neira\work\frame for reproducibility; this clean detached checkout is at52d86eaea4f447ca93defce0f16a59c684d26a18, with node_modules junction to C:\frame\node_modules. Do not update it while a source-fenced build/check is running. RequiredindexSHA9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430. More recent core changes need coordinated requalification.
 
-Verified exact source cages, embedded Doc/control source and object-reference persistence through HASH round-trip; all eight joint controls and native Play/Pause/Home; saved edited pose after popup reload; displayed frame after Home/Reach. Affine motion leaves local plate geometry unchanged. Geometry checks cover nominal plate 60 x 60 x 6 mm and each bore at both depths. Independent incidence/vertex-link audit finds one closed orientable manifold with five through-holes (genus 5), no boundary, nonmanifold edges, orientation mismatch or degenerate faces.
+## Frame work and ownership
 
-Baseline only: six fresh frames, median CPU 1.30 ms / GPU 0.641 ms. Completed operations: build 11.85 s, cold HASH open 592 ms, reach seek 80 ms, export 138 ms, round-trip reopen 357 ms. Consult raw reports for exact samples/environment; do not generalize these to a large factory or promise an end-to-end speedup.
+C:\frame contains substantial unrelated userprinter/render/test changes. Inspect status before editing, stage only owned hunks, never discard or publish those unrelated diffs. Core fixes already selectively pushed and Pages-byteverified:
 
-The in-app browser displayed the robot during authoring. Its protection blocked opening the Scene Control popup; no workaround was attempted. Control behavior was verified by the independent development tests. The visible authoring tab was an intermediate session; use the delivered HASH as authoritative. A local read-only development server was started on 127.0.0.1:4317 (tools/serve.mjs); check whether it is still running before starting another.
+- a518c19: index AI objectreference resolution; actual10k reference regression uses10k slotchecks afterwarmup;13CPUchecks.
+- c0e0350: typedobject bindings inScenePrograms, main/Worker/remapping/diagnostics;18CPU+13nativechecks.
+- 52d86ea: core.refresh relies on render's existing sync;100refreshes→100syncs instead of200. The model separately removed an extra refresh after each transaction. Controlledrev0 comparison preserved75owners/cages/geometry/frames, removed84renders/168syncs;singlepaired timing12.147s→11.637s is not a generalappspeedup.
 
-## Next useful engineering work
+Next proven core candidate (agent frame_perf_audit): FrameSpline.flush marksdirty when observers joinrunningwork;1observer caused1pass/1tree vs8observers2passes/2trees. Minimalfix removes only waiter dirtyassignment, leavingrequest() invalidations andallactualpass treepublication intact. Agent tasked to implement+focusedregress actualeditsduringwork,errorrepair/Undo, preserveuserdiffs andselectivelypublish. Check its current status before editing samecode.
 
-1. Define concrete workshop manipulation tasks, tool loads, required reach/orientation, allowable mass and energy assumptions. Four joints per arm are a kinematic demonstrator; general tool orientation needs a task-driven DOF review.
-2. Complete one real wrist/tool interface: choose fasteners, pilot/pin fit and engagement, actual tool and assembly access, tolerances, retention/load path and purchased component references. Current geometry has nominal bores and a tool ring; no male pilot, pins or fasteners are installed and no automatic lock is claimed.
-3. Choose one actuator/transmission/bearing architecture from those requirements and develop its mounts and load path. Drive/caster/joint volumes remain packaging envelopes. Head is also a solid packaging envelope.
-4. Extend complexity through actual necessary parts; measure completed-operation latency before/after relevant core fixes. Add workshop equipment when a robot part/process justifies it.
-5. Define outdoor terrain/environment/recovery requirements before choosing alternative locomotion. Select a public redistribution license with the user; currently none is granted.
+## Next project continuation
 
-Before editing: inspect status in both repositories, read owning Frame contracts, preserve user work. Keep source, saved HASH and embedded Doc synchronized; canonical source changes need rebuilding and affected verification. Do not run general/full suites or Frame plugins without a new user request.
+1. Publish this verifiedrevision1 checkpoint if not yet pushed; Git/report hashes are authoritative.
+2. Apply the user's part-agent/main-assembly workflow. Extract pure nativecage factories forHub andGuide into separate owned modules with a sharedCADhelper and explicitlocalmountingdatum. Main owns sceneassembly, partplacement, material reuse, programs and integration. Freeze interfacecoordinates first; modules must create no globalFrame objects or scenes. Verify worldgeometry and sourcefidelity after refactoring, not just moduleunitchecks.
+3. Implement the draft load/mass worksheet with explicitvectors and units: gravity/sidepull ataxial100mm produce bending, notMz; a separateassumed3Nm tool-axis torque screens pin. Check signedforce/momentbalance independently. No strengthrating/material selection follows automatically.
+4. Resolve pinseat/retention and design rear wrist support/bearings/actuator. CurrentHub~101.7cm3 is an interfaceblank, potentially~275g at illustrativeAl density; actual housing/rotor layout must drive hollowing. Define concrete tasks, mass and torque requirements before componentselection. Outdoor requirements and additional armDOF remain open.
+
+## Viewing and processes
+
+The user prefers opening the canonicalfile in their ownFrame. An IAB mainFrame tab also successfully loaded http://127.0.0.1:4317/index.html?scene=neira-work.hash (alias towork/interface-preview.hash). Only opening its SceneControlpopup was browser-policy blocked; don't retry thatblockedpopup. The independent developer browser tests may validate owned fixtures. The discarded captured-viewwatch tools were removed at the user's preference.
+
+Read-only localserver tools/serve.mjs was restarted; execsession91705 served127.0.0.1:4317. Check actual listener before restarting. /neira.hash aliases the verifiedcanonical; /neira-work.hash aliases ignoredworkingpreview. Native Frame startup requires an allowed relative HASH filename; arbitrary /__neira/... querypaths fail 'Invalid scene filename'. No filesystemhost token or browser security changes were used.

@@ -1,7 +1,7 @@
 {
   "kind": "Neira reproducible build",
   "pass": true,
-  "startedAt": "2026-11-17T12:29:10.187Z",
+  "startedAt": "2026-11-17T13:43:22.343Z",
   "environment": {
     "node": "v24.19.0",
     "platform": "win32",
@@ -32,7 +32,7 @@
       "name": "Build native robot assembly completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 11847.606800000001,
+        "ms": 15596.7239,
         "budgetMs": 120000
       }
     },
@@ -44,19 +44,19 @@
           "objects": 0,
           "vertices": 0
         },
-        "meshes": 47,
-        "replicas": 14,
+        "meshes": 57,
+        "replicas": 24,
         "residentPositions": 33,
         "historyMeshes": 0,
         "independentPositions": 33,
         "independentIndices": 33,
-        "vertices": 4776,
-        "triangles": 9496,
-        "workers": 2,
+        "vertices": 6440,
+        "triangles": 12768,
+        "workers": 15,
         "frame": {
-          "id": 631,
-          "gpuMs": 0.483872,
-          "cpuMs": 2.100000023841858
+          "id": 667,
+          "gpuMs": 3.463264,
+          "cpuMs": 2.299999952316284
         }
       }
     },
@@ -64,18 +64,20 @@
       "name": "All authored objects use native non-polygon types",
       "pass": true,
       "detail": {
-        "tube": 4,
-        "instance": 14,
-        "cylinder": 12,
-        "group": 15,
-        "spline": 13,
-        "spline_patch": 1,
+        "instance": 24,
+        "group": 19,
+        "washer": 1,
+        "bolt": 1,
+        "spline_patch": 2,
+        "cylinder": 11,
         "extrude": 12,
-        "cube": 4
+        "cube": 4,
+        "tube": 2,
+        "spline": 14
       }
     },
     {
-      "name": "Every native object has a completed valid build",
+      "name": "No native object reports a build error",
       "pass": true,
       "detail": []
     },
@@ -88,14 +90,14 @@
       "pass": true
     },
     {
-      "name": "Embedded Doc equals canonical Design.md",
+      "name": "Embedded Doc equals canonical design and tool-interface documents",
       "pass": true
     },
     {
       "name": "Export editable HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 169.82899999999972,
+        "ms": 228.77649999999994,
         "budgetMs": 15000
       }
     },
@@ -130,27 +132,32 @@
   "timings": [
     {
       "name": "Build native robot assembly",
-      "ms": 11847.606800000001,
+      "ms": 15596.7239,
       "budgetMs": 120000
     },
     {
       "name": "Export editable HASH",
-      "ms": 169.82899999999972,
+      "ms": 228.77649999999994,
       "budgetMs": 15000
     }
   ],
   "errors": [],
   "consoleErrors": [],
   "pluginRuntimeRequests": [],
+  "publication": {
+    "state": "candidate-only",
+    "scene": "work/candidate/neira.hash"
+  },
   "sources": {
-    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
-    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
+    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
-    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
-    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
-    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
-    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
+    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
+    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
+    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
+    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
   },
   "hardware": {
     "vendor": "nvidia",
@@ -163,29 +170,29 @@
   },
   "file": {
     "name": "neira.hash",
-    "bytes": 47410,
-    "sha256": "a118773887e4591e2c41c27a5feeded8406fb6476e83d5b1190e6cc6d8fe9924"
+    "bytes": 62654,
+    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b"
   },
   "model": {
-    "objects": 75,
+    "objects": 90,
     "stats": {
       "vertexDisplay": {
         "objects": 0,
         "vertices": 0
       },
-      "meshes": 47,
-      "replicas": 14,
+      "meshes": 57,
+      "replicas": 24,
       "residentPositions": 33,
       "historyMeshes": 0,
       "independentPositions": 33,
       "independentIndices": 33,
-      "vertices": 4776,
-      "triangles": 9496,
-      "workers": 2,
+      "vertices": 6440,
+      "triangles": 12768,
+      "workers": 15,
       "frame": {
-        "id": 631,
-        "gpuMs": 0.483872,
-        "cpuMs": 2.100000023841858
+        "id": 667,
+        "gpuMs": 3.463264,
+        "cpuMs": 2.299999952316284
       }
     }
   },
@@ -200,14 +207,15 @@
     "ownedBrowserAndServerClosed": true
   },
   "sourcesAfter": {
-    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
-    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
+    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
-    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
-    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
-    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
-    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
+    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
+    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
+    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
+    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
   },
-  "finishedAt": "2026-11-17T12:29:25.460Z"
+  "finishedAt": "2026-11-17T13:43:41.536Z"
 }

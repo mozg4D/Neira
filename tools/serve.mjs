@@ -8,6 +8,8 @@ export const server=createServer(async(req,res)=>{
   if(req.method!=='GET'){res.writeHead(405).end();return;}
   if(url.pathname==='/favicon.ico'){res.writeHead(204).end();return;}
   if(url.pathname==='/__frame/gpu-memory'){res.writeHead(200,{'Content-Type':'application/json'}).end('{"gpus":null}');return;}
+  if(url.pathname==='/neira-work.hash'){res.writeHead(200,{'Content-Type':'application/octet-stream','Cache-Control':'no-store'}).end(await readFile(resolve(project,'work/interface-preview.hash')));return;}
+  if(url.pathname==='/neira.hash'){res.writeHead(200,{'Content-Type':'application/octet-stream','Cache-Control':'no-store'}).end(await readFile(resolve(project,'scenes/neira.hash')));return;}
   const own=url.pathname.startsWith('/__neira/'),base=own?project:frame;
   const relative=own?url.pathname.slice('/__neira'.length):url.pathname;
   const path=resolve(base,'.'+decodeURIComponent(relative==='/'?'/index.html':relative));

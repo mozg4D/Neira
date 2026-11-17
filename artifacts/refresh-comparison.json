@@ -1,0 +1,122 @@
+{
+  "frameSHA256": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
+  "sameGeometry": true,
+  "frameSHA256After": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
+  "sourceStable": true,
+  "method": "Single paired isolated build of revision-0 Neira on unchanged c0e0350. Only the model extra core.refresh after each transaction differs. Source instrumentation counts work; timings are observations, not a general performance guarantee.",
+  "runs": [
+    {
+      "mode": "before",
+      "modelSHA256": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
+      "buildMs": 12146.767600000001,
+      "counts": {
+        "spline.flush": 517,
+        "frameSyncMaterials": 633,
+        "render": 309,
+        "renderTree": 566,
+        "frameSyncEngineVisibility": 932,
+        "spline.request": 499,
+        "snapshot": 511,
+        "checkpoint": 249,
+        "frameSelectEngineObjects": 306,
+        "core.transaction": 84,
+        "core.refresh": 84
+      },
+      "triangles": 9496,
+      "vertices": 4776,
+      "geometrySHA256": "af02f11ef4c432f64fd828d28e25a94a00440707efc912abe24e071bf61e299b",
+      "frames": {
+        "frames": [
+          {
+            "id": 632,
+            "gpuMs": 1.181728,
+            "cpuMs": 1.600000023841858
+          },
+          {
+            "id": 633,
+            "gpuMs": 1.091424,
+            "cpuMs": 2.399999976158142
+          },
+          {
+            "id": 634,
+            "gpuMs": 1.098176,
+            "cpuMs": 2.100000023841858
+          }
+        ],
+        "width": 1024,
+        "height": 900,
+        "adapter": {
+          "vendor": "nvidia",
+          "architecture": "turing",
+          "device": "",
+          "description": ""
+        },
+        "timestampQueries": true
+      },
+      "hardware": {
+        "dpr": 1,
+        "vendor": "nvidia",
+        "fallback": false
+      },
+      "errors": [],
+      "plugins": [],
+      "objectCount": 75
+    },
+    {
+      "mode": "after",
+      "modelSHA256": "972991cfc09490f9d93252b9a92af7764e8976ffc3cf7ad1447acf0c3e692483",
+      "buildMs": 11637.0275,
+      "counts": {
+        "spline.flush": 517,
+        "frameSyncMaterials": 549,
+        "render": 225,
+        "renderTree": 482,
+        "frameSyncEngineVisibility": 764,
+        "spline.request": 415,
+        "snapshot": 511,
+        "checkpoint": 249,
+        "frameSelectEngineObjects": 306,
+        "core.transaction": 84
+      },
+      "triangles": 9496,
+      "vertices": 4776,
+      "geometrySHA256": "af02f11ef4c432f64fd828d28e25a94a00440707efc912abe24e071bf61e299b",
+      "frames": {
+        "frames": [
+          {
+            "id": 632,
+            "gpuMs": 0.341984,
+            "cpuMs": 1.8000000715255737
+          },
+          {
+            "id": 633,
+            "gpuMs": 1.189408,
+            "cpuMs": 1.5999999046325684
+          },
+          {
+            "id": 634,
+            "gpuMs": 1.20896,
+            "cpuMs": 2
+          }
+        ],
+        "width": 1024,
+        "height": 900,
+        "adapter": {
+          "vendor": "nvidia",
+          "architecture": "turing",
+          "device": "",
+          "description": ""
+        },
+        "timestampQueries": true
+      },
+      "hardware": {
+        "dpr": 1,
+        "vendor": "nvidia",
+        "fallback": false
+      },
+      "errors": [],
+      "plugins": [],
+      "objectCount": 75
+    }
+  ]
+}

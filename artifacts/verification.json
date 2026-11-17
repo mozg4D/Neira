@@ -1,7 +1,7 @@
 {
   "kind": "Neira native HASH verification",
   "pass": true,
-  "startedAt": "2026-11-17T12:29:29.415Z",
+  "startedAt": "2026-11-17T13:43:46.028Z",
   "environment": {
     "node": "v24.19.0",
     "platform": "win32",
@@ -19,24 +19,26 @@
       "pass": true,
       "detail": {
         "build": {
-          "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
-          "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+          "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
+          "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
           "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-          "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
-          "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
-          "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
-          "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
-          "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+          "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+          "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
+          "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
+          "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
+          "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
+          "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
         },
         "current": {
-          "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
-          "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+          "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
+          "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
           "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-          "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
-          "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
-          "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
-          "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
-          "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+          "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+          "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
+          "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
+          "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
+          "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
+          "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
         }
       }
     },
@@ -62,7 +64,7 @@
       "name": "Open Neira HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 591.9245999999998,
+        "ms": 699.4530999999997,
         "budgetMs": 15000
       }
     },
@@ -74,19 +76,19 @@
           "objects": 0,
           "vertices": 0
         },
-        "meshes": 47,
-        "replicas": 14,
+        "meshes": 57,
+        "replicas": 24,
         "residentPositions": 33,
         "historyMeshes": 0,
         "independentPositions": 33,
         "independentIndices": 33,
-        "vertices": 4776,
-        "triangles": 9496,
+        "vertices": 6440,
+        "triangles": 12768,
         "workers": 1,
         "frame": {
           "id": 1,
-          "gpuMs": 0.050304,
-          "cpuMs": 4.600000023841858
+          "gpuMs": 0.049152,
+          "cpuMs": 4.400000095367432
         }
       }
     },
@@ -94,18 +96,20 @@
       "name": "All authored objects use native non-polygon types",
       "pass": true,
       "detail": {
-        "tube": 4,
-        "instance": 14,
-        "cylinder": 12,
-        "group": 15,
-        "spline": 13,
-        "spline_patch": 1,
+        "instance": 24,
+        "group": 19,
+        "washer": 1,
+        "bolt": 1,
+        "spline_patch": 2,
+        "cylinder": 11,
         "extrude": 12,
-        "cube": 4
+        "cube": 4,
+        "tube": 2,
+        "spline": 14
       }
     },
     {
-      "name": "Every native object has a completed valid build",
+      "name": "No native object reports a build error",
       "pass": true,
       "detail": []
     },
@@ -118,7 +122,7 @@
       "pass": true
     },
     {
-      "name": "Reopened Doc equals canonical Design.md",
+      "name": "Reopened Doc equals both canonical design documents",
       "pass": true
     },
     {
@@ -129,14 +133,14 @@
       "name": "All eight commanded joint frames exist",
       "pass": true,
       "detail": [
-        "a68328ac33d723513a13be35135e2d1d",
-        "121eeb1800aa4d5def2fbbbaa0e1ac73",
-        "44c15ff9e5ed4cb366ac4f29a42c34b0",
-        "7ca14704b51a55ca399e361d2cc4296e",
-        "13dc457bec80531adf7164fda8b40724",
-        "55458469f808f33a195fe0182d1a7d11",
-        "80787455c50443b309f6f2a0b66af3ab",
-        "3613ba84caab3d3829b66ab46c515ef3"
+        "b4f60ce66a1aeda4d793a9417844e703",
+        "419cdd9cee33f8dc6af6225f72f1fd75",
+        "58916996f8bf295a5a834c8e64f09ab8",
+        "aa329a8a8e17fb632c31cedbdfc8c6b6",
+        "1a803ed392cba9a7b26a372c0c3ef058",
+        "56f49c76b1b35e30135cde6382f99409",
+        "fcdfed65de796e3f46c5bbef18a2cada",
+        "ac961fa3c92c40ce09c3508e63caa970"
       ]
     },
     {
@@ -188,40 +192,42 @@
       "pass": true
     },
     {
-      "name": "Tool plate GPU positions and triangle indices are finite and valid",
+      "name": "Both wrist interfaces declare actual part references",
+      "pass": true
+    },
+    {
+      "name": "L integral hub has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L integral hub is a finite closed orientable evaluated surface",
       "pass": true,
       "detail": {
-        "vertices": 384,
-        "triangles": 784,
-        "storage": "buffer",
-        "generated": true,
-        "visible": true,
-        "bounds": {
-          "min": [
-            -290,
-            750,
-            250
-          ],
-          "max": [
-            -230,
-            810,
-            256
-          ]
-        },
-        "finite": true,
-        "indicesValid": true,
-        "signedVolume": 14660.439887704626,
-        "positionsSHA256": "a6dea57d0c9d5e21112f827b873fd25407cb619ed58eac4ce95aae6b6d24cb27",
-        "indicesSHA256": "410b99e5f0f6a33d25e7c0ffa9d1f44306b949d3b9bfd8fffeb2dfc20d5f602a"
+        "vertices": 512,
+        "edges": 1536,
+        "faces": 1024,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
       }
     },
     {
-      "name": "Tool plate is one closed orientable manifold",
+      "name": "L integral guide has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L integral guide is a finite closed orientable evaluated surface",
       "pass": true,
       "detail": {
-        "vertices": 384,
-        "edges": 1176,
-        "faces": 784,
+        "vertices": 548,
+        "edges": 1668,
+        "faces": 1112,
         "components": 1,
         "boundary": 0,
         "nonmanifold": 0,
@@ -229,113 +235,3946 @@
         "degenerate": 0,
         "invalidVertexLinks": 0,
         "euler": -8,
-        "genus": 5
+        "genus": 5,
+        "zeroAreaFaces": []
       }
     },
     {
-      "name": "Tool plate has five through-holes",
-      "pass": true,
-      "detail": {
-        "vertices": 384,
-        "edges": 1176,
-        "faces": 784,
-        "components": 1,
-        "boundary": 0,
-        "nonmanifold": 0,
-        "orientationWarnings": 0,
-        "degenerate": 0,
-        "invalidVertexLinks": 0,
-        "euler": -8,
-        "genus": 5
-      }
+      "name": "L locating pin has finite positions and valid evaluated indices",
+      "pass": true
     },
     {
-      "name": "Tool plate evaluates to nominal diameter 60 and depth 6 mm",
-      "pass": true,
-      "detail": {
-        "min": [
-          -30,
-          -30,
-          0
-        ],
-        "max": [
-          30,
-          30,
-          6
-        ],
-        "size": [
-          60,
-          60,
-          6
-        ]
-      }
-    },
-    {
-      "name": "Tool plate retains finite native editable source controls",
+      "name": "L locating pin is a finite closed orientable evaluated surface",
       "pass": true,
       "detail": {
         "vertices": 48,
-        "segments": 72
+        "edges": 138,
+        "faces": 92,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
       }
     },
     {
-      "name": "Editable plate source retains nominal dimensions",
+      "name": "L hub and guide are each one authored source surface",
+      "pass": true
+    },
+    {
+      "name": "L hub retains 60 mm flange and -34 to 9 mm axial envelope",
       "pass": true,
       "detail": {
         "min": [
           -30,
           -30,
-          0
+          -34
         ],
         "max": [
           30,
           30,
-          6
+          9
         ],
         "size": [
           60,
           60,
-          6
+          43
         ]
       }
     },
     {
-      "name": "Native plate cage retains pilot, bolt-circle and pin-hole locations on both faces",
+      "name": "L guide is one 6 to 36 mm axial part with 60 mm flange",
       "pass": true,
       "detail": {
-        "circles": [
-          [
-            0,
-            0,
-            30
-          ],
-          [
-            0,
-            0,
-            10
-          ],
-          [
-            20,
-            0,
-            2.25
-          ],
-          [
-            -9.999999999999996,
-            17.320508075688775,
-            2.25
-          ],
-          [
-            -10.000000000000009,
-            -17.32050807568877,
-            2.25
-          ],
-          [
-            7.5,
-            12.990381056766578,
-            1.5
-          ]
+        "min": [
+          -30,
+          -30,
+          6
         ],
-        "missing": []
+        "max": [
+          30,
+          30,
+          36
+        ],
+        "size": [
+          60,
+          60,
+          30
+        ]
+      }
+    },
+    {
+      "name": "L hub barrel retains its 58 mm diameter from -34 to 0 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 29,
+        "z0": -34,
+        "z1": 0,
+        "bottom": {
+          "matches": 1,
+          "sequence": "huba",
+          "vertices": [
+            "hubav0",
+            "hubav1",
+            "hubav2",
+            "hubav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 28.999419002735745,
+            "max": 29.0081455247543
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "hubb",
+          "vertices": [
+            "hubbv0",
+            "hubbv1",
+            "hubbv2",
+            "hubbv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 28.999419002735745,
+            "max": 29.0081455247543
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.01161,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L integral hub flange retains 60 mm diameter from 0 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 30,
+        "z0": 0,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "facea",
+          "vertices": [
+            "faceav0",
+            "faceav1",
+            "faceav2",
+            "faceav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "faceb",
+          "vertices": [
+            "facebv0",
+            "facebv1",
+            "facebv2",
+            "facebv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.01201,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L guide flange retains 60 mm diameter from 6 to 12 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 30,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "facea",
+          "vertices": [
+            "faceav0",
+            "faceav1",
+            "faceav2",
+            "faceav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "faceb",
+          "vertices": [
+            "facebv0",
+            "facebv1",
+            "facebv2",
+            "facebv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.01201,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L integral locating register is an 8-arc finite source wall",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 10,
+        "z0": 6,
+        "z1": 9,
+        "bottom": {
+          "matches": 1,
+          "sequence": "pilota",
+          "vertices": [
+            "pilotav0",
+            "pilotav1",
+            "pilotav2",
+            "pilotav3",
+            "pilotav4",
+            "pilotav5",
+            "pilotav6",
+            "pilotav7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "pilotb",
+          "vertices": [
+            "pilotbv0",
+            "pilotbv1",
+            "pilotbv2",
+            "pilotbv3",
+            "pilotbv4",
+            "pilotbv5",
+            "pilotbv6",
+            "pilotbv7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L mating locating bore meets 0.1 micrometre source-radius bound",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 10,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "borea",
+          "vertices": [
+            "boreav0",
+            "boreav1",
+            "boreav2",
+            "boreav3",
+            "boreav4",
+            "boreav5",
+            "boreav6",
+            "boreav7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "boreb",
+          "vertices": [
+            "borebv0",
+            "borebv1",
+            "borebv2",
+            "borebv3",
+            "borebv4",
+            "borebv5",
+            "borebv6",
+            "borebv7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L locating boundaries use eight economical arcs",
+      "pass": true
+    },
+    {
+      "name": "L zero-clearance locating source boundaries are congruent and coaxial",
+      "pass": true,
+      "detail": {
+        "nominalDiameterClearanceMm": 0,
+        "sourceRadiusErrorBoundMm": 0.0001,
+        "fitQualified": false
+      }
+    },
+    {
+      "name": "L hub retains a continuous 12 mm service bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 6,
+        "z0": -34,
+        "z1": 9,
+        "bottom": {
+          "matches": 1,
+          "sequence": "passa",
+          "vertices": [
+            "passav0",
+            "passav1",
+            "passav2",
+            "passav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 5.999879793669463,
+            "max": 6.00168528098365
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "passb",
+          "vertices": [
+            "passbv0",
+            "passbv1",
+            "passbv2",
+            "passbv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 5.999879793669463,
+            "max": 6.00168528098365
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0024100000000000002,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L integral guide retains connected inner and outer taper and entry walls",
+      "pass": true,
+      "detail": [
+        {
+          "pass": true,
+          "r0": 13,
+          "r1": 9,
+          "z0": 12,
+          "z1": 35.5,
+          "bottom": {
+            "matches": 1,
+            "sequence": "guidea",
+            "vertices": [
+              "guideav0",
+              "guideav1",
+              "guideav2",
+              "guideav3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 12.999739552950505,
+              "max": 13.003651442131238
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "guideb",
+            "vertices": [
+              "guidebv0",
+              "guidebv1",
+              "guidebv2",
+              "guidebv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 8.999819690504195,
+              "max": 9.00252792147547
+            },
+            "pass": true
+          },
+          "missing": []
+        },
+        {
+          "pass": true,
+          "r0": 10,
+          "r1": 6,
+          "z0": 12,
+          "z1": 35.5,
+          "bottom": {
+            "matches": 1,
+            "sequence": "boreb",
+            "vertices": [
+              "borebv0",
+              "borebv1",
+              "borebv2",
+              "borebv3",
+              "borebv4",
+              "borebv5",
+              "borebv6",
+              "borebv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99995186562711,
+              "max": 10.000063369703351
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "throat",
+            "vertices": [
+              "throatv0",
+              "throatv1",
+              "throatv2",
+              "throatv3",
+              "throatv4",
+              "throatv5",
+              "throatv6",
+              "throatv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999971119376266,
+              "max": 6.000038021822011
+            },
+            "pass": true
+          },
+          "missing": []
+        },
+        {
+          "pass": true,
+          "r0": 9,
+          "r1": 8.5,
+          "z0": 35.5,
+          "z1": 36,
+          "bottom": {
+            "matches": 1,
+            "sequence": "guideb",
+            "vertices": [
+              "guidebv0",
+              "guidebv1",
+              "guidebv2",
+              "guidebv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 8.999819690504195,
+              "max": 9.00252792147547
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "lipOut",
+            "vertices": [
+              "lipOutv0",
+              "lipOutv1",
+              "lipOutv2",
+              "lipOutv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 8.499829707698407,
+              "max": 8.502387481393503
+            },
+            "pass": true
+          },
+          "missing": []
+        },
+        {
+          "pass": true,
+          "r0": 6,
+          "r1": 6.5,
+          "z0": 35.5,
+          "z1": 36,
+          "bottom": {
+            "matches": 1,
+            "sequence": "throat",
+            "vertices": [
+              "throatv0",
+              "throatv1",
+              "throatv2",
+              "throatv3",
+              "throatv4",
+              "throatv5",
+              "throatv6",
+              "throatv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999971119376266,
+              "max": 6.000038021822011
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "lipIn",
+            "vertices": [
+              "lipInv0",
+              "lipInv1",
+              "lipInv2",
+              "lipInv3",
+              "lipInv4",
+              "lipInv5",
+              "lipInv6",
+              "lipInv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 6.499968712657622,
+              "max": 6.5000411903071775
+            },
+            "pass": true
+          },
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "L guide retains at least 1.99 mm source radial wall through its mouth",
+      "pass": true,
+      "detail": {
+        "sourceMinimumRadialWallMm": 1.999788517391229,
+        "strengthQualified": false
+      }
+    },
+    {
+      "name": "L pin blind seat is finite from -1 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          8.5,
+          14.722431864335457
+        ],
+        "radius": 1.5,
+        "z0": -1,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "pina",
+          "vertices": [
+            "pinav0",
+            "pinav1",
+            "pinav2",
+            "pinav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173634,
+            "max": 1.500421320245913
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "pinb",
+          "vertices": [
+            "pinbv0",
+            "pinbv1",
+            "pinbv2",
+            "pinbv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173634,
+            "max": 1.500421320245913
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0006100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L installed 3 by 10 mm pin has its measured -1 to 9 mm axis",
+      "pass": true,
+      "detail": {
+        "center": [
+          8.5,
+          14.722431864335457
+        ],
+        "radius": 1.5,
+        "z0": -1,
+        "z1": 9,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q1",
+          "vertices": [
+            "v2",
+            "v3",
+            "v4",
+            "v5"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173457,
+            "max": 1.5004213202459324
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qe",
+          "vertices": [
+            "va",
+            "vb",
+            "vc",
+            "vd"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173457,
+            "max": 1.5004213202459324
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0006100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L radial pin slot retains its 5 by 3.2 mm capsule on both faces",
+      "pass": true,
+      "detail": [
+        {
+          "pass": true,
+          "sequence": "slota",
+          "vertices": [
+            "slotav0",
+            "slotav1",
+            "slotav2",
+            "slotav3",
+            "slotav4",
+            "slotav5"
+          ],
+          "matches": 1,
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "angle": 1.0471975511965976,
+          "length": 5,
+          "width": 3.2,
+          "z": 6,
+          "lines": [
+            "slotas0",
+            "slotas3"
+          ],
+          "arcs": [
+            {
+              "id": "slotas1",
+              "sign": 1,
+              "bounds": {
+                "min": 1.599967944978524,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotas2",
+              "sign": 1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623062
+              }
+            },
+            {
+              "id": "slotas4",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotas5",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785242,
+                "max": 1.6004494082623073
+              }
+            }
+          ],
+          "invalid": [],
+          "radialBounds": {
+            "min": 14.499999999999998,
+            "max": 19.50000122202899
+          },
+          "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+        },
+        {
+          "pass": true,
+          "sequence": "slotb",
+          "vertices": [
+            "slotbv0",
+            "slotbv1",
+            "slotbv2",
+            "slotbv3",
+            "slotbv4",
+            "slotbv5"
+          ],
+          "matches": 1,
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "angle": 1.0471975511965976,
+          "length": 5,
+          "width": 3.2,
+          "z": 12,
+          "lines": [
+            "slotbs0",
+            "slotbs3"
+          ],
+          "arcs": [
+            {
+              "id": "slotbs1",
+              "sign": 1,
+              "bounds": {
+                "min": 1.599967944978524,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotbs2",
+              "sign": 1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623062
+              }
+            },
+            {
+              "id": "slotbs4",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotbs5",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785242,
+                "max": 1.6004494082623073
+              }
+            }
+          ],
+          "invalid": [],
+          "radialBounds": {
+            "min": 14.499999999999998,
+            "max": 19.50000122202899
+          },
+          "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+        }
+      ]
+    },
+    {
+      "name": "L radial slot has straight continuous source walls through the 6 mm plate",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L nominal pin has positive side clearance in the radial slot",
+      "pass": true,
+      "detail": {
+        "minimumSourceRadialClearanceMm": 0.0995466247325909,
+        "nominalMm": 0.1,
+        "engagementMm": 3,
+        "fitQualified": false
+      }
+    },
+    {
+      "name": "L slot has at least 1.49 mm nominal ligament beyond guide root",
+      "pass": true,
+      "detail": {
+        "conservativeSourceLigamentMm": 1.4963485578687603,
+        "guideRootEnvelopeRadiusMm": 13.003651442131238,
+        "strengthQualified": false
+      }
+    },
+    {
+      "name": "L screw 1 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L screw 1 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 132,
+        "edges": 390,
+        "faces": 260,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "L washer 1 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L washer 1 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 96,
+        "edges": 288,
+        "faces": 192,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "L blind M4 major envelope 1 spans -8 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2,
+        "z0": -8,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "tap0a",
+          "vertices": [
+            "tap0av0",
+            "tap0av1",
+            "tap0av2",
+            "tap0av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.0005617603278814
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "tap0b",
+          "vertices": [
+            "tap0bv0",
+            "tap0bv1",
+            "tap0bv2",
+            "tap0bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.0005617603278814
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L mating clearance bore 1 is 4.5 mm through the plate",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2.25,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "bolt0a",
+          "vertices": [
+            "bolt0av0",
+            "bolt0av1",
+            "bolt0av2",
+            "bolt0av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.250631980368869
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "bolt0b",
+          "vertices": [
+            "bolt0bv0",
+            "bolt0bv1",
+            "bolt0bv2",
+            "bolt0bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.250631980368869
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0009100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L washer 1 has a finite 4.3 mm clearance bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2.15,
+        "z0": 12,
+        "z1": 12.8,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.14995692606489,
+            "max": 2.150603892352473
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q10",
+          "vertices": [
+            "v11",
+            "v12",
+            "v13",
+            "v14"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.14995692606489,
+            "max": 2.150603892352473
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00087,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L standard screw 1 retains its measured head and 16 mm under-head length",
+      "pass": true,
+      "detail": {
+        "min": [
+          16.5,
+          -3.5,
+          -3.1999999999999886
+        ],
+        "max": [
+          23.5,
+          3.5000000000000004,
+          16.80000000000001
+        ],
+        "size": [
+          7,
+          7,
+          20
+        ]
+      }
+    },
+    {
+      "name": "L washer 1 seats from 12 to 12.8 mm",
+      "pass": true,
+      "detail": {
+        "min": [
+          15.5,
+          -4.5,
+          12
+        ],
+        "max": [
+          24.5,
+          4.5,
+          12.800000011920929
+        ],
+        "size": [
+          9,
+          9,
+          0.800000011920929
+        ]
+      }
+    },
+    {
+      "name": "L screw 1 has a distinct full-major shaft envelope",
+      "pass": true,
+      "detail": [
+        -2.884999999999989,
+        12.800000000000011
+      ]
+    },
+    {
+      "name": "L screw 1 retains a finite 4 mm major shaft envelope",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2,
+        "z0": -2.884999999999989,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qa",
+          "vertices": [
+            "vb",
+            "vc",
+            "vd",
+            "ve"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.000561760327882
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.0005617603278814
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L screw 1 retains its measured circular under-head bearing boundary",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 3.5,
+        "z0": 12.800000000000011,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796405203,
+            "max": 3.500983080573798
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796405203,
+            "max": 3.500983080573798
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00141,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L screw 1 seats on its washer with a measured 16 mm shaft and 4 mm head",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "L screw 1 has 9.2 mm nominal overlap and 4.8 mm modeled bottom gap",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "L screw 1 has positive bore, washer and 10 mm front driver-envelope clearances",
+      "pass": true,
+      "detail": {
+        "mateRadialMm": 0.24939316229816688,
+        "washerRadialMm": 0.14939516573700828,
+        "straightDriverApproachMm": 1.996348557868762,
+        "driverDiameterMm": 10,
+        "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+      }
+    },
+    {
+      "name": "L screw 2 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L screw 2 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 132,
+        "edges": 390,
+        "faces": 260,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "L washer 2 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L washer 2 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 96,
+        "edges": 288,
+        "faces": 192,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "L blind M4 major envelope 2 spans -8 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2,
+        "z0": -8,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "tap1a",
+          "vertices": [
+            "tap1av0",
+            "tap1av1",
+            "tap1av2",
+            "tap1av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231542,
+            "max": 2.0005617603278845
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "tap1b",
+          "vertices": [
+            "tap1bv0",
+            "tap1bv1",
+            "tap1bv2",
+            "tap1bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231542,
+            "max": 2.0005617603278845
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L mating clearance bore 2 is 4.5 mm through the plate",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2.25,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "bolt1a",
+          "vertices": [
+            "bolt1av0",
+            "bolt1av1",
+            "bolt1av2",
+            "bolt1av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "bolt1b",
+          "vertices": [
+            "bolt1bv0",
+            "bolt1bv1",
+            "bolt1bv2",
+            "bolt1bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0009100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L washer 2 has a finite 4.3 mm clearance bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2.15,
+        "z0": 12,
+        "z1": 12.8,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.149956926064851,
+            "max": 2.1506038923525113
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q10",
+          "vertices": [
+            "v11",
+            "v12",
+            "v13",
+            "v14"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.149956926064851,
+            "max": 2.1506038923525113
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00087,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L standard screw 2 retains its measured head and 16 mm under-head length",
+      "pass": true,
+      "detail": {
+        "min": [
+          -13.5,
+          13.820508075688736,
+          -3.1999999999999886
+        ],
+        "max": [
+          -6.5,
+          20.820508075688736,
+          16.80000000000001
+        ],
+        "size": [
+          7,
+          7,
+          20
+        ]
+      }
+    },
+    {
+      "name": "L washer 2 seats from 12 to 12.8 mm",
+      "pass": true,
+      "detail": {
+        "min": [
+          -14.5,
+          12.820508075688736,
+          12
+        ],
+        "max": [
+          -5.5,
+          21.820508075688736,
+          12.800000011920929
+        ],
+        "size": [
+          9,
+          9,
+          0.800000011920929
+        ]
+      }
+    },
+    {
+      "name": "L screw 2 has a distinct full-major shaft envelope",
+      "pass": true,
+      "detail": [
+        -2.884999999999989,
+        12.800000000000011
+      ]
+    },
+    {
+      "name": "L screw 2 retains a finite 4 mm major shaft envelope",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2,
+        "z0": -2.884999999999989,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qa",
+          "vertices": [
+            "vb",
+            "vc",
+            "vd",
+            "ve"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231142,
+            "max": 2.0005617603279227
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231142,
+            "max": 2.0005617603279227
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L screw 2 retains its measured circular under-head bearing boundary",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 3.5,
+        "z0": 12.800000000000011,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796404816,
+            "max": 3.5009830805738336
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796404816,
+            "max": 3.5009830805738336
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00141,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L screw 2 seats on its washer with a measured 16 mm shaft and 4 mm head",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "L screw 2 has 9.2 mm nominal overlap and 4.8 mm modeled bottom gap",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "L screw 2 has positive bore, washer and 10 mm front driver-envelope clearances",
+      "pass": true,
+      "detail": {
+        "mateRadialMm": 0.24939316229812603,
+        "washerRadialMm": 0.14939516573692835,
+        "straightDriverApproachMm": 1.996348557868762,
+        "driverDiameterMm": 10,
+        "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+      }
+    },
+    {
+      "name": "L screw 3 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L screw 3 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 132,
+        "edges": 390,
+        "faces": 260,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "L washer 3 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "L washer 3 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 96,
+        "edges": 288,
+        "faces": 192,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "L blind M4 major envelope 3 spans -8 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2,
+        "z0": -8,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "tap2a",
+          "vertices": [
+            "tap2av0",
+            "tap2av1",
+            "tap2av2",
+            "tap2av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.999959931223152,
+            "max": 2.0005617603278876
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "tap2b",
+          "vertices": [
+            "tap2bv0",
+            "tap2bv1",
+            "tap2bv2",
+            "tap2bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.999959931223152,
+            "max": 2.0005617603278876
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L mating clearance bore 3 is 4.5 mm through the plate",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2.25,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "bolt2a",
+          "vertices": [
+            "bolt2av0",
+            "bolt2av1",
+            "bolt2av2",
+            "bolt2av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.249954922626045,
+            "max": 2.250631980368874
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "bolt2b",
+          "vertices": [
+            "bolt2bv0",
+            "bolt2bv1",
+            "bolt2bv2",
+            "bolt2bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.249954922626045,
+            "max": 2.250631980368874
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0009100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L washer 3 has a finite 4.3 mm clearance bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2.15,
+        "z0": 12,
+        "z1": 12.8,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.1499569260648546,
+            "max": 2.1506038923525104
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q10",
+          "vertices": [
+            "v11",
+            "v12",
+            "v13",
+            "v14"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.1499569260648546,
+            "max": 2.1506038923525104
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00087,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L standard screw 3 retains its measured head and 16 mm under-head length",
+      "pass": true,
+      "detail": {
+        "min": [
+          -13.5,
+          -20.820508075688736,
+          -3.1999999999999886
+        ],
+        "max": [
+          -6.5,
+          -13.820508075688736,
+          16.80000000000001
+        ],
+        "size": [
+          7,
+          7,
+          20
+        ]
+      }
+    },
+    {
+      "name": "L washer 3 seats from 12 to 12.8 mm",
+      "pass": true,
+      "detail": {
+        "min": [
+          -14.5,
+          -21.820508075688736,
+          12
+        ],
+        "max": [
+          -5.5,
+          -12.820508075688736,
+          12.800000011920929
+        ],
+        "size": [
+          9,
+          9,
+          0.800000011920929
+        ]
+      }
+    },
+    {
+      "name": "L screw 3 has a distinct full-major shaft envelope",
+      "pass": true,
+      "detail": [
+        -2.884999999999989,
+        12.800000000000011
+      ]
+    },
+    {
+      "name": "L screw 3 retains a finite 4 mm major shaft envelope",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2,
+        "z0": -2.884999999999989,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qa",
+          "vertices": [
+            "vb",
+            "vc",
+            "vd",
+            "ve"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231178,
+            "max": 2.0005617603279213
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231178,
+            "max": 2.0005617603279213
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L screw 3 retains its measured circular under-head bearing boundary",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 3.5,
+        "z0": 12.800000000000011,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.499929879640485,
+            "max": 3.5009830805738322
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.499929879640485,
+            "max": 3.5009830805738322
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00141,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "L screw 3 seats on its washer with a measured 16 mm shaft and 4 mm head",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "L screw 3 has 9.2 mm nominal overlap and 4.8 mm modeled bottom gap",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "L screw 3 has positive bore, washer and 10 mm front driver-envelope clearances",
+      "pass": true,
+      "detail": {
+        "mateRadialMm": 0.2493931622981238,
+        "washerRadialMm": 0.14939516573693323,
+        "straightDriverApproachMm": 1.996348557868762,
+        "driverDiameterMm": 10,
+        "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+      }
+    },
+    {
+      "name": "L other screw heads leave 10 mm straight front driver approaches clear",
+      "pass": true,
+      "detail": {
+        "conservativeOtherHeadApproachGapMm": 26.14003307080364,
+        "driverDiameterMm": 10
+      }
+    },
+    {
+      "name": "R integral hub has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R integral hub is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 512,
+        "edges": 1536,
+        "faces": 1024,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R integral guide has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R integral guide is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 548,
+        "edges": 1668,
+        "faces": 1112,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": -8,
+        "genus": 5,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R locating pin has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R locating pin is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 48,
+        "edges": 138,
+        "faces": 92,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R hub and guide are each one authored source surface",
+      "pass": true
+    },
+    {
+      "name": "R hub retains 60 mm flange and -34 to 9 mm axial envelope",
+      "pass": true,
+      "detail": {
+        "min": [
+          -30,
+          -30,
+          -34
+        ],
+        "max": [
+          30,
+          30,
+          9
+        ],
+        "size": [
+          60,
+          60,
+          43
+        ]
+      }
+    },
+    {
+      "name": "R guide is one 6 to 36 mm axial part with 60 mm flange",
+      "pass": true,
+      "detail": {
+        "min": [
+          -30,
+          -30,
+          6
+        ],
+        "max": [
+          30,
+          30,
+          36
+        ],
+        "size": [
+          60,
+          60,
+          30
+        ]
+      }
+    },
+    {
+      "name": "R hub barrel retains its 58 mm diameter from -34 to 0 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 29,
+        "z0": -34,
+        "z1": 0,
+        "bottom": {
+          "matches": 1,
+          "sequence": "huba",
+          "vertices": [
+            "hubav0",
+            "hubav1",
+            "hubav2",
+            "hubav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 28.999419002735745,
+            "max": 29.0081455247543
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "hubb",
+          "vertices": [
+            "hubbv0",
+            "hubbv1",
+            "hubbv2",
+            "hubbv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 28.999419002735745,
+            "max": 29.0081455247543
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.01161,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R integral hub flange retains 60 mm diameter from 0 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 30,
+        "z0": 0,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "facea",
+          "vertices": [
+            "faceav0",
+            "faceav1",
+            "faceav2",
+            "faceav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "faceb",
+          "vertices": [
+            "facebv0",
+            "facebv1",
+            "facebv2",
+            "facebv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.01201,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R guide flange retains 60 mm diameter from 6 to 12 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 30,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "facea",
+          "vertices": [
+            "faceav0",
+            "faceav1",
+            "faceav2",
+            "faceav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "faceb",
+          "vertices": [
+            "facebv0",
+            "facebv1",
+            "facebv2",
+            "facebv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 29.99939896834732,
+            "max": 30.008426404918247
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.01201,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R integral locating register is an 8-arc finite source wall",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 10,
+        "z0": 6,
+        "z1": 9,
+        "bottom": {
+          "matches": 1,
+          "sequence": "pilota",
+          "vertices": [
+            "pilotav0",
+            "pilotav1",
+            "pilotav2",
+            "pilotav3",
+            "pilotav4",
+            "pilotav5",
+            "pilotav6",
+            "pilotav7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "pilotb",
+          "vertices": [
+            "pilotbv0",
+            "pilotbv1",
+            "pilotbv2",
+            "pilotbv3",
+            "pilotbv4",
+            "pilotbv5",
+            "pilotbv6",
+            "pilotbv7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R mating locating bore meets 0.1 micrometre source-radius bound",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 10,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "borea",
+          "vertices": [
+            "boreav0",
+            "boreav1",
+            "boreav2",
+            "boreav3",
+            "boreav4",
+            "boreav5",
+            "boreav6",
+            "boreav7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "boreb",
+          "vertices": [
+            "borebv0",
+            "borebv1",
+            "borebv2",
+            "borebv3",
+            "borebv4",
+            "borebv5",
+            "borebv6",
+            "borebv7"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 9.99999699046343,
+            "max": 10.000043762803061
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R locating boundaries use eight economical arcs",
+      "pass": true
+    },
+    {
+      "name": "R zero-clearance locating source boundaries are congruent and coaxial",
+      "pass": true,
+      "detail": {
+        "nominalDiameterClearanceMm": 0,
+        "sourceRadiusErrorBoundMm": 0.0001,
+        "fitQualified": false
+      }
+    },
+    {
+      "name": "R hub retains a continuous 12 mm service bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 6,
+        "z0": -34,
+        "z1": 9,
+        "bottom": {
+          "matches": 1,
+          "sequence": "passa",
+          "vertices": [
+            "passav0",
+            "passav1",
+            "passav2",
+            "passav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 5.999879793669463,
+            "max": 6.00168528098365
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "passb",
+          "vertices": [
+            "passbv0",
+            "passbv1",
+            "passbv2",
+            "passbv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 5.999879793669463,
+            "max": 6.00168528098365
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0024100000000000002,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R integral guide retains connected inner and outer taper and entry walls",
+      "pass": true,
+      "detail": [
+        {
+          "pass": true,
+          "r0": 13,
+          "r1": 9,
+          "z0": 12,
+          "z1": 35.5,
+          "bottom": {
+            "matches": 1,
+            "sequence": "guidea",
+            "vertices": [
+              "guideav0",
+              "guideav1",
+              "guideav2",
+              "guideav3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 12.999739552950505,
+              "max": 13.003651442131238
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "guideb",
+            "vertices": [
+              "guidebv0",
+              "guidebv1",
+              "guidebv2",
+              "guidebv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 8.999819690504195,
+              "max": 9.00252792147547
+            },
+            "pass": true
+          },
+          "missing": []
+        },
+        {
+          "pass": true,
+          "r0": 10,
+          "r1": 6,
+          "z0": 12,
+          "z1": 35.5,
+          "bottom": {
+            "matches": 1,
+            "sequence": "boreb",
+            "vertices": [
+              "borebv0",
+              "borebv1",
+              "borebv2",
+              "borebv3",
+              "borebv4",
+              "borebv5",
+              "borebv6",
+              "borebv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99995186562711,
+              "max": 10.000063369703351
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "throat",
+            "vertices": [
+              "throatv0",
+              "throatv1",
+              "throatv2",
+              "throatv3",
+              "throatv4",
+              "throatv5",
+              "throatv6",
+              "throatv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999971119376266,
+              "max": 6.000038021822011
+            },
+            "pass": true
+          },
+          "missing": []
+        },
+        {
+          "pass": true,
+          "r0": 9,
+          "r1": 8.5,
+          "z0": 35.5,
+          "z1": 36,
+          "bottom": {
+            "matches": 1,
+            "sequence": "guideb",
+            "vertices": [
+              "guidebv0",
+              "guidebv1",
+              "guidebv2",
+              "guidebv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 8.999819690504195,
+              "max": 9.00252792147547
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "lipOut",
+            "vertices": [
+              "lipOutv0",
+              "lipOutv1",
+              "lipOutv2",
+              "lipOutv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 8.499829707698407,
+              "max": 8.502387481393503
+            },
+            "pass": true
+          },
+          "missing": []
+        },
+        {
+          "pass": true,
+          "r0": 6,
+          "r1": 6.5,
+          "z0": 35.5,
+          "z1": 36,
+          "bottom": {
+            "matches": 1,
+            "sequence": "throat",
+            "vertices": [
+              "throatv0",
+              "throatv1",
+              "throatv2",
+              "throatv3",
+              "throatv4",
+              "throatv5",
+              "throatv6",
+              "throatv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999971119376266,
+              "max": 6.000038021822011
+            },
+            "pass": true
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "lipIn",
+            "vertices": [
+              "lipInv0",
+              "lipInv1",
+              "lipInv2",
+              "lipInv3",
+              "lipInv4",
+              "lipInv5",
+              "lipInv6",
+              "lipInv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 6.499968712657622,
+              "max": 6.5000411903071775
+            },
+            "pass": true
+          },
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "R guide retains at least 1.99 mm source radial wall through its mouth",
+      "pass": true,
+      "detail": {
+        "sourceMinimumRadialWallMm": 1.999788517391229,
+        "strengthQualified": false
+      }
+    },
+    {
+      "name": "R pin blind seat is finite from -1 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          8.5,
+          14.722431864335457
+        ],
+        "radius": 1.5,
+        "z0": -1,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "pina",
+          "vertices": [
+            "pinav0",
+            "pinav1",
+            "pinav2",
+            "pinav3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173634,
+            "max": 1.500421320245913
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "pinb",
+          "vertices": [
+            "pinbv0",
+            "pinbv1",
+            "pinbv2",
+            "pinbv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173634,
+            "max": 1.500421320245913
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0006100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R installed 3 by 10 mm pin has its measured -1 to 9 mm axis",
+      "pass": true,
+      "detail": {
+        "center": [
+          8.5,
+          14.722431864335457
+        ],
+        "radius": 1.5,
+        "z0": -1,
+        "z1": 9,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q1",
+          "vertices": [
+            "v2",
+            "v3",
+            "v4",
+            "v5"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173457,
+            "max": 1.5004213202459324
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qe",
+          "vertices": [
+            "va",
+            "vb",
+            "vc",
+            "vd"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.4999699484173457,
+            "max": 1.5004213202459324
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0006100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R radial pin slot retains its 5 by 3.2 mm capsule on both faces",
+      "pass": true,
+      "detail": [
+        {
+          "pass": true,
+          "sequence": "slota",
+          "vertices": [
+            "slotav0",
+            "slotav1",
+            "slotav2",
+            "slotav3",
+            "slotav4",
+            "slotav5"
+          ],
+          "matches": 1,
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "angle": 1.0471975511965976,
+          "length": 5,
+          "width": 3.2,
+          "z": 6,
+          "lines": [
+            "slotas0",
+            "slotas3"
+          ],
+          "arcs": [
+            {
+              "id": "slotas1",
+              "sign": 1,
+              "bounds": {
+                "min": 1.599967944978524,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotas2",
+              "sign": 1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623062
+              }
+            },
+            {
+              "id": "slotas4",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotas5",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785242,
+                "max": 1.6004494082623073
+              }
+            }
+          ],
+          "invalid": [],
+          "radialBounds": {
+            "min": 14.499999999999998,
+            "max": 19.50000122202899
+          },
+          "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+        },
+        {
+          "pass": true,
+          "sequence": "slotb",
+          "vertices": [
+            "slotbv0",
+            "slotbv1",
+            "slotbv2",
+            "slotbv3",
+            "slotbv4",
+            "slotbv5"
+          ],
+          "matches": 1,
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "angle": 1.0471975511965976,
+          "length": 5,
+          "width": 3.2,
+          "z": 12,
+          "lines": [
+            "slotbs0",
+            "slotbs3"
+          ],
+          "arcs": [
+            {
+              "id": "slotbs1",
+              "sign": 1,
+              "bounds": {
+                "min": 1.599967944978524,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotbs2",
+              "sign": 1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623062
+              }
+            },
+            {
+              "id": "slotbs4",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623069
+              }
+            },
+            {
+              "id": "slotbs5",
+              "sign": -1,
+              "bounds": {
+                "min": 1.5999679449785242,
+                "max": 1.6004494082623073
+              }
+            }
+          ],
+          "invalid": [],
+          "radialBounds": {
+            "min": 14.499999999999998,
+            "max": 19.50000122202899
+          },
+          "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+        }
+      ]
+    },
+    {
+      "name": "R radial slot has straight continuous source walls through the 6 mm plate",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R nominal pin has positive side clearance in the radial slot",
+      "pass": true,
+      "detail": {
+        "minimumSourceRadialClearanceMm": 0.0995466247325909,
+        "nominalMm": 0.1,
+        "engagementMm": 3,
+        "fitQualified": false
+      }
+    },
+    {
+      "name": "R slot has at least 1.49 mm nominal ligament beyond guide root",
+      "pass": true,
+      "detail": {
+        "conservativeSourceLigamentMm": 1.4963485578687603,
+        "guideRootEnvelopeRadiusMm": 13.003651442131238,
+        "strengthQualified": false
+      }
+    },
+    {
+      "name": "R screw 1 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R screw 1 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 132,
+        "edges": 390,
+        "faces": 260,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R washer 1 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R washer 1 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 96,
+        "edges": 288,
+        "faces": 192,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R blind M4 major envelope 1 spans -8 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2,
+        "z0": -8,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "tap0a",
+          "vertices": [
+            "tap0av0",
+            "tap0av1",
+            "tap0av2",
+            "tap0av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.0005617603278814
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "tap0b",
+          "vertices": [
+            "tap0bv0",
+            "tap0bv1",
+            "tap0bv2",
+            "tap0bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.0005617603278814
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R mating clearance bore 1 is 4.5 mm through the plate",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2.25,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "bolt0a",
+          "vertices": [
+            "bolt0av0",
+            "bolt0av1",
+            "bolt0av2",
+            "bolt0av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.250631980368869
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "bolt0b",
+          "vertices": [
+            "bolt0bv0",
+            "bolt0bv1",
+            "bolt0bv2",
+            "bolt0bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.250631980368869
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0009100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R washer 1 has a finite 4.3 mm clearance bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2.15,
+        "z0": 12,
+        "z1": 12.8,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.14995692606489,
+            "max": 2.150603892352473
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q10",
+          "vertices": [
+            "v11",
+            "v12",
+            "v13",
+            "v14"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.14995692606489,
+            "max": 2.150603892352473
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00087,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R standard screw 1 retains its measured head and 16 mm under-head length",
+      "pass": true,
+      "detail": {
+        "min": [
+          16.5,
+          -3.5,
+          -3.1999999999999886
+        ],
+        "max": [
+          23.5,
+          3.5000000000000004,
+          16.80000000000001
+        ],
+        "size": [
+          7,
+          7,
+          20
+        ]
+      }
+    },
+    {
+      "name": "R washer 1 seats from 12 to 12.8 mm",
+      "pass": true,
+      "detail": {
+        "min": [
+          15.5,
+          -4.5,
+          12
+        ],
+        "max": [
+          24.5,
+          4.5,
+          12.800000011920929
+        ],
+        "size": [
+          9,
+          9,
+          0.800000011920929
+        ]
+      }
+    },
+    {
+      "name": "R screw 1 has a distinct full-major shaft envelope",
+      "pass": true,
+      "detail": [
+        -2.884999999999989,
+        12.800000000000011
+      ]
+    },
+    {
+      "name": "R screw 1 retains a finite 4 mm major shaft envelope",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 2,
+        "z0": -2.884999999999989,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qa",
+          "vertices": [
+            "vb",
+            "vc",
+            "vd",
+            "ve"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.000561760327882
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231533,
+            "max": 2.0005617603278814
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R screw 1 retains its measured circular under-head bearing boundary",
+      "pass": true,
+      "detail": {
+        "center": [
+          20,
+          0
+        ],
+        "radius": 3.5,
+        "z0": 12.800000000000011,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796405203,
+            "max": 3.500983080573798
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796405203,
+            "max": 3.500983080573798
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00141,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R screw 1 seats on its washer with a measured 16 mm shaft and 4 mm head",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "R screw 1 has 9.2 mm nominal overlap and 4.8 mm modeled bottom gap",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "R screw 1 has positive bore, washer and 10 mm front driver-envelope clearances",
+      "pass": true,
+      "detail": {
+        "mateRadialMm": 0.24939316229816688,
+        "washerRadialMm": 0.14939516573700828,
+        "straightDriverApproachMm": 1.996348557868762,
+        "driverDiameterMm": 10,
+        "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+      }
+    },
+    {
+      "name": "R screw 2 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R screw 2 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 132,
+        "edges": 390,
+        "faces": 260,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R washer 2 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R washer 2 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 96,
+        "edges": 288,
+        "faces": 192,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R blind M4 major envelope 2 spans -8 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2,
+        "z0": -8,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "tap1a",
+          "vertices": [
+            "tap1av0",
+            "tap1av1",
+            "tap1av2",
+            "tap1av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231542,
+            "max": 2.0005617603278845
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "tap1b",
+          "vertices": [
+            "tap1bv0",
+            "tap1bv1",
+            "tap1bv2",
+            "tap1bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231542,
+            "max": 2.0005617603278845
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R mating clearance bore 2 is 4.5 mm through the plate",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2.25,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "bolt1a",
+          "vertices": [
+            "bolt1av0",
+            "bolt1av1",
+            "bolt1av2",
+            "bolt1av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "bolt1b",
+          "vertices": [
+            "bolt1bv0",
+            "bolt1bv1",
+            "bolt1bv2",
+            "bolt1bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0009100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R washer 2 has a finite 4.3 mm clearance bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2.15,
+        "z0": 12,
+        "z1": 12.8,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.149956926064851,
+            "max": 2.1506038923525113
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q10",
+          "vertices": [
+            "v11",
+            "v12",
+            "v13",
+            "v14"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.149956926064851,
+            "max": 2.1506038923525113
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00087,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R standard screw 2 retains its measured head and 16 mm under-head length",
+      "pass": true,
+      "detail": {
+        "min": [
+          -13.5,
+          13.820508075688736,
+          -3.1999999999999886
+        ],
+        "max": [
+          -6.5,
+          20.820508075688736,
+          16.80000000000001
+        ],
+        "size": [
+          7,
+          7,
+          20
+        ]
+      }
+    },
+    {
+      "name": "R washer 2 seats from 12 to 12.8 mm",
+      "pass": true,
+      "detail": {
+        "min": [
+          -14.5,
+          12.820508075688736,
+          12
+        ],
+        "max": [
+          -5.5,
+          21.820508075688736,
+          12.800000011920929
+        ],
+        "size": [
+          9,
+          9,
+          0.800000011920929
+        ]
+      }
+    },
+    {
+      "name": "R screw 2 has a distinct full-major shaft envelope",
+      "pass": true,
+      "detail": [
+        -2.884999999999989,
+        12.800000000000011
+      ]
+    },
+    {
+      "name": "R screw 2 retains a finite 4 mm major shaft envelope",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 2,
+        "z0": -2.884999999999989,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qa",
+          "vertices": [
+            "vb",
+            "vc",
+            "vd",
+            "ve"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231142,
+            "max": 2.0005617603279227
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231142,
+            "max": 2.0005617603279227
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R screw 2 retains its measured circular under-head bearing boundary",
+      "pass": true,
+      "detail": {
+        "center": [
+          -9.999999999999996,
+          17.320508075688775
+        ],
+        "radius": 3.5,
+        "z0": 12.800000000000011,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796404816,
+            "max": 3.5009830805738336
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.4999298796404816,
+            "max": 3.5009830805738336
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00141,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R screw 2 seats on its washer with a measured 16 mm shaft and 4 mm head",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "R screw 2 has 9.2 mm nominal overlap and 4.8 mm modeled bottom gap",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "R screw 2 has positive bore, washer and 10 mm front driver-envelope clearances",
+      "pass": true,
+      "detail": {
+        "mateRadialMm": 0.24939316229812603,
+        "washerRadialMm": 0.14939516573692835,
+        "straightDriverApproachMm": 1.996348557868762,
+        "driverDiameterMm": 10,
+        "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+      }
+    },
+    {
+      "name": "R screw 3 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R screw 3 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 132,
+        "edges": 390,
+        "faces": 260,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 2,
+        "genus": 0,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R washer 3 has finite positions and valid evaluated indices",
+      "pass": true
+    },
+    {
+      "name": "R washer 3 is a finite closed orientable evaluated surface",
+      "pass": true,
+      "detail": {
+        "vertices": 96,
+        "edges": 288,
+        "faces": 192,
+        "components": 1,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "degenerate": 0,
+        "invalidVertexLinks": 0,
+        "euler": 0,
+        "genus": 1,
+        "zeroAreaFaces": []
+      }
+    },
+    {
+      "name": "R blind M4 major envelope 3 spans -8 to 6 mm",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2,
+        "z0": -8,
+        "z1": 6,
+        "bottom": {
+          "matches": 1,
+          "sequence": "tap2a",
+          "vertices": [
+            "tap2av0",
+            "tap2av1",
+            "tap2av2",
+            "tap2av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.999959931223152,
+            "max": 2.0005617603278876
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "tap2b",
+          "vertices": [
+            "tap2bv0",
+            "tap2bv1",
+            "tap2bv2",
+            "tap2bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.999959931223152,
+            "max": 2.0005617603278876
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R mating clearance bore 3 is 4.5 mm through the plate",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2.25,
+        "z0": 6,
+        "z1": 12,
+        "bottom": {
+          "matches": 1,
+          "sequence": "bolt2a",
+          "vertices": [
+            "bolt2av0",
+            "bolt2av1",
+            "bolt2av2",
+            "bolt2av3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.249954922626045,
+            "max": 2.250631980368874
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "bolt2b",
+          "vertices": [
+            "bolt2bv0",
+            "bolt2bv1",
+            "bolt2bv2",
+            "bolt2bv3"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.249954922626045,
+            "max": 2.250631980368874
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0009100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R washer 3 has a finite 4.3 mm clearance bore",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2.15,
+        "z0": 12,
+        "z1": 12.8,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.1499569260648546,
+            "max": 2.1506038923525104
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q10",
+          "vertices": [
+            "v11",
+            "v12",
+            "v13",
+            "v14"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 2.1499569260648546,
+            "max": 2.1506038923525104
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00087,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R standard screw 3 retains its measured head and 16 mm under-head length",
+      "pass": true,
+      "detail": {
+        "min": [
+          -13.5,
+          -20.820508075688736,
+          -3.1999999999999886
+        ],
+        "max": [
+          -6.5,
+          -13.820508075688736,
+          16.80000000000001
+        ],
+        "size": [
+          7,
+          7,
+          20
+        ]
+      }
+    },
+    {
+      "name": "R washer 3 seats from 12 to 12.8 mm",
+      "pass": true,
+      "detail": {
+        "min": [
+          -14.5,
+          -21.820508075688736,
+          12
+        ],
+        "max": [
+          -5.5,
+          -12.820508075688736,
+          12.800000011920929
+        ],
+        "size": [
+          9,
+          9,
+          0.800000011920929
+        ]
+      }
+    },
+    {
+      "name": "R screw 3 has a distinct full-major shaft envelope",
+      "pass": true,
+      "detail": [
+        -2.884999999999989,
+        12.800000000000011
+      ]
+    },
+    {
+      "name": "R screw 3 retains a finite 4 mm major shaft envelope",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 2,
+        "z0": -2.884999999999989,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "qa",
+          "vertices": [
+            "vb",
+            "vc",
+            "vd",
+            "ve"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231178,
+            "max": 2.0005617603279213
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "qr",
+          "vertices": [
+            "vs",
+            "vt",
+            "vu",
+            "vv"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 1.9999599312231178,
+            "max": 2.0005617603279213
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.0008100000000000001,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R screw 3 retains its measured circular under-head bearing boundary",
+      "pass": true,
+      "detail": {
+        "center": [
+          -10.000000000000009,
+          -17.32050807568877
+        ],
+        "radius": 3.5,
+        "z0": 12.800000000000011,
+        "z1": 12.800000000000011,
+        "bottom": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.499929879640485,
+            "max": 3.5009830805738322
+          }
+        },
+        "top": {
+          "matches": 1,
+          "sequence": "q18",
+          "vertices": [
+            "v19",
+            "v1a",
+            "v1b",
+            "v1c"
+          ],
+          "closed": true,
+          "radiusBounds": {
+            "min": 3.499929879640485,
+            "max": 3.5009830805738322
+          }
+        },
+        "axialGaps": [],
+        "pass": true,
+        "tolerance": 0.00141,
+        "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+      }
+    },
+    {
+      "name": "R screw 3 seats on its washer with a measured 16 mm shaft and 4 mm head",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "R screw 3 has 9.2 mm nominal overlap and 4.8 mm modeled bottom gap",
+      "pass": true,
+      "detail": {
+        "underHeadMm": 12.800000000000011,
+        "measuredTipMm": -3.1999999999999886,
+        "measuredUnderHeadLengthMm": 16,
+        "measuredHeadHeightMm": 4,
+        "washerHeadSourceGapMm": 1.0658141036401503e-14,
+        "nominalOverlapMm": 9.199999999999989,
+        "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+        "blindEnvelopeBottomGapMm": 4.800000000000011,
+        "candidateFullThreadEndGapMm": 2.8000000000000114,
+        "threadQualified": false
+      }
+    },
+    {
+      "name": "R screw 3 has positive bore, washer and 10 mm front driver-envelope clearances",
+      "pass": true,
+      "detail": {
+        "mateRadialMm": 0.2493931622981238,
+        "washerRadialMm": 0.14939516573693323,
+        "straightDriverApproachMm": 1.996348557868762,
+        "driverDiameterMm": 10,
+        "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+      }
+    },
+    {
+      "name": "R other screw heads leave 10 mm straight front driver approaches clear",
+      "pass": true,
+      "detail": {
+        "conservativeOtherHeadApproachGapMm": 26.14003307080364,
+        "driverDiameterMm": 10
       }
     },
     {
@@ -347,40 +4186,6 @@
       }
     },
     {
-      "name": "L wrist has the shared mating plate at 6 mm and tool at 12 mm",
-      "pass": true,
-      "detail": {
-        "mate": [
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          6
-        ],
-        "tool": [
-          1,
-          0,
-          0,
-          0,
-          6.123233995736766e-17,
-          1,
-          0,
-          -1,
-          6.123233995736766e-17,
-          0,
-          0,
-          12
-        ]
-      }
-    },
-    {
       "name": "R arm retains 270 mm upper and 250 mm forearm joint offsets",
       "pass": true,
       "detail": {
@@ -389,46 +4194,16 @@
       }
     },
     {
-      "name": "R wrist has the shared mating plate at 6 mm and tool at 12 mm",
-      "pass": true,
-      "detail": {
-        "mate": [
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          6
-        ],
-        "tool": [
-          1,
-          0,
-          0,
-          0,
-          6.123233995736766e-17,
-          1,
-          0,
-          -1,
-          6.123233995736766e-17,
-          0,
-          0,
-          12
-        ]
-      }
-    },
-    {
       "name": "Seek native reach pose completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 79.70730000000003,
+        "ms": 91.32680000000073,
         "budgetMs": 3000
       }
+    },
+    {
+      "name": "Reach study keeps both tool interfaces assembled",
+      "pass": true
     },
     {
       "name": "Reach pose changes every intended joint world frame",
@@ -463,7 +4238,7 @@
       "pass": true
     },
     {
-      "name": "Eight individual joint controls mount",
+      "name": "Eight individually named joint controls mount",
       "pass": true
     },
     {
@@ -499,11 +4274,39 @@
       "pass": true
     },
     {
+      "name": "L exploded view moves fasteners 110 mm and guide 60 mm on the actual interface axis",
+      "pass": true
+    },
+    {
+      "name": "L exploded view keeps the integral hub and locating pin fixed",
+      "pass": true
+    },
+    {
+      "name": "L exploded geometry has the guide at 66 to 96 mm and screw tip beyond 106 mm",
+      "pass": true
+    },
+    {
+      "name": "R exploded view moves fasteners 110 mm and guide 60 mm on the actual interface axis",
+      "pass": true
+    },
+    {
+      "name": "R exploded view keeps the integral hub and locating pin fixed",
+      "pass": true
+    },
+    {
+      "name": "R exploded geometry has the guide at 66 to 96 mm and screw tip beyond 106 mm",
+      "pass": true
+    },
+    {
+      "name": "Exploded inspection first separates screws while the guides remain seated",
+      "pass": true
+    },
+    {
       "name": "Control Pause stops timeline advancement",
       "pass": true,
       "detail": {
-        "paused": 8,
-        "after": 8
+        "paused": 12,
+        "after": 12
       }
     },
     {
@@ -519,10 +4322,14 @@
       }
     },
     {
+      "name": "Home restores original assembly frames within numeric roundoff",
+      "pass": true
+    },
+    {
       "name": "Export round-trip HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 137.8672000000006,
+        "ms": 222.09619999999995,
         "budgetMs": 15000
       }
     },
@@ -530,9 +4337,13 @@
       "name": "Reopen round-trip HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 356.71599999999944,
+        "ms": 599.7583999999988,
         "budgetMs": 15000
       }
+    },
+    {
+      "name": "HASH round-trip exactly preserves immediate primitive/generator parameters and assembly frames",
+      "pass": true
     },
     {
       "name": "HASH round-trip preserves exact editable source cages",
@@ -554,7 +4365,7 @@
       "name": "Collect six fresh rendered frames completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 101.03119999999944,
+        "ms": 117.34670000000006,
         "budgetMs": 15000
       }
     },
@@ -563,34 +4374,34 @@
       "pass": true,
       "detail": [
         {
-          "id": 75,
-          "gpuMs": 0.638816,
+          "id": 111,
+          "gpuMs": 0.665632,
+          "cpuMs": 1.399999976158142
+        },
+        {
+          "id": 112,
+          "gpuMs": 0.65536,
+          "cpuMs": 1.5
+        },
+        {
+          "id": 113,
+          "gpuMs": 2.504704,
+          "cpuMs": 1.5
+        },
+        {
+          "id": 114,
+          "gpuMs": 2.484192,
           "cpuMs": 1.3000000715255737
         },
         {
-          "id": 76,
-          "gpuMs": 0.641056,
-          "cpuMs": 1.2000000476837158
+          "id": 115,
+          "gpuMs": 2.490368,
+          "cpuMs": 1.399999976158142
         },
         {
-          "id": 77,
-          "gpuMs": 0.61872,
-          "cpuMs": 1.2999999523162842
-        },
-        {
-          "id": 78,
-          "gpuMs": 0.64304,
-          "cpuMs": 1.100000023841858
-        },
-        {
-          "id": 79,
-          "gpuMs": 0.694016,
-          "cpuMs": 1.7000000476837158
-        },
-        {
-          "id": 80,
-          "gpuMs": 0.622176,
-          "cpuMs": 1.5999999046325684
+          "id": 116,
+          "gpuMs": 2.490688,
+          "cpuMs": 1.4000000953674316
         }
       ]
     },
@@ -600,34 +4411,34 @@
       "detail": {
         "frames": [
           {
-            "id": 75,
-            "gpuMs": 0.638816,
+            "id": 111,
+            "gpuMs": 0.665632,
+            "cpuMs": 1.399999976158142
+          },
+          {
+            "id": 112,
+            "gpuMs": 0.65536,
+            "cpuMs": 1.5
+          },
+          {
+            "id": 113,
+            "gpuMs": 2.504704,
+            "cpuMs": 1.5
+          },
+          {
+            "id": 114,
+            "gpuMs": 2.484192,
             "cpuMs": 1.3000000715255737
           },
           {
-            "id": 76,
-            "gpuMs": 0.641056,
-            "cpuMs": 1.2000000476837158
+            "id": 115,
+            "gpuMs": 2.490368,
+            "cpuMs": 1.399999976158142
           },
           {
-            "id": 77,
-            "gpuMs": 0.61872,
-            "cpuMs": 1.2999999523162842
-          },
-          {
-            "id": 78,
-            "gpuMs": 0.64304,
-            "cpuMs": 1.100000023841858
-          },
-          {
-            "id": 79,
-            "gpuMs": 0.694016,
-            "cpuMs": 1.7000000476837158
-          },
-          {
-            "id": 80,
-            "gpuMs": 0.622176,
-            "cpuMs": 1.5999999046325684
+            "id": 116,
+            "gpuMs": 2.490688,
+            "cpuMs": 1.4000000953674316
           }
         ],
         "width": 1024,
@@ -667,32 +4478,57 @@
     {
       "name": "Verification source files remain unchanged during this run",
       "pass": true
+    },
+    {
+      "name": "Canonical HASH is unchanged or already equals this verified candidate",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "exists": true,
+          "bytes": 61667,
+          "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+        },
+        "current": {
+          "exists": true,
+          "bytes": 61667,
+          "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+        },
+        "alreadyPublished": false
+      }
+    },
+    {
+      "name": "Candidate bytes still match the fully verified file",
+      "pass": true
+    },
+    {
+      "name": "Canonical HASH remains unchanged at publication boundary",
+      "pass": true
     }
   ],
   "timings": [
     {
       "name": "Open Neira HASH",
-      "ms": 591.9245999999998,
+      "ms": 699.4530999999997,
       "budgetMs": 15000
     },
     {
       "name": "Seek native reach pose",
-      "ms": 79.70730000000003,
+      "ms": 91.32680000000073,
       "budgetMs": 3000
     },
     {
       "name": "Export round-trip HASH",
-      "ms": 137.8672000000006,
+      "ms": 222.09619999999995,
       "budgetMs": 15000
     },
     {
       "name": "Reopen round-trip HASH",
-      "ms": 356.71599999999944,
+      "ms": 599.7583999999988,
       "budgetMs": 15000
     },
     {
       "name": "Collect six fresh rendered frames",
-      "ms": 101.03119999999944,
+      "ms": 117.34670000000006,
       "budgetMs": 15000
     }
   ],
@@ -700,20 +4536,22 @@
   "consoleErrors": [],
   "pluginRuntimeRequests": [],
   "sources": {
-    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
-    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
+    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
-    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
-    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
-    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
-    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
+    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
+    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
+    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
+    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
   },
   "file": {
     "name": "neira.hash",
-    "bytes": 47410,
-    "sha256": "a118773887e4591e2c41c27a5feeded8406fb6476e83d5b1190e6cc6d8fe9924"
+    "bytes": 62654,
+    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b"
   },
+  "input": "work/candidate/neira.hash",
   "hardware": {
     "vendor": "nvidia",
     "architecture": "turing",
@@ -724,25 +4562,25 @@
     "timestampQueries": true
   },
   "scene": {
-    "objects": 75,
+    "objects": 90,
     "stats": {
       "vertexDisplay": {
         "objects": 0,
         "vertices": 0
       },
-      "meshes": 47,
-      "replicas": 14,
+      "meshes": 57,
+      "replicas": 24,
       "residentPositions": 33,
       "historyMeshes": 0,
       "independentPositions": 33,
       "independentIndices": 33,
-      "vertices": 4776,
-      "triangles": 9496,
+      "vertices": 6440,
+      "triangles": 12768,
       "workers": 1,
       "frame": {
         "id": 1,
-        "gpuMs": 0.050304,
-        "cpuMs": 4.600000023841858
+        "gpuMs": 0.049152,
+        "cpuMs": 4.400000095367432
       }
     }
   },
@@ -754,110 +4592,124 @@
     "generation": 1,
     "state": "running",
     "desired": true,
-    "signature": "bd9c988d:3015",
-    "startedAt": 2737.100000023842,
-    "updatedAt": 2737.100000023842,
+    "signature": "b7da8e3:3603",
+    "startedAt": 2931.399999976158,
+    "updatedAt": 2931.399999976158,
     "error": null,
     "reason": null
   },
   "cages": [
     {
-      "id": "99574c1a124987d9657609faebd0de03",
-      "type": "spline",
-      "sha256": "2a1b02dd253a303f051f9196cd5d571c416104b146e50e9fb256c59e52680eba",
-      "vertices": 48,
-      "segments": 72
-    },
-    {
-      "id": "be322df3d12a52e0dd866b99a1734bc9",
+      "id": "36731cc1f27dd94b157604b33a2e6a3a",
       "type": "spline_patch",
-      "sha256": "2a1b02dd253a303f051f9196cd5d571c416104b146e50e9fb256c59e52680eba",
-      "vertices": 48,
-      "segments": 72
+      "sha256": "a3e2f21d50368fe5d00fa5ab00c1d8348b52f45475943eadca9dd6b95a0dfbbd",
+      "vertices": 88,
+      "segments": 142
     },
     {
-      "id": "8bd50c8a7ec629f4eff164498cf3e1c6",
+      "id": "5a59334b5b25ab91edb808a70eed8214",
+      "type": "spline_patch",
+      "sha256": "d395a9fcee4fc460d682a177e7dee894d55306fac1cdf926650dd24bf14fc731",
+      "vertices": 72,
+      "segments": 108
+    },
+    {
+      "id": "594e0873326cdb5ef3e900e279a320a9",
       "type": "spline",
       "sha256": "1551c3f3c6a01995f27fe9f2d9f7b074d366b8b58fe5495366a3c2145d247076",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "c0a2c35b44102e57590ff3f836eabfd3",
+      "id": "53f4d934ec9b6dc8cc03e89102bd0bb0",
       "type": "spline",
       "sha256": "2d112e3973590fb657ee7ae1f46cfab40d15133ab015ef3813f0053d0b7c2aa5",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "3df8a15ce93b304c32e12b3c3216c45a",
+      "id": "c5b88e61b377f053c97db786e3623d10",
       "type": "spline",
       "sha256": "1551c3f3c6a01995f27fe9f2d9f7b074d366b8b58fe5495366a3c2145d247076",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "f3cdc1d4064e70233b33ef04247639c7",
+      "id": "559799332315cdc0e247dad199dd0003",
       "type": "spline",
       "sha256": "1bccca98f31f87be0d773f01b8625d97cae625ee6dd91b91c9eeebcf6485f9ac",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "8df016020645e21def448722427e194d",
+      "id": "d869df89fad513be5e2f6c2bb7c81903",
       "type": "spline",
       "sha256": "2356d5e6ef190f90da6d7e7c73d67a5dcfa70075c082189a223465de64e6c998",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "f1c84164a2abab5dd40a55d477bea886",
+      "id": "e33e181b0bfc95ba79c8efec903acc33",
       "type": "spline",
       "sha256": "d7764abcdffbaa58179450e8c9cd9bfe50e246ac2f18ca9f78b542b0717ef688",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "4e3c9a85db24945ea9fca5a6944dcdf4",
+      "id": "ae91349e3d3b69d86e0730d81827238f",
       "type": "spline",
       "sha256": "a11f671dd937ee6dc9e3d1db0758ad5524e36a455667f90995c90030a581051a",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "751593e44f0a62a207dc4eab5efe8be3",
+      "id": "db0a823b9d495ddd6edfaca315bf9f82",
       "type": "spline",
       "sha256": "a11f671dd937ee6dc9e3d1db0758ad5524e36a455667f90995c90030a581051a",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "7e61072fc11e396d96166bd20f3c9b43",
+      "id": "8f414de7aea89d49e545531bccbc3e8a",
       "type": "spline",
       "sha256": "f2bb030ac5a5f76d2102c0b363ee5c77b8025c7424bafe5f56827a5573a61c7b",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "544331adb4f65ca22a1fae6c23286c4e",
+      "id": "344604088512d4d972017aff275058a9",
       "type": "spline",
       "sha256": "203245b595361f17f89de2d9db328cecee0fefabbf5e31a51a99d1fde0964ad9",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "15adf17a3da0e693c5de2a45ff4486d7",
+      "id": "402ad6ebb9541c195b138ddaef9c8825",
       "type": "spline",
       "sha256": "a6bec4b00c1ae34960cf40e8c8f3457da4aca58505de675fcde2844d9abf7d06",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "16f56c848b04a720cf0f7ee690ad466f",
+      "id": "0083e7d825e292bee82792a307d5ff29",
       "type": "spline",
       "sha256": "ae4cffb5d62cb93186df4d0290e8f27f24e6c3e5ddba9bdb7e57e364081d9c7e",
       "vertices": 16,
       "segments": 16
+    },
+    {
+      "id": "2c1093c544e5535c542315bf7f7f4fc5",
+      "type": "spline",
+      "sha256": "d395a9fcee4fc460d682a177e7dee894d55306fac1cdf926650dd24bf14fc731",
+      "vertices": 72,
+      "segments": 108
+    },
+    {
+      "id": "51e42b90139e2106abcb21893c7d5740",
+      "type": "spline",
+      "sha256": "a3e2f21d50368fe5d00fa5ab00c1d8348b52f45475943eadca9dd6b95a0dfbbd",
+      "vertices": 88,
+      "segments": 142
     }
   ],
   "envelope": {
@@ -896,116 +4748,2235 @@
       ]
     }
   },
-  "toolPlate": {
-    "geometry": {
-      "vertices": 384,
-      "triangles": 784,
-      "storage": "buffer",
-      "generated": true,
-      "visible": true,
-      "bounds": {
-        "min": [
-          -290,
-          750,
-          250
-        ],
-        "max": [
-          -230,
-          810,
-          256
-        ]
+  "interfaces": [
+    {
+      "side": "L",
+      "hub": {
+        "id": "5a59334b5b25ab91edb808a70eed8214",
+        "source": "5a59334b5b25ab91edb808a70eed8214",
+        "bounds": {
+          "min": [
+            -30,
+            -30,
+            -34
+          ],
+          "max": [
+            30,
+            30,
+            9
+          ],
+          "size": [
+            60,
+            60,
+            43
+          ]
+        },
+        "cageBounds": {
+          "min": [
+            -30,
+            -30,
+            -34
+          ],
+          "max": [
+            30,
+            30,
+            9
+          ],
+          "size": [
+            60,
+            60,
+            43
+          ]
+        },
+        "topology": {
+          "vertices": 512,
+          "edges": 1536,
+          "faces": 1024,
+          "components": 1,
+          "boundary": 0,
+          "nonmanifold": 0,
+          "orientationWarnings": 0,
+          "degenerate": 0,
+          "invalidVertexLinks": 0,
+          "euler": 0,
+          "genus": 1
+        }
       },
-      "finite": true,
-      "indicesValid": true,
-      "signedVolume": 14660.439887704626,
-      "positionsSHA256": "a6dea57d0c9d5e21112f827b873fd25407cb619ed58eac4ce95aae6b6d24cb27",
-      "indicesSHA256": "410b99e5f0f6a33d25e7c0ffa9d1f44306b949d3b9bfd8fffeb2dfc20d5f602a"
-    },
-    "topology": {
-      "vertices": 384,
-      "edges": 1176,
-      "faces": 784,
-      "components": 1,
-      "boundary": 0,
-      "nonmanifold": 0,
-      "orientationWarnings": 0,
-      "degenerate": 0,
-      "invalidVertexLinks": 0,
-      "euler": -8,
-      "genus": 5
-    },
-    "bounds": {
-      "min": [
-        -30,
-        -30,
-        0
-      ],
-      "max": [
-        30,
-        30,
-        6
-      ],
-      "size": [
-        60,
-        60,
-        6
-      ]
-    },
-    "cage": {
-      "sha256": "2a1b02dd253a303f051f9196cd5d571c416104b146e50e9fb256c59e52680eba",
-      "bounds": {
-        "min": [
-          -30,
-          -30,
-          0
-        ],
-        "max": [
-          30,
-          30,
-          6
-        ],
-        "size": [
-          60,
-          60,
-          6
-        ]
+      "mate": {
+        "id": "36731cc1f27dd94b157604b33a2e6a3a",
+        "source": "36731cc1f27dd94b157604b33a2e6a3a",
+        "bounds": {
+          "min": [
+            -30,
+            -30,
+            6
+          ],
+          "max": [
+            30,
+            30,
+            36
+          ],
+          "size": [
+            60,
+            60,
+            30
+          ]
+        },
+        "cageBounds": {
+          "min": [
+            -30,
+            -30,
+            6
+          ],
+          "max": [
+            30,
+            30,
+            36
+          ],
+          "size": [
+            60,
+            60,
+            30
+          ]
+        },
+        "topology": {
+          "vertices": 548,
+          "edges": 1668,
+          "faces": 1112,
+          "components": 1,
+          "boundary": 0,
+          "nonmanifold": 0,
+          "orientationWarnings": 0,
+          "degenerate": 0,
+          "invalidVertexLinks": 0,
+          "euler": -8,
+          "genus": 5
+        }
       },
-      "vertices": 48,
-      "segments": 72
+      "pin": {
+        "id": "493be94df7a1e58b423c01655bb72688",
+        "source": "493be94df7a1e58b423c01655bb72688",
+        "bounds": {
+          "min": [
+            7,
+            13.222431864335476,
+            -1
+          ],
+          "max": [
+            10,
+            16.222431864335476,
+            9
+          ],
+          "size": [
+            3,
+            3,
+            10
+          ]
+        },
+        "cageBounds": {
+          "min": [
+            7,
+            13.222431864335476,
+            -1
+          ],
+          "max": [
+            10,
+            16.222431864335476,
+            9
+          ],
+          "size": [
+            3,
+            3,
+            10
+          ]
+        },
+        "topology": {
+          "vertices": 48,
+          "edges": 138,
+          "faces": 92,
+          "components": 1,
+          "boundary": 0,
+          "nonmanifold": 0,
+          "orientationWarnings": 0,
+          "degenerate": 0,
+          "invalidVertexLinks": 0,
+          "euler": 2,
+          "genus": 0
+        }
+      },
+      "fasteners": [
+        {
+          "bolt": {
+            "id": "60b5c10afa41a934867008108b8cbe37",
+            "source": "60b5c10afa41a934867008108b8cbe37",
+            "bounds": {
+              "min": [
+                16.5,
+                -3.5,
+                -3.1999999999999886
+              ],
+              "max": [
+                23.5,
+                3.5000000000000004,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                16.5,
+                -3.5,
+                -3.1999999999999886
+              ],
+              "max": [
+                23.5,
+                3.5000000000000004,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "topology": {
+              "vertices": 132,
+              "edges": 390,
+              "faces": 260,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 2,
+              "genus": 0
+            }
+          },
+          "washer": {
+            "id": "67e3a5e93f5949b1daa226da6e326c55",
+            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "bounds": {
+              "min": [
+                15.5,
+                -4.5,
+                12
+              ],
+              "max": [
+                24.5,
+                4.5,
+                12.800000011920929
+              ],
+              "size": [
+                9,
+                9,
+                0.800000011920929
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                15.5,
+                -4.5,
+                12
+              ],
+              "max": [
+                24.5,
+                4.5,
+                12.8
+              ],
+              "size": [
+                9,
+                9,
+                0.8000000000000007
+              ]
+            },
+            "topology": {
+              "vertices": 96,
+              "edges": 288,
+              "faces": 192,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 0,
+              "genus": 1
+            }
+          },
+          "radialEnvelopeMm": 3.500983080573798,
+          "stack": {
+            "underHeadMm": 12.800000000000011,
+            "measuredTipMm": -3.1999999999999886,
+            "measuredUnderHeadLengthMm": 16,
+            "measuredHeadHeightMm": 4,
+            "washerHeadSourceGapMm": 1.0658141036401503e-14,
+            "nominalOverlapMm": 9.199999999999989,
+            "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+            "blindEnvelopeBottomGapMm": 4.800000000000011,
+            "candidateFullThreadEndGapMm": 2.8000000000000114,
+            "threadQualified": false
+          },
+          "clearances": {
+            "mateRadialMm": 0.24939316229816688,
+            "washerRadialMm": 0.14939516573700828,
+            "straightDriverApproachMm": 1.996348557868762,
+            "driverDiameterMm": 10,
+            "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+          }
+        },
+        {
+          "bolt": {
+            "id": "4c0f9b54c68881beaea8eef07094d5ce",
+            "source": "60b5c10afa41a934867008108b8cbe37",
+            "bounds": {
+              "min": [
+                -13.5,
+                13.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                20.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -13.5,
+                13.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                20.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "topology": {
+              "vertices": 132,
+              "edges": 390,
+              "faces": 260,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 2,
+              "genus": 0
+            }
+          },
+          "washer": {
+            "id": "d4c9a5bc981c454d873d19b35b4cd1e2",
+            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "bounds": {
+              "min": [
+                -14.5,
+                12.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                21.820508075688736,
+                12.800000011920929
+              ],
+              "size": [
+                9,
+                9,
+                0.800000011920929
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -14.5,
+                12.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                21.820508075688736,
+                12.8
+              ],
+              "size": [
+                9,
+                9,
+                0.8000000000000007
+              ]
+            },
+            "topology": {
+              "vertices": 96,
+              "edges": 288,
+              "faces": 192,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 0,
+              "genus": 1
+            }
+          },
+          "radialEnvelopeMm": 3.5009830805738336,
+          "stack": {
+            "underHeadMm": 12.800000000000011,
+            "measuredTipMm": -3.1999999999999886,
+            "measuredUnderHeadLengthMm": 16,
+            "measuredHeadHeightMm": 4,
+            "washerHeadSourceGapMm": 1.0658141036401503e-14,
+            "nominalOverlapMm": 9.199999999999989,
+            "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+            "blindEnvelopeBottomGapMm": 4.800000000000011,
+            "candidateFullThreadEndGapMm": 2.8000000000000114,
+            "threadQualified": false
+          },
+          "clearances": {
+            "mateRadialMm": 0.24939316229812603,
+            "washerRadialMm": 0.14939516573692835,
+            "straightDriverApproachMm": 1.996348557868762,
+            "driverDiameterMm": 10,
+            "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+          }
+        },
+        {
+          "bolt": {
+            "id": "3c7dd7ea14078fe4e10a14341d160fc0",
+            "source": "60b5c10afa41a934867008108b8cbe37",
+            "bounds": {
+              "min": [
+                -13.5,
+                -20.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                -13.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -13.5,
+                -20.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                -13.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "topology": {
+              "vertices": 132,
+              "edges": 390,
+              "faces": 260,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 2,
+              "genus": 0
+            }
+          },
+          "washer": {
+            "id": "6073bfc6a8e674e9bb725669e7b838de",
+            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "bounds": {
+              "min": [
+                -14.5,
+                -21.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                -12.820508075688736,
+                12.800000011920929
+              ],
+              "size": [
+                9,
+                9,
+                0.800000011920929
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -14.5,
+                -21.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                -12.820508075688736,
+                12.8
+              ],
+              "size": [
+                9,
+                9,
+                0.8000000000000007
+              ]
+            },
+            "topology": {
+              "vertices": 96,
+              "edges": 288,
+              "faces": 192,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 0,
+              "genus": 1
+            }
+          },
+          "radialEnvelopeMm": 3.5009830805738322,
+          "stack": {
+            "underHeadMm": 12.800000000000011,
+            "measuredTipMm": -3.1999999999999886,
+            "measuredUnderHeadLengthMm": 16,
+            "measuredHeadHeightMm": 4,
+            "washerHeadSourceGapMm": 1.0658141036401503e-14,
+            "nominalOverlapMm": 9.199999999999989,
+            "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+            "blindEnvelopeBottomGapMm": 4.800000000000011,
+            "candidateFullThreadEndGapMm": 2.8000000000000114,
+            "threadQualified": false
+          },
+          "clearances": {
+            "mateRadialMm": 0.2493931622981238,
+            "washerRadialMm": 0.14939516573693323,
+            "straightDriverApproachMm": 1.996348557868762,
+            "driverDiameterMm": 10,
+            "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+          }
+        }
+      ],
+      "location": {
+        "pilot": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 10,
+          "z0": 6,
+          "z1": 9,
+          "bottom": {
+            "matches": 1,
+            "sequence": "pilota",
+            "vertices": [
+              "pilotav0",
+              "pilotav1",
+              "pilotav2",
+              "pilotav3",
+              "pilotav4",
+              "pilotav5",
+              "pilotav6",
+              "pilotav7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "pilotb",
+            "vertices": [
+              "pilotbv0",
+              "pilotbv1",
+              "pilotbv2",
+              "pilotbv3",
+              "pilotbv4",
+              "pilotbv5",
+              "pilotbv6",
+              "pilotbv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "bore": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 10,
+          "z0": 6,
+          "z1": 12,
+          "bottom": {
+            "matches": 1,
+            "sequence": "borea",
+            "vertices": [
+              "boreav0",
+              "boreav1",
+              "boreav2",
+              "boreav3",
+              "boreav4",
+              "boreav5",
+              "boreav6",
+              "boreav7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "boreb",
+            "vertices": [
+              "borebv0",
+              "borebv1",
+              "borebv2",
+              "borebv3",
+              "borebv4",
+              "borebv5",
+              "borebv6",
+              "borebv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "service": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 6,
+          "z0": -34,
+          "z1": 9,
+          "bottom": {
+            "matches": 1,
+            "sequence": "passa",
+            "vertices": [
+              "passav0",
+              "passav1",
+              "passav2",
+              "passav3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999879793669463,
+              "max": 6.00168528098365
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "passb",
+            "vertices": [
+              "passbv0",
+              "passbv1",
+              "passbv2",
+              "passbv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999879793669463,
+              "max": 6.00168528098365
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0024100000000000002,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "guideWalls": [
+          {
+            "pass": true,
+            "r0": 13,
+            "r1": 9,
+            "z0": 12,
+            "z1": 35.5,
+            "bottom": {
+              "matches": 1,
+              "sequence": "guidea",
+              "vertices": [
+                "guideav0",
+                "guideav1",
+                "guideav2",
+                "guideav3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 12.999739552950505,
+                "max": 13.003651442131238
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "guideb",
+              "vertices": [
+                "guidebv0",
+                "guidebv1",
+                "guidebv2",
+                "guidebv3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 8.999819690504195,
+                "max": 9.00252792147547
+              },
+              "pass": true
+            },
+            "missing": []
+          },
+          {
+            "pass": true,
+            "r0": 10,
+            "r1": 6,
+            "z0": 12,
+            "z1": 35.5,
+            "bottom": {
+              "matches": 1,
+              "sequence": "boreb",
+              "vertices": [
+                "borebv0",
+                "borebv1",
+                "borebv2",
+                "borebv3",
+                "borebv4",
+                "borebv5",
+                "borebv6",
+                "borebv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 9.99995186562711,
+                "max": 10.000063369703351
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "throat",
+              "vertices": [
+                "throatv0",
+                "throatv1",
+                "throatv2",
+                "throatv3",
+                "throatv4",
+                "throatv5",
+                "throatv6",
+                "throatv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 5.999971119376266,
+                "max": 6.000038021822011
+              },
+              "pass": true
+            },
+            "missing": []
+          },
+          {
+            "pass": true,
+            "r0": 9,
+            "r1": 8.5,
+            "z0": 35.5,
+            "z1": 36,
+            "bottom": {
+              "matches": 1,
+              "sequence": "guideb",
+              "vertices": [
+                "guidebv0",
+                "guidebv1",
+                "guidebv2",
+                "guidebv3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 8.999819690504195,
+                "max": 9.00252792147547
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "lipOut",
+              "vertices": [
+                "lipOutv0",
+                "lipOutv1",
+                "lipOutv2",
+                "lipOutv3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 8.499829707698407,
+                "max": 8.502387481393503
+              },
+              "pass": true
+            },
+            "missing": []
+          },
+          {
+            "pass": true,
+            "r0": 6,
+            "r1": 6.5,
+            "z0": 35.5,
+            "z1": 36,
+            "bottom": {
+              "matches": 1,
+              "sequence": "throat",
+              "vertices": [
+                "throatv0",
+                "throatv1",
+                "throatv2",
+                "throatv3",
+                "throatv4",
+                "throatv5",
+                "throatv6",
+                "throatv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 5.999971119376266,
+                "max": 6.000038021822011
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "lipIn",
+              "vertices": [
+                "lipInv0",
+                "lipInv1",
+                "lipInv2",
+                "lipInv3",
+                "lipInv4",
+                "lipInv5",
+                "lipInv6",
+                "lipInv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 6.499968712657622,
+                "max": 6.5000411903071775
+              },
+              "pass": true
+            },
+            "missing": []
+          }
+        ],
+        "wallThicknessMm": 1.999788517391229,
+        "fixedSeat": {
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "radius": 1.5,
+          "z0": -1,
+          "z1": 6,
+          "bottom": {
+            "matches": 1,
+            "sequence": "pina",
+            "vertices": [
+              "pinav0",
+              "pinav1",
+              "pinav2",
+              "pinav3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173634,
+              "max": 1.500421320245913
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "pinb",
+            "vertices": [
+              "pinbv0",
+              "pinbv1",
+              "pinbv2",
+              "pinbv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173634,
+              "max": 1.500421320245913
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0006100000000000001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "pinWall": {
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "radius": 1.5,
+          "z0": -1,
+          "z1": 9,
+          "bottom": {
+            "matches": 1,
+            "sequence": "q1",
+            "vertices": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173457,
+              "max": 1.5004213202459324
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "qe",
+            "vertices": [
+              "va",
+              "vb",
+              "vc",
+              "vd"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173457,
+              "max": 1.5004213202459324
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0006100000000000001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "slot": [
+          {
+            "pass": true,
+            "sequence": "slota",
+            "vertices": [
+              "slotav0",
+              "slotav1",
+              "slotav2",
+              "slotav3",
+              "slotav4",
+              "slotav5"
+            ],
+            "matches": 1,
+            "center": [
+              8.5,
+              14.722431864335457
+            ],
+            "angle": 1.0471975511965976,
+            "length": 5,
+            "width": 3.2,
+            "z": 6,
+            "lines": [
+              "slotas0",
+              "slotas3"
+            ],
+            "arcs": [
+              {
+                "id": "slotas1",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.599967944978524,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotas2",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623062
+                }
+              },
+              {
+                "id": "slotas4",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotas5",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785242,
+                  "max": 1.6004494082623073
+                }
+              }
+            ],
+            "invalid": [],
+            "radialBounds": {
+              "min": 14.499999999999998,
+              "max": 19.50000122202899
+            },
+            "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+          },
+          {
+            "pass": true,
+            "sequence": "slotb",
+            "vertices": [
+              "slotbv0",
+              "slotbv1",
+              "slotbv2",
+              "slotbv3",
+              "slotbv4",
+              "slotbv5"
+            ],
+            "matches": 1,
+            "center": [
+              8.5,
+              14.722431864335457
+            ],
+            "angle": 1.0471975511965976,
+            "length": 5,
+            "width": 3.2,
+            "z": 12,
+            "lines": [
+              "slotbs0",
+              "slotbs3"
+            ],
+            "arcs": [
+              {
+                "id": "slotbs1",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.599967944978524,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotbs2",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623062
+                }
+              },
+              {
+                "id": "slotbs4",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotbs5",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785242,
+                  "max": 1.6004494082623073
+                }
+              }
+            ],
+            "invalid": [],
+            "radialBounds": {
+              "min": 14.499999999999998,
+              "max": 19.50000122202899
+            },
+            "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+          }
+        ],
+        "slotAxialGaps": [],
+        "nominalRegisterDiameterClearanceMm": 0,
+        "registerEngagementMm": 3,
+        "pinEngagementMm": 3,
+        "pinSideClearanceMm": 0.0995466247325909,
+        "fitQualified": false,
+        "threadQualified": false,
+        "pinRetentionQualified": false
+      }
+    },
+    {
+      "side": "R",
+      "hub": {
+        "id": "a114f23c275874a9a6da2cadb83afa36",
+        "source": "5a59334b5b25ab91edb808a70eed8214",
+        "bounds": {
+          "min": [
+            -30,
+            -30,
+            -34
+          ],
+          "max": [
+            30,
+            30,
+            9
+          ],
+          "size": [
+            60,
+            60,
+            43
+          ]
+        },
+        "cageBounds": {
+          "min": [
+            -30,
+            -30,
+            -34
+          ],
+          "max": [
+            30,
+            30,
+            9
+          ],
+          "size": [
+            60,
+            60,
+            43
+          ]
+        },
+        "topology": {
+          "vertices": 512,
+          "edges": 1536,
+          "faces": 1024,
+          "components": 1,
+          "boundary": 0,
+          "nonmanifold": 0,
+          "orientationWarnings": 0,
+          "degenerate": 0,
+          "invalidVertexLinks": 0,
+          "euler": 0,
+          "genus": 1
+        }
+      },
+      "mate": {
+        "id": "d1d31f5f1b80b362d07f55991771f20b",
+        "source": "36731cc1f27dd94b157604b33a2e6a3a",
+        "bounds": {
+          "min": [
+            -30,
+            -30,
+            6
+          ],
+          "max": [
+            30,
+            30,
+            36
+          ],
+          "size": [
+            60,
+            60,
+            30
+          ]
+        },
+        "cageBounds": {
+          "min": [
+            -30,
+            -30,
+            6
+          ],
+          "max": [
+            30,
+            30,
+            36
+          ],
+          "size": [
+            60,
+            60,
+            30
+          ]
+        },
+        "topology": {
+          "vertices": 548,
+          "edges": 1668,
+          "faces": 1112,
+          "components": 1,
+          "boundary": 0,
+          "nonmanifold": 0,
+          "orientationWarnings": 0,
+          "degenerate": 0,
+          "invalidVertexLinks": 0,
+          "euler": -8,
+          "genus": 5
+        }
+      },
+      "pin": {
+        "id": "c2bfe8168769545eb7820a74cd17abec",
+        "source": "493be94df7a1e58b423c01655bb72688",
+        "bounds": {
+          "min": [
+            7,
+            13.222431864335476,
+            -1
+          ],
+          "max": [
+            10,
+            16.222431864335476,
+            9
+          ],
+          "size": [
+            3,
+            3,
+            10
+          ]
+        },
+        "cageBounds": {
+          "min": [
+            7,
+            13.222431864335476,
+            -1
+          ],
+          "max": [
+            10,
+            16.222431864335476,
+            9
+          ],
+          "size": [
+            3,
+            3,
+            10
+          ]
+        },
+        "topology": {
+          "vertices": 48,
+          "edges": 138,
+          "faces": 92,
+          "components": 1,
+          "boundary": 0,
+          "nonmanifold": 0,
+          "orientationWarnings": 0,
+          "degenerate": 0,
+          "invalidVertexLinks": 0,
+          "euler": 2,
+          "genus": 0
+        }
+      },
+      "fasteners": [
+        {
+          "bolt": {
+            "id": "750b92664d96791e06cf3777c1bd2d8a",
+            "source": "60b5c10afa41a934867008108b8cbe37",
+            "bounds": {
+              "min": [
+                16.5,
+                -3.5,
+                -3.1999999999999886
+              ],
+              "max": [
+                23.5,
+                3.5000000000000004,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                16.5,
+                -3.5,
+                -3.1999999999999886
+              ],
+              "max": [
+                23.5,
+                3.5000000000000004,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "topology": {
+              "vertices": 132,
+              "edges": 390,
+              "faces": 260,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 2,
+              "genus": 0
+            }
+          },
+          "washer": {
+            "id": "af40170e01fca83a7afe856e0da7ba7a",
+            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "bounds": {
+              "min": [
+                15.5,
+                -4.5,
+                12
+              ],
+              "max": [
+                24.5,
+                4.5,
+                12.800000011920929
+              ],
+              "size": [
+                9,
+                9,
+                0.800000011920929
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                15.5,
+                -4.5,
+                12
+              ],
+              "max": [
+                24.5,
+                4.5,
+                12.8
+              ],
+              "size": [
+                9,
+                9,
+                0.8000000000000007
+              ]
+            },
+            "topology": {
+              "vertices": 96,
+              "edges": 288,
+              "faces": 192,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 0,
+              "genus": 1
+            }
+          },
+          "radialEnvelopeMm": 3.500983080573798,
+          "stack": {
+            "underHeadMm": 12.800000000000011,
+            "measuredTipMm": -3.1999999999999886,
+            "measuredUnderHeadLengthMm": 16,
+            "measuredHeadHeightMm": 4,
+            "washerHeadSourceGapMm": 1.0658141036401503e-14,
+            "nominalOverlapMm": 9.199999999999989,
+            "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+            "blindEnvelopeBottomGapMm": 4.800000000000011,
+            "candidateFullThreadEndGapMm": 2.8000000000000114,
+            "threadQualified": false
+          },
+          "clearances": {
+            "mateRadialMm": 0.24939316229816688,
+            "washerRadialMm": 0.14939516573700828,
+            "straightDriverApproachMm": 1.996348557868762,
+            "driverDiameterMm": 10,
+            "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+          }
+        },
+        {
+          "bolt": {
+            "id": "7506fddfc64f17deea2183e6c3e272b1",
+            "source": "60b5c10afa41a934867008108b8cbe37",
+            "bounds": {
+              "min": [
+                -13.5,
+                13.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                20.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -13.5,
+                13.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                20.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "topology": {
+              "vertices": 132,
+              "edges": 390,
+              "faces": 260,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 2,
+              "genus": 0
+            }
+          },
+          "washer": {
+            "id": "0bdc9e9a57999f107ebef817c08d9f8e",
+            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "bounds": {
+              "min": [
+                -14.5,
+                12.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                21.820508075688736,
+                12.800000011920929
+              ],
+              "size": [
+                9,
+                9,
+                0.800000011920929
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -14.5,
+                12.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                21.820508075688736,
+                12.8
+              ],
+              "size": [
+                9,
+                9,
+                0.8000000000000007
+              ]
+            },
+            "topology": {
+              "vertices": 96,
+              "edges": 288,
+              "faces": 192,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 0,
+              "genus": 1
+            }
+          },
+          "radialEnvelopeMm": 3.5009830805738336,
+          "stack": {
+            "underHeadMm": 12.800000000000011,
+            "measuredTipMm": -3.1999999999999886,
+            "measuredUnderHeadLengthMm": 16,
+            "measuredHeadHeightMm": 4,
+            "washerHeadSourceGapMm": 1.0658141036401503e-14,
+            "nominalOverlapMm": 9.199999999999989,
+            "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+            "blindEnvelopeBottomGapMm": 4.800000000000011,
+            "candidateFullThreadEndGapMm": 2.8000000000000114,
+            "threadQualified": false
+          },
+          "clearances": {
+            "mateRadialMm": 0.24939316229812603,
+            "washerRadialMm": 0.14939516573692835,
+            "straightDriverApproachMm": 1.996348557868762,
+            "driverDiameterMm": 10,
+            "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+          }
+        },
+        {
+          "bolt": {
+            "id": "acc4873c59d1b06a910b4fb0baf1cf6d",
+            "source": "60b5c10afa41a934867008108b8cbe37",
+            "bounds": {
+              "min": [
+                -13.5,
+                -20.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                -13.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -13.5,
+                -20.820508075688736,
+                -3.1999999999999886
+              ],
+              "max": [
+                -6.5,
+                -13.820508075688736,
+                16.80000000000001
+              ],
+              "size": [
+                7,
+                7,
+                20
+              ]
+            },
+            "topology": {
+              "vertices": 132,
+              "edges": 390,
+              "faces": 260,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 2,
+              "genus": 0
+            }
+          },
+          "washer": {
+            "id": "c8b62662381b432d7e9b55ef2dc80c70",
+            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "bounds": {
+              "min": [
+                -14.5,
+                -21.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                -12.820508075688736,
+                12.800000011920929
+              ],
+              "size": [
+                9,
+                9,
+                0.800000011920929
+              ]
+            },
+            "cageBounds": {
+              "min": [
+                -14.5,
+                -21.820508075688736,
+                12
+              ],
+              "max": [
+                -5.5,
+                -12.820508075688736,
+                12.8
+              ],
+              "size": [
+                9,
+                9,
+                0.8000000000000007
+              ]
+            },
+            "topology": {
+              "vertices": 96,
+              "edges": 288,
+              "faces": 192,
+              "components": 1,
+              "boundary": 0,
+              "nonmanifold": 0,
+              "orientationWarnings": 0,
+              "degenerate": 0,
+              "invalidVertexLinks": 0,
+              "euler": 0,
+              "genus": 1
+            }
+          },
+          "radialEnvelopeMm": 3.5009830805738322,
+          "stack": {
+            "underHeadMm": 12.800000000000011,
+            "measuredTipMm": -3.1999999999999886,
+            "measuredUnderHeadLengthMm": 16,
+            "measuredHeadHeightMm": 4,
+            "washerHeadSourceGapMm": 1.0658141036401503e-14,
+            "nominalOverlapMm": 9.199999999999989,
+            "fullMajorEnvelopeOverlapMm": 8.88499999999999,
+            "blindEnvelopeBottomGapMm": 4.800000000000011,
+            "candidateFullThreadEndGapMm": 2.8000000000000114,
+            "threadQualified": false
+          },
+          "clearances": {
+            "mateRadialMm": 0.2493931622981238,
+            "washerRadialMm": 0.14939516573693323,
+            "straightDriverApproachMm": 1.996348557868762,
+            "driverDiameterMm": 10,
+            "scope": "Evaluated guide and bounded ruled-guide source plus a 10 mm round driver approach above the screw head; no socket, whole-robot, fit, torque or thread-flank qualification"
+          }
+        }
+      ],
+      "location": {
+        "pilot": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 10,
+          "z0": 6,
+          "z1": 9,
+          "bottom": {
+            "matches": 1,
+            "sequence": "pilota",
+            "vertices": [
+              "pilotav0",
+              "pilotav1",
+              "pilotav2",
+              "pilotav3",
+              "pilotav4",
+              "pilotav5",
+              "pilotav6",
+              "pilotav7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "pilotb",
+            "vertices": [
+              "pilotbv0",
+              "pilotbv1",
+              "pilotbv2",
+              "pilotbv3",
+              "pilotbv4",
+              "pilotbv5",
+              "pilotbv6",
+              "pilotbv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "bore": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 10,
+          "z0": 6,
+          "z1": 12,
+          "bottom": {
+            "matches": 1,
+            "sequence": "borea",
+            "vertices": [
+              "boreav0",
+              "boreav1",
+              "boreav2",
+              "boreav3",
+              "boreav4",
+              "boreav5",
+              "boreav6",
+              "boreav7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "boreb",
+            "vertices": [
+              "borebv0",
+              "borebv1",
+              "borebv2",
+              "borebv3",
+              "borebv4",
+              "borebv5",
+              "borebv6",
+              "borebv7"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 9.99999699046343,
+              "max": 10.000043762803061
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "service": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 6,
+          "z0": -34,
+          "z1": 9,
+          "bottom": {
+            "matches": 1,
+            "sequence": "passa",
+            "vertices": [
+              "passav0",
+              "passav1",
+              "passav2",
+              "passav3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999879793669463,
+              "max": 6.00168528098365
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "passb",
+            "vertices": [
+              "passbv0",
+              "passbv1",
+              "passbv2",
+              "passbv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 5.999879793669463,
+              "max": 6.00168528098365
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0024100000000000002,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "guideWalls": [
+          {
+            "pass": true,
+            "r0": 13,
+            "r1": 9,
+            "z0": 12,
+            "z1": 35.5,
+            "bottom": {
+              "matches": 1,
+              "sequence": "guidea",
+              "vertices": [
+                "guideav0",
+                "guideav1",
+                "guideav2",
+                "guideav3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 12.999739552950505,
+                "max": 13.003651442131238
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "guideb",
+              "vertices": [
+                "guidebv0",
+                "guidebv1",
+                "guidebv2",
+                "guidebv3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 8.999819690504195,
+                "max": 9.00252792147547
+              },
+              "pass": true
+            },
+            "missing": []
+          },
+          {
+            "pass": true,
+            "r0": 10,
+            "r1": 6,
+            "z0": 12,
+            "z1": 35.5,
+            "bottom": {
+              "matches": 1,
+              "sequence": "boreb",
+              "vertices": [
+                "borebv0",
+                "borebv1",
+                "borebv2",
+                "borebv3",
+                "borebv4",
+                "borebv5",
+                "borebv6",
+                "borebv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 9.99995186562711,
+                "max": 10.000063369703351
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "throat",
+              "vertices": [
+                "throatv0",
+                "throatv1",
+                "throatv2",
+                "throatv3",
+                "throatv4",
+                "throatv5",
+                "throatv6",
+                "throatv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 5.999971119376266,
+                "max": 6.000038021822011
+              },
+              "pass": true
+            },
+            "missing": []
+          },
+          {
+            "pass": true,
+            "r0": 9,
+            "r1": 8.5,
+            "z0": 35.5,
+            "z1": 36,
+            "bottom": {
+              "matches": 1,
+              "sequence": "guideb",
+              "vertices": [
+                "guidebv0",
+                "guidebv1",
+                "guidebv2",
+                "guidebv3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 8.999819690504195,
+                "max": 9.00252792147547
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "lipOut",
+              "vertices": [
+                "lipOutv0",
+                "lipOutv1",
+                "lipOutv2",
+                "lipOutv3"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 8.499829707698407,
+                "max": 8.502387481393503
+              },
+              "pass": true
+            },
+            "missing": []
+          },
+          {
+            "pass": true,
+            "r0": 6,
+            "r1": 6.5,
+            "z0": 35.5,
+            "z1": 36,
+            "bottom": {
+              "matches": 1,
+              "sequence": "throat",
+              "vertices": [
+                "throatv0",
+                "throatv1",
+                "throatv2",
+                "throatv3",
+                "throatv4",
+                "throatv5",
+                "throatv6",
+                "throatv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 5.999971119376266,
+                "max": 6.000038021822011
+              },
+              "pass": true
+            },
+            "top": {
+              "matches": 1,
+              "sequence": "lipIn",
+              "vertices": [
+                "lipInv0",
+                "lipInv1",
+                "lipInv2",
+                "lipInv3",
+                "lipInv4",
+                "lipInv5",
+                "lipInv6",
+                "lipInv7"
+              ],
+              "closed": true,
+              "radiusBounds": {
+                "min": 6.499968712657622,
+                "max": 6.5000411903071775
+              },
+              "pass": true
+            },
+            "missing": []
+          }
+        ],
+        "wallThicknessMm": 1.999788517391229,
+        "fixedSeat": {
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "radius": 1.5,
+          "z0": -1,
+          "z1": 6,
+          "bottom": {
+            "matches": 1,
+            "sequence": "pina",
+            "vertices": [
+              "pinav0",
+              "pinav1",
+              "pinav2",
+              "pinav3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173634,
+              "max": 1.500421320245913
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "pinb",
+            "vertices": [
+              "pinbv0",
+              "pinbv1",
+              "pinbv2",
+              "pinbv3"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173634,
+              "max": 1.500421320245913
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0006100000000000001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "pinWall": {
+          "center": [
+            8.5,
+            14.722431864335457
+          ],
+          "radius": 1.5,
+          "z0": -1,
+          "z1": 9,
+          "bottom": {
+            "matches": 1,
+            "sequence": "q1",
+            "vertices": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173457,
+              "max": 1.5004213202459324
+            }
+          },
+          "top": {
+            "matches": 1,
+            "sequence": "qe",
+            "vertices": [
+              "va",
+              "vb",
+              "vc",
+              "vd"
+            ],
+            "closed": true,
+            "radiusBounds": {
+              "min": 1.4999699484173457,
+              "max": 1.5004213202459324
+            }
+          },
+          "axialGaps": [],
+          "pass": true,
+          "tolerance": 0.0006100000000000001,
+          "scope": "Closed native cubic boundary loops and straight axial source connectors; not manufacturing tolerance or self-intersection qualification"
+        },
+        "slot": [
+          {
+            "pass": true,
+            "sequence": "slota",
+            "vertices": [
+              "slotav0",
+              "slotav1",
+              "slotav2",
+              "slotav3",
+              "slotav4",
+              "slotav5"
+            ],
+            "matches": 1,
+            "center": [
+              8.5,
+              14.722431864335457
+            ],
+            "angle": 1.0471975511965976,
+            "length": 5,
+            "width": 3.2,
+            "z": 6,
+            "lines": [
+              "slotas0",
+              "slotas3"
+            ],
+            "arcs": [
+              {
+                "id": "slotas1",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.599967944978524,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotas2",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623062
+                }
+              },
+              {
+                "id": "slotas4",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotas5",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785242,
+                  "max": 1.6004494082623073
+                }
+              }
+            ],
+            "invalid": [],
+            "radialBounds": {
+              "min": 14.499999999999998,
+              "max": 19.50000122202899
+            },
+            "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+          },
+          {
+            "pass": true,
+            "sequence": "slotb",
+            "vertices": [
+              "slotbv0",
+              "slotbv1",
+              "slotbv2",
+              "slotbv3",
+              "slotbv4",
+              "slotbv5"
+            ],
+            "matches": 1,
+            "center": [
+              8.5,
+              14.722431864335457
+            ],
+            "angle": 1.0471975511965976,
+            "length": 5,
+            "width": 3.2,
+            "z": 12,
+            "lines": [
+              "slotbs0",
+              "slotbs3"
+            ],
+            "arcs": [
+              {
+                "id": "slotbs1",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.599967944978524,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotbs2",
+                "sign": 1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623062
+                }
+              },
+              {
+                "id": "slotbs4",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623069
+                }
+              },
+              {
+                "id": "slotbs5",
+                "sign": -1,
+                "bounds": {
+                  "min": 1.5999679449785242,
+                  "max": 1.6004494082623073
+                }
+              }
+            ],
+            "invalid": [],
+            "radialBounds": {
+              "min": 14.499999999999998,
+              "max": 19.50000122202899
+            },
+            "scope": "Six-segment native radial capsule boundary; manufacturing tolerance and contact loads remain unqualified"
+          }
+        ],
+        "slotAxialGaps": [],
+        "nominalRegisterDiameterClearanceMm": 0,
+        "registerEngagementMm": 3,
+        "pinEngagementMm": 3,
+        "pinSideClearanceMm": 0.0995466247325909,
+        "fitQualified": false,
+        "threadQualified": false,
+        "pinRetentionQualified": false
+      }
     }
+  ],
+  "exploded": [
+    {
+      "side": "L",
+      "guideAxialRangeMm": [
+        65.99999999999997,
+        95.99999999999997
+      ],
+      "screwAxialRangeMm": [
+        106.80000000000004,
+        126.80000000000004
+      ],
+      "interpretation": "Exploded inspection pose only; threaded removal and physical motion are not simulated"
+    },
+    {
+      "side": "R",
+      "guideAxialRangeMm": [
+        66.00000000000003,
+        96.00000000000003
+      ],
+      "screwAxialRangeMm": [
+        106.80000000000004,
+        126.80000000000004
+      ],
+      "interpretation": "Exploded inspection pose only; threaded removal and physical motion are not simulated"
+    }
+  ],
+  "interfaceScreenshots": {
+    "assembled": "artifacts/tool-assembled.png",
+    "exploded": "artifacts/tool-exploded.png",
+    "caption": "Actual native spline-surface geometry; exploded positioning is an inspection illustration, not physical unscrewing or fit qualification"
   },
   "controlScreenshot": "artifacts/control.png",
   "frames": {
     "frames": [
       {
-        "id": 75,
-        "gpuMs": 0.638816,
+        "id": 111,
+        "gpuMs": 0.665632,
+        "cpuMs": 1.399999976158142
+      },
+      {
+        "id": 112,
+        "gpuMs": 0.65536,
+        "cpuMs": 1.5
+      },
+      {
+        "id": 113,
+        "gpuMs": 2.504704,
+        "cpuMs": 1.5
+      },
+      {
+        "id": 114,
+        "gpuMs": 2.484192,
         "cpuMs": 1.3000000715255737
       },
       {
-        "id": 76,
-        "gpuMs": 0.641056,
-        "cpuMs": 1.2000000476837158
+        "id": 115,
+        "gpuMs": 2.490368,
+        "cpuMs": 1.399999976158142
       },
       {
-        "id": 77,
-        "gpuMs": 0.61872,
-        "cpuMs": 1.2999999523162842
-      },
-      {
-        "id": 78,
-        "gpuMs": 0.64304,
-        "cpuMs": 1.100000023841858
-      },
-      {
-        "id": 79,
-        "gpuMs": 0.694016,
-        "cpuMs": 1.7000000476837158
-      },
-      {
-        "id": 80,
-        "gpuMs": 0.622176,
-        "cpuMs": 1.5999999046325684
+        "id": 116,
+        "gpuMs": 2.490688,
+        "cpuMs": 1.4000000953674316
       }
     ],
     "width": 1024,
@@ -1019,19 +6990,24 @@
     "timestampQueries": true
   },
   "performance": {
-    "cpuMedianMs": 1.3000000715255737,
-    "gpuMedianMs": 0.641056,
+    "cpuMedianMs": 1.4000000953674316,
+    "gpuMedianMs": 2.490368,
     "context": "1280x900, DPR 1, native viewport; baseline only, no improvement claim"
   },
   "claims": {
     "editableAuthoring": true,
-    "closedToolPlate": true,
+    "closedInterfaceParts": true,
+    "nominalInterfaceGeometry": true,
+    "listedDriverApproachEnvelope": true,
     "commandedJointMotion": true,
     "docAndCodePersistence": true,
     "payloadValidated": false,
     "collisionValidated": false,
     "actuatorSelected": false,
-    "manufacturingQualified": false
+    "manufacturingQualified": false,
+    "threadQualified": false,
+    "fitQualified": false,
+    "pinRetentionQualified": false
   },
   "gpu": {
     "validation": null,
@@ -1043,14 +7019,26 @@
     "ownedBrowserAndServerClosed": true
   },
   "sourcesAfter": {
-    "frame/index.html": "9e4e94e3afcaa917164243d698ea1eb559cdb6a0ec9134cadec115ff6d32d00c",
-    "frame/frame-sw.js": "2e019cd5f8c965c25d18c4df1dd76bdeb7f2d58c0049965a4e88e0f3e27f806e",
+    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
+    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "88ed53a459ea3ad66e014327818445327f0cec3bd823c8c8c32e875e57d30c87",
-    "src/control.js": "c7311a29b8604b9b559f65933b40ff41dc1782433e7e8b5984dcfeeb727089bd",
-    "docs/Design.md": "d670a786e853678435225e76404a85aa8b1c516441447c9e05495eee34949613",
-    "tools/build.mjs": "a3ca3c36863f9ea8ce683d56e779e919d6a5525a22b84e619b525055340c4505",
-    "tools/check.mjs": "a5d80ec1f2ee4248d5ba73249d7d484a0d0b15d55c33e48368294c36de462211"
+    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
+    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
+    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
+    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
+    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
   },
-  "finishedAt": "2026-11-17T12:29:36.358Z"
+  "finishedAt": "2026-11-17T13:43:56.850Z",
+  "publication": {
+    "state": "published",
+    "scene": "scenes/neira.hash",
+    "bytes": 62654,
+    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b",
+    "previous": {
+      "exists": true,
+      "bytes": 61667,
+      "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+    }
+  }
 }

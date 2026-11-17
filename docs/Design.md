@@ -1,6 +1,6 @@
 # Neira design basis
 
-Updated: 2026-11-17. Stage: initial packaging and kinematic study.
+Updated: 2026-11-17. Stage: packaging, commanded motion and manual tool-interface study, revision 1.
 
 ## Intent
 
@@ -10,7 +10,7 @@ The first body serves a flat-floor workshop. Exploration outside the workshop is
 
 ## First demonstrator
 
-The current source constructs a full robot packaging and commanded-motion model, including a provisional manual tool interface. It shows body proportions, wheel placement, shoulder and arm frames, reach and tool positioning. Geometry remains native and editable. Scene Control provides joint and timeline controls; the scene's Doc embeds this design text.
+The current source constructs a full robot packaging and commanded-motion model, including a manual flanged-hub/cable-guide interface. It shows body proportions, wheel placement, shoulder and arm frames, reach, tool positioning and an exploded interface view. Geometry remains native and editable. Scene Control provides joint and timeline controls. The scene's Doc combines this design text with the detailed [tool-interface study](Tool-interface.md).
 
 This iteration establishes geometry and programmatic control. It does not establish rated payload, actuator capability, structural strength, balance, grasp reliability, physical collision freedom or readiness to manufacture.
 
@@ -20,13 +20,13 @@ All values below are nominal source dimensions or packaging targets in millimetr
 
 | Item | Value | Meaning |
 | --- | ---: | --- |
-| Reference body envelope | 650 × 750 × 1450 | Initial width × depth × height target; arm swept envelope remains to be measured |
-| Drive-wheel outer width | 650 | Source spans X = −325 to +325 |
+| Reference body envelope | 650 Ã— 750 Ã— 1450 | Initial width Ã— depth Ã— height target; arm swept envelope remains to be measured |
+| Drive-wheel outer width | 650 | Source spans X = âˆ’325 to +325 |
 | Base height | 250 | Source lid upper face |
-| Deck/cowl/lid plan | 500 × 670 | Nominal platform width × depth |
-| Rear drive-wheel envelopes | 2 × Ø200 × 60 | Differential-drive concept; centres Y = 100, Z = −240 |
-| Front passive swivel-caster envelopes | 2 × Ø120 × 40 | Wheel centres Y = 60, X = ±210, Z = 260 |
-| Shoulder centres | X = ±260, Y = 1050, Z = 0 | Source joint origins |
+| Deck/cowl/lid plan | 500 Ã— 670 | Nominal platform width Ã— depth |
+| Rear drive-wheel envelopes | 2 Ã— Ã˜200 Ã— 60 | Differential-drive concept; centres Y = 100, Z = âˆ’240 |
+| Front passive swivel-caster envelopes | 2 Ã— Ã˜120 Ã— 40 | Wheel centres Y = 60, X = Â±210, Z = 260 |
+| Shoulder centres | X = Â±260, Y = 1050, Z = 0 | Source joint origins |
 | Upper arm | 270 | Nominal joint-to-joint length |
 | Forearm | 250 | Nominal joint-to-joint length |
 | Wrist/tool allowance | 80 | Remaining straight-line allowance |
@@ -34,22 +34,24 @@ All values below are nominal source dimensions or packaging targets in millimetr
 
 The drive components, caster pivots and joints are envelopes, with no selected motor, bearing, brake or load rating. Contact between envelopes and the modeled mount/shaft shapes establish nominal placement only; attachment structures, bearings, retention and assembly details remain unresolved. The 80 mm wrist/tool allowance is a reach budget, not a dimension certified by the currently modeled end-tool stack. Actual source dimensions govern the saved model; resolve changes in both source and this document. A full swept envelope requires actual joint ranges, tool geometry and interference checks.
 
-## Manual tool interface, revision 0
+## Manual tool interface, revision 1
 
-The source contains a provisional manual bolt-on interface: a wrist plate and mating plate on each arm, for four plate occurrences sharing one native Spline Patch source. It models clearance bores for a future pilot/fastener/pin arrangement. The physical male pilot, fasteners and antirotation pin are not present. No automatic locking or autonomous tool-changing mechanism is claimed.
+Each wrist now has one native Spline Patch flanged hub with an integral locating register and a mating cable-guide body, also one native Spline Patch. Both sides share their respective source geometry through Instances. The assembly contains six M4 Ã— 16 screws, six washers and two locating pins across the robot. The nominal hardware forms are represented; their grade, fits, tightening and physical qualification remain open. There is no automatic lock or autonomous tool-changing mechanism.
 
 | Feature | Nominal geometry | Status |
 | --- | --- | --- |
-| Wrist plate and mating plate | Each Ø60 × 6 mm | Four occurrences across two arms |
-| Bolt circle | Ø40 mm | Packaging assumption |
-| Clearance holes | 3 × Ø4.5 mm at 0°, 120°, 240° | Geometry only; fastener selection pending |
-| Central bore | Ø20 mm through both plates | Male pilot, fit and engagement unresolved |
-| Antirotation pin bore | Ø3 mm at radius 15, angle 60° | Plate-local X = 7.5, Y = 12.990381; physical pin and fit unresolved |
-| Mating-plate placement | Wrist-local Z = 6…12 mm | Wrist plate occupies Z = 0…6 mm |
-| Test-tool ring | Ø26 OD, Ø20 ID, length 24 mm | Wrist-local Z = 12…36 mm; attachment unresolved |
-| Nominal plate/ring stack | 36 mm | 6 + 6 + 24, excluding unresolved mounting/retention |
+| One-piece wrist hub | Body Ã˜58 at Z = âˆ’34â€¦0; flange Ã˜60 at 0â€¦6 | Rear actuator attachment unresolved |
+| Integral register | Ã˜20 at Z = 6â€¦9 | 3 mm nominal engagement; H7/g6 is a candidate fit, not achieved manufacturing accuracy |
+| Service passage | Nominal Ã˜12 minimum | Continues through hub/register and guide; no installed cable |
+| Bolt circle | Ã˜40; angles 0Â°, 120Â°, 240Â° | M4 blind tapped-hole intent in hub; Ã˜4.5 clearance in mate |
+| Hub thread representation | Ã˜4 envelope at Z = âˆ’8â€¦6 | Helix suppressed; intended full-thread depth 12 and tool-clearance allowance require process detail |
+| Mating tool | Ã˜60 Ã— 6 plate at Z = 6â€¦12, Ã˜20 bore, integral tapering guide to Z = 36 | Real passive-guide function proposed; material and cable-contact finish unresolved |
+| Guide section | Outer/inner radius 13/10 at Z = 12, tapering to 9/6 at 35.5 | Mouth chamfers end at radii 8.5/6.5 and Z = 36 |
+| Locating pin | Ã˜3 Ã— 10 at radius 17, angle 60Â°; Z = âˆ’1â€¦9 | 7 mm nominal embedment, 3 mm projection; fixed-seat retention unresolved |
+| Mate clocking slot | Radial, width 3.2, overall length 5, centred on pin position | X = 8.5, Y = 14.722432; nominal free clocking approximately Â±0.337Â° |
+| Per-wrist screws/washers | 3 Ã— DIN 912 M4 Ã— 16; 3 Ã— DIN 125 M4, ID 4.3/OD 9/nominal thickness 0.8 | 3 mm hex access from tool side; real washer thickness and all other tolerances require stacking |
 
-The nominal plate/ring stack is closed arithmetically; generated geometry still requires inspection. Material, fastener choice and access, pilot fit, pin fit, torque transfer, retention, wiring and connector routing remain unresolved. Nominal bore clearance alone does not define an assembly tolerance. A displayed mating face or ring is not evidence of a physically attached tool.
+The verified nominal screw entry past the hub face is 16 âˆ’ 6 âˆ’ 0.8 = 9.2 mm; the screw's full-major cylindrical envelope overlaps by 8.885 mm after its tip detail. This is geometric overlap, not effective thread engagement or joint strength. The detailed [tool-interface study](Tool-interface.md) records primary dimensional references, measured access, manufacturing candidates, assumed future load cases and unresolved pin retention. Revision-1 native geometry, persistence and commanded assembly motion have their own checks; the old plate's results are historical.
 
 ## Manufacturing and dependencies
 
@@ -66,10 +68,11 @@ The table covers the current model's part families. Routes are candidates to inv
 | Head / Visor / Camera / Neck | Sensor/head packaging and appearance | Printed or formed housing; bought sensor/optics with a designed mount | Head is currently a solid envelope; cavity, optics, cooling, neck attachment and actual sensor selection |
 | Drive Tire / Hub / Axle | Rear traction-wheel and drive packaging | Select bought wheel/drive/bearing assemblies; design any hub or shaft adapters | Payload, traction, speed, shaft support, braking and selected hardware |
 | Caster Roller / Hub / Fork / Swivel | Front passive support and steering envelope | Select bought caster assemblies or design fork around bought wheel/bearings | Swivel bearings, wheel axle/retention, trail, loads and mounting pattern |
-| Joint / Mount / Wrist | Locate nominal arm axes and transmission volumes | Bought drives/bearings with designed housings, shafts and mounts | Torque/speed, reductions, bearing spans, retention, limits and wiring |
+| Joint / Mount | Locate nominal arm axes and transmission volumes | Bought drives/bearings with designed housings, shafts and mounts | Torque/speed, reductions, bearing spans, retention, limits and wiring |
 | Upper / Fore | Hollow arm-link envelopes between joint regions | Suitable hollow stock after size selection, or machined/formed construction | End joints, actual section, torsional/bending loads, assembly and cable access |
-| Plate / Mate | Manual wrist/tool mating faces | Machine or cut blanks, then finish interface bores/faces as required | Material, fits, fasteners, physical pilot/pin, attachment and torque transfer |
-| Tool | Test-tool ring and tool-space placeholder | Cut and machine tube, or machine a blank | Actual tool function, mounting, retention, services and required accuracy |
+| Wrist Hub | Integral wrist body, flange, register and service passage | Turn one blank, then drill/tap and finish the pin seat | Material, fits, pin retention, rear actuator attachment and joint qualification |
+| Guide | Mating face and integral passive cable guide | Turn one blank, then drill clearance bores and mill radial slot | Material, cable-contact edges, actual cable and demonstrated service life |
+| M4 Ã— 16 / Washer / Pin | Clamp and clock the mating tool | Bought standard-form hardware represented from catalogue dimensions | Final grade/finish, actual tolerances, torque/locking and fixed-pin fit |
 
 Metal additive manufacturing is one candidate process for appropriate parts. Its route must account for supports, separation, finishing, inspection and any required heat treatment or precision machining; the printed shape alone is not a finished-part qualification. Process choice follows the part's geometry, material, loads, accuracy and available equipment. [EOS's metal AM workflow](https://www.eos.info/metal-solutions/metal-ecosystem) is a process reference; it does not validate Neira's parts.
 
@@ -79,7 +82,11 @@ Workshop self-production is a development direction with explicit external depen
 
 Use Frame's native editable Spline Patches, splines, profiles and generators. Repeated physical parts share source geometry through Instances. Preserve only controls and subdivisions required for the intended shape and inspection. Avoid decorative fasteners and hidden detail that do not establish a real interface or design decision.
 
-The model has eight commanded joint frames: shoulder yaw, shoulder pitch, elbow and wrist roll on each arm. Native affine keyframes are authored at frames 0, 90 and 180, with the editable reach pose at frame 90 and Scene Control's seek range 0…180. Scene Control exposes Play, Pause, Home, Reach pose, timeline seek, tool/body views and individual frame-90 joint sliders. The ±60° sliders are study controls, not established mechanical limits or a demonstrated reachable workspace.
+The model has eight commanded joint frames: shoulder yaw, shoulder pitch, elbow and wrist roll on each arm. Their native affine keyframes remain at frames 0, 90 and 180, with the editable reach pose at frame 90. Frames 180â€¦300 add an exploded interface view: screws/washers withdraw first, then the mating guide separates from the hub/register/pin. The hub and pin remain on the wrist. These are commanded axial inspection translations; actual unscrewing, contact, gravity and handling are not simulated.
+
+Scene Control exposes Play, Pause, Home, Reach pose, Exploded tool, timeline seek over 0â€¦300, tool/body views and individual frame-90 joint sliders. The Â±60Â° sliders are study controls, not established mechanical limits or a demonstrated reachable workspace.
+
+Locating bores/registers use eight 45Â° cubic arcs. Independent source-bound checks enclose their radius-10 curves in [9.99999699046, 10.00004376280] mm, giving at most 0.043763 Âµm radial deviation within the 0.1 Âµm representation budget. Ordinary non-locating circular outlines use four quarter-circle cubic arcs. The current register and bore are congruent/coaxial nominal Ã˜20 source shapes with zero nominal diameter clearance; the candidate H7/g6 manufacturing offsets are not applied. Source curves and rendered tessellation have different representation errors. Their verified representation accuracy establishes no real fit, surface finish or manufacturing tolerance; those require a drawing, process and metrology.
 
 The model uses the core native SDK to set exact assembly origins and affine frames. Core engine methods named `pluginSetPivot`/`pluginSetLocal` are historical API names; this model does not load a Frame plugin module. Joint motion changes affine frames rather than rebuilding spline cages.
 
@@ -87,19 +94,24 @@ The control program requires Frame core support for declared object-reference bi
 
 Saved program source and bindings must reproduce the control panel after reopening the HASH. Restoring a file does not imply restoring a running program's transient state. Home returns to native animation frame 0; individual sliders edit the frame-90 pose rather than setting unrecorded joint state.
 
-`docs/Design.md` is the canonical design text for the scene's Doc. Update it when dimensions, architecture, assumptions or verification status change. `STATE.md` records the current delivered artifacts and the exact point from which work resumes.
+The canonical embedded Doc is the composition of `docs/Design.md` followed by `docs/Tool-interface.md`, in that order. Update the relevant source when dimensions, architecture, assumptions or verification status change, then rebuild the HASH and check the exact composite text after reopening. `STATE.md` records the current delivered artifacts and the exact point from which work resumes.
 
 ## Verification ledger
 
 | Claim | Required evidence | Current state |
 | --- | --- | --- |
-| Source remains editable | Inspect native authoring types after HASH reopen | Native HASH round-trip preserves exact editable cages; see artifacts/verification.json |
+| Revision-1 source remains editable | Inspect native authoring types and exact cages after HASH reopen | Native types, parameters, assembly frames and exact source cages preserved through HASH round-trip |
 | Nominal link lengths sum to 600 mm | 270 + 250 + 80 | Arithmetic only |
-| Plate/ring nominal depth is 36 mm | 6 + 6 + 24; measure generated stack | Arithmetic and source placement only |
-| Tool interface has correct evaluated geometry | Inspect bores, feature separation, topology and bounds | Nominal 60 × 60 × 6 mm, five through-holes, one closed orientable surface verified; fits and loads remain open |
-| Joint controls act on intended frames | Exercise home, individual controls, stop/reset and reopen | Eight controls, native playback, Home/Pause, saved pose and popup/HASH reload verified |
+| Revision-1 nominal interface dimensions | Measure hub, register, guide, bores, slot, pin and hardware | Six screw/washer stacks, register, passage, pin/slot and blind-envelope dimensions verified; thread and fit qualification false |
+| Revision-1 hub/guide topology | Inspect closed orientable surfaces and feature walls/caps | Each evaluated Hub/Guide is one closed orientable surface; no boundary/nonmanifold edges, orientation defects, invalid vertex links or zero-area faces found |
+| Locating source curves meet approximation target | Independently bound cubic radial error | Maximum radius-10 deviation bounded by 0.043763 Âµm, below 0.1 Âµm source budget; manufacturing fit unqualified |
+| Front driver approach | Bound Ã˜10 round approaches against guide/source and other heads | All six paths have a conservative guide-clearance bound of approximately 1.99634856 mm; other-head gap exceeds 26 mm; whole-robot/driver/socket qualification excluded |
+| Revision-1 controls and exploded order | Exercise eight controls, playback, Home/Pause, ordered separation and reopen | Eight sliders and playback/persistence verified; frame 240 keeps guides seated after screw withdrawal, frame 300 separates guides and retains hubs/pins |
+| Composite embedded Doc matches source | Compare Design + Tool-interface after build and HASH reopen | Exact composite text and control source retained through HASH round-trip |
 | Motion is physically feasible | Joint/actuator selection, loads, collision and stability analysis | Open engineering work |
 | Frame performance improves | Repeated comparable measurements on recorded revisions | Initial scene baseline recorded; indexed API reference lookup verified separately; no whole-application speedup claimed |
+
+Revision-1 geometric checkpoint: the build checks and focused native verification checks passed at DPR 1 on hardware WebGPU with no Frame plugin runtime. Reports in `artifacts/` bind results to exact source hashes. Documentation changes require a fresh build/check to preserve that binding. Historical revision 0 checked the earlier simple five-hole plate; its evidence does not substitute for these revision-1 checks.
 
 No surface-geometry physics simulation has been performed. Native rendered surfaces and commanded motion are model representations, not simulated contact, deformation, fatigue or manufacturing-process behavior.
 
@@ -109,5 +121,6 @@ No surface-geometry physics simulation has been performed. Native rendered surfa
 - 2026-11-17: Build the workshop around the robot's actual part and assembly requirements.
 - 2026-11-17: Keep first-model dimensions provisional; begin with the envelope and link lengths above.
 - 2026-11-17: Use a manual tool faceplate for the first interface. Automatic locking needs a separate mechanism and verification.
+- 2026-11-17: Revision 1 integrates the wrist hub/register and the mating cable guide, uses front-access M4 screws into the hub, and moves the pin/radial slot to radius 17 to preserve the guide-base ligament. Fits, pin retention and loads remain unqualified.
 - 2026-11-17: Begin base packaging with two rear drive-wheel envelopes and two front passive swivel-caster envelopes. Drives, mounting and stability remain open.
 - 2026-11-17: Use native parametric/spline modeling and no Frame plugins. Prioritize core `index.html` reliability and measured performance.

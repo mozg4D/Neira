@@ -1,0 +1,108 @@
+{
+  "reload": {
+    "doc": true,
+    "errors": [],
+    "owners": 220,
+    "parts": [
+      {
+        "bounds": {
+          "center": [
+            0,
+            1077.5,
+            -45.5
+          ],
+          "max": [
+            185,
+            1255,
+            7.5
+          ],
+          "min": [
+            -185,
+            900,
+            -98.5
+          ]
+        },
+        "name": "Torso rear",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1077.5,
+            55
+          ],
+          "max": [
+            185,
+            1255,
+            112.5
+          ],
+          "min": [
+            -185,
+            900,
+            -2.5
+          ]
+        },
+        "name": "Torso front",
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1077.5,
+            6.150888347648319
+          ],
+          "max": [
+            193.75152416360245,
+            1255,
+            102.16865530061467
+          ],
+          "min": [
+            -193.75152416360245,
+            900,
+            -89.86687860531805
+          ]
+        },
+        "name": "Torso study",
+        "visible": false
+      }
+    ],
+    "topology": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "c58292ba1ef9b4d3106b847cd7efec40",
+        "nonmanifold": 0,
+        "orientation": 0
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "id": "6d19c71dabbc84c6fb1a63a223103e25",
+        "nonmanifold": 0,
+        "orientation": 0
+      }
+    ]
+  },
+  "probes": [
+    {
+      "beamVolumeHits": [],
+      "boundary": 0,
+      "degenerate": 0,
+      "gridRays": 49,
+      "id": "c58292ba1ef9b4d3106b847cd7efec40",
+      "nonmanifold": 0,
+      "orientation": 0
+    },
+    {
+      "beamVolumeHits": [],
+      "boundary": 0,
+      "degenerate": 0,
+      "gridRays": 49,
+      "id": "6d19c71dabbc84c6fb1a63a223103e25",
+      "nonmanifold": 0,
+      "orientation": 0
+    }
+  ]
+}

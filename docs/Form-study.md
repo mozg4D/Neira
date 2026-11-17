@@ -17,3 +17,18 @@ Six sampled candidate frames at 1363x920: GPU 0.328..0.393 ms; CPU 1.8..2.1 ms. 
 The separate candidate now also replaces the box-shaped head skin with an oval native patch, retaining the original hidden. Camera and visor datums are unchanged. The editable head cage uses 16 controls / 28 segments / 14 resolved cells, display312 vertices /620 triangles, observed build59.8ms. Pose90 was visually inspected and produced no scene build errors; this is not a collision certificate. Recipe exported from `tools/form-study-cage.mjs`. Current candidate SHA256: `971c4e9053162bf71e8fe9456c277dce5ee7b3d12138cad36bfd84f4c3702902`. Screenshot: `artifacts/form-study.jpg`. This updated candidate was reopened: 94 owners, zero build errors, both native cages and the 30233-character Doc recovered. The earlier torso-only hash above describes the prior checkpoint.
 
 Next: compare front/profile and arm poses/clearances, then shell split lines, wall thickness, fastening and service access. The current scene contains no new strength, stability, sealed-volume or manufacturing qualification.
+
+## First workstation and pose
+
+The candidate adds a compact wrist-assembly station, not decorative room furniture: top760x300x24mm at X+/-380,Z450..750,Y876..900. Four40x40 support envelopes at X+/-340,Z490/710, rear brace640x40 atY200..240. The front is open. Two100x100x10 setup pads atX+/-200,Z500,Y900..910 mark future fixtures. Legs and the second pad are native Instances. Recipe and pose calculation: `tools/workstation-cage.mjs`. Supports are solid layout envelopes, not specified hollow extrusions or qualified joinery. Base-front gap112.5mm; an800mm departure corridor behind the robot is a provisional space reservation only.
+
+Initial wrist targetY920 was too low. Y950 gave small clearance. Final pose330 targets wrist centersX+/-200,Y975,Z470 with yaw+/-7.2750049579deg, pitch-59.2083491240deg, elbow44.5608743161deg and wrist-roll0. Native readback agrees within1e-9mm (arithmetic precision only). At330, guide/fasteners return to assembled offsets. Original0..300 keyframes remain, timeline extended to330.
+
+Generated display triangles were transformed by each owner world matrix, clipped to the rectangular table/pad footprints, and minimumY compared to their tops. At this single pose, Hub-to-pad gap29.756mm, Guide-to-pad37.492mm; no Fore display triangles entered those footprints. This is not source-surface tolerance, a swept collision check, or whole-robot clearance certification. Six sampled frames at an earlierY950 pose: GPU1.507..2.425ms, CPU1.3..2.1ms,1363x920,NVIDIA Turing. Not a controlled speed comparison.
+
+Important design finding: the current wrist only rolls. At the final pose its axis is about14.65deg above horizontal and cannot independently turn down toward the table. Before claiming an assembly operation, select either an angled fixture or additional wrist articulation. No actuator/joint-limit/stability/load qualification yet.
+
+Current candidate exportSHA256 `c9d26fa6f77acedf509fe9e1b4414fd21fd2f1b610305ed39c5ed04b0c5a0364`,107 owners. Live Frame application version `2026 17 nov 18:54`,API1.3.0. Earlier hashes above document prior checkpoints; canonical remains untouched.
+
+
+Final saved workstation round-trip passed:107 owners, zero build errors, preserved pose330 wrist centers and embedded Doc; no unavailable plugins/tags. Canonical SHA256 rechecked unchanged.

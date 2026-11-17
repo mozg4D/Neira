@@ -4,7 +4,7 @@ Updated: 2026-11-17. RESUMED by the user's later instruction to work on HOME and
 
 ## Current form-study checkpoint
 
-Canonical scenes/neira.hash remains unchanged (SHA256 c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036). Separate candidate scenes/neira-form-study.hash adds a native torso cage/patch, hides old torso skins and preserves arms/wrists/base. Read docs/Form-study.md for actual evidence, limits and next work. Recipe: tools/form-study-cage.mjs. No Frame code changed. No new canonical qualification is claimed. Modeling uses an isolated Chrome tab, not the user's existing scenes. Next: head and silhouette refinement, pose clearance checks, then shell construction and workshop layout.
+Canonical scenes/neira.hash remains unchanged (SHA256 c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036). Separate candidate scenes/neira-form-study.hash now has native torso/head studies and the first assembly workstation. Frame330 adds an analytically placed work pose; old body/head envelopes are retained hidden. Read docs/Form-study.md for actual evidence, limits and next work. Recipe: tools/form-study-cage.mjs. No Frame code changed. No new canonical qualification is claimed. Modeling uses an isolated Chrome tab, not the user's existing scenes. Candidate round-trip recovered107 owners, zero build errors, both wrist centers at X+/-200,Y975,Z470, and the complete study Doc. Next: resolve roll-only wrist orientation (angled fixture versus new articulation), check swept clearances, then shell/bench construction. Artifacts/form-study.jpg shows the saved pose.
 
 ## Pause checkpoint and shared Frame release
 

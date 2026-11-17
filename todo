@@ -1,4 +1,4 @@
-- Compare torso/head silhouettes and arm-pose clearances; retain editable splines.
+- Resolve tool orientation: angled fixture vs articulated wrist; check swept clearance.
 - Design shell thickness, split lines and tool/service access before manufacture.
 - Choose mobility for workshop/outdoors; wheels are provisional.
-- Size the workshop around real manufacturing and maintenance operations.
+- Turn first bench envelopes into a braced assembly with actual fixtures.

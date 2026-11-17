@@ -1,312 +1,312 @@
 {
   "ids": {
-    "Neira": "394ab0b5525941f7d369611098b9e425",
-    "Base": "704913a76edda0108d60f0fe49bcab1c",
-    "DriveL": "cc85bf1a1ba6b79c8cfb73af5037e986",
-    "wheelL": "cc85bf1a1ba6b79c8cfb73af5037e986",
-    "DriveR": "d71d2fc758a54706e768adedf775241c",
-    "wheelR": "d71d2fc758a54706e768adedf775241c",
-    "CasterL": "79d12f926a69d2647991ff683eecb824",
-    "CasterR": "0c71213204f0e408eca4bcab7590b563",
-    "Body": "1a12afdd792a1440ad6beafbe1dca7d9",
-    "LYaw": "b4f60ce66a1aeda4d793a9417844e703",
-    "LPitch": "58916996f8bf295a5a834c8e64f09ab8",
-    "LElbow": "1a803ed392cba9a7b26a372c0c3ef058",
-    "LWrist": "fcdfed65de796e3f46c5bbef18a2cada",
-    "LTool": "176ab5103d9750a18e5b87e4b276c751",
-    "LBolts": "9aedcbd43c5ea05c82dd1a4b570d4b46",
-    "RYaw": "419cdd9cee33f8dc6af6225f72f1fd75",
-    "RPitch": "aa329a8a8e17fb632c31cedbdfc8c6b6",
-    "RElbow": "56f49c76b1b35e30135cde6382f99409",
-    "RWrist": "ac961fa3c92c40ce09c3508e63caa970",
-    "RTool": "9c058c81b4447529891edf9f814a3262",
-    "RBolts": "642ba9222a6f0f3923920b302e2616be",
-    "plate": "5a59334b5b25ab91edb808a70eed8214",
-    "root": "394ab0b5525941f7d369611098b9e425"
+    "Neira": "4e13c8c869cec63f473479370cbe2823",
+    "Base": "377acb26ade96660b3a7ff715911e0b3",
+    "DriveL": "2f779b7b3ea77575de86eafe926cb6cd",
+    "wheelL": "2f779b7b3ea77575de86eafe926cb6cd",
+    "DriveR": "fbf6fdd029c5ef16943f6082cfebeed4",
+    "wheelR": "fbf6fdd029c5ef16943f6082cfebeed4",
+    "CasterL": "9b653324172406d7e50d9f6162054564",
+    "CasterR": "806b8eb3f9a195f9d8293988b4582913",
+    "Body": "c478f793d538715cd2f4d1e827a5fb6a",
+    "LYaw": "7daddab5820f1e8a532cb2a3526652a2",
+    "LPitch": "e6ba072d90f01dab978047f56e6951f7",
+    "LElbow": "20f0043ab73f6db5b9ed12f9c5056ab0",
+    "LWrist": "76dd4a1ae47dce5f63053afa5c52833f",
+    "LTool": "757003f8cb0fc26748dfe30403a45095",
+    "LBolts": "13103f9d054b3600e550e12d100cc24f",
+    "RYaw": "6d39d446b0e12a4e03a79bbfabeb4bfe",
+    "RPitch": "9f736544b3bed3b475b045f578b26938",
+    "RElbow": "1fbdf68a5523561c7dfb184b7f09ba84",
+    "RWrist": "3374acdebd486c7802694b5ef16984dd",
+    "RTool": "d54b7414f7ef123618d39f61778a9ee8",
+    "RBolts": "600c25de6401ee6e3f63c697a49f4f9f",
+    "plate": "633bcee120f428c5487703baa1185390",
+    "root": "4e13c8c869cec63f473479370cbe2823"
   },
   "parts": [
     {
-      "id": "3ffa055a749d8952dc51cac9e74ea28a",
+      "id": "87f33149fe11118f35cb784a5b50e07a",
       "name": "Deck",
       "type": "extrude"
     },
     {
-      "id": "e3108837dbe7a50eac118b77c183aa58",
+      "id": "9a1b95fac36865091e822640b966c957",
       "name": "Cowl",
       "type": "extrude"
     },
     {
-      "id": "9ed63162936d746327a7a125a08ba990",
+      "id": "5039f46015b73faddd5c07e9406e3607",
       "name": "Lid",
       "type": "extrude"
     },
     {
-      "id": "c16393be56b49e4c6a00330c2441b42f",
+      "id": "59eecb05461ab02370873b5318097e9c",
       "name": "Tire",
       "type": "tube"
     },
     {
-      "id": "f3dfe9b2369b1a3878ba3e4b39445dc8",
+      "id": "8da25b55aef12361f480d24a4b786535",
       "name": "Hub",
       "type": "cylinder"
     },
     {
-      "id": "4a50c7fc2cd8bec8a5bb4bdd69813f76",
+      "id": "64480501b2a321889c56dbf03df1538b",
       "name": "Axle",
       "type": "cylinder"
     },
     {
-      "id": "64a330b1cae07b96b447c6a585347f26",
+      "id": "4ff6f21624b7fcc4bb19fe65930ea5e9",
       "name": "Tire",
       "type": "instance"
     },
     {
-      "id": "0004413a7cfaf4bd073401e3c4a855f1",
+      "id": "f2f62bcd23ae779ecbdbe4db0ad977ab",
       "name": "Hub",
       "type": "instance"
     },
     {
-      "id": "658df7c88812ad41a253e6749249e113",
+      "id": "2663ac98946e23decc6953e243e82876",
       "name": "Axle",
       "type": "cylinder"
     },
     {
-      "id": "53ec674d5bc4324ab381a296de1b83e1",
+      "id": "3ef06ccc21117aedd1f721279305c888",
       "name": "Swivel",
       "type": "cylinder"
     },
     {
-      "id": "1f917a22b85b756567f8674a25b75e8f",
+      "id": "3df71900420ac67ff388865e0b4a533a",
       "name": "Fork",
       "type": "cube"
     },
     {
-      "id": "03adc46f998d8e2db986f5e11c92f522",
+      "id": "b1e939c5ded4d9299b5a4b8d409e1e44",
       "name": "Fork",
       "type": "cube"
     },
     {
-      "id": "fa14d8e0cffbb6938ee2b0a33d8eaf83",
+      "id": "e8bb8de46d98de645b3875e4c3bfaf0c",
       "name": "Roller",
       "type": "tube"
     },
     {
-      "id": "33027e8a618a2e5cd9a8cec8f2dcd24d",
+      "id": "99c790141fe8e8eae2fb235656d4c8ab",
       "name": "Hub",
       "type": "cylinder"
     },
     {
-      "id": "33d0f53ec0118a66e54fa916a08a557c",
+      "id": "da87d0d53bff9d64eb54b4973bd1bcf9",
       "name": "Swivel",
       "type": "cylinder"
     },
     {
-      "id": "073dc68d9e41dd71e4c1250a6c6902f2",
+      "id": "d9201da1d726f8f72c5b938501e98dcf",
       "name": "Fork",
       "type": "cube"
     },
     {
-      "id": "016692f9bb1425968a8b6e8e47c3ae0b",
+      "id": "165e2e41d7ebccb1e63fb6322b5d44a9",
       "name": "Fork",
       "type": "cube"
     },
     {
-      "id": "a2b44c38d11541b5b983cb37f26356cf",
+      "id": "4fd5a66ce80bc77d420efc4e0dc5adf7",
       "name": "Roller",
       "type": "instance"
     },
     {
-      "id": "796407afc79aab63203aa87765b2fc91",
+      "id": "cb85c9620d6957a63d543584d7124779",
       "name": "Hub",
       "type": "instance"
     },
     {
-      "id": "f75d546de18d3048b9c374b0033a87b3",
+      "id": "bd0014e61c51cd9bc7df369714a4d748",
       "name": "Foot",
       "type": "extrude"
     },
     {
-      "id": "28b4076692174356bb86e3e65f2e6956",
+      "id": "c418f1bf029bbd0c99783b3b87c7d913",
       "name": "Mast",
       "type": "extrude"
     },
     {
-      "id": "7f00770c6f84c43b6d543d77feeb14cf",
+      "id": "5de4e195a96c5ff22958e075ef0a2b8d",
       "name": "Chest",
       "type": "extrude"
     },
     {
-      "id": "fa6c0ab1f499457dd4058a2df39eada5",
+      "id": "1fbdc729735123ce78670c2235d04a8c",
       "name": "Back",
       "type": "extrude"
     },
     {
-      "id": "d4ccfa34f26e85f2fdd7a5e2cad8969b",
+      "id": "c075cd71e0e387c585210c0a941c2d8b",
       "name": "Front",
       "type": "extrude"
     },
     {
-      "id": "0f5017d8a32e200322cd49a6e252c8b5",
+      "id": "25cf3c0b755a98f36162a203b78cf7b8",
       "name": "Neck",
       "type": "cylinder"
     },
     {
-      "id": "a79d2b3226755907c5906e9ac05ade1c",
+      "id": "50ac1fdc420c4989327df0f01da77c06",
       "name": "Head",
       "type": "extrude"
     },
     {
-      "id": "3ddd3c3f43d4a6bed328444c5b25093f",
+      "id": "79fcadd9c5918a55882f7c90f6ac7322",
       "name": "Visor",
       "type": "extrude"
     },
     {
-      "id": "799c38ee12dbcd0283d0059c2afc0f33",
+      "id": "461ea8e4b75909ef3942bdc250157fce",
       "name": "Camera",
       "type": "cylinder"
     },
     {
-      "id": "9d4d809161074e6bed5d19b1d969721e",
+      "id": "69baceeba922b6a490a861d68671a3b5",
       "name": "Camera",
       "type": "instance"
     },
     {
-      "id": "e20b81da063842fce264a8d1b9c950b1",
+      "id": "8ff4484d21d581ffa1fbb0dc1fb74ada",
       "name": "Mount",
       "type": "cylinder"
     },
     {
-      "id": "6924ffcc82d2794656dab7e6f02b54ae",
+      "id": "a689228362508da01ada229fd7451b94",
       "name": "Mount",
       "type": "instance"
     },
     {
-      "id": "98f2b81b28817430716ea1654ed94c9a",
+      "id": "2fd7b1800ab6fd572773e9f361234878",
       "name": "Joint",
       "type": "cylinder"
     },
     {
-      "id": "0ead4415af49c2189ee5ab418c84c805",
+      "id": "89b238892cdbf850172d4e24efaf8df1",
       "name": "Upper",
       "type": "extrude"
     },
     {
-      "id": "460bbd1751f06f40279d3c443a663519",
+      "id": "e70f84669186c2710d6bcf13edaef94a",
       "name": "Joint",
       "type": "instance"
     },
     {
-      "id": "26aada1351e2fb646345a20ebd11edc7",
+      "id": "56230ad10ac9764d68393a63a54ae1b4",
       "name": "Fore",
       "type": "extrude"
     },
     {
-      "id": "5a59334b5b25ab91edb808a70eed8214",
+      "id": "633bcee120f428c5487703baa1185390",
       "name": "Hub",
       "type": "spline_patch"
     },
     {
-      "id": "493be94df7a1e58b423c01655bb72688",
+      "id": "7e3607a0969e2853e6e46907dcb309d4",
       "name": "Pin",
       "type": "cylinder"
     },
     {
-      "id": "36731cc1f27dd94b157604b33a2e6a3a",
+      "id": "de87d02fe0a17e012bda8e096ddd0599",
       "name": "Guide",
       "type": "spline_patch"
     },
     {
-      "id": "60b5c10afa41a934867008108b8cbe37",
+      "id": "a773f2e80329e512f8e3c3bd7676b941",
       "name": "M4x16",
       "type": "bolt"
     },
     {
-      "id": "67e3a5e93f5949b1daa226da6e326c55",
+      "id": "7366d158fb5cf1f1fdd56ae5ca134504",
       "name": "Washer",
       "type": "washer"
     },
     {
-      "id": "4c0f9b54c68881beaea8eef07094d5ce",
+      "id": "5253190d2feae6b2918d76786c14aa13",
       "name": "M4x16",
       "type": "instance"
     },
     {
-      "id": "d4c9a5bc981c454d873d19b35b4cd1e2",
+      "id": "64fe71e112afbc350390b45e7a3542c0",
       "name": "Washer",
       "type": "instance"
     },
     {
-      "id": "3c7dd7ea14078fe4e10a14341d160fc0",
+      "id": "67ae044c651bf392ac171a4d83520712",
       "name": "M4x16",
       "type": "instance"
     },
     {
-      "id": "6073bfc6a8e674e9bb725669e7b838de",
+      "id": "50ab628db12d44c238900330c6b8092a",
       "name": "Washer",
       "type": "instance"
     },
     {
-      "id": "7375a387f5cfa3ee1bc5fec02bee5a8e",
+      "id": "2f1533c002b5d80785d9052882fcf61d",
       "name": "Joint",
       "type": "instance"
     },
     {
-      "id": "5ec2d19483df634ca55f3e64df5b98c8",
+      "id": "e5518279bd46930262735230179bcdb3",
       "name": "Upper",
       "type": "instance"
     },
     {
-      "id": "52d7b3d58226ba6227f15259320c5d9d",
+      "id": "1aa3962fef46a38e9976c4d528204b6a",
       "name": "Joint",
       "type": "instance"
     },
     {
-      "id": "4ab8c61f3640afabe0ef7aac7e9f5ca4",
+      "id": "9a42960bd0727d092ec45454c211925d",
       "name": "Fore",
       "type": "instance"
     },
     {
-      "id": "a114f23c275874a9a6da2cadb83afa36",
+      "id": "05cd3be381f9d71e634901dee3953091",
       "name": "Hub",
       "type": "instance"
     },
     {
-      "id": "c2bfe8168769545eb7820a74cd17abec",
+      "id": "5a6b113bb7fd396c76f49e2f9e43be71",
       "name": "Pin",
       "type": "instance"
     },
     {
-      "id": "d1d31f5f1b80b362d07f55991771f20b",
+      "id": "ebedee6ab13cb79068f4f1378fb56110",
       "name": "Guide",
       "type": "instance"
     },
     {
-      "id": "750b92664d96791e06cf3777c1bd2d8a",
+      "id": "e272428cf9cd74a4667060c75aaa7fbb",
       "name": "M4x16",
       "type": "instance"
     },
     {
-      "id": "af40170e01fca83a7afe856e0da7ba7a",
+      "id": "e8a03c957eeaf0b11c0f8b3b8ac1146b",
       "name": "Washer",
       "type": "instance"
     },
     {
-      "id": "7506fddfc64f17deea2183e6c3e272b1",
+      "id": "73250e60bcff4fbc9401f116bd980ceb",
       "name": "M4x16",
       "type": "instance"
     },
     {
-      "id": "0bdc9e9a57999f107ebef817c08d9f8e",
+      "id": "ff490a19ed54e79f54237dce9a49cbaa",
       "name": "Washer",
       "type": "instance"
     },
     {
-      "id": "acc4873c59d1b06a910b4fb0baf1cf6d",
+      "id": "e89c1bc044d5d910bf555cd46ec795a0",
       "name": "M4x16",
       "type": "instance"
     },
     {
-      "id": "c8b62662381b432d7e9b55ef2dc80c70",
+      "id": "46e967a74f99bc95e5ebd5b61802da26",
       "name": "Washer",
       "type": "instance"
     }
@@ -314,63 +314,89 @@
   "interfaces": [
     {
       "side": "L",
-      "frame": "fcdfed65de796e3f46c5bbef18a2cada",
-      "hub": "5a59334b5b25ab91edb808a70eed8214",
-      "mate": "36731cc1f27dd94b157604b33a2e6a3a",
-      "pin": "493be94df7a1e58b423c01655bb72688",
+      "frame": "76dd4a1ae47dce5f63053afa5c52833f",
+      "hub": "633bcee120f428c5487703baa1185390",
+      "mate": "de87d02fe0a17e012bda8e096ddd0599",
+      "pin": "7e3607a0969e2853e6e46907dcb309d4",
       "bolts": [
-        "60b5c10afa41a934867008108b8cbe37",
-        "4c0f9b54c68881beaea8eef07094d5ce",
-        "3c7dd7ea14078fe4e10a14341d160fc0"
+        "a773f2e80329e512f8e3c3bd7676b941",
+        "5253190d2feae6b2918d76786c14aa13",
+        "67ae044c651bf392ac171a4d83520712"
       ],
       "washers": [
-        "67e3a5e93f5949b1daa226da6e326c55",
-        "d4c9a5bc981c454d873d19b35b4cd1e2",
-        "6073bfc6a8e674e9bb725669e7b838de"
+        "7366d158fb5cf1f1fdd56ae5ca134504",
+        "64fe71e112afbc350390b45e7a3542c0",
+        "50ab628db12d44c238900330c6b8092a"
       ],
-      "movingGroup": "176ab5103d9750a18e5b87e4b276c751",
-      "fasteners": "9aedcbd43c5ea05c82dd1a4b570d4b46",
+      "movingGroup": "757003f8cb0fc26748dfe30403a45095",
+      "fasteners": "13103f9d054b3600e550e12d100cc24f",
       "assembledFrame": 0,
       "explodedFrame": 300
     },
     {
       "side": "R",
-      "frame": "ac961fa3c92c40ce09c3508e63caa970",
-      "hub": "a114f23c275874a9a6da2cadb83afa36",
-      "mate": "d1d31f5f1b80b362d07f55991771f20b",
-      "pin": "c2bfe8168769545eb7820a74cd17abec",
+      "frame": "3374acdebd486c7802694b5ef16984dd",
+      "hub": "05cd3be381f9d71e634901dee3953091",
+      "mate": "ebedee6ab13cb79068f4f1378fb56110",
+      "pin": "5a6b113bb7fd396c76f49e2f9e43be71",
       "bolts": [
-        "750b92664d96791e06cf3777c1bd2d8a",
-        "7506fddfc64f17deea2183e6c3e272b1",
-        "acc4873c59d1b06a910b4fb0baf1cf6d"
+        "e272428cf9cd74a4667060c75aaa7fbb",
+        "73250e60bcff4fbc9401f116bd980ceb",
+        "e89c1bc044d5d910bf555cd46ec795a0"
       ],
       "washers": [
-        "af40170e01fca83a7afe856e0da7ba7a",
-        "0bdc9e9a57999f107ebef817c08d9f8e",
-        "c8b62662381b432d7e9b55ef2dc80c70"
+        "e8a03c957eeaf0b11c0f8b3b8ac1146b",
+        "ff490a19ed54e79f54237dce9a49cbaa",
+        "46e967a74f99bc95e5ebd5b61802da26"
       ],
-      "movingGroup": "9c058c81b4447529891edf9f814a3262",
-      "fasteners": "642ba9222a6f0f3923920b302e2616be",
+      "movingGroup": "d54b7414f7ef123618d39f61778a9ee8",
+      "fasteners": "600c25de6401ee6e3f63c697a49f4f9f",
       "assembledFrame": 0,
       "explodedFrame": 300
     }
   ],
+  "partDatums": {
+    "hub": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    "guide": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
   "timings": [
     {
       "name": "base",
-      "ms": 3717.100000023842
+      "ms": 3706.2000000476837
     },
     {
       "name": "body",
-      "ms": 3180.899999976158
+      "ms": 3148.100000023842
     },
     {
       "name": "arms",
-      "ms": 6578.399999976158
+      "ms": 6533.5
     },
     {
       "name": "native tracks",
-      "ms": 1151.2000000476837
+      "ms": 1133.6000000238419
     }
   ],
   "program": "a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2",
@@ -389,14 +415,14 @@
     "triangles": 12768,
     "workers": 15,
     "frame": {
-      "id": 664,
-      "gpuMs": 0.769504,
-      "cpuMs": 8.299999952316284
+      "id": 665,
+      "gpuMs": 0.805728,
+      "cpuMs": 13
     }
   },
   "objects": [
     {
-      "id": "c8b62662381b432d7e9b55ef2dc80c70",
+      "id": "46e967a74f99bc95e5ebd5b61802da26",
       "name": "Washer",
       "type": "instance",
       "buildError": null,
@@ -419,7 +445,7 @@
       }
     },
     {
-      "id": "acc4873c59d1b06a910b4fb0baf1cf6d",
+      "id": "e89c1bc044d5d910bf555cd46ec795a0",
       "name": "M4x16",
       "type": "instance",
       "buildError": null,
@@ -442,7 +468,7 @@
       }
     },
     {
-      "id": "0bdc9e9a57999f107ebef817c08d9f8e",
+      "id": "ff490a19ed54e79f54237dce9a49cbaa",
       "name": "Washer",
       "type": "instance",
       "buildError": null,
@@ -465,7 +491,7 @@
       }
     },
     {
-      "id": "7506fddfc64f17deea2183e6c3e272b1",
+      "id": "73250e60bcff4fbc9401f116bd980ceb",
       "name": "M4x16",
       "type": "instance",
       "buildError": null,
@@ -488,7 +514,7 @@
       }
     },
     {
-      "id": "af40170e01fca83a7afe856e0da7ba7a",
+      "id": "e8a03c957eeaf0b11c0f8b3b8ac1146b",
       "name": "Washer",
       "type": "instance",
       "buildError": null,
@@ -511,7 +537,7 @@
       }
     },
     {
-      "id": "750b92664d96791e06cf3777c1bd2d8a",
+      "id": "e272428cf9cd74a4667060c75aaa7fbb",
       "name": "M4x16",
       "type": "instance",
       "buildError": null,
@@ -534,7 +560,7 @@
       }
     },
     {
-      "id": "d1d31f5f1b80b362d07f55991771f20b",
+      "id": "ebedee6ab13cb79068f4f1378fb56110",
       "name": "Guide",
       "type": "instance",
       "buildError": null,
@@ -557,7 +583,7 @@
       }
     },
     {
-      "id": "642ba9222a6f0f3923920b302e2616be",
+      "id": "600c25de6401ee6e3f63c697a49f4f9f",
       "name": "RBolts",
       "type": "group",
       "buildError": null,
@@ -580,7 +606,7 @@
       }
     },
     {
-      "id": "9c058c81b4447529891edf9f814a3262",
+      "id": "d54b7414f7ef123618d39f61778a9ee8",
       "name": "RTool",
       "type": "group",
       "buildError": null,
@@ -603,7 +629,7 @@
       }
     },
     {
-      "id": "c2bfe8168769545eb7820a74cd17abec",
+      "id": "5a6b113bb7fd396c76f49e2f9e43be71",
       "name": "Pin",
       "type": "instance",
       "buildError": null,
@@ -626,7 +652,7 @@
       }
     },
     {
-      "id": "a114f23c275874a9a6da2cadb83afa36",
+      "id": "05cd3be381f9d71e634901dee3953091",
       "name": "Hub",
       "type": "instance",
       "buildError": null,
@@ -649,7 +675,7 @@
       }
     },
     {
-      "id": "ac961fa3c92c40ce09c3508e63caa970",
+      "id": "3374acdebd486c7802694b5ef16984dd",
       "name": "RWrist",
       "type": "group",
       "buildError": null,
@@ -672,7 +698,7 @@
       }
     },
     {
-      "id": "4ab8c61f3640afabe0ef7aac7e9f5ca4",
+      "id": "9a42960bd0727d092ec45454c211925d",
       "name": "Fore",
       "type": "instance",
       "buildError": null,
@@ -695,7 +721,7 @@
       }
     },
     {
-      "id": "52d7b3d58226ba6227f15259320c5d9d",
+      "id": "1aa3962fef46a38e9976c4d528204b6a",
       "name": "Joint",
       "type": "instance",
       "buildError": null,
@@ -718,7 +744,7 @@
       }
     },
     {
-      "id": "56f49c76b1b35e30135cde6382f99409",
+      "id": "1fbdf68a5523561c7dfb184b7f09ba84",
       "name": "RElbow",
       "type": "group",
       "buildError": null,
@@ -741,7 +767,7 @@
       }
     },
     {
-      "id": "5ec2d19483df634ca55f3e64df5b98c8",
+      "id": "e5518279bd46930262735230179bcdb3",
       "name": "Upper",
       "type": "instance",
       "buildError": null,
@@ -764,7 +790,7 @@
       }
     },
     {
-      "id": "7375a387f5cfa3ee1bc5fec02bee5a8e",
+      "id": "2f1533c002b5d80785d9052882fcf61d",
       "name": "Joint",
       "type": "instance",
       "buildError": null,
@@ -787,7 +813,7 @@
       }
     },
     {
-      "id": "aa329a8a8e17fb632c31cedbdfc8c6b6",
+      "id": "9f736544b3bed3b475b045f578b26938",
       "name": "RPitch",
       "type": "group",
       "buildError": null,
@@ -810,7 +836,7 @@
       }
     },
     {
-      "id": "419cdd9cee33f8dc6af6225f72f1fd75",
+      "id": "6d39d446b0e12a4e03a79bbfabeb4bfe",
       "name": "RYaw",
       "type": "group",
       "buildError": null,
@@ -833,7 +859,7 @@
       }
     },
     {
-      "id": "6073bfc6a8e674e9bb725669e7b838de",
+      "id": "50ab628db12d44c238900330c6b8092a",
       "name": "Washer",
       "type": "instance",
       "buildError": null,
@@ -856,7 +882,7 @@
       }
     },
     {
-      "id": "3c7dd7ea14078fe4e10a14341d160fc0",
+      "id": "67ae044c651bf392ac171a4d83520712",
       "name": "M4x16",
       "type": "instance",
       "buildError": null,
@@ -879,7 +905,7 @@
       }
     },
     {
-      "id": "d4c9a5bc981c454d873d19b35b4cd1e2",
+      "id": "64fe71e112afbc350390b45e7a3542c0",
       "name": "Washer",
       "type": "instance",
       "buildError": null,
@@ -902,7 +928,7 @@
       }
     },
     {
-      "id": "4c0f9b54c68881beaea8eef07094d5ce",
+      "id": "5253190d2feae6b2918d76786c14aa13",
       "name": "M4x16",
       "type": "instance",
       "buildError": null,
@@ -925,7 +951,7 @@
       }
     },
     {
-      "id": "67e3a5e93f5949b1daa226da6e326c55",
+      "id": "7366d158fb5cf1f1fdd56ae5ca134504",
       "name": "Washer",
       "type": "washer",
       "buildError": null,
@@ -948,7 +974,7 @@
       }
     },
     {
-      "id": "60b5c10afa41a934867008108b8cbe37",
+      "id": "a773f2e80329e512f8e3c3bd7676b941",
       "name": "M4x16",
       "type": "bolt",
       "buildError": null,
@@ -971,7 +997,7 @@
       }
     },
     {
-      "id": "36731cc1f27dd94b157604b33a2e6a3a",
+      "id": "de87d02fe0a17e012bda8e096ddd0599",
       "name": "Guide",
       "type": "spline_patch",
       "buildError": null,
@@ -994,7 +1020,7 @@
       }
     },
     {
-      "id": "9aedcbd43c5ea05c82dd1a4b570d4b46",
+      "id": "13103f9d054b3600e550e12d100cc24f",
       "name": "LBolts",
       "type": "group",
       "buildError": null,
@@ -1017,7 +1043,7 @@
       }
     },
     {
-      "id": "176ab5103d9750a18e5b87e4b276c751",
+      "id": "757003f8cb0fc26748dfe30403a45095",
       "name": "LTool",
       "type": "group",
       "buildError": null,
@@ -1040,7 +1066,7 @@
       }
     },
     {
-      "id": "493be94df7a1e58b423c01655bb72688",
+      "id": "7e3607a0969e2853e6e46907dcb309d4",
       "name": "Pin",
       "type": "cylinder",
       "buildError": null,
@@ -1063,7 +1089,7 @@
       }
     },
     {
-      "id": "5a59334b5b25ab91edb808a70eed8214",
+      "id": "633bcee120f428c5487703baa1185390",
       "name": "Hub",
       "type": "spline_patch",
       "buildError": null,
@@ -1086,7 +1112,7 @@
       }
     },
     {
-      "id": "fcdfed65de796e3f46c5bbef18a2cada",
+      "id": "76dd4a1ae47dce5f63053afa5c52833f",
       "name": "LWrist",
       "type": "group",
       "buildError": null,
@@ -1109,7 +1135,7 @@
       }
     },
     {
-      "id": "26aada1351e2fb646345a20ebd11edc7",
+      "id": "56230ad10ac9764d68393a63a54ae1b4",
       "name": "Fore",
       "type": "extrude",
       "buildError": null,
@@ -1132,7 +1158,7 @@
       }
     },
     {
-      "id": "460bbd1751f06f40279d3c443a663519",
+      "id": "e70f84669186c2710d6bcf13edaef94a",
       "name": "Joint",
       "type": "instance",
       "buildError": null,
@@ -1155,7 +1181,7 @@
       }
     },
     {
-      "id": "1a803ed392cba9a7b26a372c0c3ef058",
+      "id": "20f0043ab73f6db5b9ed12f9c5056ab0",
       "name": "LElbow",
       "type": "group",
       "buildError": null,
@@ -1178,7 +1204,7 @@
       }
     },
     {
-      "id": "0ead4415af49c2189ee5ab418c84c805",
+      "id": "89b238892cdbf850172d4e24efaf8df1",
       "name": "Upper",
       "type": "extrude",
       "buildError": null,
@@ -1201,7 +1227,7 @@
       }
     },
     {
-      "id": "98f2b81b28817430716ea1654ed94c9a",
+      "id": "2fd7b1800ab6fd572773e9f361234878",
       "name": "Joint",
       "type": "cylinder",
       "buildError": null,
@@ -1224,7 +1250,7 @@
       }
     },
     {
-      "id": "58916996f8bf295a5a834c8e64f09ab8",
+      "id": "e6ba072d90f01dab978047f56e6951f7",
       "name": "LPitch",
       "type": "group",
       "buildError": null,
@@ -1247,7 +1273,7 @@
       }
     },
     {
-      "id": "b4f60ce66a1aeda4d793a9417844e703",
+      "id": "7daddab5820f1e8a532cb2a3526652a2",
       "name": "LYaw",
       "type": "group",
       "buildError": null,
@@ -1270,7 +1296,7 @@
       }
     },
     {
-      "id": "6924ffcc82d2794656dab7e6f02b54ae",
+      "id": "a689228362508da01ada229fd7451b94",
       "name": "Mount",
       "type": "instance",
       "buildError": null,
@@ -1293,7 +1319,7 @@
       }
     },
     {
-      "id": "e20b81da063842fce264a8d1b9c950b1",
+      "id": "8ff4484d21d581ffa1fbb0dc1fb74ada",
       "name": "Mount",
       "type": "cylinder",
       "buildError": null,
@@ -1316,7 +1342,7 @@
       }
     },
     {
-      "id": "9d4d809161074e6bed5d19b1d969721e",
+      "id": "69baceeba922b6a490a861d68671a3b5",
       "name": "Camera",
       "type": "instance",
       "buildError": null,
@@ -1339,7 +1365,7 @@
       }
     },
     {
-      "id": "799c38ee12dbcd0283d0059c2afc0f33",
+      "id": "461ea8e4b75909ef3942bdc250157fce",
       "name": "Camera",
       "type": "cylinder",
       "buildError": null,
@@ -1362,7 +1388,7 @@
       }
     },
     {
-      "id": "3ddd3c3f43d4a6bed328444c5b25093f",
+      "id": "79fcadd9c5918a55882f7c90f6ac7322",
       "name": "Visor",
       "type": "extrude",
       "buildError": null,
@@ -1385,7 +1411,7 @@
       }
     },
     {
-      "id": "a79d2b3226755907c5906e9ac05ade1c",
+      "id": "50ac1fdc420c4989327df0f01da77c06",
       "name": "Head",
       "type": "extrude",
       "buildError": null,
@@ -1408,7 +1434,7 @@
       }
     },
     {
-      "id": "0f5017d8a32e200322cd49a6e252c8b5",
+      "id": "25cf3c0b755a98f36162a203b78cf7b8",
       "name": "Neck",
       "type": "cylinder",
       "buildError": null,
@@ -1431,7 +1457,7 @@
       }
     },
     {
-      "id": "d4ccfa34f26e85f2fdd7a5e2cad8969b",
+      "id": "c075cd71e0e387c585210c0a941c2d8b",
       "name": "Front",
       "type": "extrude",
       "buildError": null,
@@ -1454,7 +1480,7 @@
       }
     },
     {
-      "id": "fa6c0ab1f499457dd4058a2df39eada5",
+      "id": "1fbdc729735123ce78670c2235d04a8c",
       "name": "Back",
       "type": "extrude",
       "buildError": null,
@@ -1477,7 +1503,7 @@
       }
     },
     {
-      "id": "7f00770c6f84c43b6d543d77feeb14cf",
+      "id": "5de4e195a96c5ff22958e075ef0a2b8d",
       "name": "Chest",
       "type": "extrude",
       "buildError": null,
@@ -1500,7 +1526,7 @@
       }
     },
     {
-      "id": "28b4076692174356bb86e3e65f2e6956",
+      "id": "c418f1bf029bbd0c99783b3b87c7d913",
       "name": "Mast",
       "type": "extrude",
       "buildError": null,
@@ -1523,7 +1549,7 @@
       }
     },
     {
-      "id": "f75d546de18d3048b9c374b0033a87b3",
+      "id": "bd0014e61c51cd9bc7df369714a4d748",
       "name": "Foot",
       "type": "extrude",
       "buildError": null,
@@ -1546,7 +1572,7 @@
       }
     },
     {
-      "id": "1a12afdd792a1440ad6beafbe1dca7d9",
+      "id": "c478f793d538715cd2f4d1e827a5fb6a",
       "name": "Body",
       "type": "group",
       "buildError": null,
@@ -1569,7 +1595,7 @@
       }
     },
     {
-      "id": "796407afc79aab63203aa87765b2fc91",
+      "id": "cb85c9620d6957a63d543584d7124779",
       "name": "Hub",
       "type": "instance",
       "buildError": null,
@@ -1592,7 +1618,7 @@
       }
     },
     {
-      "id": "a2b44c38d11541b5b983cb37f26356cf",
+      "id": "4fd5a66ce80bc77d420efc4e0dc5adf7",
       "name": "Roller",
       "type": "instance",
       "buildError": null,
@@ -1615,7 +1641,7 @@
       }
     },
     {
-      "id": "016692f9bb1425968a8b6e8e47c3ae0b",
+      "id": "165e2e41d7ebccb1e63fb6322b5d44a9",
       "name": "Fork",
       "type": "cube",
       "buildError": null,
@@ -1638,7 +1664,7 @@
       }
     },
     {
-      "id": "073dc68d9e41dd71e4c1250a6c6902f2",
+      "id": "d9201da1d726f8f72c5b938501e98dcf",
       "name": "Fork",
       "type": "cube",
       "buildError": null,
@@ -1661,7 +1687,7 @@
       }
     },
     {
-      "id": "33d0f53ec0118a66e54fa916a08a557c",
+      "id": "da87d0d53bff9d64eb54b4973bd1bcf9",
       "name": "Swivel",
       "type": "cylinder",
       "buildError": null,
@@ -1684,7 +1710,7 @@
       }
     },
     {
-      "id": "0c71213204f0e408eca4bcab7590b563",
+      "id": "806b8eb3f9a195f9d8293988b4582913",
       "name": "CasterR",
       "type": "group",
       "buildError": null,
@@ -1707,7 +1733,7 @@
       }
     },
     {
-      "id": "33027e8a618a2e5cd9a8cec8f2dcd24d",
+      "id": "99c790141fe8e8eae2fb235656d4c8ab",
       "name": "Hub",
       "type": "cylinder",
       "buildError": null,
@@ -1730,7 +1756,7 @@
       }
     },
     {
-      "id": "fa14d8e0cffbb6938ee2b0a33d8eaf83",
+      "id": "e8bb8de46d98de645b3875e4c3bfaf0c",
       "name": "Roller",
       "type": "tube",
       "buildError": null,
@@ -1753,7 +1779,7 @@
       }
     },
     {
-      "id": "03adc46f998d8e2db986f5e11c92f522",
+      "id": "b1e939c5ded4d9299b5a4b8d409e1e44",
       "name": "Fork",
       "type": "cube",
       "buildError": null,
@@ -1776,7 +1802,7 @@
       }
     },
     {
-      "id": "1f917a22b85b756567f8674a25b75e8f",
+      "id": "3df71900420ac67ff388865e0b4a533a",
       "name": "Fork",
       "type": "cube",
       "buildError": null,
@@ -1799,7 +1825,7 @@
       }
     },
     {
-      "id": "53ec674d5bc4324ab381a296de1b83e1",
+      "id": "3ef06ccc21117aedd1f721279305c888",
       "name": "Swivel",
       "type": "cylinder",
       "buildError": null,
@@ -1822,7 +1848,7 @@
       }
     },
     {
-      "id": "79d12f926a69d2647991ff683eecb824",
+      "id": "9b653324172406d7e50d9f6162054564",
       "name": "CasterL",
       "type": "group",
       "buildError": null,
@@ -1845,7 +1871,7 @@
       }
     },
     {
-      "id": "658df7c88812ad41a253e6749249e113",
+      "id": "2663ac98946e23decc6953e243e82876",
       "name": "Axle",
       "type": "cylinder",
       "buildError": null,
@@ -1868,7 +1894,7 @@
       }
     },
     {
-      "id": "0004413a7cfaf4bd073401e3c4a855f1",
+      "id": "f2f62bcd23ae779ecbdbe4db0ad977ab",
       "name": "Hub",
       "type": "instance",
       "buildError": null,
@@ -1891,7 +1917,7 @@
       }
     },
     {
-      "id": "64a330b1cae07b96b447c6a585347f26",
+      "id": "4ff6f21624b7fcc4bb19fe65930ea5e9",
       "name": "Tire",
       "type": "instance",
       "buildError": null,
@@ -1914,7 +1940,7 @@
       }
     },
     {
-      "id": "d71d2fc758a54706e768adedf775241c",
+      "id": "fbf6fdd029c5ef16943f6082cfebeed4",
       "name": "DriveR",
       "type": "group",
       "buildError": null,
@@ -1937,7 +1963,7 @@
       }
     },
     {
-      "id": "4a50c7fc2cd8bec8a5bb4bdd69813f76",
+      "id": "64480501b2a321889c56dbf03df1538b",
       "name": "Axle",
       "type": "cylinder",
       "buildError": null,
@@ -1960,7 +1986,7 @@
       }
     },
     {
-      "id": "f3dfe9b2369b1a3878ba3e4b39445dc8",
+      "id": "8da25b55aef12361f480d24a4b786535",
       "name": "Hub",
       "type": "cylinder",
       "buildError": null,
@@ -1983,7 +2009,7 @@
       }
     },
     {
-      "id": "c16393be56b49e4c6a00330c2441b42f",
+      "id": "59eecb05461ab02370873b5318097e9c",
       "name": "Tire",
       "type": "tube",
       "buildError": null,
@@ -2006,7 +2032,7 @@
       }
     },
     {
-      "id": "cc85bf1a1ba6b79c8cfb73af5037e986",
+      "id": "2f779b7b3ea77575de86eafe926cb6cd",
       "name": "DriveL",
       "type": "group",
       "buildError": null,
@@ -2029,7 +2055,7 @@
       }
     },
     {
-      "id": "9ed63162936d746327a7a125a08ba990",
+      "id": "5039f46015b73faddd5c07e9406e3607",
       "name": "Lid",
       "type": "extrude",
       "buildError": null,
@@ -2052,7 +2078,7 @@
       }
     },
     {
-      "id": "e3108837dbe7a50eac118b77c183aa58",
+      "id": "9a1b95fac36865091e822640b966c957",
       "name": "Cowl",
       "type": "extrude",
       "buildError": null,
@@ -2075,7 +2101,7 @@
       }
     },
     {
-      "id": "3ffa055a749d8952dc51cac9e74ea28a",
+      "id": "87f33149fe11118f35cb784a5b50e07a",
       "name": "Deck",
       "type": "extrude",
       "buildError": null,
@@ -2098,7 +2124,7 @@
       }
     },
     {
-      "id": "704913a76edda0108d60f0fe49bcab1c",
+      "id": "377acb26ade96660b3a7ff715911e0b3",
       "name": "Base",
       "type": "group",
       "buildError": null,
@@ -2121,7 +2147,7 @@
       }
     },
     {
-      "id": "394ab0b5525941f7d369611098b9e425",
+      "id": "4e13c8c869cec63f473479370cbe2823",
       "name": "Neira",
       "type": "group",
       "buildError": null,
@@ -2144,7 +2170,7 @@
       }
     },
     {
-      "id": "594e0873326cdb5ef3e900e279a320a9",
+      "id": "667711d0c6914763048d973a59708091",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2167,7 +2193,7 @@
       }
     },
     {
-      "id": "53f4d934ec9b6dc8cc03e89102bd0bb0",
+      "id": "907f0a5a1cbef3d184acf000c0ebe2dd",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2190,7 +2216,7 @@
       }
     },
     {
-      "id": "c5b88e61b377f053c97db786e3623d10",
+      "id": "f522ba0d3802ed99a1baffe3233e33b7",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2213,7 +2239,7 @@
       }
     },
     {
-      "id": "559799332315cdc0e247dad199dd0003",
+      "id": "bc8dfe2bb7c8a5cd8c01bf59ef1bbe94",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2236,7 +2262,7 @@
       }
     },
     {
-      "id": "d869df89fad513be5e2f6c2bb7c81903",
+      "id": "9e321c078b0089a05ae093577b792ee6",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2259,7 +2285,7 @@
       }
     },
     {
-      "id": "e33e181b0bfc95ba79c8efec903acc33",
+      "id": "82f84e83e18585262ff7f5d5d69467a9",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2282,7 +2308,7 @@
       }
     },
     {
-      "id": "ae91349e3d3b69d86e0730d81827238f",
+      "id": "e72f1188a80271fbfb0a56999b7c41cb",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2305,7 +2331,7 @@
       }
     },
     {
-      "id": "db0a823b9d495ddd6edfaca315bf9f82",
+      "id": "580c1334b5b3eadbf1334afd5ab29f4e",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2328,7 +2354,7 @@
       }
     },
     {
-      "id": "8f414de7aea89d49e545531bccbc3e8a",
+      "id": "ab8aa9a0ff697b883e6772b64228eb82",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2351,7 +2377,7 @@
       }
     },
     {
-      "id": "344604088512d4d972017aff275058a9",
+      "id": "d9c3f12dd944329092fef6b788f0b8de",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2374,7 +2400,7 @@
       }
     },
     {
-      "id": "402ad6ebb9541c195b138ddaef9c8825",
+      "id": "218f8c37ac143404df3c2a25c8f19a26",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2397,7 +2423,7 @@
       }
     },
     {
-      "id": "0083e7d825e292bee82792a307d5ff29",
+      "id": "33d36c1881411c857c7dca8f53b5e538",
       "name": "Profile",
       "type": "spline",
       "buildError": null,
@@ -2420,7 +2446,7 @@
       }
     },
     {
-      "id": "2c1093c544e5535c542315bf7f7f4fc5",
+      "id": "07f26c57e6c2e634f613b55f29e153ba",
       "name": "Cage",
       "type": "spline",
       "buildError": null,
@@ -2443,7 +2469,7 @@
       }
     },
     {
-      "id": "51e42b90139e2106abcb21893c7d5740",
+      "id": "e4957c2ee12e1cb34ce0741290163d09",
       "name": "Cage",
       "type": "spline",
       "buildError": null,
@@ -2470,24 +2496,29 @@
   "coordinateSystem": "Y up, +Z forward",
   "assumptions": "Packaging and commanded kinematics only; no payload, strength, collision or manufacturing qualification",
   "sources": {
-    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+    "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+    "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
     "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+    "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+    "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+    "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+    "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+    "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+    "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+    "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+    "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+    "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
   },
   "file": {
     "name": "neira.hash",
-    "bytes": 62654,
-    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b"
+    "bytes": 63789,
+    "sha256": "c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036"
   },
   "canonicalBefore": {
     "exists": true,
-    "bytes": 61667,
-    "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+    "bytes": 63792,
+    "sha256": "3d2fb043db4fa92b73284bf30c9e8aed373af74aeeb66774fbe9e910dba54e25"
   }
 }

@@ -1,6 +1,8 @@
 # Manual tool interface — engineering proposal
 
-Revision 1. Status: native geometry, source accuracy, local driver approaches, persistence and commanded assembly inspection are checked. Manufacturing fits, materials, pin retention, loads and physical qualification remain open. Dimensions are millimetres. Coordinates below are local to the wrist, with +Z toward the tool. Catalogue examples establish geometry, not a selected supplier, material grade, purchase or load rating.
+Revision 1. Status: native geometry, source accuracy, local driver approaches, persistence and commanded assembly inspection are checked. Separate factories have passed datum and assembly integration checks. Manufacturing fits, materials, pin retention, loads and physical qualification remain open. Dimensions are millimetres. Coordinates below are local to the wrist, with +Z toward the tool. Catalogue examples establish geometry, not a selected supplier, material grade, purchase or load rating.
+
+Factory-local coordinates use each part's mating face as Z = 0 with normal +Z. The assembler places both factory datums at wrist Z = +6; the wrist-coordinate dimensions below remain unchanged. Shared interface dimensions are owned by the main assembler in `src/interface.js`; separate part agents own `wrist-hub.js` and `cable-guide.js` under `src/parts/`. These pure factories return native cages, while the assembler creates the Frame scene objects.
 
 ## Architecture and location
 

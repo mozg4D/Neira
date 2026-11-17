@@ -12,6 +12,14 @@ Read `STATE.md`, `docs/Design.md` and `docs/Tool-interface.md` before continuing
 - Take clear architectural decisions and record their reason. Ask the user about genuinely disputed decisions. Report a missing tool with the concrete operation it prevents.
 - Preserve aesthetics as a design requirement: coherent proportions, readable assembly and deliberate visible details.
 
+## Part agents and assembly ownership
+
+- Delegate independent part families to part agents. Agree the shared dimensions and mating datums before editing; assign each agent a separate factory file. The current part factories are `src/parts/wrist-hub.js` and `src/parts/cable-guide.js`.
+- The main assembler owns `src/interface.js`, `src/cad.js`, `src/parts/index.js` and scene assembly in `src/model.js`. Part agents request shared changes through that owner instead of editing shared files concurrently or duplicating interface dimensions.
+- Part factories return JSON-serializable native cages with a short name, units `mm` and datum `{origin:[0,0,0],normal:[0,0,1]}`. Their mating face is local Z = 0 and the axis is +Z. They create no Frame scenes, objects, API calls, polygon geometry or hidden reconstruction hints.
+- `createPartSet()` collects the parts. The main assembler places both current wrist-part datums at wrist Z = +6, creates scene objects/Instances and owns mating, integration, persistence and control verification. Technical tables remain in wrist assembly coordinates.
+- All `src/` JavaScript is hash-fenced automatically by build/verification. Keep module-level cage checks separate from native assembly evidence; changed configurations or parameter variants need their own qualification. Save documents as UTF-8 and use explicit UTF-8 for text reads/writes.
+
 ## Modeling and performance
 
 - No polygonal modeling, authored mesh parts, mesh conversion or hidden mesh substitutes. Use native Spline Patches, splines, profiles and supported parametric generators; retain their editable source.

@@ -1,7 +1,7 @@
 {
   "kind": "Neira reproducible build",
   "pass": true,
-  "startedAt": "2026-11-17T13:43:22.343Z",
+  "startedAt": "2026-11-17T14:02:54.254Z",
   "environment": {
     "node": "v24.19.0",
     "platform": "win32",
@@ -32,7 +32,7 @@
       "name": "Build native robot assembly completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 15596.7239,
+        "ms": 15577.482,
         "budgetMs": 120000
       }
     },
@@ -54,9 +54,9 @@
         "triangles": 12768,
         "workers": 15,
         "frame": {
-          "id": 667,
-          "gpuMs": 3.463264,
-          "cpuMs": 2.299999952316284
+          "id": 668,
+          "gpuMs": 3.7336,
+          "cpuMs": 2.4000000953674316
         }
       }
     },
@@ -97,7 +97,7 @@
       "name": "Export editable HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 228.77649999999994,
+        "ms": 235.96359999999913,
         "budgetMs": 15000
       }
     },
@@ -132,12 +132,12 @@
   "timings": [
     {
       "name": "Build native robot assembly",
-      "ms": 15596.7239,
+      "ms": 15577.482,
       "budgetMs": 120000
     },
     {
       "name": "Export editable HASH",
-      "ms": 228.77649999999994,
+      "ms": 235.96359999999913,
       "budgetMs": 15000
     }
   ],
@@ -149,15 +149,20 @@
     "scene": "work/candidate/neira.hash"
   },
   "sources": {
-    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+    "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+    "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
     "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+    "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+    "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+    "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+    "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+    "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+    "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+    "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+    "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+    "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
   },
   "hardware": {
     "vendor": "nvidia",
@@ -170,8 +175,8 @@
   },
   "file": {
     "name": "neira.hash",
-    "bytes": 62654,
-    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b"
+    "bytes": 63789,
+    "sha256": "c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036"
   },
   "model": {
     "objects": 90,
@@ -190,9 +195,9 @@
       "triangles": 12768,
       "workers": 15,
       "frame": {
-        "id": 667,
-        "gpuMs": 3.463264,
-        "cpuMs": 2.299999952316284
+        "id": 668,
+        "gpuMs": 3.7336,
+        "cpuMs": 2.4000000953674316
       }
     }
   },
@@ -207,15 +212,20 @@
     "ownedBrowserAndServerClosed": true
   },
   "sourcesAfter": {
-    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+    "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+    "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
     "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+    "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+    "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+    "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+    "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+    "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+    "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+    "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+    "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+    "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
   },
-  "finishedAt": "2026-11-17T13:43:41.536Z"
+  "finishedAt": "2026-11-17T14:03:13.411Z"
 }

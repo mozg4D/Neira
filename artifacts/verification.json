@@ -1,7 +1,7 @@
 {
   "kind": "Neira native HASH verification",
   "pass": true,
-  "startedAt": "2026-11-17T13:43:46.028Z",
+  "startedAt": "2026-11-17T14:03:19.526Z",
   "environment": {
     "node": "v24.19.0",
     "platform": "win32",
@@ -11,6 +11,10 @@
   "scope": "Native Frame DPR 1; no Frame plugins; packaging, topology and commanded motion only",
   "checks": [
     {
+      "name": "Both part factory datum arrays declare origin zero and normal +Z",
+      "pass": true
+    },
+    {
       "name": "Saved HASH matches build manifest",
       "pass": true
     },
@@ -19,26 +23,36 @@
       "pass": true,
       "detail": {
         "build": {
-          "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-          "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+          "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+          "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
           "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-          "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+          "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
           "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-          "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-          "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-          "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-          "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+          "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+          "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+          "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+          "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+          "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+          "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+          "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+          "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+          "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
         },
         "current": {
-          "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-          "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+          "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+          "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
           "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-          "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+          "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
           "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-          "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-          "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-          "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-          "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+          "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+          "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+          "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+          "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+          "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+          "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+          "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+          "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+          "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
         }
       }
     },
@@ -64,7 +78,7 @@
       "name": "Open Neira HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 699.4530999999997,
+        "ms": 690.7640999999999,
         "budgetMs": 15000
       }
     },
@@ -87,8 +101,8 @@
         "workers": 1,
         "frame": {
           "id": 1,
-          "gpuMs": 0.049152,
-          "cpuMs": 4.400000095367432
+          "gpuMs": 0.047808,
+          "cpuMs": 7
         }
       }
     },
@@ -133,14 +147,14 @@
       "name": "All eight commanded joint frames exist",
       "pass": true,
       "detail": [
-        "b4f60ce66a1aeda4d793a9417844e703",
-        "419cdd9cee33f8dc6af6225f72f1fd75",
-        "58916996f8bf295a5a834c8e64f09ab8",
-        "aa329a8a8e17fb632c31cedbdfc8c6b6",
-        "1a803ed392cba9a7b26a372c0c3ef058",
-        "56f49c76b1b35e30135cde6382f99409",
-        "fcdfed65de796e3f46c5bbef18a2cada",
-        "ac961fa3c92c40ce09c3508e63caa970"
+        "7daddab5820f1e8a532cb2a3526652a2",
+        "6d39d446b0e12a4e03a79bbfabeb4bfe",
+        "e6ba072d90f01dab978047f56e6951f7",
+        "9f736544b3bed3b475b045f578b26938",
+        "20f0043ab73f6db5b9ed12f9c5056ab0",
+        "1fbdf68a5523561c7dfb184b7f09ba84",
+        "76dd4a1ae47dce5f63053afa5c52833f",
+        "3374acdebd486c7802694b5ef16984dd"
       ]
     },
     {
@@ -830,7 +844,7 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.4999699484173634,
+            "min": 1.4999699484173632,
             "max": 1.500421320245913
           }
         },
@@ -845,7 +859,7 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.4999699484173634,
+            "min": 1.4999699484173632,
             "max": 1.500421320245913
           }
         },
@@ -935,32 +949,32 @@
               "id": "slotas1",
               "sign": 1,
               "bounds": {
-                "min": 1.599967944978524,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785247,
+                "max": 1.600449408262308
               }
             },
             {
               "id": "slotas2",
               "sign": 1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623062
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623077
               }
             },
             {
               "id": "slotas4",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623055
               }
             },
             {
               "id": "slotas5",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785242,
-                "max": 1.6004494082623073
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623082
               }
             }
           ],
@@ -1000,32 +1014,32 @@
               "id": "slotbs1",
               "sign": 1,
               "bounds": {
-                "min": 1.599967944978524,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785247,
+                "max": 1.600449408262308
               }
             },
             {
               "id": "slotbs2",
               "sign": 1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623062
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623077
               }
             },
             {
               "id": "slotbs4",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623055
               }
             },
             {
               "id": "slotbs5",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785242,
-                "max": 1.6004494082623073
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623082
               }
             }
           ],
@@ -1047,7 +1061,7 @@
       "name": "L nominal pin has positive side clearance in the radial slot",
       "pass": true,
       "detail": {
-        "minimumSourceRadialClearanceMm": 0.0995466247325909,
+        "minimumSourceRadialClearanceMm": 0.09954662473258913,
         "nominalMm": 0.1,
         "engagementMm": 3,
         "fitQualified": false
@@ -1872,8 +1886,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.999959931223152,
-            "max": 2.0005617603278876
+            "min": 1.9999599312231533,
+            "max": 2.000561760327884
           }
         },
         "top": {
@@ -1887,8 +1901,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.999959931223152,
-            "max": 2.0005617603278876
+            "min": 1.9999599312231533,
+            "max": 2.000561760327884
           }
         },
         "axialGaps": [],
@@ -1919,8 +1933,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 2.249954922626045,
-            "max": 2.250631980368874
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
           }
         },
         "top": {
@@ -1934,8 +1948,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 2.249954922626045,
-            "max": 2.250631980368874
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
           }
         },
         "axialGaps": [],
@@ -2171,7 +2185,7 @@
       "name": "L screw 3 has positive bore, washer and 10 mm front driver-envelope clearances",
       "pass": true,
       "detail": {
-        "mateRadialMm": 0.2493931622981238,
+        "mateRadialMm": 0.24939316229812736,
         "washerRadialMm": 0.14939516573693323,
         "straightDriverApproachMm": 1.996348557868762,
         "driverDiameterMm": 10,
@@ -2821,7 +2835,7 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.4999699484173634,
+            "min": 1.4999699484173632,
             "max": 1.500421320245913
           }
         },
@@ -2836,7 +2850,7 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.4999699484173634,
+            "min": 1.4999699484173632,
             "max": 1.500421320245913
           }
         },
@@ -2926,32 +2940,32 @@
               "id": "slotas1",
               "sign": 1,
               "bounds": {
-                "min": 1.599967944978524,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785247,
+                "max": 1.600449408262308
               }
             },
             {
               "id": "slotas2",
               "sign": 1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623062
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623077
               }
             },
             {
               "id": "slotas4",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623055
               }
             },
             {
               "id": "slotas5",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785242,
-                "max": 1.6004494082623073
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623082
               }
             }
           ],
@@ -2991,32 +3005,32 @@
               "id": "slotbs1",
               "sign": 1,
               "bounds": {
-                "min": 1.599967944978524,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785247,
+                "max": 1.600449408262308
               }
             },
             {
               "id": "slotbs2",
               "sign": 1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623062
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623077
               }
             },
             {
               "id": "slotbs4",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785233,
-                "max": 1.6004494082623069
+                "min": 1.5999679449785216,
+                "max": 1.6004494082623055
               }
             },
             {
               "id": "slotbs5",
               "sign": -1,
               "bounds": {
-                "min": 1.5999679449785242,
-                "max": 1.6004494082623073
+                "min": 1.5999679449785233,
+                "max": 1.6004494082623082
               }
             }
           ],
@@ -3038,7 +3052,7 @@
       "name": "R nominal pin has positive side clearance in the radial slot",
       "pass": true,
       "detail": {
-        "minimumSourceRadialClearanceMm": 0.0995466247325909,
+        "minimumSourceRadialClearanceMm": 0.09954662473258913,
         "nominalMm": 0.1,
         "engagementMm": 3,
         "fitQualified": false
@@ -3863,8 +3877,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.999959931223152,
-            "max": 2.0005617603278876
+            "min": 1.9999599312231533,
+            "max": 2.000561760327884
           }
         },
         "top": {
@@ -3878,8 +3892,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 1.999959931223152,
-            "max": 2.0005617603278876
+            "min": 1.9999599312231533,
+            "max": 2.000561760327884
           }
         },
         "axialGaps": [],
@@ -3910,8 +3924,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 2.249954922626045,
-            "max": 2.250631980368874
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
           }
         },
         "top": {
@@ -3925,8 +3939,8 @@
           ],
           "closed": true,
           "radiusBounds": {
-            "min": 2.249954922626045,
-            "max": 2.250631980368874
+            "min": 2.2499549226260487,
+            "max": 2.2506319803688704
           }
         },
         "axialGaps": [],
@@ -4162,7 +4176,7 @@
       "name": "R screw 3 has positive bore, washer and 10 mm front driver-envelope clearances",
       "pass": true,
       "detail": {
-        "mateRadialMm": 0.2493931622981238,
+        "mateRadialMm": 0.24939316229812736,
         "washerRadialMm": 0.14939516573693323,
         "straightDriverApproachMm": 1.996348557868762,
         "driverDiameterMm": 10,
@@ -4176,6 +4190,54 @@
         "conservativeOtherHeadApproachGapMm": 26.14003307080364,
         "driverDiameterMm": 10
       }
+    },
+    {
+      "name": "Both independent part sources use Z=0 mating datums and explicit +6 mm assembly placements",
+      "pass": true,
+      "detail": [
+        {
+          "side": "L",
+          "hubLocalRangeMm": [
+            -40,
+            3
+          ],
+          "guideLocalRangeMm": [
+            0,
+            30
+          ],
+          "hubAssemblyPositionMm": [
+            0,
+            0,
+            6
+          ],
+          "guideAssemblyPositionMm": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "side": "R",
+          "hubLocalRangeMm": [
+            -40,
+            3
+          ],
+          "guideLocalRangeMm": [
+            0,
+            30
+          ],
+          "hubAssemblyPositionMm": [
+            0,
+            0,
+            6
+          ],
+          "guideAssemblyPositionMm": [
+            0,
+            0,
+            6
+          ]
+        }
+      ]
     },
     {
       "name": "L arm retains 270 mm upper and 250 mm forearm joint offsets",
@@ -4197,7 +4259,7 @@
       "name": "Seek native reach pose completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 91.32680000000073,
+        "ms": 91.79669999999987,
         "budgetMs": 3000
       }
     },
@@ -4305,8 +4367,8 @@
       "name": "Control Pause stops timeline advancement",
       "pass": true,
       "detail": {
-        "paused": 12,
-        "after": 12
+        "paused": 13,
+        "after": 13
       }
     },
     {
@@ -4329,7 +4391,7 @@
       "name": "Export round-trip HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 222.09619999999995,
+        "ms": 227.34809999999925,
         "budgetMs": 15000
       }
     },
@@ -4337,7 +4399,7 @@
       "name": "Reopen round-trip HASH completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 599.7583999999988,
+        "ms": 494.2651999999998,
         "budgetMs": 15000
       }
     },
@@ -4365,7 +4427,7 @@
       "name": "Collect six fresh rendered frames completes within latency budget",
       "pass": true,
       "detail": {
-        "ms": 117.34670000000006,
+        "ms": 111.22680000000037,
         "budgetMs": 15000
       }
     },
@@ -4374,34 +4436,34 @@
       "pass": true,
       "detail": [
         {
-          "id": 111,
-          "gpuMs": 0.665632,
+          "id": 113,
+          "gpuMs": 0.630976,
           "cpuMs": 1.399999976158142
         },
         {
-          "id": 112,
-          "gpuMs": 0.65536,
-          "cpuMs": 1.5
-        },
-        {
-          "id": 113,
-          "gpuMs": 2.504704,
-          "cpuMs": 1.5
-        },
-        {
           "id": 114,
-          "gpuMs": 2.484192,
-          "cpuMs": 1.3000000715255737
+          "gpuMs": 0.6608,
+          "cpuMs": 2.100000023841858
         },
         {
           "id": 115,
-          "gpuMs": 2.490368,
+          "gpuMs": 2.544544,
           "cpuMs": 1.399999976158142
         },
         {
           "id": 116,
-          "gpuMs": 2.490688,
+          "gpuMs": 2.512896,
+          "cpuMs": 1.5
+        },
+        {
+          "id": 117,
+          "gpuMs": 2.561568,
           "cpuMs": 1.4000000953674316
+        },
+        {
+          "id": 118,
+          "gpuMs": 2.498304,
+          "cpuMs": 1.3000000715255737
         }
       ]
     },
@@ -4411,34 +4473,34 @@
       "detail": {
         "frames": [
           {
-            "id": 111,
-            "gpuMs": 0.665632,
+            "id": 113,
+            "gpuMs": 0.630976,
             "cpuMs": 1.399999976158142
           },
           {
-            "id": 112,
-            "gpuMs": 0.65536,
-            "cpuMs": 1.5
-          },
-          {
-            "id": 113,
-            "gpuMs": 2.504704,
-            "cpuMs": 1.5
-          },
-          {
             "id": 114,
-            "gpuMs": 2.484192,
-            "cpuMs": 1.3000000715255737
+            "gpuMs": 0.6608,
+            "cpuMs": 2.100000023841858
           },
           {
             "id": 115,
-            "gpuMs": 2.490368,
+            "gpuMs": 2.544544,
             "cpuMs": 1.399999976158142
           },
           {
             "id": 116,
-            "gpuMs": 2.490688,
+            "gpuMs": 2.512896,
+            "cpuMs": 1.5
+          },
+          {
+            "id": 117,
+            "gpuMs": 2.561568,
             "cpuMs": 1.4000000953674316
+          },
+          {
+            "id": 118,
+            "gpuMs": 2.498304,
+            "cpuMs": 1.3000000715255737
           }
         ],
         "width": 1024,
@@ -4485,13 +4547,13 @@
       "detail": {
         "expected": {
           "exists": true,
-          "bytes": 61667,
-          "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+          "bytes": 63792,
+          "sha256": "3d2fb043db4fa92b73284bf30c9e8aed373af74aeeb66774fbe9e910dba54e25"
         },
         "current": {
           "exists": true,
-          "bytes": 61667,
-          "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+          "bytes": 63792,
+          "sha256": "3d2fb043db4fa92b73284bf30c9e8aed373af74aeeb66774fbe9e910dba54e25"
         },
         "alreadyPublished": false
       }
@@ -4508,27 +4570,27 @@
   "timings": [
     {
       "name": "Open Neira HASH",
-      "ms": 699.4530999999997,
+      "ms": 690.7640999999999,
       "budgetMs": 15000
     },
     {
       "name": "Seek native reach pose",
-      "ms": 91.32680000000073,
+      "ms": 91.79669999999987,
       "budgetMs": 3000
     },
     {
       "name": "Export round-trip HASH",
-      "ms": 222.09619999999995,
+      "ms": 227.34809999999925,
       "budgetMs": 15000
     },
     {
       "name": "Reopen round-trip HASH",
-      "ms": 599.7583999999988,
+      "ms": 494.2651999999998,
       "budgetMs": 15000
     },
     {
       "name": "Collect six fresh rendered frames",
-      "ms": 117.34670000000006,
+      "ms": 111.22680000000037,
       "budgetMs": 15000
     }
   ],
@@ -4536,22 +4598,36 @@
   "consoleErrors": [],
   "pluginRuntimeRequests": [],
   "sources": {
-    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+    "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+    "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
     "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+    "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+    "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+    "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+    "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+    "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+    "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+    "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+    "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+    "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
   },
   "file": {
     "name": "neira.hash",
-    "bytes": 62654,
-    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b"
+    "bytes": 63789,
+    "sha256": "c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036"
   },
   "input": "work/candidate/neira.hash",
+  "sourceModules": [
+    "src/cad.js",
+    "src/control.js",
+    "src/interface.js",
+    "src/model.js",
+    "src/parts/cable-guide.js",
+    "src/parts/index.js",
+    "src/parts/wrist-hub.js"
+  ],
   "hardware": {
     "vendor": "nvidia",
     "architecture": "turing",
@@ -4579,8 +4655,8 @@
       "workers": 1,
       "frame": {
         "id": 1,
-        "gpuMs": 0.049152,
-        "cpuMs": 4.400000095367432
+        "gpuMs": 0.047808,
+        "cpuMs": 7
       }
     }
   },
@@ -4592,122 +4668,122 @@
     "generation": 1,
     "state": "running",
     "desired": true,
-    "signature": "b7da8e3:3603",
-    "startedAt": 2931.399999976158,
-    "updatedAt": 2931.399999976158,
+    "signature": "b8c70203:3603",
+    "startedAt": 3087,
+    "updatedAt": 3087,
     "error": null,
     "reason": null
   },
   "cages": [
     {
-      "id": "36731cc1f27dd94b157604b33a2e6a3a",
+      "id": "de87d02fe0a17e012bda8e096ddd0599",
       "type": "spline_patch",
-      "sha256": "a3e2f21d50368fe5d00fa5ab00c1d8348b52f45475943eadca9dd6b95a0dfbbd",
+      "sha256": "91dd263e64381e38be35b79e885aa750d86f4e23e25a520656baa13f0331fef3",
       "vertices": 88,
       "segments": 142
     },
     {
-      "id": "5a59334b5b25ab91edb808a70eed8214",
+      "id": "633bcee120f428c5487703baa1185390",
       "type": "spline_patch",
-      "sha256": "d395a9fcee4fc460d682a177e7dee894d55306fac1cdf926650dd24bf14fc731",
+      "sha256": "51f5e50c4c795975cb562608b5ba62c1c283cf4b9dfa4a22babc2748f8d4d9b1",
       "vertices": 72,
       "segments": 108
     },
     {
-      "id": "594e0873326cdb5ef3e900e279a320a9",
+      "id": "667711d0c6914763048d973a59708091",
       "type": "spline",
       "sha256": "1551c3f3c6a01995f27fe9f2d9f7b074d366b8b58fe5495366a3c2145d247076",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "53f4d934ec9b6dc8cc03e89102bd0bb0",
+      "id": "907f0a5a1cbef3d184acf000c0ebe2dd",
       "type": "spline",
       "sha256": "2d112e3973590fb657ee7ae1f46cfab40d15133ab015ef3813f0053d0b7c2aa5",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "c5b88e61b377f053c97db786e3623d10",
+      "id": "f522ba0d3802ed99a1baffe3233e33b7",
       "type": "spline",
       "sha256": "1551c3f3c6a01995f27fe9f2d9f7b074d366b8b58fe5495366a3c2145d247076",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "559799332315cdc0e247dad199dd0003",
+      "id": "bc8dfe2bb7c8a5cd8c01bf59ef1bbe94",
       "type": "spline",
       "sha256": "1bccca98f31f87be0d773f01b8625d97cae625ee6dd91b91c9eeebcf6485f9ac",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "d869df89fad513be5e2f6c2bb7c81903",
+      "id": "9e321c078b0089a05ae093577b792ee6",
       "type": "spline",
       "sha256": "2356d5e6ef190f90da6d7e7c73d67a5dcfa70075c082189a223465de64e6c998",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "e33e181b0bfc95ba79c8efec903acc33",
+      "id": "82f84e83e18585262ff7f5d5d69467a9",
       "type": "spline",
       "sha256": "d7764abcdffbaa58179450e8c9cd9bfe50e246ac2f18ca9f78b542b0717ef688",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "ae91349e3d3b69d86e0730d81827238f",
+      "id": "e72f1188a80271fbfb0a56999b7c41cb",
       "type": "spline",
       "sha256": "a11f671dd937ee6dc9e3d1db0758ad5524e36a455667f90995c90030a581051a",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "db0a823b9d495ddd6edfaca315bf9f82",
+      "id": "580c1334b5b3eadbf1334afd5ab29f4e",
       "type": "spline",
       "sha256": "a11f671dd937ee6dc9e3d1db0758ad5524e36a455667f90995c90030a581051a",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "8f414de7aea89d49e545531bccbc3e8a",
+      "id": "ab8aa9a0ff697b883e6772b64228eb82",
       "type": "spline",
       "sha256": "f2bb030ac5a5f76d2102c0b363ee5c77b8025c7424bafe5f56827a5573a61c7b",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "344604088512d4d972017aff275058a9",
+      "id": "d9c3f12dd944329092fef6b788f0b8de",
       "type": "spline",
       "sha256": "203245b595361f17f89de2d9db328cecee0fefabbf5e31a51a99d1fde0964ad9",
       "vertices": 8,
       "segments": 8
     },
     {
-      "id": "402ad6ebb9541c195b138ddaef9c8825",
+      "id": "218f8c37ac143404df3c2a25c8f19a26",
       "type": "spline",
       "sha256": "a6bec4b00c1ae34960cf40e8c8f3457da4aca58505de675fcde2844d9abf7d06",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "0083e7d825e292bee82792a307d5ff29",
+      "id": "33d36c1881411c857c7dca8f53b5e538",
       "type": "spline",
       "sha256": "ae4cffb5d62cb93186df4d0290e8f27f24e6c3e5ddba9bdb7e57e364081d9c7e",
       "vertices": 16,
       "segments": 16
     },
     {
-      "id": "2c1093c544e5535c542315bf7f7f4fc5",
+      "id": "07f26c57e6c2e634f613b55f29e153ba",
       "type": "spline",
-      "sha256": "d395a9fcee4fc460d682a177e7dee894d55306fac1cdf926650dd24bf14fc731",
+      "sha256": "51f5e50c4c795975cb562608b5ba62c1c283cf4b9dfa4a22babc2748f8d4d9b1",
       "vertices": 72,
       "segments": 108
     },
     {
-      "id": "51e42b90139e2106abcb21893c7d5740",
+      "id": "e4957c2ee12e1cb34ce0741290163d09",
       "type": "spline",
-      "sha256": "a3e2f21d50368fe5d00fa5ab00c1d8348b52f45475943eadca9dd6b95a0dfbbd",
+      "sha256": "91dd263e64381e38be35b79e885aa750d86f4e23e25a520656baa13f0331fef3",
       "vertices": 88,
       "segments": 142
     }
@@ -4752,8 +4828,8 @@
     {
       "side": "L",
       "hub": {
-        "id": "5a59334b5b25ab91edb808a70eed8214",
-        "source": "5a59334b5b25ab91edb808a70eed8214",
+        "id": "633bcee120f428c5487703baa1185390",
+        "source": "633bcee120f428c5487703baa1185390",
         "bounds": {
           "min": [
             -30,
@@ -4803,8 +4879,8 @@
         }
       },
       "mate": {
-        "id": "36731cc1f27dd94b157604b33a2e6a3a",
-        "source": "36731cc1f27dd94b157604b33a2e6a3a",
+        "id": "de87d02fe0a17e012bda8e096ddd0599",
+        "source": "de87d02fe0a17e012bda8e096ddd0599",
         "bounds": {
           "min": [
             -30,
@@ -4854,8 +4930,8 @@
         }
       },
       "pin": {
-        "id": "493be94df7a1e58b423c01655bb72688",
-        "source": "493be94df7a1e58b423c01655bb72688",
+        "id": "7e3607a0969e2853e6e46907dcb309d4",
+        "source": "7e3607a0969e2853e6e46907dcb309d4",
         "bounds": {
           "min": [
             7,
@@ -4907,8 +4983,8 @@
       "fasteners": [
         {
           "bolt": {
-            "id": "60b5c10afa41a934867008108b8cbe37",
-            "source": "60b5c10afa41a934867008108b8cbe37",
+            "id": "a773f2e80329e512f8e3c3bd7676b941",
+            "source": "a773f2e80329e512f8e3c3bd7676b941",
             "bounds": {
               "min": [
                 16.5,
@@ -4958,8 +5034,8 @@
             }
           },
           "washer": {
-            "id": "67e3a5e93f5949b1daa226da6e326c55",
-            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "id": "7366d158fb5cf1f1fdd56ae5ca134504",
+            "source": "7366d158fb5cf1f1fdd56ae5ca134504",
             "bounds": {
               "min": [
                 15.5,
@@ -5031,8 +5107,8 @@
         },
         {
           "bolt": {
-            "id": "4c0f9b54c68881beaea8eef07094d5ce",
-            "source": "60b5c10afa41a934867008108b8cbe37",
+            "id": "5253190d2feae6b2918d76786c14aa13",
+            "source": "a773f2e80329e512f8e3c3bd7676b941",
             "bounds": {
               "min": [
                 -13.5,
@@ -5082,8 +5158,8 @@
             }
           },
           "washer": {
-            "id": "d4c9a5bc981c454d873d19b35b4cd1e2",
-            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "id": "64fe71e112afbc350390b45e7a3542c0",
+            "source": "7366d158fb5cf1f1fdd56ae5ca134504",
             "bounds": {
               "min": [
                 -14.5,
@@ -5155,8 +5231,8 @@
         },
         {
           "bolt": {
-            "id": "3c7dd7ea14078fe4e10a14341d160fc0",
-            "source": "60b5c10afa41a934867008108b8cbe37",
+            "id": "67ae044c651bf392ac171a4d83520712",
+            "source": "a773f2e80329e512f8e3c3bd7676b941",
             "bounds": {
               "min": [
                 -13.5,
@@ -5206,8 +5282,8 @@
             }
           },
           "washer": {
-            "id": "6073bfc6a8e674e9bb725669e7b838de",
-            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "id": "50ab628db12d44c238900330c6b8092a",
+            "source": "7366d158fb5cf1f1fdd56ae5ca134504",
             "bounds": {
               "min": [
                 -14.5,
@@ -5270,7 +5346,7 @@
             "threadQualified": false
           },
           "clearances": {
-            "mateRadialMm": 0.2493931622981238,
+            "mateRadialMm": 0.24939316229812736,
             "washerRadialMm": 0.14939516573693323,
             "straightDriverApproachMm": 1.996348557868762,
             "driverDiameterMm": 10,
@@ -5278,6 +5354,26 @@
           }
         }
       ],
+      "datum": {
+        "hubLocalRangeMm": [
+          -40,
+          3
+        ],
+        "guideLocalRangeMm": [
+          0,
+          30
+        ],
+        "hubAssemblyPositionMm": [
+          0,
+          0,
+          6
+        ],
+        "guideAssemblyPositionMm": [
+          0,
+          0,
+          6
+        ]
+      },
       "location": {
         "pilot": {
           "center": [
@@ -5622,7 +5718,7 @@
             ],
             "closed": true,
             "radiusBounds": {
-              "min": 1.4999699484173634,
+              "min": 1.4999699484173632,
               "max": 1.500421320245913
             }
           },
@@ -5637,7 +5733,7 @@
             ],
             "closed": true,
             "radiusBounds": {
-              "min": 1.4999699484173634,
+              "min": 1.4999699484173632,
               "max": 1.500421320245913
             }
           },
@@ -5719,32 +5815,32 @@
                 "id": "slotas1",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.599967944978524,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785247,
+                  "max": 1.600449408262308
                 }
               },
               {
                 "id": "slotas2",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623062
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623077
                 }
               },
               {
                 "id": "slotas4",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623055
                 }
               },
               {
                 "id": "slotas5",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785242,
-                  "max": 1.6004494082623073
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623082
                 }
               }
             ],
@@ -5784,32 +5880,32 @@
                 "id": "slotbs1",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.599967944978524,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785247,
+                  "max": 1.600449408262308
                 }
               },
               {
                 "id": "slotbs2",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623062
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623077
                 }
               },
               {
                 "id": "slotbs4",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623055
                 }
               },
               {
                 "id": "slotbs5",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785242,
-                  "max": 1.6004494082623073
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623082
                 }
               }
             ],
@@ -5825,7 +5921,7 @@
         "nominalRegisterDiameterClearanceMm": 0,
         "registerEngagementMm": 3,
         "pinEngagementMm": 3,
-        "pinSideClearanceMm": 0.0995466247325909,
+        "pinSideClearanceMm": 0.09954662473258913,
         "fitQualified": false,
         "threadQualified": false,
         "pinRetentionQualified": false
@@ -5834,8 +5930,8 @@
     {
       "side": "R",
       "hub": {
-        "id": "a114f23c275874a9a6da2cadb83afa36",
-        "source": "5a59334b5b25ab91edb808a70eed8214",
+        "id": "05cd3be381f9d71e634901dee3953091",
+        "source": "633bcee120f428c5487703baa1185390",
         "bounds": {
           "min": [
             -30,
@@ -5885,8 +5981,8 @@
         }
       },
       "mate": {
-        "id": "d1d31f5f1b80b362d07f55991771f20b",
-        "source": "36731cc1f27dd94b157604b33a2e6a3a",
+        "id": "ebedee6ab13cb79068f4f1378fb56110",
+        "source": "de87d02fe0a17e012bda8e096ddd0599",
         "bounds": {
           "min": [
             -30,
@@ -5936,8 +6032,8 @@
         }
       },
       "pin": {
-        "id": "c2bfe8168769545eb7820a74cd17abec",
-        "source": "493be94df7a1e58b423c01655bb72688",
+        "id": "5a6b113bb7fd396c76f49e2f9e43be71",
+        "source": "7e3607a0969e2853e6e46907dcb309d4",
         "bounds": {
           "min": [
             7,
@@ -5989,8 +6085,8 @@
       "fasteners": [
         {
           "bolt": {
-            "id": "750b92664d96791e06cf3777c1bd2d8a",
-            "source": "60b5c10afa41a934867008108b8cbe37",
+            "id": "e272428cf9cd74a4667060c75aaa7fbb",
+            "source": "a773f2e80329e512f8e3c3bd7676b941",
             "bounds": {
               "min": [
                 16.5,
@@ -6040,8 +6136,8 @@
             }
           },
           "washer": {
-            "id": "af40170e01fca83a7afe856e0da7ba7a",
-            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "id": "e8a03c957eeaf0b11c0f8b3b8ac1146b",
+            "source": "7366d158fb5cf1f1fdd56ae5ca134504",
             "bounds": {
               "min": [
                 15.5,
@@ -6113,8 +6209,8 @@
         },
         {
           "bolt": {
-            "id": "7506fddfc64f17deea2183e6c3e272b1",
-            "source": "60b5c10afa41a934867008108b8cbe37",
+            "id": "73250e60bcff4fbc9401f116bd980ceb",
+            "source": "a773f2e80329e512f8e3c3bd7676b941",
             "bounds": {
               "min": [
                 -13.5,
@@ -6164,8 +6260,8 @@
             }
           },
           "washer": {
-            "id": "0bdc9e9a57999f107ebef817c08d9f8e",
-            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "id": "ff490a19ed54e79f54237dce9a49cbaa",
+            "source": "7366d158fb5cf1f1fdd56ae5ca134504",
             "bounds": {
               "min": [
                 -14.5,
@@ -6237,8 +6333,8 @@
         },
         {
           "bolt": {
-            "id": "acc4873c59d1b06a910b4fb0baf1cf6d",
-            "source": "60b5c10afa41a934867008108b8cbe37",
+            "id": "e89c1bc044d5d910bf555cd46ec795a0",
+            "source": "a773f2e80329e512f8e3c3bd7676b941",
             "bounds": {
               "min": [
                 -13.5,
@@ -6288,8 +6384,8 @@
             }
           },
           "washer": {
-            "id": "c8b62662381b432d7e9b55ef2dc80c70",
-            "source": "67e3a5e93f5949b1daa226da6e326c55",
+            "id": "46e967a74f99bc95e5ebd5b61802da26",
+            "source": "7366d158fb5cf1f1fdd56ae5ca134504",
             "bounds": {
               "min": [
                 -14.5,
@@ -6352,7 +6448,7 @@
             "threadQualified": false
           },
           "clearances": {
-            "mateRadialMm": 0.2493931622981238,
+            "mateRadialMm": 0.24939316229812736,
             "washerRadialMm": 0.14939516573693323,
             "straightDriverApproachMm": 1.996348557868762,
             "driverDiameterMm": 10,
@@ -6360,6 +6456,26 @@
           }
         }
       ],
+      "datum": {
+        "hubLocalRangeMm": [
+          -40,
+          3
+        ],
+        "guideLocalRangeMm": [
+          0,
+          30
+        ],
+        "hubAssemblyPositionMm": [
+          0,
+          0,
+          6
+        ],
+        "guideAssemblyPositionMm": [
+          0,
+          0,
+          6
+        ]
+      },
       "location": {
         "pilot": {
           "center": [
@@ -6704,7 +6820,7 @@
             ],
             "closed": true,
             "radiusBounds": {
-              "min": 1.4999699484173634,
+              "min": 1.4999699484173632,
               "max": 1.500421320245913
             }
           },
@@ -6719,7 +6835,7 @@
             ],
             "closed": true,
             "radiusBounds": {
-              "min": 1.4999699484173634,
+              "min": 1.4999699484173632,
               "max": 1.500421320245913
             }
           },
@@ -6801,32 +6917,32 @@
                 "id": "slotas1",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.599967944978524,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785247,
+                  "max": 1.600449408262308
                 }
               },
               {
                 "id": "slotas2",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623062
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623077
                 }
               },
               {
                 "id": "slotas4",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623055
                 }
               },
               {
                 "id": "slotas5",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785242,
-                  "max": 1.6004494082623073
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623082
                 }
               }
             ],
@@ -6866,32 +6982,32 @@
                 "id": "slotbs1",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.599967944978524,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785247,
+                  "max": 1.600449408262308
                 }
               },
               {
                 "id": "slotbs2",
                 "sign": 1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623062
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623077
                 }
               },
               {
                 "id": "slotbs4",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785233,
-                  "max": 1.6004494082623069
+                  "min": 1.5999679449785216,
+                  "max": 1.6004494082623055
                 }
               },
               {
                 "id": "slotbs5",
                 "sign": -1,
                 "bounds": {
-                  "min": 1.5999679449785242,
-                  "max": 1.6004494082623073
+                  "min": 1.5999679449785233,
+                  "max": 1.6004494082623082
                 }
               }
             ],
@@ -6907,7 +7023,7 @@
         "nominalRegisterDiameterClearanceMm": 0,
         "registerEngagementMm": 3,
         "pinEngagementMm": 3,
-        "pinSideClearanceMm": 0.0995466247325909,
+        "pinSideClearanceMm": 0.09954662473258913,
         "fitQualified": false,
         "threadQualified": false,
         "pinRetentionQualified": false
@@ -6949,34 +7065,34 @@
   "frames": {
     "frames": [
       {
-        "id": 111,
-        "gpuMs": 0.665632,
+        "id": 113,
+        "gpuMs": 0.630976,
         "cpuMs": 1.399999976158142
       },
       {
-        "id": 112,
-        "gpuMs": 0.65536,
-        "cpuMs": 1.5
-      },
-      {
-        "id": 113,
-        "gpuMs": 2.504704,
-        "cpuMs": 1.5
-      },
-      {
         "id": 114,
-        "gpuMs": 2.484192,
-        "cpuMs": 1.3000000715255737
+        "gpuMs": 0.6608,
+        "cpuMs": 2.100000023841858
       },
       {
         "id": 115,
-        "gpuMs": 2.490368,
+        "gpuMs": 2.544544,
         "cpuMs": 1.399999976158142
       },
       {
         "id": 116,
-        "gpuMs": 2.490688,
+        "gpuMs": 2.512896,
+        "cpuMs": 1.5
+      },
+      {
+        "id": 117,
+        "gpuMs": 2.561568,
         "cpuMs": 1.4000000953674316
+      },
+      {
+        "id": 118,
+        "gpuMs": 2.498304,
+        "cpuMs": 1.3000000715255737
       }
     ],
     "width": 1024,
@@ -6991,7 +7107,7 @@
   },
   "performance": {
     "cpuMedianMs": 1.4000000953674316,
-    "gpuMedianMs": 2.490368,
+    "gpuMedianMs": 2.512896,
     "context": "1280x900, DPR 1, native viewport; baseline only, no improvement claim"
   },
   "claims": {
@@ -7019,26 +7135,31 @@
     "ownedBrowserAndServerClosed": true
   },
   "sourcesAfter": {
-    "frame/index.html": "9da129ee88adfe34d384eb5c4185e3e25e826876527d336a16de7ab2a7316430",
-    "frame/frame-sw.js": "e92434b6a9e5028b942a23f363591320fa1c949e10387c79760373ac4200a73e",
+    "frame/index.html": "60f65fb5f04d454da20b45dc6d73e413e5843a4db27bae1400364dcc2f86addf",
+    "frame/frame-sw.js": "ab44259e6813a171868746628c1398516d32f8c03d6de1ce80cd2d4c620f4ef2",
     "frame/tools/browser.mjs": "be9fe0b3d6c1237c6a6ed37c3b8f16e8b161393a01aadc9c70966e107914b647",
-    "src/model.js": "33c6ccb6d0a3bccd4ad7250361b0e8be73625084cbfdf0aa3616c5e12132aa43",
+    "src/model.js": "8f4488bb0eb2a04ce08ce95680db488b02b47b4b427cd110e49f79319bbd8207",
     "src/control.js": "3c047c1146f83c3d7da2e486e621440c785911d74ef9d4b781640d02b0a36d72",
-    "docs/Design.md": "1b18826897f40f66bb7a0576b5daac3c498d92e078cdd961a842d2fcc308f2c3",
-    "docs/Tool-interface.md": "94cb7afac3b5271a3c6d2e8f15c9d2d6c6b5962ee9919450976b2c283da02652",
-    "tools/build.mjs": "273c642cf9a257a1086e6420fdf06b12e3d1b10239389412d9aad3f886c553b2",
-    "tools/check.mjs": "fabd9d6a6d57b32300c52a9cfa5a0c83e5e8a8f6bc1e286f11cedff92fdb748a"
+    "docs/Design.md": "582b970d9360da3178305642d0b70b262e33f30a6f97269eb1816f11807d6b23",
+    "docs/Tool-interface.md": "657b30135c91ce812ede552f9477c02001f4f624a069252c757d9ed90f048d62",
+    "tools/build.mjs": "717a5948910e50abde47d8f2952626361a547f85895eff0219a17aa33ca20b78",
+    "tools/check.mjs": "646599e6ebebf50e39156f2d936e2df057ddc29d4d56c26f618bb7bf40ef8d5e",
+    "src/cad.js": "861f85d2bd3bed6b052f76fd118bdd374f7b61d83606e63f9f3549ea23a0caee",
+    "src/interface.js": "ed59a9631de31e15c8632e4c96b1668a15933d7e77e5e6b53bc0aae846d80365",
+    "src/parts/cable-guide.js": "94b4b4e738d6c8ab9876633621999f829d8f23a75083d7033b7fc7969f12dfad",
+    "src/parts/index.js": "e72012963f9851bde9f5c31ea751d28dafe59843b3572b423f276b7c4366d8b9",
+    "src/parts/wrist-hub.js": "94af1d9f33d897e522f5db34f52383ab74430d03bba02631f7f5b6db46a3b1ac"
   },
-  "finishedAt": "2026-11-17T13:43:56.850Z",
+  "finishedAt": "2026-11-17T14:03:30.472Z",
   "publication": {
     "state": "published",
     "scene": "scenes/neira.hash",
-    "bytes": 62654,
-    "sha256": "55a9074b180b5d7eb02121b30d168a325dae0a8f036459106fcec5047608159b",
+    "bytes": 63789,
+    "sha256": "c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036",
     "previous": {
       "exists": true,
-      "bytes": 61667,
-      "sha256": "23a29710b8cda606a68634618cffb6ae355dbae1bee4968a1eb76a1730d2cd2d"
+      "bytes": 63792,
+      "sha256": "3d2fb043db4fa92b73284bf30c9e8aed373af74aeeb66774fbe9e910dba54e25"
     }
   }
 }

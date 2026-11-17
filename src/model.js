@@ -1,6 +1,9 @@
 // All dimensions are mm. Native editable curves/surfaces only; no authored mesh.
-export async function buildNeira({controlText,docText}) {
+export async function buildNeira({controlText,docText,partData}) {
  const api=globalThis.frameAI,call=(name,args={})=>api.call(name,args),ids={},parts=[],interfaces=[],timings=[];
+ const {hub:hubPart,guide:guidePart,spec}=partData||{};
+ for(const part of [hubPart,guidePart])if(!part||part.units!=='mm'||!Array.isArray(part.datum?.origin)||part.datum.origin.length!==3||part.datum.origin.some(v=>v!==0)||String(part.datum?.normal)!=='0,0,1'||!part.cage)throw Error('Native part cages at a Z=0/+Z mating datum are required');
+ if(!spec||spec.units!=='mm')throw Error('Shared millimetre interface dimensions are required');
  const step=async(name,fn)=>{const at=performance.now(),v=await fn();timings.push({name,ms:performance.now()-at});return v;};
  await call('scene.new');
  await call('view.set',{index:2,single:true,mode:'object',shading:'solid-isoparms',pivot:false});
@@ -26,21 +29,11 @@ export async function buildNeira({controlText,docText}) {
    vs.forEach((a,i)=>{const id=`s${j}_${i}`,h=loop.handles?.[i]||[[0,0],[0,0]];d.segments[id]={id,a,b:vs[(i+1)%vs.length],ha:[...h[0],0],hb:[...h[1],0],soft:!!loop.handles?.[i],sequence:q};seq.segments.push(id);});d.sequences.push(seq);
   });return d;
  }
- const circle=(r,x=0,y=0)=>{const k=.5522847498307936*r;return {points:[[x+r,y],[x,y+r],[x-r,y],[x,y-r]],handles:[[[0,k],[k,0]],[[-k,0],[0,k]],[[0,-k],[-k,0]],[[k,0],[0,-k]]]};};
- // Eight arcs keep the locating bore/register's source approximation below
- // 0.1 micrometre radially. Four arcs suffice for the non-locating outlines.
- const locatingCircle=r=>{const n=8,h=4/3*Math.tan(Math.PI/(2*n))*r;return {points:Array.from({length:n},(_,i)=>[r*Math.cos(i*2*Math.PI/n),r*Math.sin(i*2*Math.PI/n)]),handles:Array.from({length:n},(_,i)=>{const a=i*2*Math.PI/n,b=(i+1)*2*Math.PI/n;return [[-h*Math.sin(a),h*Math.cos(a)],[h*Math.sin(b),-h*Math.cos(b)]];})};};
  const rounded=(w,h,r)=>{const x=w/2,y=h/2,k=r*.5522847498307936;return {points:[[-x+r,-y],[x-r,-y],[x,-y+r],[x,y-r],[x-r,y],[-x+r,y],[-x,y-r],[-x,-y+r]],handles:[null,[[k,0],[0,-k]],null,[[0,k],[k,0]],null,[[-k,0],[0,k]],null,[[0,-k],[-k,0]]]};};
- function emptyCage(){return {version:2,approximation:{angle:12},next:10000,vertices:{},segments:{},sequences:[],freeHandles:{}};}
- function ring(d,name,shape,z){const vs=shape.points.map((p,i)=>{const id=name+'v'+i;d.vertices[id]=[p[0],p[1],z];return id;}),q={id:name,first:vs[0],closed:true,segments:[]};vs.forEach((a,i)=>{const id=name+'s'+i,h=shape.handles?.[i]||[[0,0],[0,0]];d.segments[id]={id,a,b:vs[(i+1)%vs.length],ha:[...h[0],0],hb:[...h[1],0],soft:!!shape.handles?.[i],sequence:name};q.segments.push(id);});d.sequences.push(q);return vs;}
- function bridge(d,name,a,b){if(a.length!==b.length)throw Error('Mismatched source rings');a.forEach((v,i)=>{const id=name+i,q=id+'q';d.segments[id]={id,a:v,b:b[i],ha:[0,0,0],hb:[0,0,0],soft:false,sequence:q};d.sequences.push({id:q,first:v,closed:false,segments:[id]});});}
- function wall(d,name,shape,z0,z1,upper=shape){const a=ring(d,name+'a',shape,z0),b=ring(d,name+'b',upper,z1);bridge(d,name,a,b);return [a,b];}
- function radialSlot(){const r=1.6,a=.9,k=r*.5522847498307936,u=[.5,Math.sqrt(3)/2],v=[-u[1],u[0]],map=(p,center=false)=>[(p[0]+(center?17:0))*u[0]+p[1]*v[0],(p[0]+(center?17:0))*u[1]+p[1]*v[1]];return {points:[[-a,-r],[a,-r],[a+r,0],[a,r],[-a,r],[-a-r,0]].map(p=>map(p,true)),handles:[null,[[k,0],[0,-k]],[[0,k],[k,0]],null,[[-k,0],[0,k]],[[0,-k],[-k,0]]].map(h=>h?.map(p=>map(p)))};}
- function hubCage(){const d=emptyCage();wall(d,'hub',circle(29),-34,0);wall(d,'face',circle(30),0,6);wall(d,'pilot',locatingCircle(10),6,9);wall(d,'pass',circle(6),-34,9);for(let i=0;i<3;i++){const a=i*2*Math.PI/3;wall(d,'tap'+i,circle(2,20*Math.cos(a),20*Math.sin(a)),-8,6);}wall(d,'pin',circle(1.5,8.5,17*Math.sqrt(3)/2),-1,6);return d;}
- function mateCage(){const d=emptyCage();wall(d,'face',circle(30),6,12);const [,inner1]=wall(d,'bore',locatingCircle(10),6,12),[,outer1]=wall(d,'guide',circle(13),12,35.5,circle(9)),inner2=ring(d,'throat',locatingCircle(6),35.5),inner3=ring(d,'lipIn',locatingCircle(6.5),36),outer2=ring(d,'lipOut',circle(8.5),36);bridge(d,'taper',inner1,inner2);bridge(d,'entry',inner2,inner3);bridge(d,'edge',outer1,outer2);for(let i=0;i<3;i++){const a=i*2*Math.PI/3;wall(d,'bolt'+i,circle(2.25,20*Math.cos(a),20*Math.sin(a)),6,12);}wall(d,'slot',radialSlot(),6,12);return d;}
- async function patch(name,data,parent,mat='Frame'){
+ async function patch(part,parent,p,mat='Frame'){
+  const {name,cage:data}=part;
   const s=await call('scene.create',{type:'spline',name:'Cage'});await place(s.hash);await call('spline.replace',{id:s.hash,data});
-  const n=await call('scene.create',{type:'spline_patch',name,inputs:[s.hash]});if(n.buildError)throw Error(name+': '+n.buildError);await place(n.hash);await call('scene.update',{id:n.hash,parent});await place(n.hash);
+  const n=await call('scene.create',{type:'spline_patch',name,inputs:[s.hash]});if(n.buildError)throw Error(name+': '+n.buildError);await place(n.hash);await call('scene.update',{id:n.hash,parent});await place(n.hash,p);
   await call('material.assign',{id:n.hash,material:materials[mat]});parts.push({id:n.hash,name,type:'spline_patch'});return n.hash;
  }
  async function extrusion(name,loops,depth,parent,p,r,mat='Shell'){
@@ -107,14 +100,15 @@ export async function buildNeira({controlText,docText}) {
    else await instance(foreSource,'Fore',elbow,[0,0,35],[0,0,0]);
    const wrist=await group(side+'Wrist',elbow,[0,0,250]);ids[side+'Wrist']=wrist;
    let hub,mate,pin;
-   if(!hubSource)hub=hubSource=await patch('Hub',hubCage(),wrist,'Copper');else hub=await instance(hubSource,'Hub',wrist);
-   if(!pinSource)pin=pinSource=await solid('cylinder','Pin',{diameter:3,height:10,'angle approximation':15},wrist,[8.5,17*Math.sqrt(3)/2,-1],[90,0,0]);else pin=await instance(pinSource,'Pin',wrist,[8.5,17*Math.sqrt(3)/2,-1],[90,0,0]);
+   if(!hubSource)hub=hubSource=await patch(hubPart,wrist,[0,0,spec.flangeThickness],'Copper');else hub=await instance(hubSource,'Hub',wrist,[0,0,spec.flangeThickness]);
+   const pinAngle=spec.pinAngle*Math.PI/180,pinPosition=[spec.pinRadius*Math.cos(pinAngle),spec.pinRadius*Math.sin(pinAngle),spec.flangeThickness+spec.registerProjection-10];
+   if(!pinSource)pin=pinSource=await solid('cylinder','Pin',{diameter:spec.pinDiameter,height:10,'angle approximation':15},wrist,pinPosition,[90,0,0]);else pin=await instance(pinSource,'Pin',wrist,pinPosition,[90,0,0]);
    const movingGroup=await group(side+'Tool',wrist),fasteners=await group(side+'Bolts',wrist),bolts=[],washers=[];
-   if(!mateSource)mate=mateSource=await patch('Guide',mateCage(),movingGroup);else mate=await instance(mateSource,'Guide',movingGroup);
-   for(let i=0;i<3;i++){
-    const a=i*2*Math.PI/3,x=20*Math.cos(a),y=20*Math.sin(a);let bolt,washer;
-    if(!boltSource)bolt=boltSource=await solid('bolt','M4x16',{type:'DIN 912',size:'M4',length:16,'angle approximation':15},fasteners,[x,y,12.8],[90,0,0]);else bolt=await instance(boltSource,'M4x16',fasteners,[x,y,12.8],[90,0,0]);
-    if(!washerSource)washer=washerSource=await solid('washer','Washer',{type:'DIN 125',size:'M4','angle approximation':15},fasteners,[x,y,12],[90,0,0]);else washer=await instance(washerSource,'Washer',fasteners,[x,y,12],[90,0,0]);bolts.push(bolt);washers.push(washer);
+   if(!mateSource)mate=mateSource=await patch(guidePart,movingGroup,[0,0,spec.flangeThickness]);else mate=await instance(mateSource,'Guide',movingGroup,[0,0,spec.flangeThickness]);
+   for(let i=0;i<spec.boltCount;i++){
+    const a=i*2*Math.PI/spec.boltCount,x=spec.boltRadius*Math.cos(a),y=spec.boltRadius*Math.sin(a),front=spec.flangeThickness*2;let bolt,washer;
+    if(!boltSource)bolt=boltSource=await solid('bolt','M4x16',{type:'DIN 912',size:'M4',length:16,'angle approximation':15},fasteners,[x,y,front+.8],[90,0,0]);else bolt=await instance(boltSource,'M4x16',fasteners,[x,y,front+.8],[90,0,0]);
+    if(!washerSource)washer=washerSource=await solid('washer','Washer',{type:'DIN 125',size:'M4','angle approximation':15},fasteners,[x,y,front],[90,0,0]);else washer=await instance(washerSource,'Washer',fasteners,[x,y,front],[90,0,0]);bolts.push(bolt);washers.push(washer);
    }
    interfaces.push({side,frame:wrist,hub,mate,pin,bolts,washers,movingGroup,fasteners,assembledFrame:0,explodedFrame:300});
   }
@@ -135,5 +129,5 @@ export async function buildNeira({controlText,docText}) {
  await call('scene.select',{ids:[]});await call('view.set',{index:0,focus:bot});
  const view=await call('scene.inspect'),camera=view.view.camera.slice();camera[0]=Math.PI*3/4;await call('view.set',{camera,focus:bot});
  const scene=await call('scene.inspect');
- return {ids,parts,interfaces,timings,program,counts:scene.stats,objects:scene.objects.map(o=>({id:o.hash,name:o.name,type:o.type,buildError:o.buildError,bounds:o.bounds})),units:'mm',coordinateSystem:'Y up, +Z forward',assumptions:'Packaging and commanded kinematics only; no payload, strength, collision or manufacturing qualification'};
+ return {ids,parts,interfaces,partDatums:{hub:hubPart.datum,guide:guidePart.datum},timings,program,counts:scene.stats,objects:scene.objects.map(o=>({id:o.hash,name:o.name,type:o.type,buildError:o.buildError,bounds:o.bounds})),units:'mm',coordinateSystem:'Y up, +Z forward',assumptions:'Packaging and commanded kinematics only; no payload, strength, collision or manufacturing qualification'};
 }

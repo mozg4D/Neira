@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {mkdir,readFile,rename,writeFile} from 'node:fs/promises';
+import {mkdir,readdir,readFile,rename,writeFile} from 'node:fs/promises';
 import {dirname,resolve} from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {cpus,platform,release} from 'node:os';
@@ -32,6 +32,8 @@ export async function publishCandidate(report,manifest){
 }
 export async function sourceHashes(){
  const sources={'frame/index.html':resolve(frameRoot,'index.html'),'frame/frame-sw.js':resolve(frameRoot,'frame-sw.js'),'frame/tools/browser.mjs':resolve(frameRoot,'tools/browser.mjs'),'src/model.js':resolve(root,'src/model.js'),'src/control.js':resolve(root,'src/control.js'),'docs/Design.md':resolve(root,'docs/Design.md'),'docs/Tool-interface.md':resolve(root,'docs/Tool-interface.md'),'tools/build.mjs':resolve(root,'tools/build.mjs'),'tools/check.mjs':resolve(root,'tools/check.mjs')};
+ async function include(directory,prefix){for(const entry of await readdir(directory,{withFileTypes:true})){const path=resolve(directory,entry.name),name=prefix+'/'+entry.name;if(entry.isDirectory())await include(path,name);else if(entry.isFile()&&entry.name.endsWith('.js'))sources[name]=path;}}
+ await include(resolve(root,'src'),'src');
  return Object.fromEntries(await Promise.all(Object.entries(sources).map(async([name,path])=>[name,sha(await readFile(path))])));
 }
 export function check(report,name,pass,detail){
@@ -113,10 +115,11 @@ export async function build(){
   await mkdir(candidateRoot,{recursive:true});report.publication={state:'candidate-only',scene:'work/candidate/neira.hash'};
   report.sources=await sourceHashes();
   const canonicalBefore=await canonicalReceipt();
-  const [{buildNeira},controlText,docText]=await Promise.all([import(pathToFileURL(resolve(root,'src/model.js')).href),readFile(resolve(root,'src/control.js'),'utf8'),loadDesignDoc()]);
+  const [{buildNeira},{createPartSet},controlText,docText]=await Promise.all([import(pathToFileURL(resolve(root,'src/model.js')).href),import(pathToFileURL(resolve(root,'src/parts/index.js')).href),readFile(resolve(root,'src/control.js'),'utf8'),loadDesignDoc()]);
+  const partData=createPartSet();
   session=await openSession(report);
   console.log('Building native Neira assembly at DPR 1…');
-  const manifest=await timed(report,'Build native robot assembly',120000,()=>session.page.evaluate(buildNeira,{controlText,docText}));
+  const manifest=await timed(report,'Build native robot assembly',120000,()=>session.page.evaluate(buildNeira,{controlText,docText,partData}));
   console.log('Native assembly built; checking saved control program…');
   await programReady(session);
   const scene=await session.call('scene.inspect');checkScene(report,scene);

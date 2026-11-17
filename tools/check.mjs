@@ -26,7 +26,7 @@ export function partReader(session,scene,frame,cache=new Map()){
   let world=object.worldMatrix;
   if(object.type==='instance'){const replicas=await session.call('diagnostics.replicas',{id});const surfaces=replicas.copies.filter(c=>!c.curve);assert.equal(surfaces.length,1,'Each interface part must address one evaluated surface occurrence');world=surfaces[0].worldMatrix;}
   const matrix=multiply(worldToFrame,world),mesh={...raw.mesh,vertices:raw.mesh.vertices.map(v=>({...v,position:point(matrix,v.position)}))},cage=transformedCage(raw.cage,matrix);
-  return {id,source:source.hash,object,matrix,mesh,cage,bounds:extent(mesh.vertices),cageBounds:extent(Object.values(cage.vertices))};
+  return {id,source:source.hash,object,matrix,mesh,cage,bounds:extent(mesh.vertices),cageBounds:extent(Object.values(cage.vertices)),localCageBounds:extent(Object.values(raw.cage.vertices))};
  };
 }
 async function cages(session,scene){const rows=[];for(const o of scene.objects.filter(o=>['spline','spline_patch'].includes(o.type))){const data=await session.call('spline.inspect',{id:o.hash});rows.push({id:o.hash,type:o.type,sha256:sha(stable(data.data)),vertices:Object.keys(data.data.vertices).length,segments:Object.keys(data.data.segments).length});}return rows;}
@@ -141,6 +141,7 @@ async function verifyInterfaces(report,session,scene,interfaces){
  function wall(label,part,spec){const observation=circleWall(part.cage,spec);check(report,label,observation.pass,observation);return observation;}
  for(const item of interfaces){
   const prefix=item.side+' ',read=partReader(session,scene,item.frame,cache),hub=await read(item.hub),mate=await read(item.mate),pin=await read(item.pin),entry={side:item.side,hub:solid(prefix+'integral hub',hub,1),mate:solid(prefix+'integral guide',mate,5),pin:solid(prefix+'locating pin',pin,0),fasteners:[]};report.interfaces.push(entry);
+  entry.datum={hubLocalRangeMm:[hub.localCageBounds.min[2],hub.localCageBounds.max[2]],guideLocalRangeMm:[mate.localCageBounds.min[2],mate.localCageBounds.max[2]],hubAssemblyPositionMm:hub.object.matrix.slice(9),guideAssemblyPositionMm:mate.object.matrix.slice(9)};
   check(report,prefix+'hub and guide are each one authored source surface',objectMap(scene).get(hub.source).type==='spline_patch'&&objectMap(scene).get(mate.source).type==='spline_patch');
   check(report,prefix+'hub retains 60 mm flange and -34 to 9 mm axial envelope',near(hub.bounds.size,[60,60,43])&&near([hub.bounds.min[2],hub.bounds.max[2]],[-34,9]),hub.bounds);
   check(report,prefix+'guide is one 6 to 36 mm axial part with 60 mm flange',near(mate.bounds.size,[60,60,30])&&near([mate.bounds.min[2],mate.bounds.max[2]],[6,36]),mate.bounds);
@@ -191,6 +192,7 @@ async function verifyInterfaces(report,session,scene,interfaces){
   check(report,prefix+'other screw heads leave 10 mm straight front driver approaches clear',otherHeadGap>26,{conservativeOtherHeadApproachGapMm:otherHeadGap,driverDiameterMm:10});
   entry.location={pilot,bore,service,guideWalls,wallThicknessMm:wallThickness,fixedSeat,pinWall,slot,slotAxialGaps,nominalRegisterDiameterClearanceMm:0,registerEngagementMm:3,pinEngagementMm:3,pinSideClearanceMm:pinSideClearance,fitQualified:false,threadQualified:false,pinRetentionQualified:false};
  }
+ check(report,'Both independent part sources use Z=0 mating datums and explicit +6 mm assembly placements',report.interfaces.every(i=>near(i.datum.hubLocalRangeMm,[-40,3])&&near(i.datum.guideLocalRangeMm,[0,30])&&near(i.datum.hubAssemblyPositionMm,[0,0,6])&&near(i.datum.guideAssemblyPositionMm,[0,0,6])),report.interfaces.map(i=>({side:i.side,...i.datum})));
  return session.call('diagnostics.mesh',{id:interfaces[0].hub,geometry:true});
 }
 
@@ -201,6 +203,8 @@ export async function verify(){
   const candidate=await optionalBytes(resolve(candidateRoot,'neira.hash'));usingCandidate=!!candidate;artifactRoot=usingCandidate?candidateRoot:resolve(root,'artifacts');
   const [bytes,manifestText,controlText,docText]=await Promise.all([candidate||readFile(resolve(root,'scenes/neira.hash')),readFile(resolve(artifactRoot,'manifest.json'),'utf8'),readFile(resolve(root,'src/control.js'),'utf8'),loadDesignDoc()]);
   manifest=JSON.parse(manifestText);report.file={name:'neira.hash',bytes:bytes.length,sha256:sha(bytes)};report.input=usingCandidate?'work/candidate/neira.hash':'scenes/neira.hash';
+  check(report,'Both part factory datum arrays declare origin zero and normal +Z',stable(manifest.partDatums)===stable({hub:{origin:[0,0,0],normal:[0,0,1]},guide:{origin:[0,0,0],normal:[0,0,1]}}));
+  report.sourceModules=Object.keys(report.sources).filter(name=>name.startsWith('src/')&&name.endsWith('.js')).sort();
   check(report,'Saved HASH matches build manifest',manifest.file.sha256===sha(bytes)&&manifest.file.bytes===bytes.length);
   check(report,'Frame and model source hashes match the saved build',stable(manifest.sources)===stable(report.sources),{build:manifest.sources,current:report.sources});
   session=await openSession(report);const {page,call}=session;

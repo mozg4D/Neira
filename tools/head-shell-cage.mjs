@@ -1,0 +1,5 @@
+import {monotonePod} from './base-pod-cage.mjs';
+// Two open-backed head bowls. Coordinate inset 3 mm, not normal shell offset.
+function bowl(outer,inner){const c=monotonePod(outer),d=monotonePod(inner);for(const[k,v]of Object.entries(d.vertices))c.vertices['i'+k]=v;for(const[k,s]of Object.entries(d.segments))c.segments['i'+k]={...s,id:'i'+k,a:'i'+s.a,b:'i'+s.b,sequence:'i'+s.sequence};c.sequences.push(...d.sequences.map(s=>({...s,id:'i'+s.id,first:'i'+s.first,segments:s.segments.map(k=>'i'+k)})));for(let i=0;i<8;i++){const id='rim'+i;c.segments[id]={id,a:'v0_'+i,b:'iv0_'+i,ha:[0,0,0],hb:[0,0,0],sequence:id,soft:false};c.sequences.push({id,first:'v0_'+i,segments:[id],closed:false});}for(const p of Object.values(c.vertices)){const y=p[1];p[1]=1377.5+p[2];p[2]=y;}for(const s of Object.values(c.segments))for(const h of['ha','hb']){const y=s[h][1];s[h][1]=s[h][2];s[h][2]=y;}return c;}
+export const rear=()=>bowl([[20,230,145,60],[-25,214,132,54],[-55,176,104,44]],[[20,224,139,57],[-23,208,126,51],[-52,170,98,41]]);
+export const front=()=>bowl([[21,230,145,60],[55,210,130,52]],[[21,224,139,57],[52,204,124,49]]);

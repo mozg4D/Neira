@@ -18,7 +18,7 @@ export function activate(ctx) {
   button('Tool interface',()=>ctx.call('view.set',{focus:ctx.bindings.LWrist.owner}));
   button('Whole body',()=>ctx.call('view.set',{focus:ctx.bindings.root.owner}));
 
-  const skins=["coverR","coverL","waistR","waistL","torsoFront","torsoRear","upperA","upperB","foreA","foreB","upperAR","upperBR","foreAR","foreBR"];
+  const skins=["coverR","coverL","waistR","waistL","torsoFront","torsoRear","upperA","upperB","foreA","foreB","upperAR","upperBR","foreAR","foreBR","headRear","headFace"];
   async function inspectSkin(hidden=[]){await ctx.call('animation.pause');const scene=await ctx.call('scene.inspect'),visible=new Map(scene.objects.map(o=>[o.hash,o.visible]));const commands=skins.filter(key=>visible.get(ctx.bindings[key].owner)!==!hidden.includes(key)).map(key=>({name:'scene.update',args:{id:ctx.bindings[key].owner,visible:!hidden.includes(key)}}));if(commands.length)await ctx.call('api.batch',{commands});}
   button('Assembled',()=>inspectSkin());
   button('Panel cutaway',async()=>{await inspectSkin(['coverR','waistR','torsoFront','upperB','foreB','upperBR','foreBR']);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});

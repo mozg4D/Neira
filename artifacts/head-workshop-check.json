@@ -1,0 +1,191 @@
+{
+  "native": {
+    "frames": [
+      {
+        "errors": [],
+        "frame": 0,
+        "nonfinite": [],
+        "owners": 278
+      },
+      {
+        "errors": [],
+        "frame": 90,
+        "nonfinite": [],
+        "owners": 278
+      },
+      {
+        "errors": [],
+        "frame": 180,
+        "nonfinite": [],
+        "owners": 278
+      },
+      {
+        "errors": [],
+        "frame": 330,
+        "nonfinite": [],
+        "owners": 278
+      }
+    ],
+    "out": [
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "hitsZ": [
+          -55,
+          -52
+        ],
+        "id": "4c7207ade3602f818fea093d8b2ab8fc",
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "triangles": 860,
+        "vertices": 432
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "hitsZ": [
+          52,
+          55
+        ],
+        "id": "21db7743e03c810defe3f87b801f893a",
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "triangles": 284,
+        "vertices": 144
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "hitsZ": [],
+        "id": "e72ca7993d4ba02f7955adbf070e6f62",
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "triangles": 140,
+        "vertices": 72
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "hitsZ": [],
+        "id": "f8246fbc685e7a72317f1275476a5303",
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "triangles": 284,
+        "vertices": 144
+      },
+      {
+        "boundary": 0,
+        "degenerate": 0,
+        "hitsZ": [],
+        "id": "9203eca2f019efd17ab3e8981570a1d9",
+        "nonmanifold": 0,
+        "orientationWarnings": 0,
+        "triangles": 140,
+        "vertices": 72
+      }
+    ]
+  },
+  "reload": {
+    "owners": 278,
+    "errors": [],
+    "docMatch": true,
+    "sourceMatch": true,
+    "heads": [
+      {
+        "bounds": {
+          "center": [
+            0,
+            1377.5,
+            38
+          ],
+          "max": [
+            115,
+            1450,
+            55
+          ],
+          "min": [
+            -115,
+            1305,
+            21
+          ]
+        },
+        "id": "21db7743e03c810defe3f87b801f893a",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      },
+      {
+        "bounds": {
+          "center": [
+            0,
+            1377.5,
+            -17.5
+          ],
+          "max": [
+            115,
+            1450,
+            20
+          ],
+          "min": [
+            -115,
+            1305,
+            -55
+          ]
+        },
+        "id": "4c7207ade3602f818fea093d8b2ab8fc",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      }
+    ]
+  },
+  "controls": {
+    "hiddenHeads": [
+      {
+        "name": "Head face",
+        "visible": false
+      },
+      {
+        "name": "Head rear",
+        "visible": false
+      }
+    ],
+    "restoredHeads": [
+      {
+        "name": "Head face",
+        "visible": true
+      },
+      {
+        "name": "Head rear",
+        "visible": true
+      }
+    ]
+  },
+  "bytes": 242233,
+  "sha256": "8b7040cf79426011012808e572c77189d34859a1de9416d858ebad6c3a2e4985",
+  "qualified": false
+}

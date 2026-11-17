@@ -1,6 +1,24 @@
 # Neira state and handoff
 
-Updated: 2026-11-17. Goal remains ACTIVE: continue until the user explicitly asks to stop. Do not mark the overall project complete at a checkpoint.
+Updated: 2026-11-17. PAUSED at the user's explicit request. Resume only when the user asks; the open-ended project is not complete. Current subagent tasks finished naturally and their work is preserved.
+
+## Pause checkpoint and shared Frame release
+
+The user paused Neira to let another chat edit Frame's `index.html`. They explicitly asked to let subagents finish their current tasks, then authorized publication of all existing local printer/render changes so the next chat starts from one shared version.
+
+`C:\frame` is now committed and pushed at `0c82bbd104711dce4192b69632777ce42452d520` (HTML/SW version `2026 17 nov 17:24`). Local main and GitHub main match; the working tree was clean after publication. This includes the previously uncommitted printer/render changes and related test maintenance, plus a one-line actual-shader extraction-fixture repair. The earlier Neira core fixes are ancestors. Native printer-only integration passed 128 checks at DPR1 on NVIDIA Turing, without browser/console/GPU validation errors, loss or replacement. CPU review passed shared bridge 11, replica visibility 6, camera depth 19 and shader assembly 5; syntax passed 2 executable and 6 lazy blocks. Source identity binding passed 153 checks; these are not behavioral qualification. No general/full suite, DPR2 or stress run was performed for this release. Reports are ignored files under `C:\frame\tests\results`: `printer-shared-release.json` and `printer-shared-core-review.json`.
+
+The verified Neira HASH and embedded Doc were not replaced during this pause checkpoint. Their recorded core remains the separate clean `work/frame` checkout at b19eaee, not the newer shared Frame release. Do not update that checkout or reinterpret its old report as verification of a new Frame revision. On resume, inspect the user's current Frame changes, choose/freeze the intended core and rebuild/check one candidate before promoting a new canonical file.
+
+Finished but not native-integrated follow-up work:
+
+- `docs/Wrist-support.md`: sourced DRAFT for two 6804 bearings, front locating/rear outer-ring floating arrangement, rotor/caps/retention and a candidate Fore insert attachment. No proposed geometry was modeled or accepted as a qualified interface. Fits, endplay, cap fastening/tool access, Fore wall loads, materials, drive and life remain open. Importantly, the rear bearing cannot pass through the intermediate cartridge shoulder: the draft assembly sequence now installs the front and rear parts from their respective ends.
+- `tools/load-study.mjs` and `tools/load-study-check.mjs`: explicit G/S bending and separate Tz pin screening, illustrative density and source-derived geometry. All 36 pure CPU arithmetic/unit/equilibrium/sign/scaling checks passed. Output is always `qualified:false`. The guarded CLI rejects the current geometry report before writing, because fresh source-fenced geometry evidence with volumes is required. `artifacts/load-study.json` does not exist; historical volume was not relabeled as current data.
+- `tools/check.mjs`: minimal pending change retains already-read signed/absolute tessellated Hub/Guide volumes and checks finite positive values. No extra GPU read. This checker change has not received a new native run; the old canonical's 210-check result belongs to the earlier checker/source snapshot.
+
+The build still embeds exactly Design + Tool-interface. Neither draft chapter has been added. Resume by reviewing the load worksheet/source composition and hash fences together, then running the relevant candidate build/check and only then the actual-data calculator. Supplementary local handoff is `work/load-study-handoff.md`; the essential boundary is recorded here for a fresh clone.
+
+Two read-only core audits produced no application changes. `C:\frame\tests\results\spline-normalization-audit.json` measured normalization as too small to justify optimization on Neira. `ai-native-affine-audit.json` lists unmeasured bulk `setLocal` pose-sync and unindexed owner-lookup candidates; no speedup is claimed and immediate-read/ambiguity semantics must be preserved if investigated later. All subagents are stopped; do not start further work during the pause.
 
 ## User direction
 
@@ -48,7 +66,7 @@ b19eaee is now selectively committed/pushed and Pages-byteverified: concurrent F
 ## Next project continuation
 
 1. Part-agent/main-assembler extraction is implemented and passed integration. Pure factories use mating-face datumZ0/+Z; assembler places bothHub andGuide at wristZ+6, including Instances. Shareddimensions/cad/model/registry belong to the main assembler; individual part files have independent owners. Factories create no Frame scene, IDs or GPU data. No geometric variants beyond the default interface have been qualified.
-2. Compared against591ca3a, allHub world sourcecontrols match exactly and Guide controls/handles differ by at most1.11e-16mm, with identical connectivity. Actuallocalcages areHubZ[-40,3], GuideZ[0,30]; all4placements+6 were observed through nativegeometry. Source/Doc/hardware/controls were rechecked, then canonicalfile promoted. Commit this current modularcheckpoint if not yet pushed; inspect Git rather than assuming publication.
+2. Compared against591ca3a, allHub world sourcecontrols match exactly and Guide controls/handles differ by at most1.11e-16mm, with identical connectivity. Actuallocalcages areHubZ[-40,3], GuideZ[0,30]; all4placements+6 were observed through nativegeometry. Source/Doc/hardware/controls were rechecked, then canonicalfile promoted. The modular checkpoint was committed and pushed as bfc84c3.
 3. Implement the draft load/mass worksheet with explicitvectors and units: gravity/sidepull ataxial100mm produce bending, notMz; a separateassumed3Nm tool-axis torque screens pin. Check signedforce/momentbalance independently. No strengthrating/material selection follows automatically.
 4. Resolve pinseat/retention and design rear wrist support/bearings/actuator. CurrentHub~101.7cm3 is an interfaceblank, potentially~275g at illustrativeAl density; actual housing/rotor layout must drive hollowing. Define concrete tasks, mass and torque requirements before componentselection. Outdoor requirements and additional armDOF remain open.
 

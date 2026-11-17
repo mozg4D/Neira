@@ -136,7 +136,9 @@ async function verifyInterfaces(report,session,scene,interfaces){
  function solid(label,part,genus){
   check(report,label+' has finite positions and valid evaluated indices',part.mesh.vertices.every(v=>v.position.length===3&&v.position.every(Number.isFinite))&&part.mesh.faces.every(f=>f.vertices.length===3&&f.vertices.every(i=>Number.isInteger(i)&&i>=0&&i<part.mesh.vertices.length)));
   const audit=topology(part.mesh);check(report,label+' is a finite closed orientable evaluated surface',part.mesh.vertices.every(v=>v.position.every(Number.isFinite))&&part.mesh.topology.degenerate.length===0&&audit.components===1&&audit.boundary===0&&audit.nonmanifold===0&&audit.orientationWarnings===0&&audit.degenerate===0&&audit.invalidVertexLinks===0&&audit.genus===genus,{...audit,zeroAreaFaces:part.mesh.topology.degenerate});
-  return {id:part.id,source:part.source,bounds:part.bounds,cageBounds:part.cageBounds,topology:audit};
+  const signedVolumeMm3=part.mesh.topology.signedVolume,volumeMm3=Math.abs(signedVolumeMm3);
+  check(report,label+' has a finite positive tessellated source volume',Number.isFinite(signedVolumeMm3)&&volumeMm3>0,{signedVolumeMm3,volumeMm3});
+  return {id:part.id,source:part.source,bounds:part.bounds,cageBounds:part.cageBounds,topology:audit,signedVolumeMm3,volumeMm3,volumeMethod:'Signed tetrahedral integration of the evaluated native triangle surface in source millimetres; approximation, not exact machined-part volume'};
  }
  function wall(label,part,spec){const observation=circleWall(part.cage,spec);check(report,label,observation.pass,observation);return observation;}
  for(const item of interfaces){

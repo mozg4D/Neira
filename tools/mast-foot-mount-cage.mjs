@@ -1,0 +1,5 @@
+import {monotonePod} from './base-pod-cage.mjs';
+export const centers=[[-60,-60],[60,-60],[60,60],[-60,60]];
+function addHoles(c,y0,y1){centers.forEach(([x,z],n)=>{for(let q=0;q<2;q++){const ss=[];for(let k=0;k<4;k++){const a=k*Math.PI/2,b=(k+1)*Math.PI/2,id='h'+n+'r'+q+'_'+k,pre='h'+n+'v'+q+'_';c.vertices[pre+k]=[x+3.25*Math.cos(a),q?y1:y0,z+3.25*Math.sin(a)];ss.push(id);c.segments[id]={id,a:pre+k,b:pre+((k+1)%4),ha:[-Math.sin(a)*3.25*.5522847498,0,Math.cos(a)*3.25*.5522847498],hb:[Math.sin(b)*3.25*.5522847498,0,-Math.cos(b)*3.25*.5522847498],sequence:'h'+n+'r'+q,soft:true};}c.sequences.push({id:'h'+n+'r'+q,first:'h'+n+'v'+q+'_0',segments:ss,closed:true});}for(let k=0;k<4;k++){const id='h'+n+'l'+k,a='h'+n+'v0_'+k,b='h'+n+'v1_'+k;c.segments[id]={id,a,b,ha:[0,0,0],hb:[0,0,0],sequence:id,soft:false};c.sequences.push({id,first:a,segments:[id],closed:false});}});return c;}
+export function foot(){return addHoles(monotonePod([[162,150,150,8],[174,150,150,8]]),162,174);}
+export function deck(){return addHoles(monotonePod([[150,500,670,60],[162,500,670,60]]),150,162);}

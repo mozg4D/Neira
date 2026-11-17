@@ -1,6 +1,10 @@
 # Neira state and handoff
 
-Updated: 2026-11-17. PAUSED at the user's explicit request. Resume only when the user asks; the open-ended project is not complete. Current subagent tasks finished naturally and their work is preserved.
+Updated: 2026-11-17. RESUMED by the user's later instruction to work on HOME and store the project in mozg4D/Neira. Earlier pause/release notes below are historical, not a current stop instruction.
+
+## Current form-study checkpoint
+
+Canonical scenes/neira.hash remains unchanged (SHA256 c8751a111944cb762cb4400a6ef56c0d712458731324e1f1d6a80811e60aa036). Separate candidate scenes/neira-form-study.hash adds a native torso cage/patch, hides old torso skins and preserves arms/wrists/base. Read docs/Form-study.md for actual evidence, limits and next work. Recipe: tools/form-study-cage.mjs. No Frame code changed. No new canonical qualification is claimed. Modeling uses an isolated Chrome tab, not the user's existing scenes. Next: head and silhouette refinement, pose clearance checks, then shell construction and workshop layout.
 
 ## Pause checkpoint and shared Frame release
 

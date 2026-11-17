@@ -6,6 +6,10 @@ The first iteration is an editable packaging and kinematic model in [Frame](http
 
 ![Neira body study in Frame](artifacts/neira.png)
 
+## Current body and workshop candidate
+
+Open [neira-form-study.hash](scenes/neira-form-study.hash) in Frame for the current 354-owner body/workshop design candidate. This includes tapered body shells, joint service ports and a full-height cabinet enclosure. See [stage notes](docs/Body-flow-cabinet-study.md) and [verification](artifacts/body-flow-cabinet-check.json). The older canonical engineering scene below is preserved separately.
+
 ## Start here
 
 - [Design](docs/Design.md): intent, dimensions, interfaces, decisions and verification boundaries.

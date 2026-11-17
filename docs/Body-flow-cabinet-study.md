@@ -1,0 +1,2 @@
+## Body flow and full cabinet study
+Lower shell rebuilt as two native 36-control spline panels: broad base, narrow waist, preserved upper interface. Longitudinal controls use coordinate-wise monotone Hermite tangents. Coordinate inset 4 mm and seam 1 mm are design intent, not certified normal wall thickness. Cabinet back now spans X640..1560, Y100..1480, Z430..438 in rack local coordinates. Topology and four discrete poses checked; no physical collision, strength, fastening or manufacturing qualification claimed.

@@ -1,0 +1,9 @@
+{
+ "date":"2026-11-17", "file":"scenes/neira-cabinet-port-wip.hash", "bytes":289601,
+ "sha256":"ff7cf69717d1f89428cf150e301894f813e014beebad641a3b2452f66edd49ea",
+ "roundTrip":{"method":"Native Open file from preserved local path in own Frame tab33661146","owners":354,"buildErrors":0,"docNoteRecovered":true,"twoPanelControlsRecovered":[16,16],"boundary":0,"nonmanifold":0,"orientationWarnings":0,"degenerate":0},
+ "clearance":{"method":"Independent CPU projection of mesh.inspect local vertices with scene worldMatrix; Instance occurrence matrices read from diagnostics.replicas; compared with measure.gap","frames":[0,90,180,330],"pairsPerFrame":8,"comparisons":32,"independentGapMm":5.4471740722656,"maximumAbsoluteNativeDifferenceMm":0.000050256128,"scope":"Root drums versus their eight attached upper/forearm panel halves only; not opposite ends, whole scene, swept collisions, source approximation or manufacturing tolerance"},
+ "cabinet":{"twoSidePanels":true,"thicknessMm":8,"heightMm":1400,"depthMm":260,"cornerRadiusMm":40,"localX":[[632,640],[1560,1568]],"localY":[100,1500],"localZ":[170,430],"uniqueNativeSources":2,"sourceControlsEach":16,"sourceSegmentsEach":24,"meshVerticesEach":80,"meshTrianglesEach":156,"physicalQualification":false},
+ "unchanged":["scenes/neira.hash","scenes/neira-form-study.hash","scenes/neira-port-wip.hash"],
+ "publication":"Not committed or pushed; separate saved WIP"
+}

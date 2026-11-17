@@ -1,0 +1,81 @@
+{
+  "stage": "body-flow-cabinet",
+  "sha256": "dd543d48bc916baea576db8d44d459d5cd5e3480e521dfb52ffeaee34dc2ce55",
+  "bytes": 289981,
+  "owners": 354,
+  "poses": [
+    {
+      "frame": 0,
+      "owners": 354,
+      "buildErrors": 0
+    },
+    {
+      "frame": 90,
+      "owners": 354,
+      "buildErrors": 0
+    },
+    {
+      "frame": 180,
+      "owners": 354,
+      "buildErrors": 0
+    },
+    {
+      "frame": 330,
+      "owners": 354,
+      "buildErrors": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Waist L",
+      "controls": 36,
+      "vertices": 318,
+      "triangles": 632,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Waist R",
+      "controls": 36,
+      "vertices": 318,
+      "triangles": 632,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    },
+    {
+      "name": "Back panel",
+      "controls": 16,
+      "vertices": 72,
+      "triangles": 140,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "orientationWarnings": 0
+    }
+  ],
+  "roundTrip": {
+    "exactFileReopened": true,
+    "owners": 354,
+    "buildErrors": 0,
+    "docNote": true,
+    "leftBase": [
+      -150.5,
+      250,
+      0
+    ],
+    "leftMid": [
+      -118.5,
+      520,
+      -14
+    ],
+    "backY": [
+      100,
+      1480
+    ]
+  },
+  "qualification": "Discrete build/topology and source checks only. No collision, strength, fit or manufacturing qualification."
+}

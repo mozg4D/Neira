@@ -1,0 +1,39 @@
+{
+  "jointPort": {
+    "axialRange": [
+      0,
+      70
+    ],
+    "slotAngles": [
+      -18,
+      18
+    ],
+    "radiusOuter": 50,
+    "radiusInner": 44,
+    "controls": 20
+  },
+  "workingTab": "33661146",
+  "bytes": 287223,
+  "nativeTopology": {
+    "orientationWarnings": 0,
+    "degenerate": 0,
+    "sourcesChecked": 5,
+    "boundary": 0,
+    "nonmanifold": 0
+  },
+  "objectErrors": 0,
+  "limits": "Recovered WIP, not a published design checkpoint. Full joint clearance, measure.gap discrepancy, physical bearings/fastening and loads remain unqualified.",
+  "sha256": "7fb86054275cd4fd8bd3fb34ae4aeaeb8b2e28875eb717f7d930e9c6df16f351",
+  "date": "2026-11-17",
+  "nativeOwners": 350,
+  "forePanelSourceZ": [
+    18,
+    162
+  ],
+  "savedCopy": "scenes/neira-port-wip.hash",
+  "upperPanelSourceZ": [
+    18,
+    182
+  ],
+  "source": "Downloads/neira-form-study (2).hash"
+}

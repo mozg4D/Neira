@@ -1,0 +1,93 @@
+{
+  "doc": true,
+  "errors": [],
+  "owners": 200,
+  "placements": [
+    {
+      "bounds": {
+        "center": [
+          1303.5,
+          770,
+          300
+        ],
+        "max": [
+          1323.5,
+          778,
+          390
+        ],
+        "min": [
+          1283.5,
+          762,
+          210
+        ]
+      },
+      "name": "Service pull"
+    },
+    {
+      "bounds": {
+        "center": [
+          1303.5,
+          585,
+          300
+        ],
+        "max": [
+          1323.5,
+          593,
+          390
+        ],
+        "min": [
+          1283.5,
+          577,
+          210
+        ]
+      },
+      "name": "Tools pull"
+    },
+    {
+      "bounds": {
+        "center": [
+          1303.5,
+          400,
+          300
+        ],
+        "max": [
+          1323.5,
+          408,
+          390
+        ],
+        "min": [
+          1283.5,
+          392,
+          210
+        ]
+      },
+      "name": "Parts pull"
+    },
+    {
+      "bounds": {
+        "center": [
+          1434.5,
+          750,
+          300
+        ],
+        "max": [
+          1585.5,
+          1500,
+          760
+        ],
+        "min": [
+          1283.5,
+          0,
+          -160
+        ]
+      },
+      "name": "Service rack concept"
+    }
+  ],
+  "topology": {
+    "boundary": 0,
+    "degenerate": 0,
+    "nonmanifold": 0,
+    "orientation": 0
+  }
+}

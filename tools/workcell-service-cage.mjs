@@ -1,0 +1,4 @@
+// U pull, native straight spline cage. Millimetres, grip gap28, no fastener qualification.
+export function pullCage(){const pts=[[-90,181],[-90,141],[90,141],[90,181],[78,181],[78,153],[-78,153],[-78,181]],c={version:2,approximation:{angle:12},next:1000,vertices:{},segments:{},sequences:[],freeHandles:{}};for(let q=0;q<2;q++){const ss=[];pts.forEach(([x,z],i)=>c.vertices['v'+q+'_'+i]=[1100+x,392+16*q,z]);pts.forEach((p,i)=>{const id='r'+q+'_'+i;ss.push(id);c.segments[id]={id,a:'v'+q+'_'+i,b:'v'+q+'_'+((i+1)%8),ha:[0,0,0],hb:[0,0,0],sequence:'r'+q,soft:false};});c.sequences.push({id:'r'+q,first:'v'+q+'_0',segments:ss,closed:true});}for(let i=0;i<8;i++){const id='l'+i;c.segments[id]={id,a:'v0_'+i,b:'v1_'+i,ha:[0,0,0],hb:[0,0,0],sequence:id,soft:false};c.sequences.push({id,first:'v0_'+i,segments:[id],closed:false});}return c;}
+// Rotate entire rack +90deg Y, original center1100/307.5 ->1450/300.
+export const rackMatrix=[0,0,-1,0,0,1,0,0,1,0,0,0,1142.5,0,1400,1];

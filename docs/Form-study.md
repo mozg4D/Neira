@@ -32,3 +32,14 @@ Current candidate exportSHA256 `c9d26fa6f77acedf509fe9e1b4414fd21fd2f1b610305ed3
 
 
 Final saved workstation round-trip passed:107 owners, zero build errors, preserved pose330 wrist centers and embedded Doc; no unavailable plugins/tags. Canonical SHA256 rechecked unchanged.
+
+## Passive cable targets
+
+Instead of adding arbitrary wrist DOFs, the first specific station task is a manual, stationary check: insert/remove a free de-energized nominal8mm cable through the service passage/Guide and a loose16mm-bore target ring. No autonomous feeding or rotation is implied. The rings are not gauges, docking locks or wrist supports.
+
+RingOD36/ID16/length6mm, Q=P+70a from the actual pose330 wrist transforms. RightQ=[191.4238556845,992.7009775192,537.1797971383]mm, left mirrorsX. Axis readback agrees within2e-15 (arithmetic precision). Native annular cells retain two planar holes/genus1; measure.gap along the wrist axis reports30.9999999mm from Guide to ring. This is directional separation, not a cable/manufacturing proof. Note that a separate API pad-to-Hub +Y projection measurement gave28.34485mm at330; the earlier29.756mm result clips to the footprint and therefore answers a different question.
+
+Base plates60x70x6mm atY910..916, X+/-191.4238556845,Z510. Posts12x12mm atY916..980,Z539. Ring/base/post repeat through Instances. These are unfastened layout envelopes; joining, base retention, access and actual cable bending/insertion remain unverified. Recipe:`tools/cable-target-cage.mjs`. Candidate exportSHA256 `bc938e049034e6e4c68b2d0ef4a881280e73527a8c6f946fb10266e9590fa52c`,116owners. The current todo lists Frame/AI-API recommendations; model next steps stay here/STATE, so the user's short feedback file does not become a design backlog.
+
+
+Cable-target round-trip:116owners, zero build errors, both target centers/axes and fixture Doc preserved.

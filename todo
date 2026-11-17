@@ -1,4 +1,2 @@
-- Resolve tool orientation: angled fixture vs articulated wrist; check swept clearance.
-- Design shell thickness, split lines and tool/service access before manufacture.
-- Choose mobility for workshop/outdoors; wheels are provisional.
-- Turn first bench envelopes into a braced assembly with actual fixtures.
+- AI API: nearest/swept clearance with error bounds; measure.gap only checks projections.
+- Tighten sourceAccuracy bounds: torso ~903 mm is unusable for fabrication decisions.

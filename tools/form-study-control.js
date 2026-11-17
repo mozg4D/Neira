@@ -23,6 +23,7 @@ export function activate(ctx) {
   button('Assembled',()=>inspectSkin());
   button('Panel cutaway',async()=>{await inspectSkin(['coverR','waistR','torsoFront','upperB','foreB','upperBR','foreBR']);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
   button('Frame and internals',async()=>{await inspectSkin(skins);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
+  button('Arm backbones',async()=>{await inspectSkin(['upperA','upperB','foreA','foreB','upperAR','upperBR','foreAR','foreBR']);await ctx.call('view.set',{focus:ctx.bindings.root.owner});});
   button('Base service',async()=>{await inspectSkin(['coverR','coverL','waistR','waistL']);await ctx.call('view.set',{focus:ctx.bindings.Base.owner});});
   button('Workbench pose',async()=>{await inspectSkin();await ctx.call('animation.seek',{frame:330});await ctx.call('view.set',{focus:ctx.bindings.workbench.owner});});
   button('Storage',()=>ctx.call('view.set',{focus:ctx.bindings.storage.owner}));

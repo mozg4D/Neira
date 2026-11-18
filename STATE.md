@@ -1,5 +1,17 @@
 # Neira state and handoff
 
+## Current focused checkpoint: rigid finger v38-T1-C2
+
+Updated: 2026-11-18. The current detailed engineering study is the separate native scene `scenes/rigid-finger-v38-T1-C2.hash`. See `docs/Rigid-finger-v38-T1-C2.md` and `artifacts/rigid-finger-v38-T1-C2-check.json` for its exact saved identity, native runtime and evidence scope. Existing canonical/wheeled/humanoid scenes remain unchanged.
+
+The scene contains editable spline sources, articulated joints, service access, mounted nail and dorsal PIP shielding. The final documentation-only save preserves all 200 geometry hashes across seven stages and passes five native-pose matrix/point-displacement bounds, not bit-exact matrix equality. The final HASH is 146545 bytes, SHA256 `7905bc6c5fe4e0c91318749d9a3b10d5d19012ad28711e9b3bcf7522f70ae199`; the receipt records its link to measured v38 geometry. Native export/reopen and finite sampled checks are not physical or manufacturing certification. Known A/B microtriangle self-overlaps and substantial sharp transitions persist. No continuous full-range collision proof, global finished-wall minimum, achieved manufacturing fits, load rating, wear qualification, actuator selection or neighbor-finger/anatomical-palm validation is claimed.
+
+Next: resolve meaningful geometry/assembly/fit and silhouette questions without hiding known microdefects or increasing cage complexity merely to improve counters. Preserve checkpoints and separate sampling evidence from continuous or physical validation. The full external scripted rebuild archive is not part of this public checkpoint; native editable cages are retained in the HASH. Do not run the historical canonical build/check workflow to promote this separate scene.
+
+### Historical state below
+
+The dated entries below are retained for provenance. Their old current-scene paths, browser identifiers and design defaults are historical, not a request to resume that direction.
+
 Updated: 2026-11-17. RESUMED by the user's later instruction to work on HOME and store the project in mozg4D/Neira. Earlier pause/release notes below are historical, not a current stop instruction.
 
 ## Current humanoid / laboratory checkpoint
@@ -205,3 +217,4 @@ User download recovered to scenes/neira-port-wip.hash; 287223 bytes; SHA256 7fb8
 ## Cabinet envelope and projected-gap checkpoint, November 17
 Recovered port scene continued in own tab33661146.32 root-drum/panel pairs at frames0/90/180/330 gave independent display projected gap5.447174mm;measure.gap deviation <=0.000051mm. No discrepancy reproduced on these pairs; projection overlap is not collision. Other link ends/full swept geometry/source error still unqualified.
 Added two16control rounded cabinet side plates,8mm nominal thickness,Y100..1500,Z170..430,localX632..640 and1560..1568. Side planes meet shelf-end datums;no claimed fastening/bracing/anti-tip qualification. Source tools/cabinet-side-cage.mjs; matching study text docs/Cabinet-port-study.md appended to native Doc, canonical docs unchanged. Exported separate scenes/neira-cabinet-port-wip.hash,289601bytes,SHA256ff7cf69717d1f89428cf150e301894f813e014beebad641a3b2452f66edd49ea. Download SHA matched, then native Open file reopened this saved path in same own tab:354owners,0build errors,Doc and both16control cages retained;both meshes have0boundary/nonmanifold/orientation/degenerate defects. Evidence artifacts/cabinet-port-check.json. Original recovered WIP and verified form-study/canonical files untouched;no Frame core edits,no commit/push,no Goal interference. Next: broader body silhouette/service interfaces and cabinet fastening;independent opposite-end/swept collision study remains open. Current tab saved and retained with cabinet view.
+

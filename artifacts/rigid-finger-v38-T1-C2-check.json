@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "checkpoint": "rigid-finger-v38-T1-C2",
+  "scene": "scenes/rigid-finger-v38-T1-C2.hash",
+  "documentation": "docs/Rigid-finger-v38-T1-C2.md",
+  "frame": {
+    "repository": "https://github.com/mozg4D/frame",
+    "commit": "2375c4ae3d66ecd6b7154419767d85f7af8d4d10",
+    "indexSHA256": "42d244342cd3b3c1de6151026da477713b1fdb8429801272bf0f6a873ef986ff"
+  },
+  "measuredGeometryCheckpointSHA256": "f3e373be15fb92278db16f680e7be5c8cd0d27070705f8ece05ad8811e8aa418",
+  "nativeVerification": {
+    "producerRoundtripObjects": 200,
+    "independentExtractedMeshes": 25,
+    "finalBodies": 21,
+    "nativeFrames": [
+      0,
+      45,
+      90,
+      120,
+      150
+    ],
+    "unchangedFinalBodiesVersusV37": 20,
+    "changedFinalBodies": [
+      "proximal"
+    ]
+  },
+  "freshV38Evidence": {
+    "grid": {
+      "rows": 1620,
+      "raw": {
+        "near-contact-only": 108,
+        "no-surface-intersections": 1188,
+        "pair-timeout": 324
+      },
+      "resolved": {
+        "near-contact-only": 108,
+        "no-surface-intersections": 1188,
+        "stationary-intended-seat-contact": 324
+      },
+      "maxSeatRelativePoseError": 2.5121479338940403e-15
+    },
+    "denseA": {
+      "rows": 690,
+      "counts": {
+        "near-contact-only": 6,
+        "AABB-disjoint": 552,
+        "no-surface-intersections": 132
+      },
+      "scope": "PIP0..110step5,DIP0/40/80,MCP0,splay0;10downstream bodies"
+    },
+    "pipAssembly": {
+      "sampledRows": 70,
+      "sweptAABBPairs": 8,
+      "statuses": {
+        "no-surface-intersections": 70
+      }
+    },
+    "D7assembly": {
+      "sampledRows": 0,
+      "sweptAABBPairs": 6,
+      "scope": "changedA only, stageA distalunit+stageBcheekXtranslations"
+    },
+    "pipAxis": {
+      "rows": 31,
+      "resolved": {
+        "AABB-disjoint": 11,
+        "no-surface-intersections": 19,
+        "stationary-intended-seat-contact": 1
+      }
+    },
+    "service": {
+      "rows": 30,
+      "resolved": {
+        "no-surface-intersections": 16,
+        "AABB-disjoint": 13,
+        "stationary-intended-seat-contact": 1
+      }
+    }
+  },
+  "T1C2RepresentativePlay": {
+    "play-results.json": {
+      "complete": true,
+      "rows": 216,
+      "counts": {
+        "no-surface-intersections": 174,
+        "AABB-disjoint": 34,
+        "near-contact-only": 8
+      },
+      "nonexhaustive_rows": 0,
+      "intentional_early_robust_witness_rows": 0,
+      "timeout_rows": 0
+    },
+    "endstop-play-results.json": {
+      "complete": true,
+      "rows": 24,
+      "counts": {
+        "robust-surface-crossing-witness": 12,
+        "no-surface-intersections": 12
+      },
+      "nonexhaustive_rows": 12,
+      "intentional_early_robust_witness_rows": 12,
+      "timeout_rows": 0,
+      "by_angle": {
+        "-1": {
+          "robust-surface-crossing-witness": 4
+        },
+        "0": {
+          "robust-surface-crossing-witness": 2,
+          "no-surface-intersections": 2
+        },
+        "1": {
+          "no-surface-intersections": 4
+        },
+        "109": {
+          "no-surface-intersections": 4
+        },
+        "110": {
+          "robust-surface-crossing-witness": 2,
+          "no-surface-intersections": 2
+        },
+        "111": {
+          "robust-surface-crossing-witness": 4
+        }
+      }
+    },
+    "washer-followup-results.json": {
+      "complete": true,
+      "rows": 100,
+      "counts": {
+        "near-contact-only": 20,
+        "no-surface-intersections": 80
+      },
+      "nonexhaustive_rows": 0,
+      "intentional_early_robust_witness_rows": 0,
+      "timeout_rows": 0
+    }
+  },
+  "microfeatures": {
+    "A_retainedWorstFaces": [
+      24183,
+      24518
+    ],
+    "A_worstAngleDegrees": 179.99596922348692,
+    "A_tinyAreaMm2": 1.0803745989211737e-08,
+    "B_geometryEqualsV37": true,
+    "B_pocketFaces": [
+      9602,
+      9603
+    ],
+    "B_exactOverlapAreaMm2": 1.1711058789387607e-09,
+    "B_bridgeFaces": [
+      7190,
+      7135
+    ],
+    "B_exactOverlapAreaMm2_bridge": 6.635874233551313e-11,
+    "qualifiedCleanSolid": false
+  },
+  "limits": [
+    "Finite sampled triangle meshes, not exact-spline continuous-motion proof.",
+    "Intended mating-plane contact candidates are not certified contact areas or load capacity.",
+    "Raw seat timeouts resolved through explicit same-mesh relative-pose followups; not erased.",
+    "Known service/PIP thread-envelope exclusions are not tested real threading or locking.",
+    "No global finished-wall, manufacturing-fit, wear, load or human-safety qualification.",
+    "Historical v37 tests reused only through measured geometry and relative-transform equivalence, not counted as fresh v38 scans."
+  ],
+  "rebuildAvailability": {
+    "nativeEditableSources": "embedded in HASH",
+    "completeExternalScriptedRebuild": "not included in this public checkpoint"
+  },
+  "sceneIdentity": {
+    "bytes": 146545,
+    "sha256": "7905bc6c5fe4e0c91318749d9a3b10d5d19012ad28711e9b3bcf7522f70ae199"
+  },
+  "documentationIdentity": {
+    "bytes": 6646,
+    "sha256": "42edf7d0b9ef252dbc7652578162e24e203ae6686aba51e27105855ce75acc9b",
+    "embeddedDocExactUTF8": true
+  },
+  "documentationOnlySave": {
+    "operation": "docs.update; native export and reopen",
+    "all200GeometryHashesExactAcross7Stages": true,
+    "nativePoses": [
+      0,
+      45,
+      90,
+      120,
+      150
+    ],
+    "nodesPerPose": 322,
+    "matrixEntryGuard": 1e-12,
+    "worldPointDisplacementGuardMm": 1e-09,
+    "maxMatrixEntryError": 1.1102230246251565e-16,
+    "maxWorldPointDisplacementBoundMm": 2.3517834084649375e-14,
+    "bitExactMatrices": false,
+    "formalIntervalProof": false,
+    "boundMethod": "Numerical matrix entry error with padded actual local AABB coordinate bounds; corrected receipt replaces initial underestimated bound.",
+    "strictFirstAttempt": "Stopped on exact matrix equality at roundoff scale; did not change geometry.",
+    "sourceEvidenceSHA256": {
+      "document-only-equivalence.json": "16b9c457783bb44b1e4681b0c07b62217e95e57cf72dca26b9ccd884bdcd3aba",
+      "bounds-correction-receipt.json": "43d04ef7dee88541593899c021ffec415b302d7310b1ef2b0dd316e3c497f773"
+    }
+  },
+  "images": [
+    {
+      "path": "artifacts/rigid-finger-v38-straight.png",
+      "bytes": 50812,
+      "sha256": "16fa4bcd10a5a5adfdd6ec67203a48aabe9fbd30b4187c09a3c57f8fec2aa31a",
+      "scope": "Actual pre-documentation-save native render; geometry identity to final HASH verified, not a new final-save render."
+    },
+    {
+      "path": "artifacts/rigid-finger-v38-folded.png",
+      "bytes": 69386,
+      "sha256": "25a83f8dce23a1115dd1e75968932b3753469ac973703b1bb10a7370fef9280b",
+      "scope": "Actual pre-documentation-save native render; geometry identity to final HASH verified, not a new final-save render."
+    }
+  ],
+  "archiveRecovery": {
+    "recoveryPublicationGate": "PASS",
+    "scope": "Final archive restoration, geometry/pose identity and exact Doc consistency only; not production/strength/continuous-motion approval. Publication itself not performed by this check.",
+    "archiveBytes": 132532297,
+    "archiveEntries": 3242,
+    "archiveSHA256": "ea14b3dc1e31c10ea476dce17035f28909976dfbc326d25a332f9020aa8436fe",
+    "archiveUnchanged": true,
+    "sceneBytes": 146545,
+    "sceneSHA256": "7905bc6c5fe4e0c91318749d9a3b10d5d19012ad28711e9b3bcf7522f70ae199",
+    "docBytes": 6646,
+    "docSHA256": "42edf7d0b9ef252dbc7652578162e24e203ae6686aba51e27105855ce75acc9b",
+    "docUTF8Exact": true,
+    "nativeCommit": "2375c4ae3d66ecd6b7154419767d85f7af8d4d10",
+    "geometryAll200Equal": true,
+    "poses": [
+      {
+        "frame": 0,
+        "objects": 200,
+        "maxWorldMatrixError": 1.1102230246251565e-16
+      },
+      {
+        "frame": 90,
+        "objects": 200,
+        "maxWorldMatrixError": 7.105427357601002e-15
+      }
+    ],
+    "fourNativeViewsVisuallyInspected": true,
+    "noModelSaved": true,
+    "report": "docs/Rigid-finger-v38-T1-C2-recovery.md"
+  }
+}

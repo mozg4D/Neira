@@ -1,5 +1,19 @@
 # Neira
 
+## Current focused study: articulated rigid finger
+
+The latest detailed work is a native editable finger study, not a finished robot or a production-ready hand. Open [rigid-finger-v38-T1-C2.hash](scenes/rigid-finger-v38-T1-C2.hash) in Frame. It combines articulated MCP/PIP/DIP joints, a removable service cover, a mounted functional nail and dorsal PIP shielding.
+
+[Checkpoint and limits](docs/Rigid-finger-v38-T1-C2.md) · [Verification receipt](artifacts/rigid-finger-v38-T1-C2-check.json)
+
+![Native straight finger study](artifacts/rigid-finger-v38-straight.png)
+
+![Native folded finger study](artifacts/rigid-finger-v38-folded.png)
+
+Native reopening, geometry identity, selected assembly paths and finite motion samples have been checked. Known overlapping microtriangles and sharp transitions remain: a successful native export or clean topology counters do not certify a clean solid. Continuous collision freedom, global wall thickness, manufacturing fits, loads, wear and safety are not qualified. The retained editable cages and control are in the HASH. The complete scripted rebuild archive is not included in this public checkpoint; the older `npm run build/check` below still applies to the historical whole-robot workflow, not this finger.
+
+The humanoid direction remains the larger goal. Earlier whole-body/workshop scenes below are preserved as historical concepts, not replaced by the finger or represented as its qualification.
+
 Neira is an engineering study of a mobile, two-arm robot and the workshop that could manufacture, assemble and maintain it. The robot is the reason for the workshop: each part should have an explicit manufacturing or purchasing route.
 
 The first iteration is an editable packaging and kinematic model in [Frame](https://github.com/mozg4D/frame). It explores a wheeled body, two arms and a provisional manual tool interface. Mechanical strength, actuator sizing, stability, control hardware and manufacturing tolerances remain open engineering work.
@@ -8,7 +22,7 @@ The first iteration is an editable packaging and kinematic model in [Frame](http
 
 ![Two-level laboratory concept](artifacts/neira-laboratory-concept.jpg)
 
-## Current humanoid and laboratory concept
+## Previous whole-body humanoid and laboratory concept
 
 Open [neira-humanoid-lab-v1.hash](scenes/neira-humanoid-lab-v1.hash) in Frame. The new direction is a feminine humanoid with legs and a spacious two-level laboratory, roughly300m2 gross perlevel. The upper stair opening leaves approximately284.09m2 of slab, not300m2 net usable area. Use Scene Control for the robot close-up, overall building and ground-floor cutaway.
 
@@ -54,3 +68,4 @@ Build creates a candidate under `work/candidate/`, embedding the composite Desig
 The current revision-1 part-factory checkpoint passed build and focused native checks, with 90 authored owners, 57 evaluated surface occurrences, 24 replicas, 33 independent position buffers and 12,768 generated display triangles. It checked the hub/register, cable guide, hardware stacks, six local front driver approaches, native persistence, eight joint controls and ordered exploded view. Separate factories and their assembly datums have passed native integration checks. See [verification evidence](artifacts/verification.json) and [continuation state](STATE.md) for exact source revisions, scope and remaining engineering work. Fits, pin retention, material/grade selection, payload and physical manufacture remain unqualified.
 
 This repository is intended for public development and a later article. A redistribution license has not yet been selected.
+

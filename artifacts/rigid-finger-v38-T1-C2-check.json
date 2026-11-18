@@ -103,9 +103,6 @@
       "intentional_early_robust_witness_rows": 12,
       "timeout_rows": 0,
       "by_angle": {
-        "-1": {
-          "robust-surface-crossing-witness": 4
-        },
         "0": {
           "robust-surface-crossing-witness": 2,
           "no-surface-intersections": 2
@@ -121,6 +118,9 @@
           "no-surface-intersections": 2
         },
         "111": {
+          "robust-surface-crossing-witness": 4
+        },
+        "-1": {
           "robust-surface-crossing-witness": 4
         }
       }
@@ -143,13 +143,13 @@
       24518
     ],
     "A_worstAngleDegrees": 179.99596922348692,
-    "A_tinyAreaMm2": 1.0803745989211737e-08,
+    "A_tinyAreaMm2": 1.0803745989211737e-8,
     "B_geometryEqualsV37": true,
     "B_pocketFaces": [
       9602,
       9603
     ],
-    "B_exactOverlapAreaMm2": 1.1711058789387607e-09,
+    "B_exactOverlapAreaMm2": 1.1711058789387607e-9,
     "B_bridgeFaces": [
       7190,
       7135
@@ -190,7 +190,7 @@
     ],
     "nodesPerPose": 322,
     "matrixEntryGuard": 1e-12,
-    "worldPointDisplacementGuardMm": 1e-09,
+    "worldPointDisplacementGuardMm": 1e-9,
     "maxMatrixEntryError": 1.1102230246251565e-16,
     "maxWorldPointDisplacementBoundMm": 2.3517834084649375e-14,
     "bitExactMatrices": false,
@@ -331,7 +331,7 @@
     "sourceSceneSHA256": "7905bc6c5fe4e0c91318749d9a3b10d5d19012ad28711e9b3bcf7522f70ae199",
     "noInterfaceExclusionsInRawGrid": true,
     "cylindricalFollowupsNoMasks": true,
-    "maxCylindricalContactAxisGapMagnitude_mm": 1.1747625947577944e-06,
+    "maxCylindricalContactAxisGapMagnitude_mm": 0.0000011747625947577944,
     "limits": [
       "This adds255pairs touching10formerlyuntrackedMCPbodies; not a fresh all465pair test.",
       "81 finite nominal poses, relativecache equality guarded; not continuous/tolerance/load qualification.",
@@ -378,7 +378,7 @@
       {
         "stage": "D7 stage B keyed cheek",
         "pairs": 10,
-        "minSeparatingAxisGapMm": 54.0,
+        "minSeparatingAxisGapMm": 54,
         "worstPair": [
           "dipCheek",
           "yawCollar"
@@ -387,7 +387,7 @@
       {
         "stage": "Service screws first then cover",
         "pairs": 30,
-        "minSeparatingAxisGapMm": 7.0,
+        "minSeparatingAxisGapMm": 7,
         "worstPair": [
           "serviceCover",
           "yawCollar"
@@ -405,7 +405,7 @@
       {
         "stage": "D7 cheek beside partial axle; added MCP targets only",
         "pairs": 10,
-        "minSeparatingAxisGapMm": 54.0,
+        "minSeparatingAxisGapMm": 54,
         "worstPair": [
           "dipCheek",
           "yawCollar"
@@ -423,5 +423,25 @@
     ],
     "repeatedCheekContextRecords": 10,
     "scope": "Only named previous paths against ten added MCP targets; not assembly/forming of those MCP targets, not a full assembly certificate."
+  },
+  "confirmedAssemblyObstruction": {
+    "date": "2026-11-18",
+    "status": "not-ready-for-assembly",
+    "pair": [
+      "palm",
+      "mcpSpindle"
+    ],
+    "nativeFrame": 0,
+    "faces": [
+      41,
+      943
+    ],
+    "independentTest": "Transverse triangle-plane crossings and overlapping intersection-line intervals on original native world triangles",
+    "intersectionLineOverlap_mm": 0.07574931329093518,
+    "SATaxisGap_mm": -0.022077570831950943,
+    "notPenetrationDepth": true,
+    "distinctAssemblyBodies": true,
+    "scope": "Original tracked21 pair; not one of255 additional pairs. Historical counts remain scoped, not exhaustive clearance.",
+    "geometryAndExactDocUnchanged": true
   }
 }

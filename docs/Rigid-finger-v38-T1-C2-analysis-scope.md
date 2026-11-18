@@ -1,5 +1,14 @@
 # v38-T1-C2 analysis-scope correction
 
+## Confirmed assembly obstruction (2026-11-18)
+
+**The saved v38 is not ready for assembly:** its palm yaw-stop post intersects the separate MCP spindle flange. Independently checked original native frame0 triangles (palm face41, spindle face943) cross transversely. The post spans approximately Z9.2..18.5 mm and the flange Z16..18 mm. Their common intersection-line interval is approximately0.0757493 mm; the earlier SAT axis gap is -0.02207757 mm. Neither number is a penetration-depth measurement. These are distinct assembly bodies; being fixed relative to one another does not make the overlap permissible.
+
+This pair belongs to the original tracked21 set, not the255 additional MCP pairs. The additional20655 pair-pose results and270 named assembly-path records retain their stated scope; they did not test assembly of the MCP parts themselves. Earlier12648/1620/690 counts remain historical results for their enumerated pairs, not an exhaustive validation of the21-part set or the whole assembly. No claim that all earlier checks are false is made. This newly confirmed obstruction supersedes any interpretation of those counts as whole-assembly clearance.
+
+The published HASH, exact embedded Doc,200-geometry roundtrip and recovery byte-identity evidence are unchanged. This is a documented geometric defect, not a repair or a Frame-core diagnosis. A revised design and fresh checks are required.
+
+
 ## Completed bounded supplement
 
 A fresh native extraction guards all31 visible mesh identities and transforms. The incremental grid covers every one of255 pairs touching at least one of the ten formerly untracked parts, at81 finite poses: MCP{0,45,90}, PIP{0,55,110}, DIP{0,40,80}, splay{−20,0,20}. Exact requested tuple coverage is20655, with no duplicates and3431 unique relative-configuration scans. This is NOT a fresh465-pair all-assembly test and does not rerun every prior21-part pair.

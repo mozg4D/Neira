@@ -1,5 +1,14 @@
 # Neira state and handoff
 
+## Confirmed assembly obstruction (2026-11-18)
+
+**The saved v38 is not ready for assembly:** its palm yaw-stop post intersects the separate MCP spindle flange. Independently checked original native frame0 triangles (palm face41, spindle face943) cross transversely. The post spans approximately Z9.2..18.5 mm and the flange Z16..18 mm. Their common intersection-line interval is approximately0.0757493 mm; the earlier SAT axis gap is -0.02207757 mm. Neither number is a penetration-depth measurement. These are distinct assembly bodies; being fixed relative to one another does not make the overlap permissible.
+
+This pair belongs to the original tracked21 set, not the255 additional MCP pairs. The additional20655 pair-pose results and270 named assembly-path records retain their stated scope; they did not test assembly of the MCP parts themselves. Earlier12648/1620/690 counts remain historical results for their enumerated pairs, not an exhaustive validation of the21-part set or the whole assembly. No claim that all earlier checks are false is made. This newly confirmed obstruction supersedes any interpretation of those counts as whole-assembly clearance.
+
+The published HASH, exact embedded Doc,200-geometry roundtrip and recovery byte-identity evidence are unchanged. This is a documented geometric defect, not a repair or a Frame-core diagnosis. A revised design and fresh checks are required.
+
+
 ## Additional MCP coverage completed (2026-11-18)
 
 The earlier coverage correction remains valid: the original analysis tracked21 of31 visible parts. A fresh incremental audit now covers **255 pairs involving the ten omitted MCP parts at81 finite poses:20655 pair-poses**, not a fresh test of all465 pairs. Results:19521 clear/AABB-separated and1134 nominal-seat/near-contact classifications. All12 unique raw timeout configurations were completed by same-mesh followups; raw evidence is retained. Nanometre-scale triangle crossings at nominal coincident cylindrical fits are not certified clean surfaces or manufactured clearances.

@@ -247,7 +247,7 @@
     "report": "docs/Rigid-finger-v38-T1-C2-recovery.md"
   },
   "analysisScopeCorrection": {
-    "status": "incomplete full-assembly coverage; expanded audit pending",
+    "status": "original scope error retained; additional255-pair/81-pose bounded audit completed",
     "visibleCriterion": "(object.mesh || {}).visible === true in saved native scene at frame 0",
     "visibleMeshParts": 31,
     "trackedAnalysisParts": 21,
@@ -303,5 +303,125 @@
     "hashAndEmbeddedDocUnchanged": true,
     "geometry200RoundtripAndArchiveRecoveryIdentityUnchanged": true,
     "report": "docs/Rigid-finger-v38-T1-C2-analysis-scope.md"
+  },
+  "additionalMCPMotionCoverage": {
+    "completedBoundedMotionScope": true,
+    "visibleBodies": 31,
+    "previouslyTracked": 21,
+    "additionalBodies": 10,
+    "newPairs": 255,
+    "poses": 81,
+    "pairPoses": 20655,
+    "exactTupleCoverage": true,
+    "duplicates": 0,
+    "uniqueScans": 3431,
+    "rawCounts": {
+      "AABB-disjoint": 18468,
+      "pair-timeout": 972,
+      "no-surface-intersections": 1053,
+      "near-contact-only": 162
+    },
+    "resolvedCounts": {
+      "AABB-disjoint": 18468,
+      "resolved-nominal-seat-contact": 972,
+      "no-surface-intersections": 1053,
+      "near-contact-only": 162
+    },
+    "resolvedUniqueTimeouts": 12,
+    "sourceSceneSHA256": "7905bc6c5fe4e0c91318749d9a3b10d5d19012ad28711e9b3bcf7522f70ae199",
+    "noInterfaceExclusionsInRawGrid": true,
+    "cylindricalFollowupsNoMasks": true,
+    "maxCylindricalContactAxisGapMagnitude_mm": 1.1747625947577944e-06,
+    "limits": [
+      "This adds255pairs touching10formerlyuntrackedMCPbodies; not a fresh all465pair test.",
+      "81 finite nominal poses, relativecache equality guarded; not continuous/tolerance/load qualification.",
+      "Near-contact results include nanometre-scale transverse triangles at nominal coincident cylinder fits; no exact clean-surface/fit claim.",
+      "Surface nonintersection can miss contained-volume overlap.",
+      "Extra assembly scope reported separately; assembly/forming of MCP rivets/crosspins not qualified."
+    ]
+  },
+  "additionalMCPAssemblyCoverage": {
+    "complete": true,
+    "pairPaths": 270,
+    "wholeTranslationPairs": 220,
+    "wholeRotationPairs": 50,
+    "sampleRows": 0,
+    "allAABBDisjoint": true,
+    "stages": [
+      {
+        "stage": "PIP whole downstream radial insertion",
+        "pairs": 100,
+        "minSeparatingAxisGapMm": 34.499725179613414,
+        "worstPair": [
+          "middle",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "PIP axle insertion FULL mesh",
+        "pairs": 10,
+        "minSeparatingAxisGapMm": 35.5,
+        "worstPair": [
+          "pipAxle",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "D7 stage A moving unit",
+        "pairs": 50,
+        "minSeparatingAxisGapMm": 61.40000009536743,
+        "worstPair": [
+          "distal",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "D7 stage B keyed cheek",
+        "pairs": 10,
+        "minSeparatingAxisGapMm": 54.0,
+        "worstPair": [
+          "dipCheek",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "Service screws first then cover",
+        "pairs": 30,
+        "minSeparatingAxisGapMm": 7.0,
+        "worstPair": [
+          "serviceCover",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "D7 preliminary axle full mesh",
+        "pairs": 10,
+        "minSeparatingAxisGapMm": 62.35000038146973,
+        "worstPair": [
+          "dipScrew",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "D7 cheek beside partial axle; added MCP targets only",
+        "pairs": 10,
+        "minSeparatingAxisGapMm": 54.0,
+        "worstPair": [
+          "dipCheek",
+          "yawCollar"
+        ]
+      },
+      {
+        "stage": "D7 unit rotation0..40 on partial axle vs added MCP",
+        "pairs": 50,
+        "minSeparatingAxisGapMm": 43.461636669136794,
+        "worstPair": [
+          "nail",
+          "yawCollar"
+        ]
+      }
+    ],
+    "repeatedCheekContextRecords": 10,
+    "scope": "Only named previous paths against ten added MCP targets; not assembly/forming of those MCP targets, not a full assembly certificate."
   }
 }

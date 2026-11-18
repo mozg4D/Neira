@@ -1,8 +1,14 @@
 # Neira
 
+## Additional MCP coverage completed (2026-11-18)
+
+The earlier coverage correction remains valid: the original analysis tracked21 of31 visible parts. A fresh incremental audit now covers **255 pairs involving the ten omitted MCP parts at81 finite poses:20655 pair-poses**, not a fresh test of all465 pairs. Results:19521 clear/AABB-separated and1134 nominal-seat/near-contact classifications. All12 unique raw timeout configurations were completed by same-mesh followups; raw evidence is retained. Nanometre-scale triangle crossings at nominal coincident cylindrical fits are not certified clean surfaces or manufactured clearances.
+
+The named earlier assembly paths were also bounded against the ten additional parts:270 operation-pair records (220 translation,50 conservative rotation), including10 repeated cheek-path contexts. This does not qualify assembly/forming of the MCP rivets or crosspins, continuous motion, tolerances, loads or contained-volume overlap. [Detailed scope and limits](docs/Rigid-finger-v38-T1-C2-analysis-scope.md). Native HASH, exact embedded Doc and archive identity remain unchanged.
+
 ## Analysis-scope correction (2026-11-18)
 
-**The earlier motion/assembly analysis tracked 21 parts, not all 31 visible mesh parts in the saved v38 scene.** Ten MCP-related rivets, pins, liners, washers and a collar were omitted from that tracked set. Existing results remain valid only for their listed pairs and poses; they do not establish complete-assembly collision coverage. A fresh audit including the omitted parts is pending. This correction reports a coverage gap, not a newly found collision or proof of its absence.
+**The earlier motion/assembly analysis tracked 21 parts, not all 31 visible mesh parts in the saved v38 scene.** Ten MCP-related rivets, pins, liners, washers and a collar were omitted from that tracked set. Existing results remain valid only for their listed pairs and poses; they do not establish complete-assembly collision coverage. At the time of this correction the expanded audit was pending; the completed bounded supplement is reported above. This correction reports a coverage gap, not a newly found collision or proof of its absence.
 
 The exact published HASH, embedded Doc, 200-geometry roundtrip and archive-recovery identity evidence are unchanged. [Scope correction and omitted parts](docs/Rigid-finger-v38-T1-C2-analysis-scope.md) takes precedence over historical wording that calls the 21-part set “all final bodies”.
 
@@ -74,5 +80,6 @@ Build creates a candidate under `work/candidate/`, embedding the composite Desig
 The current revision-1 part-factory checkpoint passed build and focused native checks, with 90 authored owners, 57 evaluated surface occurrences, 24 replicas, 33 independent position buffers and 12,768 generated display triangles. It checked the hub/register, cable guide, hardware stacks, six local front driver approaches, native persistence, eight joint controls and ordered exploded view. Separate factories and their assembly datums have passed native integration checks. See [verification evidence](artifacts/verification.json) and [continuation state](STATE.md) for exact source revisions, scope and remaining engineering work. Fits, pin retention, material/grade selection, payload and physical manufacture remain unqualified.
 
 This repository is intended for public development and a later article. A redistribution license has not yet been selected.
+
 
 

@@ -1,8 +1,14 @@
 # Neira state and handoff
 
+## Additional MCP coverage completed (2026-11-18)
+
+The earlier coverage correction remains valid: the original analysis tracked21 of31 visible parts. A fresh incremental audit now covers **255 pairs involving the ten omitted MCP parts at81 finite poses:20655 pair-poses**, not a fresh test of all465 pairs. Results:19521 clear/AABB-separated and1134 nominal-seat/near-contact classifications. All12 unique raw timeout configurations were completed by same-mesh followups; raw evidence is retained. Nanometre-scale triangle crossings at nominal coincident cylindrical fits are not certified clean surfaces or manufactured clearances.
+
+The named earlier assembly paths were also bounded against the ten additional parts:270 operation-pair records (220 translation,50 conservative rotation), including10 repeated cheek-path contexts. This does not qualify assembly/forming of the MCP rivets or crosspins, continuous motion, tolerances, loads or contained-volume overlap. [Detailed scope and limits](docs/Rigid-finger-v38-T1-C2-analysis-scope.md). Native HASH, exact embedded Doc and archive identity remain unchanged.
+
 ## Analysis-scope correction (2026-11-18)
 
-**The earlier motion/assembly analysis tracked 21 parts, not all 31 visible mesh parts in the saved v38 scene.** Ten MCP-related rivets, pins, liners, washers and a collar were omitted from that tracked set. Existing results remain valid only for their listed pairs and poses; they do not establish complete-assembly collision coverage. A fresh audit including the omitted parts is pending. This correction reports a coverage gap, not a newly found collision or proof of its absence.
+**The earlier motion/assembly analysis tracked 21 parts, not all 31 visible mesh parts in the saved v38 scene.** Ten MCP-related rivets, pins, liners, washers and a collar were omitted from that tracked set. Existing results remain valid only for their listed pairs and poses; they do not establish complete-assembly collision coverage. At the time of this correction the expanded audit was pending; the completed bounded supplement is reported above. This correction reports a coverage gap, not a newly found collision or proof of its absence.
 
 The exact published HASH, embedded Doc, 200-geometry roundtrip and archive-recovery identity evidence are unchanged. [Scope correction and omitted parts](docs/Rigid-finger-v38-T1-C2-analysis-scope.md) takes precedence over historical wording that calls the 21-part set “all final bodies”.
 
@@ -223,5 +229,6 @@ User download recovered to scenes/neira-port-wip.hash; 287223 bytes; SHA256 7fb8
 ## Cabinet envelope and projected-gap checkpoint, November 17
 Recovered port scene continued in own tab33661146.32 root-drum/panel pairs at frames0/90/180/330 gave independent display projected gap5.447174mm;measure.gap deviation <=0.000051mm. No discrepancy reproduced on these pairs; projection overlap is not collision. Other link ends/full swept geometry/source error still unqualified.
 Added two16control rounded cabinet side plates,8mm nominal thickness,Y100..1500,Z170..430,localX632..640 and1560..1568. Side planes meet shelf-end datums;no claimed fastening/bracing/anti-tip qualification. Source tools/cabinet-side-cage.mjs; matching study text docs/Cabinet-port-study.md appended to native Doc, canonical docs unchanged. Exported separate scenes/neira-cabinet-port-wip.hash,289601bytes,SHA256ff7cf69717d1f89428cf150e301894f813e014beebad641a3b2452f66edd49ea. Download SHA matched, then native Open file reopened this saved path in same own tab:354owners,0build errors,Doc and both16control cages retained;both meshes have0boundary/nonmanifold/orientation/degenerate defects. Evidence artifacts/cabinet-port-check.json. Original recovered WIP and verified form-study/canonical files untouched;no Frame core edits,no commit/push,no Goal interference. Next: broader body silhouette/service interfaces and cabinet fastening;independent opposite-end/swept collision study remains open. Current tab saved and retained with cabinet view.
+
 
 

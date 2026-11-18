@@ -12,7 +12,6 @@
   "nativeVerification": {
     "producerRoundtripObjects": 200,
     "independentExtractedMeshes": 25,
-    "finalBodies": 21,
     "nativeFrames": [
       0,
       45,
@@ -20,10 +19,12 @@
       120,
       150
     ],
-    "unchangedFinalBodiesVersusV37": 20,
-    "changedFinalBodies": [
+    "trackedAnalysisParts": 21,
+    "unchangedTrackedPartsVersusV37": 20,
+    "changedTrackedParts": [
       "proximal"
-    ]
+    ],
+    "visibleMeshParts": 31
   },
   "freshV38Evidence": {
     "grid": {
@@ -244,5 +245,63 @@
     "fourNativeViewsVisuallyInspected": true,
     "noModelSaved": true,
     "report": "docs/Rigid-finger-v38-T1-C2-recovery.md"
+  },
+  "analysisScopeCorrection": {
+    "status": "incomplete full-assembly coverage; expanded audit pending",
+    "visibleCriterion": "(object.mesh || {}).visible === true in saved native scene at frame 0",
+    "visibleMeshParts": 31,
+    "trackedAnalysisParts": 21,
+    "omittedVisibleMeshParts": [
+      {
+        "nativeName": "Captured palm rivet 6.5 2",
+        "nativeGeometryID": "88eb14edc8466a3cee6c417e1e5050c3"
+      },
+      {
+        "nativeName": "Captured palm rivet -6.5 2",
+        "nativeGeometryID": "19fc94e9ccbbfc06716e44dcb38c0489"
+      },
+      {
+        "nativeName": "Flex captured crosspin requires swaging 2",
+        "nativeGeometryID": "2c276f9299161c5f53a3e45bf7d15018"
+      },
+      {
+        "nativeName": "Yaw captured crosspin requires swaging 2",
+        "nativeGeometryID": "b943a6386cd13ab0f3cf8a1d71234a4b"
+      },
+      {
+        "nativeName": "Flex right plain liner; custom nominal",
+        "nativeGeometryID": "7176b5cc2ca23ac94b09e09c84f51c6b"
+      },
+      {
+        "nativeName": "Flex left plain liner; custom nominal",
+        "nativeGeometryID": "ee58f8cdee2db3a609d27e152018b9ee"
+      },
+      {
+        "nativeName": "Flex right spacing washer",
+        "nativeGeometryID": "ae9ec0271311739b694d3716aa26480b"
+      },
+      {
+        "nativeName": "Flex left spacing washer",
+        "nativeGeometryID": "a910c3d5e23959fa669728017f9b6f14"
+      },
+      {
+        "nativeName": "Flex retained washer",
+        "nativeGeometryID": "80317f6553bbba495039cf494f2200d7"
+      },
+      {
+        "nativeName": "Fixed yaw upper collar; captured by crosspin",
+        "nativeGeometryID": "e7b86e3189cdff85ed10c03330ea9bdc"
+      }
+    ],
+    "priorReportedCountsStillValidOnlyForListedPairsAndPoses": [
+      12648,
+      1620,
+      690
+    ],
+    "newCollisionClaim": null,
+    "completeAssemblyCollisionFreedom": false,
+    "hashAndEmbeddedDocUnchanged": true,
+    "geometry200RoundtripAndArchiveRecoveryIdentityUnchanged": true,
+    "report": "docs/Rigid-finger-v38-T1-C2-analysis-scope.md"
   }
 }

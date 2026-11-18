@@ -1,5 +1,11 @@
 # Neira
 
+## Analysis-scope correction (2026-11-18)
+
+**The earlier motion/assembly analysis tracked 21 parts, not all 31 visible mesh parts in the saved v38 scene.** Ten MCP-related rivets, pins, liners, washers and a collar were omitted from that tracked set. Existing results remain valid only for their listed pairs and poses; they do not establish complete-assembly collision coverage. A fresh audit including the omitted parts is pending. This correction reports a coverage gap, not a newly found collision or proof of its absence.
+
+The exact published HASH, embedded Doc, 200-geometry roundtrip and archive-recovery identity evidence are unchanged. [Scope correction and omitted parts](docs/Rigid-finger-v38-T1-C2-analysis-scope.md) takes precedence over historical wording that calls the 21-part set “all final bodies”.
+
 ## Current focused study: articulated rigid finger
 
 The latest detailed work is a native editable finger study, not a finished robot or a production-ready hand. Open [rigid-finger-v38-T1-C2.hash](scenes/rigid-finger-v38-T1-C2.hash) in Frame. It combines articulated MCP/PIP/DIP joints, a removable service cover, a mounted functional nail and dorsal PIP shielding.
@@ -68,4 +74,5 @@ Build creates a candidate under `work/candidate/`, embedding the composite Desig
 The current revision-1 part-factory checkpoint passed build and focused native checks, with 90 authored owners, 57 evaluated surface occurrences, 24 replicas, 33 independent position buffers and 12,768 generated display triangles. It checked the hub/register, cable guide, hardware stacks, six local front driver approaches, native persistence, eight joint controls and ordered exploded view. Separate factories and their assembly datums have passed native integration checks. See [verification evidence](artifacts/verification.json) and [continuation state](STATE.md) for exact source revisions, scope and remaining engineering work. Fits, pin retention, material/grade selection, payload and physical manufacture remain unqualified.
 
 This repository is intended for public development and a later article. A redistribution license has not yet been selected.
+
 
